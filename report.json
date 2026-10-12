@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T13:57:48+00:00",
+  "started_at": "2026-10-12T14:10:19+00:00",
   "status": "completed",
-  "sites_processed": 91,
+  "sites_processed": 93,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
@@ -11,97 +11,97 @@
       "discovered": 25
     },
     {
-      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-3/",
+      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-4/",
       "status": "ok",
       "reason": "directory",
       "discovered": 20
     },
     {
-      "url": "https://dizaini.ge/product/150",
+      "url": "https://dizaini.ge/product/261",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/141",
+      "url": "https://dizaini.ge/product/250",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/243",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/232",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/220",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/othar-kutchava/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/ana-davrishashvilli/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/at-architect/",
       "status": "ok",
       "reason": "directory",
       "discovered": 1
     },
     {
-      "url": "https://dizaini.ge/product/71",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://dizaini.ge/product/68",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://dizaini.ge/product/268",
+      "url": "https://www.homeis.ge/studio11/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/salome-chochishvili/",
+      "url": "https://www.homeis.ge/thamar-thurmanidze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/2/",
+      "url": "https://archiaward.com/en/work/4038",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/salome-kikvadze/",
+      "url": "https://archiaward.com/en/work/4076",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/giorgi-shervashidze/",
+      "url": "https://archiaward.com/en/work/4077",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/w2kshop/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://archiaward.com/en/work/4024",
+      "url": "https://archiaward.com/en/work/4057",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4025",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4032",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4033",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4035",
+      "url": "https://archiaward.com/en/work/4058",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -178,14 +178,34 @@
       "discovered": 17
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14781/archexclusive/",
+      "url": "http://www.artexclusive.ge/",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
+    },
+    {
+      "url": "https://www.atarchitect.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house",
-      "status": "skipped",
-      "reason": "page_limit"
+      "url": "https://www.atarchitect.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.atarchitect.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.atarchitect.ge/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house/",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project",
@@ -573,19 +593,14 @@
       "reason": "page_limit"
     },
     {
-      "url": "https://w2kshop.ge/index.html",
-      "status": "ok",
-      "reason": "business_page"
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14699/the-best-design-/",
+      "status": "skipped",
+      "reason": "page_limit"
     },
     {
-      "url": "https://w2kshop.ge/pages/contact.html",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://w2kshop.ge/pages/about.html",
-      "status": "ok",
-      "reason": "business_page"
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/15034/wallpaper-store/",
+      "status": "skipped",
+      "reason": "page_limit"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14135/dio",
@@ -613,6 +628,46 @@
       "reason": "page_limit"
     },
     {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14738/up-design",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14779/areali",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14735/arcon-group",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14746/art-avenue",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14781/archexclusive",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://w2kshop.ge/index.html",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://w2kshop.ge/pages/contact.html",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://w2kshop.ge/pages/about.html",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
       "url": "https://baudesign.ge/",
       "status": "ok",
       "reason": "business_page"
@@ -631,11 +686,6 @@
       "url": "https://baudesign.ge/about-us/",
       "status": "ok",
       "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14738/up-design",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://cityproject.ge/ka/",
@@ -1079,8 +1129,8 @@
     },
     {
       "url": "https://www.jokhastudio.com/projects",
-      "status": "javascript_required",
-      "reason": "no_readable_content"
+      "status": "unreachable",
+      "reason": "response_too_large"
     },
     {
       "url": "https://www.jokhastudio.com/video-galley",
@@ -1543,16 +1593,6 @@
       "reason": "business_page"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14779/areali",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14735/arcon-group",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
       "url": "https://www.isync.ge/",
       "status": "javascript_required",
       "reason": "javascript_shell_suspected"
@@ -1561,11 +1601,6 @@
       "url": "http://www.areali.ge/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14746/art-avenue",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://nwds.world/",
@@ -1688,24 +1723,24 @@
       "reason": "business_page"
     }
   ],
-  "records_total": 83,
-  "contacts_total": 332,
+  "records_total": 85,
+  "contacts_total": 343,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 203,
-  "relevant_direct_contacts_unique": 139,
+  "direct_contacts_unique": 211,
+  "relevant_direct_contacts_unique": 143,
   "target_reached": false,
-  "contacts_missing_to_target": 861,
-  "new_records": 4,
-  "changed_records": 4,
+  "contacts_missing_to_target": 857,
+  "new_records": 2,
+  "changed_records": 1,
   "merged_records": 0,
-  "errors": 29,
+  "errors": 30,
   "error_categories": {
-    "unreachable": 16,
-    "blocked": 10,
-    "javascript_required": 3
+    "javascript_required": 3,
+    "unreachable": 17,
+    "blocked": 10
   },
-  "candidates_available": 178,
-  "businesses_deferred_by_page_budget": 87,
-  "finished_at": "2026-10-12T14:09:57+00:00",
-  "http_requests": 348
+  "candidates_available": 182,
+  "businesses_deferred_by_page_budget": 89,
+  "finished_at": "2026-10-12T14:23:09+00:00",
+  "http_requests": 355
 }
