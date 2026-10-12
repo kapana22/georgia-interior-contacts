@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "georgia-interior-contacts"
+version = "0.1.0"
+description = "Polite public business contact collection for Georgian interior design studios"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["requests==2.34.2", "beautifulsoup4==4.15.0", "phonenumbers==9.0.41", "protego==0.7.0"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[project.scripts]
+georgia-contacts = "georgia_contacts.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["georgia_contacts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

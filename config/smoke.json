@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "businesses": [
+    {
+      "name": "კრეატივ სტუდია",
+      "url": "https://dizainer.ge/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://dizainer.ge/",
+      "evidence": "ინტერიერის დიზაინი; თბილისის მისამართი"
+    },
+    {
+      "name": "Interiorismo",
+      "url": "https://interiorismo.ge/",
+      "pages": [
+        "https://interiorismo.ge/contact",
+        "https://interiorismo.ge/about"
+      ],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://interiorismo.ge/contact",
+      "evidence": "ინტერიერის დიზაინი საქართველოში; ბიზნესის მთავარ გვერდზე"
+    },
+    {
+      "name": "DOOR 032",
+      "url": "https://www.door032.com/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://www.door032.com/",
+      "evidence": "Interior design studio based in Tbilisi"
+    }
+  ],
+  "directories": [
+    {
+      "adapter": "yell",
+      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+      "enabled": true,
+      "max_pages": 1,
+      "policy_reviewed_at": "2026-10-12",
+      "robots_url": "https://www.yell.ge/robots.txt",
+      "policy_url": "https://www.yell.ge/privacy_policy.php?lan=eng",
+      "review_notes": "Public category is not disallowed by wildcard robots rules; no automated-access prohibition found in linked public policy/about pages. Recheck before expanding; follow current robots on every run."
+    }
+  ]
+}

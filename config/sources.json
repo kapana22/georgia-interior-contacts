@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "businesses": [
+    {
+      "name": "კრეატივ სტუდია",
+      "url": "https://dizainer.ge/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://dizainer.ge/",
+      "evidence": "ინტერიერის დიზაინი; თბილისის მისამართი"
+    },
+    {
+      "name": "MARCHI Design Studio",
+      "url": "https://marchidesignstudio.com/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://marchidesignstudio.com/",
+      "evidence": "ინტერიერის დიზაინი და რემონტი თბილისში; საძიებო ინდექსში დადასტურებული, HTML შესაძლოა JS იყოს"
+    },
+    {
+      "name": "Interiorismo",
+      "url": "https://interiorismo.ge/",
+      "pages": [
+        "https://interiorismo.ge/contact",
+        "https://interiorismo.ge/about"
+      ],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://interiorismo.ge/contact",
+      "evidence": "ინტერიერის დიზაინი საქართველოში; ბიზნესის მთავარ გვერდზე"
+    },
+    {
+      "name": "Art Line Studio",
+      "url": "https://artlinegroup.ge/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://artlinegroup.ge/",
+      "evidence": "ინტერიერის დიზაინის სტუდია და აკადემია; შერეული კონტაქტები გადასამოწმებელია",
+      "review_reasons": [
+        "mixed_studio_and_academy_contacts"
+      ]
+    },
+    {
+      "name": "JokhaStudio",
+      "url": "https://www.jokhastudio.com/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://www.jokhastudio.com/",
+      "evidence": "ინტერიერის დიზაინი; Tbilisi, Georgia"
+    },
+    {
+      "name": "Room Design Studio",
+      "url": "https://roomdesignstudio.ge/",
+      "pages": [
+        "https://roomdesignstudio.ge/kontakti/"
+      ],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://roomdesignstudio.ge/kontakti/",
+      "evidence": "სივრცის დიზაინი; თბილისის საკონტაქტო მისამართი"
+    },
+    {
+      "name": "BOA design studio",
+      "url": "https://boadesign.ge/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://boadesign.ge/",
+      "evidence": "ინტერიერის დიზაინის სტუდია; +995 ბიზნესნომერი"
+    },
+    {
+      "name": "Keri",
+      "url": "https://keri.ge/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://keri.ge/",
+      "evidence": "ინტერიერის დიზაინის სერვისი; საქართველო, თბილისი"
+    },
+    {
+      "name": "Design City Georgia",
+      "url": "https://www.designcity.ge/",
+      "pages": [
+        "https://www.designcity.ge/ka/contact"
+      ],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://www.designcity.ge/ka/contact",
+      "evidence": "ინტერიერის დიზაინი; თბილისის მისამართი"
+    },
+    {
+      "name": "Hdesign",
+      "url": "https://hdesign.ge/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://hdesign.ge/",
+      "evidence": "ინტერიერის დიზაინისა და რემონტის მომსახურება; ქართული ბიზნესკონტაქტი"
+    },
+    {
+      "name": "DOOR 032",
+      "url": "https://www.door032.com/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-12",
+      "evidence_url": "https://www.door032.com/",
+      "evidence": "Interior design studio based in Tbilisi"
+    }
+  ],
+  "directories": [
+    {
+      "adapter": "yell",
+      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+      "enabled": true,
+      "max_pages": 2,
+      "policy_reviewed_at": "2026-10-12",
+      "robots_url": "https://www.yell.ge/robots.txt",
+      "policy_url": "https://www.yell.ge/privacy_policy.php?lan=eng",
+      "review_notes": "Public category is not disallowed by wildcard robots rules; no automated-access prohibition found in linked public policy/about pages. Recheck before expanding; follow current robots on every run."
+    }
+  ]
+}
