@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T12:44:46+00:00",
+  "started_at": "2026-10-12T12:47:51+00:00",
   "status": "completed",
-  "sites_processed": 10,
+  "sites_processed": 3,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
@@ -11,7 +11,7 @@
       "discovered": 25
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/page-2/",
+      "url": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/page-3/",
       "status": "ok",
       "reason": "directory",
       "discovered": 20
@@ -23,69 +23,14 @@
       "discovered": 0
     },
     {
-      "url": "https://www.designbatumi.ge/",
+      "url": "http://www.ararchitecture.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14694/idea/",
       "status": "ok",
       "reason": "business_page"
-    },
-    {
-      "url": "https://designbureau.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designbureau.ge/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designbureau.ge/studio/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designbureau.ge/services/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.ei.ge/",
-      "status": "blocked",
-      "reason": "robots_unavailable_200"
-    },
-    {
-      "url": "https://filletstudio.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://filletstudio.com/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://filletstudio.com/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://filletstudio.com/services/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://filletstudio.com/komerciuli-interieris-dizaini/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14697/ararchitechture/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14694/idea",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14738/up-design",
@@ -268,57 +213,141 @@
       "reason": "page_limit"
     },
     {
-      "url": "http://www.dio.ge/general.php",
-      "status": "unreachable",
-      "reason": "http_404"
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/16843/zaer/",
+      "status": "skipped",
+      "reason": "page_limit"
     },
     {
-      "url": "https://www.facebook.com/Dio.Ltd/timeline",
-      "status": "blocked",
-      "reason": "robots_disallowed"
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14701/t-d-s/",
+      "status": "skipped",
+      "reason": "page_limit"
     },
     {
-      "url": "https://www.architeria.ge/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14716/tds-housing-/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14729/team4/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14757/tree-design/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/16852/ideal-house/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/16857/yves-delorme/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/16856/ikea-buscket/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14769/indproject/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14732/inex-design/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14712/i-n-t/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14767/in-style/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15041/interdeco/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15040/interdeco/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15033/interio/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14753/joseb-karumidze/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15035/ital-gallery/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14706/x-y-z/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14704/casa-group/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/16845/coincasa/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://core.org.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://archpoint.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://www.belvedere.ge/",
+      "url": "https://core.org.ge/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.belvedere.ge/contact",
+      "url": "https://core.org.ge/services/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.belvedere.ge/about-us",
+      "url": "https://core.org.ge/kontaqti/",
       "status": "ok",
       "reason": "business_page"
     }
   ],
-  "records_total": 55,
-  "contacts_total": 222,
-  "direct_contacts_unique": 140,
+  "records_total": 56,
+  "contacts_total": 224,
+  "direct_contacts_unique": 142,
   "relevant_direct_contacts_unique": 119,
   "target_reached": false,
   "contacts_missing_to_target": 881,
-  "new_records": 4,
+  "new_records": 1,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 4,
+  "errors": 1,
   "error_categories": {
-    "blocked": 2,
-    "unreachable": 2
+    "unreachable": 1
   },
-  "candidates_available": 103,
-  "businesses_deferred_by_page_budget": 37,
-  "finished_at": "2026-10-12T12:45:50+00:00",
-  "http_requests": 40
+  "candidates_available": 124,
+  "businesses_deferred_by_page_budget": 56,
+  "finished_at": "2026-10-12T12:48:18+00:00",
+  "http_requests": 15
 }
