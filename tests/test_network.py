@@ -141,3 +141,16 @@ def test_pdf_fetch_uses_same_robots_and_explicit_larger_bounded_response():
     c, _, _ = client([Response(body=b'12345')])
     with pytest.raises(FetchError, match='response_too_large'):
         c.raw('https://studio.test/', max_bytes=4)
+
+
+def test_retry_after_survives_a_new_client_and_does_not_hit_network_early():
+    cooldowns={}
+    first=Client(1000,session=Session([Response(429,headers={'Retry-After':'120'})]),clock=lambda:0,wall_clock=lambda:1000,validator=lambda u:True,cooldowns=cooldowns)
+    with pytest.raises(FetchError,match='rate_limited'):first.raw('https://studio.test/')
+    assert cooldowns['studio.test']==1120
+    session=Session([Response()])
+    second=Client(1000,session=session,clock=lambda:0,wall_clock=lambda:1050,validator=lambda u:True,cooldowns=cooldowns)
+    with pytest.raises(FetchError,match='retry_after_cooldown'):second.fetch('https://studio.test/')
+    assert not session.calls
+    third=Client(1000,session=session,clock=lambda:0,wall_clock=lambda:1121,validator=lambda u:True,cooldowns=cooldowns)
+    assert third.raw('https://studio.test/')[0]==200

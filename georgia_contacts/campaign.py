@@ -1,6 +1,7 @@
 """Finite collection campaigns. Exhaustion means reviewed, configured sources only."""
 import hashlib
 import json
+import time
 from .directories import source_key
 from .urls import domain
 
@@ -44,7 +45,7 @@ def pending_businesses(state, config):
 def finish_attempt(campaign, source, events):
     key, signature = source_key(source), source_signature(source)
     # Page-budget skips defer all or part of a business to a fresh batch.
-    if any(e['status'] == 'skipped' and e['reason'] == 'page_limit' for e in events):
+    if any(e['status'] == 'skipped' and e['reason'] in {'page_limit', 'retry_after_cooldown'} for e in events):
         return
     failed = any(e['status'] in {'unreachable', 'error'} or e['reason'] == 'rate_limited' for e in events)
     count_key = key + ':' + signature
@@ -60,7 +61,8 @@ def update_report(state, config, report, *, no_discovery=False):
     campaign = state['campaign']
     directories = [] if no_discovery else [d for d in config.get('directories', []) if d.get('enabled')]
     remaining_pages = sum(len(state.get('discovery_queue', {}).get(d['url'], {}).get('pending', [d['url']])) for d in directories)
-    remaining_businesses = len(pending_businesses(state, config))
+    pending = pending_businesses(state, config)
+    remaining_businesses = len(pending)
     report['remaining_directory_pages'] = remaining_pages
     report['remaining_businesses'] = remaining_businesses
     report['work_remaining'] = remaining_pages + remaining_businesses > 0
@@ -71,6 +73,12 @@ def update_report(state, config, report, *, no_discovery=False):
     campaign['status'] = 'active' if report['work_remaining'] else 'exhausted'
     report['collection_status'] = campaign['status']
     report['collection_stop_reason'] = '' if report['work_remaining'] else 'available_sources_exhausted'
+    urls = [s['url'] for s in pending] + [url for d in directories for url in state.get('discovery_queue', {}).get(d['url'], {}).get('pending', [d['url']])]
+    waits = [state.get('cooldowns', {}).get(domain(url), 0) for url in urls]
+    report['resume_after'] = 0
+    if waits and all(until > time.time() for until in waits):
+        report['resume_after'] = min(waits)
+        campaign['status'] = report['collection_status'] = 'waiting'
     report['unavailable_sources_total'] = sum(v['outcome'] == 'unavailable' for v in campaign['processed'].values()) + sum(
         len(state.get('discovery_queue', {}).get(d['url'], {}).get('unavailable', {})) for d in directories)
 

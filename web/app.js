@@ -58,7 +58,7 @@ function renderStats() {
   const savedAt = state.report?.checkpoint_at || state.report?.finished_at;
   $('stat-date').textContent = savedAt ? date(savedAt, true) : '';
   const status = state.report?.collection_status;
-  const label = status === 'exhausted' ? 'წყაროები ამოწურულია' : status === 'paused' ? 'შეჩერებულია · გადასამოწმებელია' : state.report?.continuous ? (state.report.status === 'running' ? 'გროვდება' : 'ავტომატურად გაგრძელდება') : 'ავტომატური შეგროვება გამორთულია';
+  const label = status === 'exhausted' ? 'წყაროები ამოწურულია' : status === 'waiting' ? 'წყაროს პაუზის დასრულებას ელოდება' : status === 'paused' ? 'შეჩერებულია · გადასამოწმებელია' : state.report?.continuous ? (state.report.status === 'running' ? 'გროვდება' : 'ავტომატურად გაგრძელდება') : 'ავტომატური შეგროვება გამორთულია';
   $('collection-state').textContent = label; $('collection-status').textContent = label;
   $('data-updated').textContent = savedAt ? `ბოლო შენახვა: ${date(savedAt)} · data ბრენჩი` : 'წყარო: რეპოზიტორიის data ბრენჩი';
   const selected = $('city-filter').value;

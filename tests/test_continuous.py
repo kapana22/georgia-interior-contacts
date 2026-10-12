@@ -157,3 +157,17 @@ def test_adding_a_source_preserves_finished_work_in_the_same_campaign(tmp_path):
     a=args(tmp_path, {'businesses':[{'url':'https://one.test/'},{'url':'https://two.test/'}]})
     c=Client();r=run(a,c)
     assert c.calls==['https://two.test/'] and not r['work_remaining']
+
+
+def test_all_waiting_sources_defer_dispatch_without_false_exhaustion(tmp_path):
+    import time
+    from georgia_contacts.state import empty_state, save_state
+    a=args(tmp_path,{'businesses':[{'url':'https://one.test/'}]})
+    state=empty_state();state['cooldowns']={'one.test':time.time()+3600};save_state(a.state,state)
+    class Cooling(Client):
+        def fetch(self,*a,**kw):raise FetchError('skipped','retry_after_cooldown')
+    for _ in range(4):
+        report=run(a,Cooling())
+        assert report['work_remaining'] and report['collection_status']=='waiting'
+    saved={**report,'sources_file':'config/sources.json'}
+    assert controller.decision(saved,[])[0] is None

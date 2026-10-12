@@ -127,7 +127,7 @@ def run(args, client=None):
             state.pop('discovery_queue', None)
         prepare(state, config, args.sources, report['started_at'])
         initial_progress = progress_signature(state)
-    client = client or Client(time.monotonic() + args.max_minutes * 60)
+    client = client or Client(time.monotonic() + args.max_minutes * 60, cooldowns=state.setdefault("cooldowns", {}))
 
     publish_interval = getattr(args, 'publish_interval', 0)
     last_publish = time.monotonic()
@@ -213,7 +213,8 @@ def run(args, client=None):
             recent = report['events'][event_start:]
             only_budget_skip = recent and all(e['status'] == 'skipped' for e in recent)
             if only_budget_skip:
-                report["businesses_deferred_by_page_budget"] = report.get("businesses_deferred_by_page_budget", 0) + 1
+                counter = "businesses_deferred_by_retry_after" if any(e["reason"] == "retry_after_cooldown" for e in recent) else "businesses_deferred_by_page_budget"
+                report[counter] = report.get(counter, 0) + 1
                 continue
             if continuous:
                 finish_attempt(state['campaign'], source, recent)
@@ -230,7 +231,7 @@ def run(args, client=None):
         if continuous:
             update_report(state, config, report, no_discovery=args.no_discovery)
             campaign = state['campaign']
-            campaign['no_progress_batches'] = campaign.get('no_progress_batches', 0) + 1 if progress_signature(state) == initial_progress else 0
+            campaign['no_progress_batches'] = campaign.get('no_progress_batches', 0) + 1 if progress_signature(state) == initial_progress and report['collection_status'] != 'waiting' else 0
             report['no_progress_batches'] = campaign['no_progress_batches']
             if report['work_remaining'] and campaign['no_progress_batches'] >= 3:
                 report['collection_stop_reason'] = 'no_progress_requires_review'

@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import time
 import urllib.request
 
 REPOSITORY = 'kapana22/georgia-interior-contacts'
@@ -18,6 +19,8 @@ def decision(report, runs, triggering_run='', current_run=''):
     runs = [r for r in runs if str(r['id']) != str(current_run)]
     if not report.get('continuous') or not report.get('work_remaining'):
         return None, 'No unfinished continuous campaign'
+    if report.get('resume_after', 0) > time.time():
+        return None, 'Waiting for source Retry-After; watchdog will resume later'
     if any(r['status'] != 'completed' for r in runs):
         return None, 'Collection already running or queued'
     if not current_run and runs and runs[0].get('conclusion') == 'cancelled':

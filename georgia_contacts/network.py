@@ -51,7 +51,7 @@ def retry_after(value, now=None):
 
 class Client:
     def __init__(self, deadline, delay=2, session=None, clock=time.monotonic,
-                 sleep=time.sleep, validator=public_url):
+                 sleep=time.sleep, validator=public_url, cooldowns=None, wall_clock=time.time):
         self.deadline, self.delay = deadline, max(2, delay)
         self.clock, self.sleep, self.validator = clock, sleep, validator
         self.session = session or requests.Session()
@@ -59,6 +59,8 @@ class Client:
         self.session.headers.update({"User-Agent": USER_AGENT, "Accept": "text/html,text/plain"})
         self.robots, self.last, self.delays, self.counts = {}, {}, {}, {}
         self.requests = 0
+        self.cooldowns = cooldowns if cooldowns is not None else {}
+        self.wall_clock = wall_clock
 
     def check(self):
         if self.clock() >= self.deadline:
@@ -76,6 +78,8 @@ class Client:
         for attempt in range(3):
             self.check()
             host = domain(url)
+            if self.cooldowns.get(host, 0) > self.wall_clock():
+                raise FetchError('skipped', 'retry_after_cooldown')
             if host in POLICY_BLOCKED or any(host.endswith('.' + h) for h in POLICY_BLOCKED):
                 raise FetchError('blocked', 'source_policy_prohibits_collection')
             if not self.validator(url):
@@ -101,8 +105,10 @@ class Client:
                     continue
                 raise FetchError("unreachable", "network_error") from None
             if code in {429, 500, 502, 503, 504}:
-                wait = max(2 ** (attempt + 1), retry_after(headers.get("Retry-After")))
+                wait = max(2 ** (attempt + 1), retry_after(headers.get("Retry-After"), now=self.wall_clock()))
                 if attempt == 2 or wait > 60:
+                    if code == 429:
+                        self.cooldowns[host] = max(self.cooldowns.get(host, 0), self.wall_clock() + wait)
                     raise FetchError("blocked" if code == 429 else "unreachable",
                                      "rate_limited" if code == 429 else f"http_{code}")
                 self.pause(wait)
@@ -155,6 +161,8 @@ class Client:
                 raise FetchError("blocked", "invalid_url")
             if domain(url) != original:
                 raise FetchError("blocked", "cross_domain_redirect_requires_review")
+            if self.cooldowns.get(domain(url), 0) > self.wall_clock():
+                raise FetchError('skipped', 'retry_after_cooldown')
             rules = self.rules(url)
             if not rules.can_fetch(url, USER_AGENT):
                 raise FetchError("blocked", "robots_disallowed")
