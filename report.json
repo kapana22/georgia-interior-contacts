@@ -1,7 +1,7 @@
 {
   "pipeline": "b2b-leads",
   "started_at": "2026-10-12T19:35:21+00:00",
-  "status": "running",
+  "status": "completed",
   "events": [
     {
       "source_url": "https://www.yell.ge/companies.php?rub=398&lan=eng",
@@ -73,7 +73,7 @@
     }
   ],
   "pages_processed": 2,
-  "sites_processed": 24,
+  "sites_processed": 25,
   "continuous": true,
   "batch_limit": 50,
   "sources_file": "config/leads-sources.json",
@@ -99,9 +99,9 @@
   },
   "page_caps_reached": [],
   "remaining_directory_pages": 5,
-  "remaining_businesses": 1,
+  "remaining_businesses": 0,
   "work_remaining": true,
   "collection_status": "active",
   "resume_after": 0,
-  "updated_at": "2026-10-12T19:37:27+00:00"
+  "updated_at": "2026-10-12T19:37:32+00:00"
 }

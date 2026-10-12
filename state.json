@@ -2216,7 +2216,14 @@
           "outcome": "listed"
         }
       ],
-      "website_checks": [],
+      "website_checks": [
+        {
+          "url": "https://volvocar.ge/",
+          "checked_at": "2026-10-12T19:37:29+00:00",
+          "outcome": "reachable",
+          "source_url": "https://volvocar.ge/"
+        }
+      ],
       "email_domain_hints": [
         "volvocarstegeta.ge"
       ],
@@ -3151,9 +3158,7 @@
     }
   },
   "pending": [],
-  "site_queue": [
-    "https://volvocar.ge/"
-  ],
+  "site_queue": [],
   "site_done": [
     "https://beauty-center-nice.business.site/",
     "https://www.afroamericanhairingeorgia.com/",
@@ -3178,7 +3183,8 @@
     "https://www.lamborghini.com/en-en/dealerships/lamborghini-tbilisi",
     "http://www.fiat.ge/",
     "https://www.citroen.com.ge/",
-    "http://www.mitsubishi.ge/"
+    "http://www.mitsubishi.ge/",
+    "https://volvocar.ge/"
   ],
   "cooldowns": {}
 }
