@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:08:47+00:00",
   "status": "running",
-  "sites_processed": 27,
+  "sites_processed": 36,
   "events": [
     {
       "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-1/",
@@ -944,6 +944,136 @@
       "url": "https://cube.ge/%e1%83%99%e1%83%9d%e1%83%9c%e1%83%a2%e1%83%90%e1%83%a5%e1%83%a2%e1%83%98/",
       "status": "ok",
       "reason": "business_page"
+    },
+    {
+      "url": "https://ekart21.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ekart21.com/aboutus",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ekart21.com/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://espacio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fortis.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fortis.ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fortis.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fortis.ge/en/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fortis.ge/en/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://idaafarchitects.com/",
+      "status": "unreachable",
+      "reason": "http_500"
+    },
+    {
+      "url": "https://iotagroup.ge/en",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://iotagroup.ge/en/contact-us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://iotagroup.ge/ge/contact-us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://iotagroup.ge/ru/contact-us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://kpistudios.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://kpistudios.com/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://kpistudios.com/about-company/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://kpistudios.com/interior-design/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://kpistudios.com/interior-design/apartment-design/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://kstudio.ge/en",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://kstudio.ge/contacts-en",
+      "status": "blocked",
+      "reason": "robots_disallowed"
+    },
+    {
+      "url": "https://www.monochrome.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.monochrome.ge/contact-us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.monochrome.ge/about-us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.mynewhome.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.mynewhome.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
     }
   ],
   "continuous": true,
@@ -951,12 +1081,12 @@
   "batch_limit": 1000,
   "github_run_id": "38288901096",
   "remaining_directory_pages": 237,
-  "remaining_businesses": 209,
+  "remaining_businesses": 201,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 2,
-  "checkpoint_at": "2026-10-12T18:12:55+00:00",
+  "unavailable_sources_total": 3,
+  "checkpoint_at": "2026-10-12T18:15:00+00:00",
   "records_total": 90,
   "contacts_total": 356,
   "historical_direct_contacts_unique": 13,
@@ -965,12 +1095,13 @@
   "target_reached": false,
   "contacts_missing_to_target": 854,
   "new_records": 4,
-  "changed_records": 0,
+  "changed_records": 1,
   "merged_records": 0,
-  "errors": 11,
+  "errors": 13,
   "error_categories": {
-    "unreachable": 9,
-    "javascript_required": 2
+    "unreachable": 10,
+    "javascript_required": 2,
+    "blocked": 1
   },
   "candidates_available": 225,
   "businesses_deferred_by_page_budget": 124
