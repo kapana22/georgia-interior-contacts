@@ -1,118 +1,93 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T19:06:31+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T19:09:41+00:00",
+  "status": "running",
   "sites_processed": 15,
   "events": [
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/10/",
+      "url": "https://www.homeis.ge/gogiko-saqhvarelidze/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 3
+    },
+    {
+      "url": "https://www.homeis.ge/ma-architect/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/jean-prouve/",
+      "url": "https://www.homeis.ge/davith-khidureli/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nino-legashvili/",
+      "url": "https://www.homeis.ge/richard-saperi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/davit-vazagashvili/",
+      "url": "https://www.homeis.ge/nutsa-lomsadze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/riken-iamamoto/",
+      "url": "https://archiaward.com/en/work/3817",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3913",
+      "url": "https://archiaward.com/en/work/3651",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3925",
+      "url": "https://archiaward.com/en/work/3652",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3736",
+      "url": "https://archiaward.com/en/work/3656",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3660",
+      "url": "https://archiaward.com/en/work/3661",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/3727",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/6882/light-house/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/6884/light-house/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14756/line-architects/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14715/line-creation/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/16842/lechuza/",
-      "status": "ok",
-      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14747/libo-1/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/15029/luidor/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14743/max-art/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/15042/magic-style/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/16844/misson-home/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14713/modern-graphic-/",
@@ -355,7 +330,57 @@
       "reason": "page_limit"
     },
     {
-      "url": "http://www.papillon.ge/",
+      "url": "https://www.eglo.com/us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.eglo.com/us/contact_us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.eglo.com/uk/contact_us",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.eglo.com/gr/contact_us",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://fabrikatbilisi.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fabrikatbilisi.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fabrikatbilisi.com/ka/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fabrikatbilisi.com/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://fabrikatbilisi.com/ka/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.lechuza.ge/",
+      "status": "unreachable",
+      "reason": "no_readable_content"
+    },
+    {
+      "url": "http://www.linearchitects.org/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
@@ -420,17 +445,12 @@
       "reason": "page_limit"
     },
     {
-      "url": "https://cube.ge/",
-      "status": "ok",
-      "reason": "business_page"
+      "url": "https://mua.ge/en",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
     },
     {
-      "url": "https://cube.ge/%e1%83%99%e1%83%9d%e1%83%9c%e1%83%a2%e1%83%90%e1%83%a5%e1%83%a2%e1%83%98/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.in-style.ge/",
+      "url": "http://www.papillon.ge/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
@@ -518,107 +538,35 @@
       "url": "https://hdesign.ge/servisebi",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/kontakti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/servisebi/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38295386651",
-  "remaining_directory_pages": 111,
-  "remaining_businesses": 76,
+  "github_run_id": "38295745911",
+  "remaining_directory_pages": 101,
+  "remaining_businesses": 72,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 50,
-  "checkpoint_at": "2026-10-12T19:09:17+00:00",
-  "records_total": 144,
-  "contacts_total": 517,
+  "checkpoint_at": "2026-10-12T19:11:43+00:00",
+  "records_total": 150,
+  "contacts_total": 535,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 355,
+  "direct_contacts_unique": 369,
   "relevant_direct_contacts_unique": 137,
   "target_reached": false,
   "contacts_missing_to_target": 863,
-  "new_records": 4,
+  "new_records": 6,
   "changed_records": 1,
   "merged_records": 0,
-  "errors": 3,
+  "errors": 5,
   "error_categories": {
-    "unreachable": 3
+    "unreachable": 4,
+    "javascript_required": 1
   },
-  "candidates_available": 80,
-  "businesses_deferred_by_page_budget": 65,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T19:09:17+00:00",
-  "http_requests": 78
+  "candidates_available": 78,
+  "businesses_deferred_by_page_budget": 60
 }
