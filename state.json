@@ -16665,7 +16665,7 @@
     "treedesign.ge": "2026-10-12T18:19:24+00:00",
     "ttg.ge": "2026-10-12T18:19:24+00:00",
     "architeria.ge": "2026-10-12T18:20:25+00:00",
-    "archpoint.ge": "2026-10-12T18:26:30+00:00",
+    "archpoint.ge": "2026-10-12T18:31:40+00:00",
     "belvedere.ge": "2026-10-12T18:20:32+00:00",
     "core.org.ge": "2026-10-12T18:20:42+00:00",
     "cube.ge": "2026-10-12T18:12:55+00:00",
@@ -16702,7 +16702,7 @@
     "city24:14697": "2026-10-12T12:45:22+00:00",
     "dio.ge": "2026-10-12T18:31:38+00:00",
     "facebook.com": "2026-10-12T12:45:40+00:00",
-    "ararchitecture.ge": "2026-10-12T18:26:30+00:00",
+    "ararchitecture.ge": "2026-10-12T18:31:40+00:00",
     "city24:14694": "2026-10-12T12:48:06+00:00",
     "archidea.ge": "2026-10-12T18:21:32+00:00",
     "artstudio.ge": "2026-10-12T18:21:43+00:00",
@@ -16729,12 +16729,12 @@
     "iaod.net": "2026-10-12T13:25:04+00:00",
     "idpa-japan.com": "2026-10-12T13:25:14+00:00",
     "isync.ge": "2026-10-12T18:20:45+00:00",
-    "areali.ge": "2026-10-12T18:26:40+00:00",
+    "areali.ge": "2026-10-12T18:31:50+00:00",
     "city24:14746": "2026-10-12T13:35:15+00:00",
     "nwds.world": "2026-10-12T18:21:00+00:00",
     "romedesignawards.com": "2026-10-12T18:21:06+00:00",
     "ubani.center": "2026-10-12T18:21:17+00:00",
-    "updesign.ge": "2026-10-12T18:26:40+00:00",
+    "updesign.ge": "2026-10-12T18:31:50+00:00",
     "worlddesignconsortium.com": "2026-10-12T18:21:22+00:00",
     "city24:14781": "2026-10-12T13:58:45+00:00",
     "dizaini:66": "2026-10-12T18:10:15+00:00",
@@ -17594,6 +17594,22 @@
       "dio.ge": {
         "signature": "e3ea4262f8036431875c60a8738874d501c699f28b1fad82ed421a7f34c75417",
         "outcome": "unavailable"
+      },
+      "archpoint.ge": {
+        "signature": "fcae266fd26636041e1dfebee423f3931f74a93f938e8c8ba29ddb4dd4dadb49",
+        "outcome": "unavailable"
+      },
+      "ararchitecture.ge": {
+        "signature": "16b2f4072dc463c20f0f63874bc4f43b4a9ac4ece4a2a689db58dae033520e04",
+        "outcome": "unavailable"
+      },
+      "areali.ge": {
+        "signature": "ca39f4b1cca6fdd4afdb386d0e2b277cb516526d3874bf6edd15216acb370789",
+        "outcome": "unavailable"
+      },
+      "updesign.ge": {
+        "signature": "330234fe5f9e1ef490605846cc017197bdefa06201c613d11f6fc2a20e96de78",
+        "outcome": "unavailable"
       }
     },
     "failures": {
@@ -17614,10 +17630,10 @@
       "designespas.ge:28ddd2713cfce66feeb0aad897fa66eda53ba3f6e69d75dc843b4567af336588": 3,
       "dmark.ge:14ff9d60ce3f0ee55f6c0dddefb6678da861d9b0f752172adfb9c0ae6c2321a8": 3,
       "dio.ge:e3ea4262f8036431875c60a8738874d501c699f28b1fad82ed421a7f34c75417": 3,
-      "archpoint.ge:fcae266fd26636041e1dfebee423f3931f74a93f938e8c8ba29ddb4dd4dadb49": 2,
-      "ararchitecture.ge:16b2f4072dc463c20f0f63874bc4f43b4a9ac4ece4a2a689db58dae033520e04": 2,
-      "areali.ge:ca39f4b1cca6fdd4afdb386d0e2b277cb516526d3874bf6edd15216acb370789": 2,
-      "updesign.ge:330234fe5f9e1ef490605846cc017197bdefa06201c613d11f6fc2a20e96de78": 2,
+      "archpoint.ge:fcae266fd26636041e1dfebee423f3931f74a93f938e8c8ba29ddb4dd4dadb49": 3,
+      "ararchitecture.ge:16b2f4072dc463c20f0f63874bc4f43b4a9ac4ece4a2a689db58dae033520e04": 3,
+      "areali.ge:ca39f4b1cca6fdd4afdb386d0e2b277cb516526d3874bf6edd15216acb370789": 3,
+      "updesign.ge:330234fe5f9e1ef490605846cc017197bdefa06201c613d11f6fc2a20e96de78": 3,
       "asa-group.ge:c3ab10c80d159a39e83e4244d57746d093181b01183d8a50fe81b2a35704aae9": 1
     },
     "status": "active",
@@ -17627,8 +17643,8 @@
     {
       "id": "38290952835",
       "created_at": "2026-10-12T18:27:08+00:00",
-      "status": "in_progress",
-      "conclusion": "neutral",
+      "status": "completed",
+      "conclusion": "success",
       "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38290952835"
     },
     {

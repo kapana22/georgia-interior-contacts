@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:27:08+00:00",
-  "status": "running",
-  "sites_processed": 26,
+  "status": "completed",
+  "sites_processed": 30,
   "events": [
     {
       "url": "https://dizaini.ge/product/105",
@@ -983,6 +983,26 @@
       "url": "http://www.dio.ge/general.php",
       "status": "unreachable",
       "reason": "http_404"
+    },
+    {
+      "url": "https://archpoint.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.ararchitecture.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.areali.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.updesign.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
     }
   ],
   "continuous": true,
@@ -990,12 +1010,12 @@
   "batch_limit": 1000,
   "github_run_id": "38290952835",
   "remaining_directory_pages": 215,
-  "remaining_businesses": 134,
+  "remaining_businesses": 130,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 31,
-  "checkpoint_at": "2026-10-12T18:31:38+00:00",
+  "unavailable_sources_total": 35,
+  "checkpoint_at": "2026-10-12T18:31:50+00:00",
   "records_total": 96,
   "contacts_total": 385,
   "historical_direct_contacts_unique": 13,
@@ -1006,10 +1026,13 @@
   "new_records": 4,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 17,
+  "errors": 21,
   "error_categories": {
-    "unreachable": 17
+    "unreachable": 21
   },
   "candidates_available": 150,
-  "businesses_deferred_by_page_budget": 120
+  "businesses_deferred_by_page_budget": 120,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T18:31:50+00:00",
+  "http_requests": 123
 }
