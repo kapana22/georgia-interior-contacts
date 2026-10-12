@@ -762,90 +762,90 @@
           "value": "თბილისი",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T18:42:52+00:00"
+          "last_seen": "2026-10-12T18:46:39+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T18:42:50+00:00"
+          "last_seen": "2026-10-12T18:46:37+00:00"
         },
         {
           "kind": "email",
           "value": "info@cityproject.ge",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T18:42:52+00:00"
+          "last_seen": "2026-10-12T18:46:39+00:00"
         },
         {
           "kind": "email",
           "value": "info@cityproject.ge",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T18:42:50+00:00"
+          "last_seen": "2026-10-12T18:46:37+00:00"
         },
         {
           "kind": "name",
           "value": "City Project",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T18:42:52+00:00"
+          "last_seen": "2026-10-12T18:46:39+00:00"
         },
         {
           "kind": "name",
           "value": "City Project",
           "source_url": "https://cityproject.ge/ka/",
           "first_seen": "2026-10-12T13:13:42+00:00",
-          "last_seen": "2026-10-12T18:42:48+00:00"
+          "last_seen": "2026-10-12T18:46:36+00:00"
         },
         {
           "kind": "name",
           "value": "City Project",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T18:42:50+00:00"
+          "last_seen": "2026-10-12T18:46:37+00:00"
         },
         {
           "kind": "phone",
           "value": "+995322555888",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T18:42:52+00:00"
+          "last_seen": "2026-10-12T18:46:39+00:00"
         },
         {
           "kind": "phone",
           "value": "+995322555888",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T18:42:50+00:00"
+          "last_seen": "2026-10-12T18:46:37+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.cityproject.ge/",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T18:42:52+00:00"
+          "last_seen": "2026-10-12T18:46:39+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.cityproject.ge/",
           "source_url": "https://cityproject.ge/ka/",
           "first_seen": "2026-10-12T13:13:42+00:00",
-          "last_seen": "2026-10-12T18:42:48+00:00"
+          "last_seen": "2026-10-12T18:46:36+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.cityproject.ge/",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T18:42:50+00:00"
+          "last_seen": "2026-10-12T18:46:37+00:00"
         }
       ],
       "business_key": "",
       "suggested_websites": [],
       "first_seen": "2026-10-12T13:13:42+00:00",
-      "last_seen": "2026-10-12T18:42:52+00:00",
+      "last_seen": "2026-10-12T18:46:39+00:00",
       "status": "review",
       "review_reasons": [
         "interior_service_not_confirmed",
@@ -904,6 +904,100 @@
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
+        "interior_service_not_confirmed"
+      ]
+    },
+    {
+      "id": "15419b5d824b6e8c",
+      "name": "works / kera",
+      "domains": [
+        "keraarch.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "contact@keraarch.ge",
+          "source_url": "https://www.keraarch.ge/contact",
+          "first_seen": "2026-10-12T18:45:58+00:00",
+          "last_seen": "2026-10-12T18:45:58+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/kera.arch",
+          "source_url": "https://www.keraarch.ge/contact",
+          "first_seen": "2026-10-12T18:45:58+00:00",
+          "last_seen": "2026-10-12T18:45:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "The House on the Roundabout",
+          "source_url": "https://www.keraarch.ge/projects/the-house-on-the-roundabout",
+          "first_seen": "2026-10-12T18:46:02+00:00",
+          "last_seen": "2026-10-12T18:46:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "about / kera",
+          "source_url": "https://www.keraarch.ge/about",
+          "first_seen": "2026-10-12T18:46:00+00:00",
+          "last_seen": "2026-10-12T18:46:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "contact / kera",
+          "source_url": "https://www.keraarch.ge/contact",
+          "first_seen": "2026-10-12T18:45:58+00:00",
+          "last_seen": "2026-10-12T18:45:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "works / kera",
+          "source_url": "https://www.keraarch.ge/",
+          "first_seen": "2026-10-12T18:45:56+00:00",
+          "last_seen": "2026-10-12T18:45:56+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995598965775",
+          "source_url": "https://www.keraarch.ge/contact",
+          "first_seen": "2026-10-12T18:45:58+00:00",
+          "last_seen": "2026-10-12T18:45:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.keraarch.ge/",
+          "source_url": "https://www.keraarch.ge/",
+          "first_seen": "2026-10-12T18:45:56+00:00",
+          "last_seen": "2026-10-12T18:45:56+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.keraarch.ge/",
+          "source_url": "https://www.keraarch.ge/about",
+          "first_seen": "2026-10-12T18:46:00+00:00",
+          "last_seen": "2026-10-12T18:46:00+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.keraarch.ge/",
+          "source_url": "https://www.keraarch.ge/contact",
+          "first_seen": "2026-10-12T18:45:58+00:00",
+          "last_seen": "2026-10-12T18:45:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.keraarch.ge/",
+          "source_url": "https://www.keraarch.ge/projects/the-house-on-the-roundabout",
+          "first_seen": "2026-10-12T18:46:02+00:00",
+          "last_seen": "2026-10-12T18:46:02+00:00"
+        }
+      ],
+      "business_key": "",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T18:45:56+00:00",
+      "last_seen": "2026-10-12T18:46:02+00:00",
+      "status": "review",
+      "review_reasons": [
         "interior_service_not_confirmed"
       ]
     },
@@ -2897,6 +2991,68 @@
       "review_reasons": [
         "directory_only_service_claim",
         "historical_pdf_contacts_require_verification"
+      ]
+    },
+    {
+      "id": "4f86ba7f5b7a73cb",
+      "name": "Н Группа",
+      "domains": [
+        "dreamhouse.ge"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/",
+          "first_seen": "2026-10-12T18:45:53+00:00",
+          "last_seen": "2026-10-12T18:45:53+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "dreamhouse.ge@gmail.com",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/",
+          "first_seen": "2026-10-12T18:45:53+00:00",
+          "last_seen": "2026-10-12T18:45:53+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ენ ჯგუფი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/",
+          "first_seen": "2026-10-12T18:45:53+00:00",
+          "last_seen": "2026-10-12T18:45:53+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995322953694",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/",
+          "first_seen": "2026-10-12T18:45:53+00:00",
+          "last_seen": "2026-10-12T18:45:53+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595363235",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/",
+          "first_seen": "2026-10-12T18:45:53+00:00",
+          "last_seen": "2026-10-12T18:45:53+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.dreamhouse.ge/",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/",
+          "first_seen": "2026-10-12T18:45:53+00:00",
+          "last_seen": "2026-10-12T18:45:53+00:00"
+        }
+      ],
+      "business_key": "city24:14721",
+      "suggested_websites": [
+        "http://www.dreamhouse.ge/"
+      ],
+      "first_seen": "2026-10-12T18:45:53+00:00",
+      "last_seen": "2026-10-12T18:45:53+00:00",
+      "status": "review",
+      "review_reasons": [
+        "directory_only_service_claim",
+        "interior_service_not_confirmed"
       ]
     },
     {
@@ -7638,6 +7794,57 @@
       ]
     },
     {
+      "id": "9ea73b3a1604930d",
+      "name": "Экохаусы",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14695/ecohouse/",
+          "first_seen": "2026-10-12T18:45:49+00:00",
+          "last_seen": "2026-10-12T18:45:49+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "ecohouse.ge@gmail.com",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14695/ecohouse/",
+          "first_seen": "2026-10-12T18:45:49+00:00",
+          "last_seen": "2026-10-12T18:45:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ეკოჰაუსი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14695/ecohouse/",
+          "first_seen": "2026-10-12T18:45:49+00:00",
+          "last_seen": "2026-10-12T18:45:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995322306916",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14695/ecohouse/",
+          "first_seen": "2026-10-12T18:45:49+00:00",
+          "last_seen": "2026-10-12T18:45:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995593256325",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14695/ecohouse/",
+          "first_seen": "2026-10-12T18:45:49+00:00",
+          "last_seen": "2026-10-12T18:45:49+00:00"
+        }
+      ],
+      "business_key": "city24:14695",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T18:45:49+00:00",
+      "last_seen": "2026-10-12T18:45:49+00:00",
+      "status": "review",
+      "review_reasons": [
+        "directory_only_service_claim",
+        "interior_service_not_confirmed"
+      ]
+    },
+    {
       "id": "9efb23de49e7dd4f",
       "name": "META STUDIO",
       "domains": [],
@@ -8905,6 +9112,64 @@
       "review_reasons": []
     },
     {
+      "id": "ade06daa305530da",
+      "name": "Ем Ди Си",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
+          "first_seen": "2026-10-12T18:45:51+00:00",
+          "last_seen": "2026-10-12T18:45:51+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "moderndesignstudio@yahoo.com",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
+          "first_seen": "2026-10-12T18:45:51+00:00",
+          "last_seen": "2026-10-12T18:45:51+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/moderndesignst",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
+          "first_seen": "2026-10-12T18:45:51+00:00",
+          "last_seen": "2026-10-12T18:45:51+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ემ დი ეს",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
+          "first_seen": "2026-10-12T18:45:51+00:00",
+          "last_seen": "2026-10-12T18:45:51+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995322931133",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
+          "first_seen": "2026-10-12T18:45:51+00:00",
+          "last_seen": "2026-10-12T18:45:51+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995597766733",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
+          "first_seen": "2026-10-12T18:45:51+00:00",
+          "last_seen": "2026-10-12T18:45:51+00:00"
+        }
+      ],
+      "business_key": "city24:14778",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T18:45:51+00:00",
+      "last_seen": "2026-10-12T18:45:51+00:00",
+      "status": "review",
+      "review_reasons": [
+        "directory_only_service_claim",
+        "interior_service_not_confirmed"
+      ]
+    },
+    {
       "id": "ae6d1a180547fa58",
       "name": "TOURBILLION",
       "domains": [],
@@ -9664,6 +9929,61 @@
       ]
     },
     {
+      "id": "bdcb62fa0be3c6f4",
+      "name": "Ево Билды",
+      "domains": [
+        "evo.ge"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14703/evo-build/",
+          "first_seen": "2026-10-12T18:45:47+00:00",
+          "last_seen": "2026-10-12T18:45:47+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@evo.ge",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14703/evo-build/",
+          "first_seen": "2026-10-12T18:45:47+00:00",
+          "last_seen": "2026-10-12T18:45:47+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ევო ბილდი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14703/evo-build/",
+          "first_seen": "2026-10-12T18:45:47+00:00",
+          "last_seen": "2026-10-12T18:45:47+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995322183888",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14703/evo-build/",
+          "first_seen": "2026-10-12T18:45:47+00:00",
+          "last_seen": "2026-10-12T18:45:47+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.evo.ge/",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14703/evo-build/",
+          "first_seen": "2026-10-12T18:45:47+00:00",
+          "last_seen": "2026-10-12T18:45:47+00:00"
+        }
+      ],
+      "business_key": "city24:14703",
+      "suggested_websites": [
+        "http://www.evo.ge/"
+      ],
+      "first_seen": "2026-10-12T18:45:47+00:00",
+      "last_seen": "2026-10-12T18:45:47+00:00",
+      "status": "review",
+      "review_reasons": [
+        "directory_only_service_claim",
+        "interior_service_not_confirmed"
+      ]
+    },
+    {
       "id": "bf8726ab4f77aded",
       "name": "Студия дизайна",
       "domains": [],
@@ -10233,6 +10553,64 @@
         "directory_only_service_claim",
         "interior_service_not_confirmed",
         "unverified_phone_structure"
+      ]
+    },
+    {
+      "id": "c8179421cbef2470",
+      "name": "Ду Арт",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14771/du-art/",
+          "first_seen": "2026-10-12T18:45:44+00:00",
+          "last_seen": "2026-10-12T18:45:44+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "doart2012@yahoo.com",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14771/du-art/",
+          "first_seen": "2026-10-12T18:45:44+00:00",
+          "last_seen": "2026-10-12T18:45:44+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/doart.advertising.company",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14771/du-art/",
+          "first_seen": "2026-10-12T18:45:44+00:00",
+          "last_seen": "2026-10-12T18:45:44+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "დუ არტი",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14771/du-art/",
+          "first_seen": "2026-10-12T18:45:44+00:00",
+          "last_seen": "2026-10-12T18:45:44+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995322147970",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14771/du-art/",
+          "first_seen": "2026-10-12T18:45:44+00:00",
+          "last_seen": "2026-10-12T18:45:44+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995574952332",
+          "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14771/du-art/",
+          "first_seen": "2026-10-12T18:45:44+00:00",
+          "last_seen": "2026-10-12T18:45:44+00:00"
+        }
+      ],
+      "business_key": "city24:14771",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T18:45:44+00:00",
+      "last_seen": "2026-10-12T18:45:44+00:00",
+      "status": "review",
+      "review_reasons": [
+        "directory_only_service_claim",
+        "interior_service_not_confirmed"
       ]
     },
     {
@@ -11819,6 +12197,170 @@
       ]
     },
     {
+      "id": "e70a4aaa0672ff01",
+      "name": "SLA",
+      "domains": [
+        "sla.works"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.sla.works/",
+          "first_seen": "2026-10-12T18:46:05+00:00",
+          "last_seen": "2026-10-12T18:46:05+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.sla.works/contact",
+          "first_seen": "2026-10-12T18:46:07+00:00",
+          "last_seen": "2026-10-12T18:46:07+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.sla.works/services",
+          "first_seen": "2026-10-12T18:46:09+00:00",
+          "last_seen": "2026-10-12T18:46:09+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "shengelialand@gmail.com",
+          "source_url": "https://www.sla.works/",
+          "first_seen": "2026-10-12T18:46:05+00:00",
+          "last_seen": "2026-10-12T18:46:05+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "shengelialand@gmail.com",
+          "source_url": "https://www.sla.works/contact",
+          "first_seen": "2026-10-12T18:46:07+00:00",
+          "last_seen": "2026-10-12T18:46:07+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "shengelialand@gmail.com",
+          "source_url": "https://www.sla.works/services",
+          "first_seen": "2026-10-12T18:46:09+00:00",
+          "last_seen": "2026-10-12T18:46:09+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100028543046506",
+          "source_url": "https://www.sla.works/",
+          "first_seen": "2026-10-12T18:46:05+00:00",
+          "last_seen": "2026-10-12T18:46:05+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100028543046506",
+          "source_url": "https://www.sla.works/contact",
+          "first_seen": "2026-10-12T18:46:07+00:00",
+          "last_seen": "2026-10-12T18:46:07+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100028543046506",
+          "source_url": "https://www.sla.works/services",
+          "first_seen": "2026-10-12T18:46:09+00:00",
+          "last_seen": "2026-10-12T18:46:09+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/shengelialandscape",
+          "source_url": "https://www.sla.works/",
+          "first_seen": "2026-10-12T18:46:05+00:00",
+          "last_seen": "2026-10-12T18:46:05+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/shengelialandscape",
+          "source_url": "https://www.sla.works/contact",
+          "first_seen": "2026-10-12T18:46:07+00:00",
+          "last_seen": "2026-10-12T18:46:07+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/shengelialandscape",
+          "source_url": "https://www.sla.works/services",
+          "first_seen": "2026-10-12T18:46:09+00:00",
+          "last_seen": "2026-10-12T18:46:09+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SLA",
+          "source_url": "https://www.sla.works/",
+          "first_seen": "2026-10-12T18:46:05+00:00",
+          "last_seen": "2026-10-12T18:46:05+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SLA",
+          "source_url": "https://www.sla.works/contact",
+          "first_seen": "2026-10-12T18:46:07+00:00",
+          "last_seen": "2026-10-12T18:46:07+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SLA",
+          "source_url": "https://www.sla.works/services",
+          "first_seen": "2026-10-12T18:46:09+00:00",
+          "last_seen": "2026-10-12T18:46:09+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577401607",
+          "source_url": "https://www.sla.works/",
+          "first_seen": "2026-10-12T18:46:05+00:00",
+          "last_seen": "2026-10-12T18:46:05+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577401607",
+          "source_url": "https://www.sla.works/contact",
+          "first_seen": "2026-10-12T18:46:07+00:00",
+          "last_seen": "2026-10-12T18:46:07+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577401607",
+          "source_url": "https://www.sla.works/services",
+          "first_seen": "2026-10-12T18:46:09+00:00",
+          "last_seen": "2026-10-12T18:46:09+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.sla.works/",
+          "source_url": "https://www.sla.works/",
+          "first_seen": "2026-10-12T18:46:05+00:00",
+          "last_seen": "2026-10-12T18:46:05+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.sla.works/",
+          "source_url": "https://www.sla.works/contact",
+          "first_seen": "2026-10-12T18:46:07+00:00",
+          "last_seen": "2026-10-12T18:46:07+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.sla.works/",
+          "source_url": "https://www.sla.works/services",
+          "first_seen": "2026-10-12T18:46:09+00:00",
+          "last_seen": "2026-10-12T18:46:09+00:00"
+        }
+      ],
+      "business_key": "",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T18:46:05+00:00",
+      "last_seen": "2026-10-12T18:46:09+00:00",
+      "status": "review",
+      "review_reasons": [
+        "interior_service_not_confirmed"
+      ]
+    },
+    {
       "id": "e9c4eb09368c5047",
       "name": "Spectrum • სპექტრუმი",
       "domains": [
@@ -12259,139 +12801,139 @@
           "value": "თბილისი",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T18:42:36+00:00"
+          "last_seen": "2026-10-12T18:46:23+00:00"
         },
         {
           "kind": "email",
           "value": "info@verona.ge",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T18:42:36+00:00"
+          "last_seen": "2026-10-12T18:46:23+00:00"
         },
         {
           "kind": "email",
           "value": "info@verona.ge",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T18:42:32+00:00"
+          "last_seen": "2026-10-12T18:46:19+00:00"
         },
         {
           "kind": "email",
           "value": "info@verona.ge",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T18:42:34+00:00"
+          "last_seen": "2026-10-12T18:46:21+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/verona.tbilisi",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T18:42:36+00:00"
+          "last_seen": "2026-10-12T18:46:23+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T18:42:32+00:00"
+          "last_seen": "2026-10-12T18:46:19+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T18:42:34+00:00"
+          "last_seen": "2026-10-12T18:46:21+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/verona.tbilisi",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T18:42:36+00:00"
+          "last_seen": "2026-10-12T18:46:23+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T18:42:32+00:00"
+          "last_seen": "2026-10-12T18:46:19+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T18:42:34+00:00"
+          "last_seen": "2026-10-12T18:46:21+00:00"
         },
         {
           "kind": "name",
           "value": "Verona",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T18:42:36+00:00"
+          "last_seen": "2026-10-12T18:46:23+00:00"
         },
         {
           "kind": "name",
           "value": "Verona",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T18:42:32+00:00"
+          "last_seen": "2026-10-12T18:46:19+00:00"
         },
         {
           "kind": "name",
           "value": "Verona",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T18:42:34+00:00"
+          "last_seen": "2026-10-12T18:46:21+00:00"
         },
         {
           "kind": "phone",
           "value": "+995596244224",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T18:42:36+00:00"
+          "last_seen": "2026-10-12T18:46:23+00:00"
         },
         {
           "kind": "phone",
           "value": "+995596244224",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T18:42:32+00:00"
+          "last_seen": "2026-10-12T18:46:19+00:00"
         },
         {
           "kind": "phone",
           "value": "+995596244224",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T18:42:34+00:00"
+          "last_seen": "2026-10-12T18:46:21+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.verona.ge/",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T18:42:36+00:00"
+          "last_seen": "2026-10-12T18:46:23+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.verona.ge/",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T18:42:32+00:00"
+          "last_seen": "2026-10-12T18:46:19+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.verona.ge/",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T18:42:34+00:00"
+          "last_seen": "2026-10-12T18:46:21+00:00"
         }
       ],
       "business_key": "",
       "suggested_websites": [],
       "first_seen": "2026-10-12T18:28:15+00:00",
-      "last_seen": "2026-10-12T18:42:36+00:00",
+      "last_seen": "2026-10-12T18:46:23+00:00",
       "status": "review",
       "review_reasons": [
         "interior_service_not_confirmed",
@@ -17600,6 +18142,26 @@
       "url": "http://www.daylight.ge/",
       "name": "Дейлайт Дизайн Груп",
       "discovered_from": "https://www.city24.ge/ge/tbilisi/organizations/15039/daylight-design-group/"
+    },
+    {
+      "url": "https://www.sla.works/",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/nino-shengelia/"
+    },
+    {
+      "url": "https://www.keraarch.ge/",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/studia-kera/"
+    },
+    {
+      "url": "http://www.evo.ge/",
+      "name": "Ево Билды",
+      "discovered_from": "https://www.city24.ge/ge/tbilisi/organizations/14703/evo-build/"
+    },
+    {
+      "url": "http://www.dreamhouse.ge/",
+      "name": "Н Группа",
+      "discovered_from": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/"
     }
   ],
   "attempts": {
@@ -17677,7 +18239,7 @@
     "bankofgeorgia.ge": "2026-10-12T13:13:05+00:00",
     "baudesign.ge": "2026-10-12T18:10:50+00:00",
     "city24:14738": "2026-10-12T13:13:30+00:00",
-    "cityproject.ge": "2026-10-12T18:42:52+00:00",
+    "cityproject.ge": "2026-10-12T18:46:39+00:00",
     "design.4you.ge": "2026-10-12T18:29:03+00:00",
     "elteg.ge": "2026-10-12T18:11:24+00:00",
     "pdf:fabe1a019e2af988:9": "2026-10-12T18:11:24+00:00",
@@ -17727,7 +18289,7 @@
     "city24:15032": "2026-10-12T18:27:48+00:00",
     "city24:14730": "2026-10-12T18:27:52+00:00",
     "ingo-maurer.com": "2026-10-12T18:28:05+00:00",
-    "verona.ge": "2026-10-12T18:42:36+00:00",
+    "verona.ge": "2026-10-12T18:46:23+00:00",
     "bagrationdavitashvili.com": "2026-10-12T18:32:51+00:00",
     "baryo.ge": "2026-10-12T18:39:22+00:00",
     "city24:14725": "2026-10-12T18:32:56+00:00",
@@ -17749,10 +18311,17 @@
     "city24:14727": "2026-10-12T18:42:18+00:00",
     "city24:14770": "2026-10-12T18:42:19+00:00",
     "city24:12542": "2026-10-12T18:42:21+00:00",
-    "daylight.ge": "2026-10-12T18:42:22+00:00",
-    "gremic.ge": "2026-10-12T18:42:22+00:00"
+    "daylight.ge": "2026-10-12T18:46:09+00:00",
+    "gremic.ge": "2026-10-12T18:46:09+00:00",
+    "city24:14771": "2026-10-12T18:45:45+00:00",
+    "city24:14703": "2026-10-12T18:45:47+00:00",
+    "city24:14695": "2026-10-12T18:45:49+00:00",
+    "city24:14778": "2026-10-12T18:45:51+00:00",
+    "city24:14721": "2026-10-12T18:45:53+00:00",
+    "keraarch.ge": "2026-10-12T18:46:02+00:00",
+    "sla.works": "2026-10-12T18:46:09+00:00"
   },
-  "last_run": "2026-10-12T18:41:32+00:00",
+  "last_run": "2026-10-12T18:44:31+00:00",
   "discovery_queue": {
     "https://www.yell.ge/companies.php?rub=151&lan=eng": {
       "pending": [],
@@ -17783,11 +18352,6 @@
     },
     "https://dizaini.ge/": {
       "pending": [
-        "https://dizaini.ge/product/73",
-        "https://dizaini.ge/product/65",
-        "https://dizaini.ge/product/64",
-        "https://dizaini.ge/product/61",
-        "https://dizaini.ge/product/60",
         "https://dizaini.ge/product/59",
         "https://dizaini.ge/product/58",
         "https://dizaini.ge/product/56",
@@ -17855,8 +18419,13 @@
         "https://dizaini.ge/product/250",
         "https://dizaini.ge/product/261",
         "https://dizaini.ge/product/268",
+        "https://dizaini.ge/product/60",
+        "https://dizaini.ge/product/61",
+        "https://dizaini.ge/product/64",
+        "https://dizaini.ge/product/65",
         "https://dizaini.ge/product/68",
         "https://dizaini.ge/product/71",
+        "https://dizaini.ge/product/73",
         "https://dizaini.ge/product/76",
         "https://dizaini.ge/product/81",
         "https://dizaini.ge/product/82",
@@ -17881,11 +18450,6 @@
     },
     "https://www.homeis.ge/category/adamianebi/": {
       "pending": [
-        "https://www.homeis.ge/sulkhan-sulkhanishvili/",
-        "https://www.homeis.ge/nino-shengelia/",
-        "https://www.homeis.ge/interviu-rusudan-lashkhi/",
-        "https://www.homeis.ge/mikheil-giorgobiani/",
-        "https://www.homeis.ge/studia-kera/",
         "https://www.homeis.ge/mariam-demetrashvili/",
         "https://www.homeis.ge/mari-zurabishvili/",
         "https://www.homeis.ge/thekla-tchithanava/",
@@ -17932,12 +18496,14 @@
         "https://www.homeis.ge/giorgi-shervashidze/",
         "https://www.homeis.ge/givi-jaqheli/",
         "https://www.homeis.ge/ingo-maureri-sinathlis-arqiteqtura/",
+        "https://www.homeis.ge/interviu-rusudan-lashkhi/",
         "https://www.homeis.ge/kuma-kengo/",
         "https://www.homeis.ge/lado-beridze/",
         "https://www.homeis.ge/landscape-association-tamar-tavartkiladze/",
         "https://www.homeis.ge/mariam-karbaia/",
         "https://www.homeis.ge/mariana-tchqhonia/",
         "https://www.homeis.ge/megi-davithidze/",
+        "https://www.homeis.ge/mikheil-giorgobiani/",
         "https://www.homeis.ge/nate-berkus/",
         "https://www.homeis.ge/neri-hu/",
         "https://www.homeis.ge/niko-qsovreli/",
@@ -17948,6 +18514,7 @@
         "https://www.homeis.ge/nini-laphauri-da-giorgi-shanshiashvili/",
         "https://www.homeis.ge/nino-chkhartishvili/",
         "https://www.homeis.ge/nino-mshvelidze-structura/",
+        "https://www.homeis.ge/nino-shengelia/",
         "https://www.homeis.ge/of-a-home-studio/",
         "https://www.homeis.ge/othar-kutchava/",
         "https://www.homeis.ge/salome-chochishvili/",
@@ -17956,8 +18523,10 @@
         "https://www.homeis.ge/sinathlis-khelovneba-lika-nezhinskaia/",
         "https://www.homeis.ge/snino-gamtsemlidze/",
         "https://www.homeis.ge/spott-studio/",
+        "https://www.homeis.ge/studia-kera/",
         "https://www.homeis.ge/studio11/",
         "https://www.homeis.ge/studio22/",
+        "https://www.homeis.ge/sulkhan-sulkhanishvili/",
         "https://www.homeis.ge/terakota/",
         "https://www.homeis.ge/thako-mentheshashvili/",
         "https://www.homeis.ge/thamar-benashvili/",
@@ -17972,11 +18541,6 @@
     },
     "https://archiaward.com/en/Awards/2025": {
       "pending": [
-        "https://archiaward.com/en/work/4161",
-        "https://archiaward.com/en/work/4168",
-        "https://archiaward.com/en/work/4218",
-        "https://archiaward.com/en/work/4225",
-        "https://archiaward.com/en/work/4238",
         "https://archiaward.com/en/work/4248",
         "https://archiaward.com/en/work/3847",
         "https://archiaward.com/en/work/3918",
@@ -18166,8 +18730,10 @@
         "https://archiaward.com/en/work/4136",
         "https://archiaward.com/en/work/4142",
         "https://archiaward.com/en/work/4146",
+        "https://archiaward.com/en/work/4161",
         "https://archiaward.com/en/work/4166",
         "https://archiaward.com/en/work/4167",
+        "https://archiaward.com/en/work/4168",
         "https://archiaward.com/en/work/4181",
         "https://archiaward.com/en/work/4182",
         "https://archiaward.com/en/work/4183",
@@ -18178,10 +18744,13 @@
         "https://archiaward.com/en/work/4210",
         "https://archiaward.com/en/work/4213",
         "https://archiaward.com/en/work/4216",
+        "https://archiaward.com/en/work/4218",
+        "https://archiaward.com/en/work/4225",
         "https://archiaward.com/en/work/4226",
         "https://archiaward.com/en/work/4227",
         "https://archiaward.com/en/work/4232",
         "https://archiaward.com/en/work/4236",
+        "https://archiaward.com/en/work/4238",
         "https://archiaward.com/en/work/4241",
         "https://archiaward.com/en/work/4242",
         "https://archiaward.com/en/work/4243",
@@ -18712,6 +19281,34 @@
       "bbstudio.ge": {
         "signature": "4c735b3480a2b767c4a6ffcfbf311536b71423b021ec39877a4d1552a971d322",
         "outcome": "unavailable"
+      },
+      "city24:14771": {
+        "signature": "ab01c79b6bc5854acae86b99736c238cbfea2148a19d5e58f880611a5b8cd15e",
+        "outcome": "done"
+      },
+      "city24:14703": {
+        "signature": "f280cb2bf5b792b431959af58ed40147e80b811d7e40d26b5732af524928073d",
+        "outcome": "done"
+      },
+      "city24:14695": {
+        "signature": "ea92eb3fea4483237307e268eadd9319b25bed64f28c8e9b466b494787236fd1",
+        "outcome": "done"
+      },
+      "city24:14778": {
+        "signature": "d2124f7e5d2e0e34743d8de8c136cff752d0c3cfc87801f067d68c9519a2e796",
+        "outcome": "done"
+      },
+      "city24:14721": {
+        "signature": "05299a978530e42dca67ac586f49c9d3945905f7200c545dc62bd571a3b49bd9",
+        "outcome": "done"
+      },
+      "keraarch.ge": {
+        "signature": "0216787d1dbd2b9c7b157b774b438a24164cfd38ecf8c08629e3eb9230f6775e",
+        "outcome": "done"
+      },
+      "sla.works": {
+        "signature": "ff9ef65edff4c76e94c1b115176f52dd07da390a5ab0dd46f43f84cd7533d00e",
+        "outcome": "done"
       }
     },
     "failures": {
@@ -18740,13 +19337,20 @@
       "baryo.ge:d89907a9fdd3565751a95dee837c9f6278eeb0254ce1c1918f3718211e0e735c": 3,
       "newv.ge:9c41fd05710a68cffc003c37e85888398d27a2e843e6c8ed1d2586e6bb575e8b": 3,
       "bbstudio.ge:4c735b3480a2b767c4a6ffcfbf311536b71423b021ec39877a4d1552a971d322": 3,
-      "daylight.ge:1df7028cd002e667fd7e593d3407069c6b1fda3791893f55eff925a7b8866759": 1,
-      "gremic.ge:e08096894353a201bae3aec56b18549cbb3339ce0dde43f729b7b56c43b48604": 1
+      "daylight.ge:1df7028cd002e667fd7e593d3407069c6b1fda3791893f55eff925a7b8866759": 2,
+      "gremic.ge:e08096894353a201bae3aec56b18549cbb3339ce0dde43f729b7b56c43b48604": 2
     },
     "status": "active",
     "no_progress_batches": 0
   },
   "run_history": [
+    {
+      "id": "38292910944",
+      "created_at": "2026-10-12T18:44:31+00:00",
+      "status": "in_progress",
+      "conclusion": "neutral",
+      "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38292910944"
+    },
     {
       "id": "38292574239",
       "created_at": "2026-10-12T18:41:32+00:00",
@@ -18774,13 +19378,6 @@
       "status": "completed",
       "conclusion": "success",
       "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38291539145"
-    },
-    {
-      "id": "38290952835",
-      "created_at": "2026-10-12T18:27:08+00:00",
-      "status": "completed",
-      "conclusion": "success",
-      "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38290952835"
     }
   ],
   "cooldowns": {}
