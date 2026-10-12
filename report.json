@@ -1,65 +1,65 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T19:45:30+00:00",
-  "status": "completed",
-  "sites_processed": 17,
+  "started_at": "2026-10-12T19:48:26+00:00",
+  "status": "running",
+  "sites_processed": 11,
   "events": [
     {
-      "url": "https://www.homeis.ge/irakli-zhvania/",
+      "url": "https://www.homeis.ge/natalia-davithashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/maia-adamia/",
+      "url": "https://www.homeis.ge/gaga-kiknadzis-interviu/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/megi-devadze/",
+      "url": "https://www.homeis.ge/anuki-kusrashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/15/",
+      "url": "https://www.homeis.ge/ana-bibilashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nino-qhavlashvili/",
+      "url": "https://www.homeis.ge/interviu-thatha-svanadzesthan/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3460",
+      "url": "https://archiaward.com/en/work/3480",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3462",
+      "url": "https://archiaward.com/en/work/3504",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3465",
+      "url": "https://archiaward.com/en/work/3514",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3468",
+      "url": "https://archiaward.com/en/work/3551",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3469",
+      "url": "https://archiaward.com/en/work/3578",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -70,34 +70,19 @@
       "reason": "page_limit"
     },
     {
-      "url": "http://www.homestudio.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14749/av/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14697/ararchitechture/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "skipped",
       "reason": "social_profile_not_crawled"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14694/idea",
-      "status": "skipped",
-      "reason": "page_limit"
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14694/idea/",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14738/up-design",
-      "status": "skipped",
-      "reason": "page_limit"
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14738/up-design/",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14779/areali",
@@ -130,32 +115,17 @@
       "reason": "page_limit"
     },
     {
+      "url": "http://www.homestudio.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
       "url": "http://www.housedecor.ge/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
     {
       "url": "http://www.khararka.com/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://arriolafiol.com/portfolio_page/place-perdtemps-nyon/",
-      "status": "unreachable",
-      "reason": "http_404"
-    },
-    {
-      "url": "http://www.space.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.tenttown.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://ytaa.miesbcn.com/work/1038?fbclid=IwAR2ddNgMrjXqsRqpIuc5D9JwSBhTN5EKhN9dgHjs6o4BNl0U7f50xDvl9",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
@@ -288,65 +258,20 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38299708503",
-  "remaining_directory_pages": 55,
-  "remaining_businesses": 21,
+  "github_run_id": "38300029509",
+  "remaining_directory_pages": 45,
+  "remaining_businesses": 17,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 73,
-  "checkpoint_at": "2026-10-12T19:48:00+00:00",
+  "unavailable_sources_total": 75,
+  "checkpoint_at": "2026-10-12T19:50:28+00:00",
   "records_total": 201,
   "contacts_total": 680,
   "historical_direct_contacts_unique": 13,
@@ -357,13 +282,10 @@
   "new_records": 0,
   "changed_records": 2,
   "merged_records": 0,
-  "errors": 8,
+  "errors": 4,
   "error_categories": {
-    "unreachable": 8
+    "unreachable": 4
   },
-  "candidates_available": 27,
-  "businesses_deferred_by_page_budget": 10,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T19:48:00+00:00",
-  "http_requests": 78
+  "candidates_available": 21,
+  "businesses_deferred_by_page_budget": 8
 }
