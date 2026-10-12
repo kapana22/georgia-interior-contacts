@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:41:32+00:00",
-  "status": "running",
-  "sites_processed": 13,
+  "status": "completed",
+  "sites_processed": 15,
   "events": [
     {
       "url": "https://dizaini.ge/product/84",
@@ -768,6 +768,51 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -781,7 +826,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 40,
-  "checkpoint_at": "2026-10-12T18:43:36+00:00",
+  "checkpoint_at": "2026-10-12T18:44:02+00:00",
   "records_total": 107,
   "contacts_total": 412,
   "historical_direct_contacts_unique": 13,
@@ -797,5 +842,8 @@
     "unreachable": 4
   },
   "candidates_available": 120,
-  "businesses_deferred_by_page_budget": 105
+  "businesses_deferred_by_page_budget": 105,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T18:44:02+00:00",
+  "http_requests": 74
 }
