@@ -1,38 +1,48 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:05:06+00:00",
-  "status": "completed",
-  "sites_processed": 8,
+  "started_at": "2026-10-12T21:07:37+00:00",
+  "status": "running",
+  "sites_processed": 9,
   "events": [
     {
-      "url": "https://www.homeis.ge/alvaro-siza-portugaliuri-arqiteqturis-mephe/",
+      "url": "https://www.homeis.ge/phrenk-geri-arqiteqturis-stradivariusi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/medusa-interview-medea-mazani/",
+      "url": "https://www.homeis.ge/stipfold/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/saini_asonishnebi/",
+      "url": "https://www.homeis.ge/r312-architects/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/iv-beharis-dizaini/",
+      "url": "https://www.homeis.ge/thewhynotgallery-e-kapanadze-interviu/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 2
+    },
+    {
+      "url": "https://www.homeis.ge/category/adamianebi/page/29/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/bugambilias-house-meksikashi/",
+      "url": "https://www.thewhynotgallery.com/ka",
       "status": "ok",
-      "reason": "directory",
-      "discovered": 0
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.thewhynotgallery.com/ka/aboutus",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -218,32 +228,29 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38308343161",
-  "remaining_directory_pages": 5,
+  "github_run_id": "38308618327",
+  "remaining_directory_pages": 8,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 81,
-  "checkpoint_at": "2026-10-12T21:07:14+00:00",
-  "records_total": 208,
-  "contacts_total": 709,
+  "checkpoint_at": "2026-10-12T21:09:46+00:00",
+  "records_total": 209,
+  "contacts_total": 713,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 508,
+  "direct_contacts_unique": 510,
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
-  "new_records": 0,
+  "new_records": 1,
   "changed_records": 0,
   "merged_records": 0,
   "errors": 1,
   "error_categories": {
     "unreachable": 1
   },
-  "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:07:14+00:00",
-  "http_requests": 64
+  "candidates_available": 10,
+  "businesses_deferred_by_page_budget": 1
 }
