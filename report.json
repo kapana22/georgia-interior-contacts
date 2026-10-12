@@ -1,53 +1,53 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:10:18+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T21:13:09+00:00",
+  "status": "running",
   "sites_processed": 9,
   "events": [
     {
-      "url": "https://www.homeis.ge/davith-giorgadze/",
+      "url": "https://www.homeis.ge/tsumtoris-mistiuri-arqiteqtura/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 3
+    },
+    {
+      "url": "https://www.homeis.ge/butsa-jorbenadze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/adamiani-rogorts-arqiteqturis-tsentri-mua-s-philosophia/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.homeis.ge/ecuador-project/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.homeis.ge/advices-for-interior-design/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/30/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/alvar-aalto-rephormatori/",
+      "url": "https://www.homeis.ge/landscape-architecture-tamar-tavartkiladze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://janninacabal.com/",
+      "url": "https://www.homeis.ge/dziebis-protsesi-sanathebis-dizainshi-interviu-nathia-dalaqishvilthan/",
       "status": "ok",
-      "reason": "business_page"
+      "reason": "directory",
+      "discovered": 0
     },
     {
-      "url": "https://janninacabal.com/contacto/",
-      "status": "ok",
-      "reason": "business_page"
+      "url": "https://www.atlasofplaces.com/architecture/shelter-roman-archaeological-site/",
+      "status": "blocked",
+      "reason": "robots_cross_domain_redirect"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "skipped",
       "reason": "social_profile_not_crawled"
+    },
+    {
+      "url": "https://www.archdaily.com/876990/the-grove-design-hotel-laboratory-of-architecture-number-3",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.eglo.com/us/",
@@ -198,45 +198,20 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38308886820",
-  "remaining_directory_pages": 3,
+  "github_run_id": "38309203517",
+  "remaining_directory_pages": 6,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 81,
-  "checkpoint_at": "2026-10-12T21:12:45+00:00",
+  "unavailable_sources_total": 82,
+  "checkpoint_at": "2026-10-12T21:15:11+00:00",
   "records_total": 210,
   "contacts_total": 716,
   "historical_direct_contacts_unique": 13,
@@ -244,16 +219,14 @@
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
-  "new_records": 1,
+  "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 1,
+  "errors": 2,
   "error_categories": {
+    "blocked": 1,
     "unreachable": 1
   },
-  "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:12:45+00:00",
-  "http_requests": 70
+  "candidates_available": 11,
+  "businesses_deferred_by_page_budget": 1
 }
