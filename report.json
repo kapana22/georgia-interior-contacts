@@ -1,7 +1,7 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T21:07:37+00:00",
-  "status": "running",
+  "status": "completed",
   "sites_processed": 9,
   "events": [
     {
@@ -236,7 +236,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 81,
-  "checkpoint_at": "2026-10-12T21:09:46+00:00",
+  "checkpoint_at": "2026-10-12T21:09:47+00:00",
   "records_total": 209,
   "contacts_total": 713,
   "historical_direct_contacts_unique": 13,
@@ -252,5 +252,8 @@
     "unreachable": 1
   },
   "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1
+  "businesses_deferred_by_page_budget": 1,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T21:09:47+00:00",
+  "http_requests": 67
 }
