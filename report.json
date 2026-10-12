@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:08:47+00:00",
   "status": "running",
-  "sites_processed": 36,
+  "sites_processed": 58,
   "events": [
     {
       "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-1/",
@@ -1074,6 +1074,251 @@
       "url": "https://www.mynewhome.ge/contact",
       "status": "ok",
       "reason": "business_page"
+    },
+    {
+      "url": "https://perla.ge/en",
+      "status": "unreachable",
+      "reason": "network_error"
+    },
+    {
+      "url": "https://roomsstudio.net/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomsstudio.net/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomsstudio.net/studio/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://shanidze.studio/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://shanidze.studio/contact-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://shanidze.studio/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://shanidze.studio/projects/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://shanidze.studio/blog/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.shre.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.shre.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.shre.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.shre.ge/team",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.spott.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.spott.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.spott.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.spott.ge/studio-13",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.spott.ge/small-studio-in-the-center-of-old-t",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://studio9.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://studio9.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://studio9.ge/ka/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://studio9.ge/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://studio9.ge/ka/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://zrobim.ge/eng",
+      "status": "blocked",
+      "reason": "robots_disallowed"
+    },
+    {
+      "url": "https://boadesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://boadesign.ge/momsakhurebebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://boadesign.ge/brifi/?area=80&service=interieris-dizaini",
+      "status": "blocked",
+      "reason": "meta_robots_opt_out"
+    },
+    {
+      "url": "https://www.designcity.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://hdesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/kontaqti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.jokhastudio.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/projects",
+      "status": "unreachable",
+      "reason": "response_too_large"
+    },
+    {
+      "url": "https://www.jokhastudio.com/video-galley",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/blog",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/ru/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://marchidesignstudio.com/",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/kontakti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/servisebi/",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -1081,12 +1326,12 @@
   "batch_limit": 1000,
   "github_run_id": "38288901096",
   "remaining_directory_pages": 237,
-  "remaining_businesses": 201,
+  "remaining_businesses": 184,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 3,
-  "checkpoint_at": "2026-10-12T18:15:00+00:00",
+  "unavailable_sources_total": 6,
+  "checkpoint_at": "2026-10-12T18:17:04+00:00",
   "records_total": 90,
   "contacts_total": 356,
   "historical_direct_contacts_unique": 13,
@@ -1097,11 +1342,11 @@
   "new_records": 4,
   "changed_records": 1,
   "merged_records": 0,
-  "errors": 13,
+  "errors": 19,
   "error_categories": {
-    "unreachable": 10,
-    "javascript_required": 2,
-    "blocked": 1
+    "unreachable": 13,
+    "javascript_required": 3,
+    "blocked": 3
   },
   "candidates_available": 225,
   "businesses_deferred_by_page_budget": 124
