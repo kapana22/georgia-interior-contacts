@@ -1,65 +1,65 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T19:54:16+00:00",
-  "status": "completed",
-  "sites_processed": 11,
+  "started_at": "2026-10-12T19:57:07+00:00",
+  "status": "running",
+  "sites_processed": 9,
   "events": [
     {
-      "url": "https://www.homeis.ge/sandro-thaqhaishvili/",
+      "url": "https://www.homeis.ge/john_pawson/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/archil-da-giorgi-qurdiani/",
       "status": "ok",
       "reason": "directory",
       "discovered": 1
     },
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/16/",
+      "url": "https://www.homeis.ge/thea-thophurias-interviu/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 1
+    },
+    {
+      "url": "https://www.homeis.ge/inigo-jonsi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/thamar-kikaleishvili/",
+      "url": "https://www.homeis.ge/qethi-phkhakadze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/kakhaber-imedashvili/",
+      "url": "https://archiaward.com/en/work/3470",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/jorn-utzon/",
+      "url": "https://archiaward.com/en/work/3506",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3594",
+      "url": "https://archiaward.com/en/work/3555",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3595",
+      "url": "https://archiaward.com/en/work/3426",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3604",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/3625",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/3413",
+      "url": "https://archiaward.com/en/work/3428",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -70,9 +70,19 @@
       "reason": "page_limit"
     },
     {
-      "url": "https://www.dezeen.com/2023/03/15/blueberry-nights-hotel-tbilisi-georgia/?fbclid=IwAR2vLycffwZ2hlqg2sCBGxs9Iu7UgO0QnDXNtxXxLE9XNJdssi4YdqG0_w8",
-      "status": "blocked",
-      "reason": "http_403"
+      "url": "https://www.archilabmilano.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.archilabmilano.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.archilabmilano.com/studio/",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -80,24 +90,14 @@
       "reason": "social_profile_not_crawled"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14746/art-avenue/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14781/archexclusive/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project/",
       "status": "ok",
       "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://www.eglo.com/us/",
@@ -228,83 +228,34 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38300672977",
-  "remaining_directory_pages": 37,
-  "remaining_businesses": 12,
+  "github_run_id": "38300983360",
+  "remaining_directory_pages": 27,
+  "remaining_businesses": 10,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T19:56:41+00:00",
-  "records_total": 201,
-  "contacts_total": 680,
+  "checkpoint_at": "2026-10-12T19:59:23+00:00",
+  "records_total": 202,
+  "contacts_total": 683,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 493,
+  "direct_contacts_unique": 496,
   "relevant_direct_contacts_unique": 140,
   "target_reached": false,
   "contacts_missing_to_target": 860,
-  "new_records": 0,
+  "new_records": 1,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 2,
+  "errors": 1,
   "error_categories": {
-    "blocked": 1,
     "unreachable": 1
   },
-  "candidates_available": 15,
-  "businesses_deferred_by_page_budget": 4,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T19:56:41+00:00",
-  "http_requests": 78
+  "candidates_available": 13,
+  "businesses_deferred_by_page_budget": 2
 }
