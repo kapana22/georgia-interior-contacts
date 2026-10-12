@@ -64,7 +64,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "https://www.evotek.ge/",
+        "checked_at": "2026-10-12T19:40:08+00:00",
+        "outcome": "reachable",
+        "source_url": "https://www.evotek.ge/"
+      }
+    ],
     "email_domain_hints": [
       "evotek.ge"
     ],
@@ -226,6 +233,12 @@
       {
         "url": "https://www.dodge.com/ge",
         "checked_at": "2026-10-12T19:35:49+00:00",
+        "outcome": "blocked",
+        "reason": "robots_unavailable_403"
+      },
+      {
+        "url": "https://www.jeep.com/ge",
+        "checked_at": "2026-10-12T19:40:08+00:00",
         "outcome": "blocked",
         "reason": "robots_unavailable_403"
       }
@@ -1798,6 +1811,12 @@
         "checked_at": "2026-10-12T19:36:39+00:00",
         "outcome": "blocked",
         "reason": "robots_unavailable_403"
+      },
+      {
+        "url": "http://www.mazda-tegeta.ge/",
+        "checked_at": "2026-10-12T19:40:11+00:00",
+        "outcome": "blocked",
+        "reason": "robots_cross_domain_redirect"
       }
     ],
     "email_domain_hints": [
@@ -2098,7 +2117,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "https://www.kiamotors.ge/",
+        "checked_at": "2026-10-12T19:40:17+00:00",
+        "outcome": "blocked",
+        "reason": "robots_cross_domain_redirect"
+      }
+    ],
     "email_domain_hints": [
       "kiamotors.ge"
     ],
@@ -2368,7 +2394,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "http://www.audi.ge/",
+        "checked_at": "2026-10-12T19:40:17+00:00",
+        "outcome": "blocked",
+        "reason": "robots_cross_domain_redirect"
+      }
+    ],
     "email_domain_hints": [
       "audi.ge"
     ],
@@ -2825,7 +2858,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "https://www.ford.com.ge/",
+        "checked_at": "2026-10-12T19:40:23+00:00",
+        "outcome": "reachable",
+        "source_url": "https://www.ford.com.ge/"
+      }
+    ],
     "email_domain_hints": [
       "ford.com.ge"
     ],
@@ -3174,6 +3214,12 @@
         "checked_at": "2026-10-12T19:36:34+00:00",
         "outcome": "reachable",
         "source_url": "https://www.emotors.ge/ka"
+      },
+      {
+        "url": "https://immotors.ge/ka",
+        "checked_at": "2026-10-12T19:40:30+00:00",
+        "outcome": "reachable",
+        "source_url": "https://immotors.ge/ka"
       }
     ],
     "email_domain_hints": [
@@ -3956,7 +4002,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "http://www.natali.ge/",
+        "checked_at": "2026-10-12T19:40:33+00:00",
+        "outcome": "blocked",
+        "reason": "robots_cross_domain_redirect"
+      }
+    ],
     "email_domain_hints": [
       "natali.ge"
     ],
@@ -5212,7 +5265,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "http://www.toyota-tbilisi.com/",
+        "checked_at": "2026-10-12T19:40:11+00:00",
+        "outcome": "reachable",
+        "source_url": "http://www.toyota-tbilisi.com/"
+      }
+    ],
     "email_domain_hints": [
       "toyota-tbilisi.com"
     ],
@@ -5775,7 +5835,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "http://www.skoda.ge/",
+        "checked_at": "2026-10-12T19:40:14+00:00",
+        "outcome": "reachable",
+        "source_url": "http://www.skoda.ge/"
+      }
+    ],
     "email_domain_hints": [
       "skoda.ge"
     ],
@@ -5955,7 +6022,14 @@
         "outcome": "listed"
       }
     ],
-    "website_checks": [],
+    "website_checks": [
+      {
+        "url": "https://www.chevrolet-auto.ge/",
+        "checked_at": "2026-10-12T19:40:26+00:00",
+        "outcome": "reachable",
+        "source_url": "https://www.chevrolet-auto.ge/"
+      }
+    ],
     "email_domain_hints": [
       "chevrolet-auto.ge"
     ],
