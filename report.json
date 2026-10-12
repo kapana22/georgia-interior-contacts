@@ -1,6 +1,6 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:38:03+00:00",
+  "started_at": "2026-10-12T21:40:14+00:00",
   "status": "completed",
   "sites_processed": 8,
   "events": [
@@ -188,7 +188,7 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38311813910",
+  "github_run_id": "38312041166",
   "remaining_directory_pages": 0,
   "remaining_businesses": 9,
   "work_remaining": true,
@@ -196,7 +196,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 89,
-  "checkpoint_at": "2026-10-12T21:39:52+00:00",
+  "checkpoint_at": "2026-10-12T21:42:06+00:00",
   "records_total": 217,
   "contacts_total": 737,
   "historical_direct_contacts_unique": 13,
@@ -213,7 +213,7 @@
   },
   "candidates_available": 9,
   "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 1,
-  "finished_at": "2026-10-12T21:39:52+00:00",
+  "no_progress_batches": 2,
+  "finished_at": "2026-10-12T21:42:06+00:00",
   "http_requests": 58
 }
