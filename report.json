@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T19:37:44+00:00",
-  "status": "running",
-  "sites_processed": 20,
+  "status": "completed",
+  "sites_processed": 27,
   "events": [
     {
       "url": "https://www.homeis.ge/category/adamianebi/page/14/",
@@ -323,6 +323,161 @@
       "url": "https://www.eglo.com/gr/contact_us",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://verona.ge/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://verona.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://verona.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://verona.ge/ru/contact",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://cityproject.ge/ka/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://cityproject.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://cityproject.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://cityproject.ge/ka/about",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://timmarchitecture.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://timmarchitecture.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://timmarchitecture.com/wp-content/uploads/2014/12/contact_sketch_2.jpg",
+      "status": "unreachable",
+      "reason": "not_html"
+    },
+    {
+      "url": "https://timmarchitecture.com/team/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://hdesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/kontaqti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/kontakti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/servisebi/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -336,7 +491,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 67,
-  "checkpoint_at": "2026-10-12T19:39:48+00:00",
+  "checkpoint_at": "2026-10-12T19:41:26+00:00",
   "records_total": 199,
   "contacts_total": 672,
   "historical_direct_contacts_unique": 13,
@@ -347,11 +502,14 @@
   "new_records": 10,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 9,
+  "errors": 10,
   "error_categories": {
-    "unreachable": 8,
+    "unreachable": 9,
     "blocked": 1
   },
   "candidates_available": 43,
-  "businesses_deferred_by_page_budget": 16
+  "businesses_deferred_by_page_budget": 16,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T19:41:26+00:00",
+  "http_requests": 104
 }
