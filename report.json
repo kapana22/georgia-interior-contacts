@@ -1,148 +1,123 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T18:51:38+00:00",
-  "status": "completed",
-  "sites_processed": 14,
+  "started_at": "2026-10-12T18:54:41+00:00",
+  "status": "running",
+  "sites_processed": 13,
   "events": [
     {
-      "url": "https://dizaini.ge/product/28",
+      "url": "https://dizaini.ge/product/257",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/22",
+      "url": "https://dizaini.ge/product/256",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/19",
+      "url": "https://dizaini.ge/product/255",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/260",
+      "url": "https://dizaini.ge/product/254",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/258",
+      "url": "https://dizaini.ge/product/253",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/salome-gulordava/",
+      "url": "https://www.homeis.ge/qetha-donadze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/ginosarfatti/",
+      "url": "https://www.homeis.ge/giorgi-labauri/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/ana-davrishashvili/",
+      "url": "https://www.homeis.ge/jean-marie-massaud/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nathia-iremashvili/",
+      "url": "https://www.homeis.ge/otho-khvedelidze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nini-elisashvili/",
+      "url": "https://www.homeis.ge/praim-studio/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3888",
+      "url": "https://archiaward.com/en/work/3844",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3831",
+      "url": "https://archiaward.com/en/work/3848",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3832",
+      "url": "https://archiaward.com/en/work/3850",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3837",
+      "url": "https://archiaward.com/en/work/3851",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3843",
+      "url": "https://archiaward.com/en/work/3852",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14701/t-d-s/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14716/tds-housing-/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14729/team4/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14757/tree-design/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/16852/ideal-house/",
-      "status": "ok",
-      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/16857/yves-delorme/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/16856/ikea-buscket/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14769/indproject/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14732/inex-design/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14712/i-n-t/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14767/in-style/",
@@ -510,14 +485,9 @@
       "reason": "page_limit"
     },
     {
-      "url": "http://www.essence.ge/",
-      "status": "unreachable",
-      "reason": "http_404"
-    },
-    {
-      "url": "http://www.werstabranding.com/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
+      "url": "http://www.tds.ge/",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14135/dio",
@@ -578,6 +548,16 @@
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "http://www.essence.ge/",
+      "status": "unreachable",
+      "reason": "http_404"
+    },
+    {
+      "url": "http://www.werstabranding.com/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
     },
     {
       "url": "https://verona.ge/ka",
@@ -688,82 +668,34 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38293708715",
-  "remaining_directory_pages": 147,
-  "remaining_businesses": 100,
+  "github_run_id": "38294044979",
+  "remaining_directory_pages": 132,
+  "remaining_businesses": 97,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 43,
-  "checkpoint_at": "2026-10-12T18:54:12+00:00",
-  "records_total": 122,
-  "contacts_total": 465,
+  "checkpoint_at": "2026-10-12T18:56:50+00:00",
+  "records_total": 127,
+  "contacts_total": 477,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 309,
+  "direct_contacts_unique": 320,
   "relevant_direct_contacts_unique": 140,
   "target_reached": false,
   "contacts_missing_to_target": 860,
-  "new_records": 3,
+  "new_records": 5,
   "changed_records": 1,
   "merged_records": 0,
   "errors": 3,
   "error_categories": {
     "unreachable": 3
   },
-  "candidates_available": 104,
-  "businesses_deferred_by_page_budget": 90,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T18:54:12+00:00",
-  "http_requests": 76
+  "candidates_available": 100,
+  "businesses_deferred_by_page_budget": 85
 }
