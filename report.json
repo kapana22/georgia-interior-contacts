@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:08:47+00:00",
   "status": "running",
-  "sites_processed": 72,
+  "sites_processed": 94,
   "events": [
     {
       "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-1/",
@@ -1539,6 +1539,236 @@
       "url": "https://spectrum.ge/en/contact",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "http://www.stipfold.ge/",
+      "status": "blocked",
+      "reason": "robots_unavailable_403"
+    },
+    {
+      "url": "https://www.treedesign.ge//",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ttg.ge/",
+      "status": "blocked",
+      "reason": "robots_cross_domain_redirect"
+    },
+    {
+      "url": "https://dizainer.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.door032.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://artlinegroup.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://artlinegroup.ge/about/17-.html",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://artlinegroup.ge/services/29-interior-design.html",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://artlinegroup.ge/index.php?do=feedback",
+      "status": "blocked",
+      "reason": "robots_disallowed"
+    },
+    {
+      "url": "https://www.designbatumi.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/studio/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.ei.ge/",
+      "status": "blocked",
+      "reason": "robots_unavailable_200"
+    },
+    {
+      "url": "https://filletstudio.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/komerciuli-interieris-dizaini/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.dio.ge/general.php",
+      "status": "unreachable",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.architeria.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://archpoint.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.belvedere.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.belvedere.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.belvedere.ge/about-us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.ararchitecture.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://core.org.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://core.org.ge/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://core.org.ge/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://core.org.ge/kontaqti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.isync.ge/",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
+    },
+    {
+      "url": "http://www.areali.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://nwds.world/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nwds.world/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://romedesignawards.com/winner-info.php?id=977",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://romedesignawards.com/contact.php",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://romedesignawards.com/design-awards.php",
+      "status": "blocked",
+      "reason": "challenge"
+    },
+    {
+      "url": "https://ubani.center/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ubani.center/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ubani.center/publishing/guide-to-tbilisi-districts-kala/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ubani.center/research/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ubani.center/publishing/",
+      "status": "ok",
+      "reason": "business_page"
     }
   ],
   "continuous": true,
@@ -1546,27 +1776,27 @@
   "batch_limit": 1000,
   "github_run_id": "38288901096",
   "remaining_directory_pages": 237,
-  "remaining_businesses": 174,
+  "remaining_businesses": 156,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 8,
-  "checkpoint_at": "2026-10-12T18:19:11+00:00",
+  "unavailable_sources_total": 14,
+  "checkpoint_at": "2026-10-12T18:21:17+00:00",
   "records_total": 90,
-  "contacts_total": 356,
+  "contacts_total": 358,
   "historical_direct_contacts_unique": 13,
   "direct_contacts_unique": 220,
   "relevant_direct_contacts_unique": 146,
   "target_reached": false,
   "contacts_missing_to_target": 854,
   "new_records": 4,
-  "changed_records": 3,
+  "changed_records": 4,
   "merged_records": 0,
-  "errors": 23,
+  "errors": 33,
   "error_categories": {
-    "unreachable": 15,
-    "javascript_required": 3,
-    "blocked": 5
+    "unreachable": 19,
+    "javascript_required": 4,
+    "blocked": 10
   },
   "candidates_available": 225,
   "businesses_deferred_by_page_budget": 124
