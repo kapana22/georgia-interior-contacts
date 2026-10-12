@@ -1,38 +1,43 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:15:50+00:00",
-  "status": "completed",
-  "sites_processed": 12,
+  "started_at": "2026-10-12T21:18:54+00:00",
+  "status": "running",
+  "sites_processed": 9,
   "events": [
     {
-      "url": "https://www.homeis.ge/laboratory-of-architecture-interview/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 6
-    },
-    {
-      "url": "https://www.homeis.ge/ana-machaidze-khalichebi/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/31/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/lominashvilis-skamebi/",
+      "url": "https://www.homeis.ge/qarthuli-thikha-ceramic-rooms/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/timm-architecture/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 6
-    },
-    {
-      "url": "https://www.homeis.ge/6835-2/",
+      "url": "https://www.homeis.ge/ras-guliskhmobs-loft-stili-interieris-dizainshi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/zaha-hadidi-msophlio-arqiteqturis-diva/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/rikardo-bophilis-surealisturi-arqiteqtura/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.facebook.com/Dio.Ltd/timeline",
+      "status": "skipped",
+      "reason": "social_profile_not_crawled"
     },
     {
       "url": "https://www.bernardkhoury.com/",
@@ -45,57 +50,22 @@
       "reason": "http_409"
     },
     {
-      "url": "https://www.herzogdemeuron.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.herzogdemeuron.com/practice/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.herzogdemeuron.com/news/new-ceo-at-hdm/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.herzogdemeuron.com/practice/people/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://olgiati.net/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://studiomk27.com.br/",
-      "status": "blocked",
-      "reason": "cross_domain_redirect_requires_review"
-    },
-    {
-      "url": "https://www.facebook.com/Dio.Ltd/timeline",
-      "status": "skipped",
-      "reason": "social_profile_not_crawled"
-    },
-    {
-      "url": "https://www.eglo.com/us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.eglo.com/us/contact_us",
+      "url": "https://www.eglo.com/uk/",
       "status": "ok",
       "reason": "business_page"
     },
     {
       "url": "https://www.eglo.com/uk/contact_us",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.eglo.com/gr/contact_us",
       "status": "skipped",
       "reason": "page_limit"
     },
     {
-      "url": "https://www.eglo.com/gr/contact_us",
+      "url": "https://www.eglo.com/us/contact_us",
       "status": "skipped",
       "reason": "page_limit"
     },
@@ -258,7 +228,7 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38309482437",
+  "github_run_id": "38309800897",
   "remaining_directory_pages": 1,
   "remaining_businesses": 10,
   "work_remaining": true,
@@ -266,7 +236,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 83,
-  "checkpoint_at": "2026-10-12T21:18:25+00:00",
+  "checkpoint_at": "2026-10-12T21:21:02+00:00",
   "records_total": 213,
   "contacts_total": 727,
   "historical_direct_contacts_unique": 13,
@@ -274,17 +244,13 @@
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
-  "new_records": 3,
+  "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 3,
+  "errors": 2,
   "error_categories": {
-    "unreachable": 2,
-    "blocked": 1
+    "unreachable": 2
   },
-  "candidates_available": 13,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:18:25+00:00",
-  "http_requests": 83
+  "candidates_available": 10,
+  "businesses_deferred_by_page_budget": 1
 }
