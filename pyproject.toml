@@ -16,9 +16,10 @@ test = ["pytest==9.1.1"]
 
 [project.scripts]
 georgia-contacts = "georgia_contacts.cli:main"
+georgia-leads = "georgia_leads.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["georgia_contacts*"]
+include = ["georgia_contacts*", "georgia_leads*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

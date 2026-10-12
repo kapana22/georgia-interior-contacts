@@ -1,0 +1,28 @@
+name: Continue unfinished website prospects
+on:
+  # Watchdog: recovery if a completion event or dispatch is delayed/lost.
+  schedule:
+    - cron: '19,49 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: b2b-leads-continuation-controller
+  cancel-in-progress: false
+jobs:
+  continue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Resume only when work remains
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/continue_leads.py

@@ -1,0 +1,32 @@
+{
+  "pipeline": "b2b-leads",
+  "categories": [
+    {
+      "id": "beauty",
+      "name": "სილამაზის სალონები",
+      "url": "https://www.yell.ge/companies.php?rub=398&lan=eng",
+      "max_pages": 30,
+      "enabled": true
+    },
+    {
+      "id": "auto",
+      "name": "ავტოსერვისები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3487",
+      "max_pages": 50,
+      "enabled": true
+    },
+    {
+      "id": "food",
+      "name": "კვების ობიექტები",
+      "url": "https://www.yell.ge/restaurants.php?lan=eng",
+      "max_pages": 50,
+      "enabled": true
+    }
+  ],
+  "reviewed_at": "2026-10-12",
+  "access_review": {
+    "robots": "https://www.yell.ge/robots.txt",
+    "policy": "https://www.yell.ge/privacy_policy.php?lan=eng",
+    "about": "https://www.yell.ge/about_us.php?lan=eng"
+  }
+}

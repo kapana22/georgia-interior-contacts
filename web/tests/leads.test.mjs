@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {filterRecords,opportunity,csv,normalizeSnapshot,SNAPSHOT_URL} from '../leads/core.js';
+const record={id:'one',name:'სალონი მზია',categories:['beauty'],facts:[{kind:'phone',value:'+995599123456',source_url:'https://example.ge'},{kind:'city',value:'თბილისი',source_url:'https://example.ge'}],checks:[{outcome:'not_listed'}],website_checks:[]};
+test('independent snapshot branch and pipeline',()=>{assert.match(SNAPSHOT_URL,/leads-data/);assert.throws(()=>normalizeSnapshot({version:1,records:[],categories:[]}));});
+test('category, city, phone search and potential filters',()=>{assert.equal(filterRecords([record],{category:'beauty',query:'599123456'}).length,1);assert.equal(filterRecords([record],{category:'auto'}).length,0);assert.equal(filterRecords([record],{city:'ბათუმი'}).length,0);assert.equal(filterRecords([{...record,facts:[]}]).length,0);});
+test('uncertain reference does not become missing website',()=>{assert.equal(opportunity({...record,checks:[{outcome:'reference_unresolved'}]}),'uncertain');assert.equal(filterRecords([{...record,checks:[{outcome:'reference_unresolved'}]}]).length,0);});
+test('CSV preserves evidence, Unicode, BOM and formula protection',()=>{const text=csv([{...record,name:'=HYPERLINK("bad")'}]);assert.ok(text.startsWith('\uFEFF'));assert.ok(text.includes("'=HYPERLINK"));assert.ok(text.includes("'+995599123456"));assert.ok(text.includes('https://example.ge'));});

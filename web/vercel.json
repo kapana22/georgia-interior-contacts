@@ -42,7 +42,8 @@
   "installCommand": "",
   "git": {
     "deploymentEnabled": {
-      "data": false
+      "data": false,
+      "leads-data": false
     }
   }
 }

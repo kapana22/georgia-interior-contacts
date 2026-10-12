@@ -1,0 +1,93 @@
+name: Collect website prospects
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum businesses (1-1000; default 50)
+        type: number
+        default: 50
+        required: true
+      sources:
+        description: Sources JSON path (Independent B2B sources JSON)
+        type: string
+        default: config/leads-sources.json
+        required: true
+      continuous:
+        description: Automatically continue until configured sources are exhausted
+        type: boolean
+        default: true
+        required: true
+      restart:
+        description: Restart exhausted campaign without deleting contacts
+        type: boolean
+        default: false
+        required: true
+  # Weekly schedule is OFF initially. Uncomment both lines to enable Monday 06:17 UTC.
+  # schedule:
+  #   - cron: '17 6 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: b2b-leads-data-branch
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    # Only trusted default-branch code may write the leads-data branch.
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      actions: write # Explicit, bounded workflow_dispatch of the next batch.
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install and test
+        run: |
+          python -m pip install -e '.[test]'
+          python -m pytest -q
+      - name: Restore leads-data branch
+        id: restore
+        run: python scripts/leads_data_branch.py restore
+      - name: Collect with incremental checkpoints
+        id: scrape
+        env:
+          BUSINESS_LIMIT: ${{ inputs.limit || '50' }}
+          SOURCES_FILE: ${{ inputs.sources || 'config/leads-sources.json' }}
+          CONTINUOUS: ${{ (github.event_name == 'schedule' || inputs.continuous) && 'true' || 'false' }}
+          RESTART: ${{ (github.event_name == 'schedule' || inputs.restart) && 'true' || 'false' }}
+        run: |
+          args=()
+          if [ "$CONTINUOUS" = "true" ]; then args+=(--continuous --publish-interval 120); fi
+          if [ "$RESTART" = "true" ]; then args+=(--restart); fi
+          python -m georgia_leads.cli --limit "$BUSINESS_LIMIT" --sources "$SOURCES_FILE" --max-minutes 24 "${args[@]}"
+      - name: Save checkpoint to leads-data branch
+        id: save
+        if: always() && steps.restore.outcome == 'success' && steps.scrape.outcome != 'skipped'
+        run: python scripts/leads_data_branch.py save
+      - name: Upload results (including partial checkpoints)
+        if: always() && steps.scrape.outcome != 'skipped'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: website-prospects-${{ github.run_id }}-${{ github.run_attempt }}
+          path: output/leads/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Run summary
+        if: always()
+        run: |
+          if [ -f output/leads/report.txt ]; then
+            cat output/leads/report.txt >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Continue remaining campaign
+        if: always() && !cancelled() && steps.save.outcome == 'success' && (github.event_name == 'schedule' || inputs.continuous)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRIGGERING_RUN_ID: ${{ github.run_id }}
+          CURRENT_RUN_ID: ${{ github.run_id }}
+        run: python scripts/continue_leads.py

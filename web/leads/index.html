@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ka">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ვებსაიტის კლიენტები</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/leads/styles.css"><script type="module" src="/leads/app.js"></script></head>
+<body>
+<header><strong>ვებსაიტის კლიენტები</strong><nav><a href="/">ინტერიერის კონტაქტები</a><a href="https://github.com/kapana22/georgia-interior-contacts/actions/workflows/leads.yml" target="_blank" rel="noopener noreferrer">შეგროვება ↗</a></nav></header>
+<main>
+<form id="filters"><label>კატეგორია<select id="category"><option value="">ყველა კატეგორია</option><option value="beauty">სილამაზის სალონები</option><option value="auto">ავტოსერვისები</option><option value="food">კვების ობიექტები</option></select></label><label>რა გვჭირდება<select id="goal"><option value="potential">პოტენციური კლიენტები</option><option value="not_listed">საიტი წყაროში არ ჩანს</option><option value="social_only">სოციალური ბმული აქვს, საიტი არ ჩანს</option><option value="website_unreachable">მითითებული საიტი ვერ გაიხსნა</option><option value="all">ყველა ბიზნესი</option></select></label><label>ქალაქი<select id="city"><option value="">ყველა ქალაქი</option></select></label><label class="query">ძიება<input id="query" type="search" placeholder="სახელი, ტელეფონი ან ელფოსტა…"></label><button class="primary" type="submit">მოძებნა</button></form>
+<div class="toolbar"><span id="count" role="status">იტვირთება…</span><div><button id="refresh" type="button">↻ განახლება</button><button id="csv" type="button" disabled>↓ CSV</button><button id="json" type="button" disabled>↓ JSON</button></div></div>
+<p id="status" role="status" class="muted"></p><p id="error" role="alert" hidden></p>
+<div id="results" aria-live="polite" aria-busy="true"></div><div id="paging"><button id="previous">← წინა</button><span id="page-label"></span><button id="next">შემდეგი →</button></div>
+<details class="sources"><summary>წყაროები და შემოწმება</summary><div id="source-list"></div><p>სია ავტომატურად გროვდება ცალკე პროცესით. „მოძებნა“ შენახულ შედეგებს ფილტრავს. წყაროში საიტის არყოფნა არ ადასტურებს, რომ ბიზნესს ვებსაიტი საერთოდ არ აქვს. ყველა კანდიდატი გადასამოწმებელია; პირადი პროფილები და კომენტარები არ გროვდება.</p><a href="https://github.com/kapana22/georgia-interior-contacts/tree/leads-data" target="_blank" rel="noopener noreferrer">მონაცემების ისტორია ↗</a></details>
+</main></body></html>
