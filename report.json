@@ -1,91 +1,13 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:32:11+00:00",
-  "status": "completed",
-  "sites_processed": 14,
+  "started_at": "2026-10-12T21:35:14+00:00",
+  "status": "running",
+  "sites_processed": 6,
   "events": [
-    {
-      "url": "https://www.homeis.ge/me-20-saukunis-10-ukvdavi-inte/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.homeis.ge/sadzineblis-dizainis-tend/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 5
-    },
-    {
-      "url": "https://www.homeis.ge/dizainerebis-rchevebi-int/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.houseofbohn.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.houseofbohn.com/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.houseofbohn.com/studio/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jdpinteriors.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jdpinteriors.com/about-joyce",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jdpinteriors.com/new-design-inquiries",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.melbeaninteriors.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.melbeaninteriors.com/about",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.melbeaninteriors.com/full-service",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.theinside.com/",
-      "status": "javascript_required",
-      "reason": "no_readable_content"
-    },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "skipped",
       "reason": "social_profile_not_crawled"
-    },
-    {
-      "url": "http://www.aaschool.ac.uk/",
-      "status": "blocked",
-      "reason": "rate_limited"
-    },
-    {
-      "url": "https://www.studioplusminus.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
     },
     {
       "url": "https://www.eglo.com/us/",
@@ -169,28 +91,8 @@
     },
     {
       "url": "https://hdesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/kontaqti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "unreachable",
+      "reason": "network_error"
     },
     {
       "url": "https://roomdesignstudio.ge/",
@@ -216,57 +118,12 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38311197133",
+  "github_run_id": "38311516912",
   "remaining_directory_pages": 0,
   "remaining_businesses": 9,
   "work_remaining": true,
@@ -274,7 +131,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 89,
-  "checkpoint_at": "2026-10-12T21:34:49+00:00",
+  "checkpoint_at": "2026-10-12T21:37:15+00:00",
   "records_total": 217,
   "contacts_total": 737,
   "historical_direct_contacts_unique": 13,
@@ -282,18 +139,13 @@
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
-  "new_records": 3,
+  "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 4,
+  "errors": 2,
   "error_categories": {
-    "javascript_required": 1,
-    "blocked": 1,
     "unreachable": 2
   },
-  "candidates_available": 15,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:34:49+00:00",
-  "http_requests": 85
+  "candidates_available": 9,
+  "businesses_deferred_by_page_budget": 1
 }
