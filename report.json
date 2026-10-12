@@ -1,38 +1,58 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:24:06+00:00",
-  "status": "completed",
-  "sites_processed": 8,
+  "started_at": "2026-10-12T21:26:35+00:00",
+  "status": "running",
+  "sites_processed": 11,
   "events": [
     {
-      "url": "https://www.homeis.ge/qhvela-proeqtze-gansakuth/",
+      "url": "https://www.homeis.ge/dimitri-tchaava-foster-partner-is-ertha/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 3
+    },
+    {
+      "url": "https://www.homeis.ge/6-dzirithadi-mimarthuleba-sa/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/enzo-maris-dizainis-philo/",
+      "url": "https://www.homeis.ge/interviu-nato-bagrationth/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 1
+    },
+    {
+      "url": "https://www.homeis.ge/rogorts-shevarchioth-khalicha/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/rusa_tumanishvili/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 2
-    },
-    {
-      "url": "https://www.homeis.ge/anuka-thavarthqiladze-interviu/",
+      "url": "https://www.homeis.ge/interviu-maka-thatheshviltha/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/33/",
+      "url": "http://www.aaschool.ac.uk/",
+      "status": "blocked",
+      "reason": "rate_limited"
+    },
+    {
+      "url": "https://www.fosterandpartners.com/",
+      "status": "blocked",
+      "reason": "robots_unavailable_403"
+    },
+    {
+      "url": "http://www.marketer.ge/",
       "status": "ok",
-      "reason": "directory",
-      "discovered": 0
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.studioplusminus.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -188,62 +208,35 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38310360656",
-  "remaining_directory_pages": 8,
-  "remaining_businesses": 9,
+  "github_run_id": "38310617216",
+  "remaining_directory_pages": 3,
+  "remaining_businesses": 11,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 85,
-  "checkpoint_at": "2026-10-12T21:26:08+00:00",
-  "records_total": 213,
-  "contacts_total": 727,
+  "unavailable_sources_total": 86,
+  "checkpoint_at": "2026-10-12T21:28:42+00:00",
+  "records_total": 214,
+  "contacts_total": 729,
   "historical_direct_contacts_unique": 13,
   "direct_contacts_unique": 518,
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
-  "new_records": 0,
+  "new_records": 1,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 1,
+  "errors": 4,
   "error_categories": {
-    "unreachable": 1
+    "blocked": 2,
+    "unreachable": 2
   },
-  "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:26:08+00:00",
-  "http_requests": 64
+  "candidates_available": 13,
+  "businesses_deferred_by_page_budget": 1
 }
