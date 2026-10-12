@@ -12,6 +12,16 @@ on:
         type: string
         default: config/sources.json
         required: true
+      continuous:
+        description: Automatically continue until configured sources are exhausted
+        type: boolean
+        default: true
+        required: true
+      restart:
+        description: Restart exhausted campaign without deleting contacts
+        type: boolean
+        default: false
+        required: true
   # Weekly schedule is OFF initially. Uncomment both lines to enable Monday 06:17 UTC.
   # schedule:
   #   - cron: '17 6 * * 1'
@@ -48,8 +58,13 @@ jobs:
         env:
           BUSINESS_LIMIT: ${{ inputs.limit || '50' }}
           SOURCES_FILE: ${{ inputs.sources || 'config/sources.json' }}
+          CONTINUOUS: ${{ inputs.continuous && 'true' || 'false' }}
+          RESTART: ${{ inputs.restart && 'true' || 'false' }}
         run: |
-          python -m georgia_contacts.cli --limit "$BUSINESS_LIMIT" --sources "$SOURCES_FILE" --max-minutes 24
+          args=()
+          if [ "$CONTINUOUS" = "true" ]; then args+=(--continuous --publish-interval 120); fi
+          if [ "$RESTART" = "true" ]; then args+=(--restart-campaign); fi
+          python -m georgia_contacts.cli --limit "$BUSINESS_LIMIT" --sources "$SOURCES_FILE" --max-minutes 24 "${args[@]}"
       - name: Save checkpoint to data branch
         if: always() && steps.restore.outcome == 'success' && steps.scrape.outcome != 'skipped'
         run: python scripts/data_branch.py save

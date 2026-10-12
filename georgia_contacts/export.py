@@ -58,7 +58,7 @@ def export_all(output, state, before, report):
     report["errors"] = len(errors)
     report["error_categories"] = dict(Counter(e["status"] for e in errors))
     atomic_text(output / "report.json", json.dumps(report, ensure_ascii=False, indent=2) + "\n")
-    atomic_text(output / "snapshot.json", json.dumps({"version": 1, "records": records, "report": report}, ensure_ascii=False) + "\n")
+    atomic_text(output / "snapshot.json", json.dumps({"version": 1, "records": records, "report": report, "runs": state.get("run_history", [])}, ensure_ascii=False) + "\n")
     text = (f"გაშვების დასაწყისი: {report['started_at']}\n"
             f"მდგომარეობა: {report['status']}\n"
             f"დამუშავებული ბიზნესის საიტები: {report['sites_processed']}\n"
@@ -69,4 +69,8 @@ def export_all(output, state, before, report):
             f"შეცდომები/ბლოკირება/JS: {len(errors)}\n"
             f"კატეგორიები: {json.dumps(report['error_categories'], ensure_ascii=False)}\n"
             "დეტალური მიზეზები: report.json → events. ძველი კონტაქტები ავტომატურად არ იშლება.\n")
+    if report.get('continuous'):
+        text += (f"ავტომატური შეგროვება: {report.get('collection_status', 'active')}\n"
+                 f"დარჩენილი ბიზნესები: {report.get('remaining_businesses', 0)}; კატალოგის გვერდები: {report.get('remaining_directory_pages', 0)}\n"
+                 f"ამ კამპანიაში მიუწვდომელი წყაროები: {report.get('unavailable_sources_total', 0)}\n")
     atomic_text(output / "report.txt", text)

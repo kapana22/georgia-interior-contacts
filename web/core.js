@@ -29,13 +29,20 @@ export function values(record, kind) {
   return [...new Set((record.facts || []).filter(f => f.kind === kind && typeof f.value === 'string').map(f => f.value))];
 }
 
-export function filterRecords(records, { query = '', city = '', status = '' } = {}) {
+export function filterRecords(records, { query = '', city = '', status = '', channel = '' } = {}) {
   const needle = query.trim().toLocaleLowerCase('ka-GE');
   return records.filter(record => {
     if (city && !values(record, 'city').includes(city)) return false;
     if (status && record.status !== status) return false;
+    const phone = values(record, 'phone').length > 0, email = values(record, 'email').length > 0;
+    if ((channel === 'phone' && !phone) || (channel === 'email' && !email) || (channel === 'both' && !(phone && email))) return false;
     const text = [record.name, ...(record.domains || []), ...(record.facts || []).map(f => f.value)].join(' ').toLocaleLowerCase('ka-GE');
-    return !needle || text.includes(needle);
+    if (!needle) return true;
+    if (/^[+\d\s().-]+$/.test(needle) && needle.replace(/\D/g, '').length >= 3) {
+      const digits = needle.replace(/\D/g, '');
+      return (record.facts || []).some(f => ['phone', 'phone_unverified'].includes(f.kind) && f.value.replace(/\D/g, '').includes(digits));
+    }
+    return needle.split(/\s+/).every(word => text.includes(word));
   });
 }
 

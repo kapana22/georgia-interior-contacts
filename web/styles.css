@@ -2,3 +2,15 @@
 @media(max-width:760px){.topbar,.page{padding-left:15px;padding-right:15px}.topnav{gap:12px}.topnav>a:first-child,.repo-link{display:none}.workspace{grid-template-columns:1fr}.compact-stats>span{width:100%;margin:0}.filters{grid-template-columns:1fr 1fr}.search-input{grid-column:1/-1}.filters select{font-size:10px}.contact-grid{grid-template-columns:1fr}.section-heading{align-items:flex-start;flex-wrap:wrap}.downloads{flex-wrap:wrap}.downloads .button{font-size:11px;padding:7px 9px}.data-caption a{margin:0}.contact-card{padding:14px}}
 
 #remember-auth{width:auto;min-height:0;margin:12px 6px 0 0;padding:0}
+
+/* Search stays close to the contacts; collection controls are secondary. */
+.topbar{padding-top:14px;padding-bottom:14px}.contacts-section{margin-top:6px}
+.filters{position:sticky;top:0;z-index:5;background:#fafafa;padding:12px 0;grid-template-columns:minmax(260px,1fr) 140px 180px 175px;align-items:center}
+.filters input,.filters select{min-height:44px;font-size:13px}.search-input input{padding-left:14px;border-color:#a7b7cb}
+.filters #clear-filters{grid-column:1/-1;justify-self:start;margin-top:-4px}
+.contact-card{padding:18px}.contact-title h3{font-size:15px}.contact-line{font-size:13px;line-height:1.6}.line-values{align-items:center;gap:3px 7px}
+.copy-contact{border:0;background:transparent;color:#64748b;padding:2px 5px;min-height:28px;font-size:16px;border-radius:4px}.copy-contact:hover{background:#edf2f7;color:#245ab5}
+.collection-controls{margin-top:24px;border-top:1px solid #ddd;padding-top:14px}.collection-controls>summary{cursor:pointer;font-size:13px;margin-bottom:14px}.collection-controls>summary span{color:#64748b;font-size:11px;margin-left:12px}
+#collection-state{color:#35754a;font-size:11px}#page-size{width:auto;min-height:34px;padding:6px;font-size:11px}
+@media(max-width:1000px){.filters{grid-template-columns:1fr 1fr 1fr}.search-input{grid-column:1/-1}}
+@media(max-width:640px){.page{padding:0 14px 24px}.topbar{padding:12px 14px}.filters{grid-template-columns:1fr 1fr;gap:8px}.filters #contact-filter{grid-column:1/-1}.topnav{gap:10px}.compact-stats{font-size:11px}.compact-stats>span{margin-left:0}.pagination{gap:8px;flex-wrap:wrap}.section-heading{flex-wrap:wrap;gap:10px}.downloads{flex-wrap:wrap}}

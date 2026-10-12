@@ -123,3 +123,14 @@ test('historical PDF contact remains visible but only independent current eviden
   records[0].facts.push({kind: 'email', value: 'work@studio.test'});
   assert.deepEqual(directContactCounts(records), {total: 1, relevant: 1});
 });
+
+test('search accepts formatted phone numbers, multiple words and contact-type filters',()=>{
+  const a = record('ქართული სტუდია');
+  a.facts.push({kind:'phone',value:'+995599123456',source_url:'https://studio.test/'});
+  const b = record('Other');
+  assert.equal(filterRecords([a,b],{query:'+995 (599) 123-456'})[0].id,a.id);
+  assert.equal(filterRecords([a,b],{query:'სტუდია ქართული თბილისი'}).length,1);
+  assert.equal(filterRecords([a,b],{channel:'both'}).length,1);
+  assert.equal(filterRecords([a,b],{channel:'phone'}).length,1);
+  assert.equal(filterRecords([a,b],{channel:'email'}).length,2);
+});

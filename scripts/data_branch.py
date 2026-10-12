@@ -50,11 +50,10 @@ def save(root):
         if not source.is_file():
             raise RuntimeError('Missing result: ' + name)
         shutil.copyfile(source, dest / name)
-    git('config', 'user.name', 'github-actions[bot]', cwd=dest)
-    git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com', cwd=dest)
-    git('add', '--', 'state.json', *FILES, cwd=dest)
+    (dest / 'vercel.json').write_text('{"git":{"deploymentEnabled":{"data":false}}}\n', encoding='utf-8')
+    git('add', '--', 'state.json', 'vercel.json', *FILES, cwd=dest)
     if git('status', '--porcelain', cwd=dest, capture=True).strip():
-        git('commit', '-m', 'Update public contact snapshots [skip ci]', cwd=dest)
+        git('-c', 'user.name=github-actions[bot]', '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com', 'commit', '-m', 'Update public contact snapshots [skip ci]', cwd=dest)
         # A concurrent/manual update causes a safe failure, never silent data loss.
         git('push', 'origin', 'HEAD:refs/heads/data', cwd=dest)
 

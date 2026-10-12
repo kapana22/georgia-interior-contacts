@@ -2,6 +2,9 @@ import argparse
 import copy
 import fcntl
 import json
+import os
+import subprocess
+import sys
 import signal
 import time
 from datetime import datetime, timezone
@@ -15,6 +18,7 @@ from .state import load_state, merge_record, save_state, union_facts
 from .urls import canonical_url, domain, SOCIAL_HOSTS
 from .directories import source_key, city24_profile
 from .extract import RELEVANT
+from .campaign import prepare, pending_businesses, finish_attempt, update_report, progress_signature
 
 
 def now():
@@ -112,17 +116,51 @@ def run(args, client=None):
     config = load_sources(args.sources)
     before = copy.deepcopy(state["records"])
     report = {"target_contacts": int(config.get("target_contacts", 1000)), "started_at": now(), "status": "running", "sites_processed": 0, "events": []}
+    continuous = getattr(args, 'continuous', False)
+    report['continuous'] = continuous
+    report['sources_file'] = str(args.sources)
+    report['batch_limit'] = args.limit
+    report['github_run_id'] = os.environ.get('GITHUB_RUN_ID', '')
+    if continuous:
+        if getattr(args, 'restart_campaign', False):
+            state.pop('campaign', None)
+            state.pop('discovery_queue', None)
+        prepare(state, config, args.sources, report['started_at'])
+        initial_progress = progress_signature(state)
     client = client or Client(time.monotonic() + args.max_minutes * 60)
 
+    publish_interval = getattr(args, 'publish_interval', 0)
+    last_publish = time.monotonic()
+
     def checkpoint():
+        nonlocal last_publish, publish_interval
+        if continuous:
+            update_report(state, config, report, no_discovery=args.no_discovery)
+        report['checkpoint_at'] = now()
+        run_id = report.get('github_run_id')
+        if run_id:
+            history = state.setdefault('run_history', [])
+            history[:] = [r for r in history if r['id'] != run_id]
+            history.insert(0, {'id': run_id, 'created_at': report['started_at'],
+                              'status': 'in_progress' if report['status'] == 'running' else 'completed',
+                              'conclusion': 'success' if report['status'] == 'completed' else 'neutral',
+                              'html_url': 'https://github.com/kapana22/georgia-interior-contacts/actions/runs/' + run_id})
+            del history[5:]
         state["last_run"] = report["started_at"]
         save_state(args.state, state)
         export_all(args.output, state, before, report)
+        if publish_interval and os.environ.get('GITHUB_ACTIONS') == 'true' and time.monotonic() - last_publish >= publish_interval:
+            try:
+                subprocess.run([sys.executable, 'scripts/data_branch.py', 'save'], check=True, timeout=45)
+                last_publish = time.monotonic()
+            except (subprocess.SubprocessError, OSError):
+                publish_interval = 0  # Stop repeated publishing failures; final workflow save remains.
+                report['events'].append({'url': 'https://github.com/kapana22/georgia-interior-contacts',
+                                         'status': 'error', 'reason': 'incremental_publish_failed'})
 
     checkpoint()
     try:
-        if not args.no_discovery:
-            discovered = discover(client, config, report["events"], state.setdefault("discovery_queue", {}))
+        def add_discovered(discovered):
             known = {source_key(c): c for c in state["candidates"]}
             for item in discovered:
                 key = source_key(item)
@@ -136,6 +174,10 @@ def run(args, client=None):
                     for field in ('name', 'kind', 'business_key', 'directory_service_claim', 'directory_profile'):
                         if item.get(field):
                             old[field] = item[field]
+            checkpoint()
+        if not args.no_discovery:
+            discover(client, config, report['events'], state.setdefault('discovery_queue', {}),
+                     one_pass=continuous, on_candidates=add_discovered)
         sources = {}
         for source in state["candidates"] + config["businesses"]:
             key = source_key(source)
@@ -143,6 +185,8 @@ def run(args, client=None):
         # An explicit disabled entry also excludes previously discovered candidates.
         excluded_domains = set(config.get("excluded_business_domains", []))
         candidates = [s for s in sources.values() if s.get("enabled", True) and domain(s["url"]) not in excluded_domains]
+        if continuous:
+            candidates = pending_businesses(state, config)
         candidates.sort(key=lambda s: (state["attempts"].get(source_key(s), ""), 0 if s.get("verified_at") else 1, domain(s["url"])))
         report["candidates_available"] = len(candidates)
         checkpoint()
@@ -171,6 +215,8 @@ def run(args, client=None):
             if only_budget_skip:
                 report["businesses_deferred_by_page_budget"] = report.get("businesses_deferred_by_page_budget", 0) + 1
                 continue
+            if continuous:
+                finish_attempt(state['campaign'], source, recent)
             state['attempts'][source_key(source)] = now()
             report["sites_processed"] += 1
             checkpoint()
@@ -181,6 +227,13 @@ def run(args, client=None):
     except KeyboardInterrupt:
         report["status"] = "interrupted_partial"
     finally:
+        if continuous:
+            update_report(state, config, report, no_discovery=args.no_discovery)
+            campaign = state['campaign']
+            campaign['no_progress_batches'] = campaign.get('no_progress_batches', 0) + 1 if progress_signature(state) == initial_progress else 0
+            report['no_progress_batches'] = campaign['no_progress_batches']
+            if report['work_remaining'] and campaign['no_progress_batches'] >= 3:
+                report['collection_stop_reason'] = 'no_progress_requires_review'
         report["finished_at"] = now()
         report["http_requests"] = client.requests
         checkpoint()
@@ -209,7 +262,12 @@ def main():
     parser.add_argument("--output", type=Path, default=Path("output"))
     parser.add_argument("--max-minutes", type=minutes, default=24)
     parser.add_argument("--no-discovery", action="store_true")
+    parser.add_argument("--restart-campaign", action="store_true", help="Start a fresh pass without deleting old contacts")
+    parser.add_argument("--publish-interval", type=int, default=0, help="Actions-only data-branch checkpoint interval in seconds (0=disabled)")
+    parser.add_argument("--continuous", action="store_true", help="Resume finite campaign; stop when configured sources are exhausted")
     args = parser.parse_args()
+    if args.publish_interval and args.publish_interval < 60:
+        parser.error("publish-interval must be 0 or at least 60 seconds")
     args.state.parent.mkdir(parents=True, exist_ok=True)
     # Linux/macOS local mutual exclusion; workflow also has a repository-wide group.
     with args.state.with_suffix(".lock").open("w") as lock:

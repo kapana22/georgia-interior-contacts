@@ -32,7 +32,7 @@ def yell_links(html, url):
     return websites, list(dict.fromkeys(pages))
 
 
-def discover(client, config, events, progress=None):
+def discover(client, config, events, progress=None, *, one_pass=False, on_candidates=None):
     from datetime import datetime, timezone
     timestamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
     results = []
@@ -84,6 +84,8 @@ def discover(client, config, events, progress=None):
                 seen.add(url)
                 queue.extend(x for x in more if x not in seen and x not in queue)
                 cursor['seen'] = sorted(seen)
+                if on_candidates is not None:
+                    on_candidates(sites)
             except FetchError as exc:
                 events.append({"url": url, "status": exc.status, "reason": exc.reason})
                 if exc.reason in {'http_404', 'http_410', 'directory_profile_layout_changed', 'directory_business_name_missing'}:
@@ -92,16 +94,38 @@ def discover(client, config, events, progress=None):
                     seen.add(url)
                     cursor['seen'] = sorted(seen)
                     continue
+                if one_pass and exc.status != 'skipped':
+                    failures = cursor.setdefault('failures', {})
+                    failures[url] = failures.get(url, 0) + 1
+                    terminal = exc.status == 'blocked' and exc.reason != 'rate_limited'
+                    if terminal or failures[url] >= 3:
+                        cursor.setdefault('unavailable', {})[url] = exc.reason
+                        queue.pop(0)
+                        seen.add(url)
+                        cursor['seen'] = sorted(seen)
+                        continue
                 break
             except Exception as exc:
                 from .network import Deadline
                 if isinstance(exc, Deadline):
                     raise
                 events.append({'url': url, 'status': 'error', 'reason': 'directory_parser_' + type(exc).__name__})
+                if one_pass:
+                    failures = cursor.setdefault('failures', {})
+                    failures[url] = failures.get(url, 0) + 1
+                    if failures[url] >= 3:
+                        cursor.setdefault('unavailable', {})[url] = 'directory_parser_' + type(exc).__name__
+                        queue.pop(0)
+                        seen.add(url)
+                        cursor['seen'] = sorted(seen)
+                        continue
                 break
         if not queue:
-            cursor['pending'] = [directory['url']]
-            cursor['seen'] = []
+            if one_pass:
+                cursor['complete'] = True
+            else:
+                cursor['pending'] = [directory['url']]
+                cursor['seen'] = []
     return results
 
 

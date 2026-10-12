@@ -1,0 +1,34 @@
+name: Continue unfinished collection
+on:
+  workflow_run:
+    workflows: [Collect public contacts]
+    types: [completed]
+    branches: [main]
+  # Watchdog: recovery if a completion event or dispatch is delayed/lost.
+  schedule:
+    - cron: '9,39 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: contacts-continuation-controller
+  cancel-in-progress: false
+jobs:
+  continue:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Resume only when work remains
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRIGGERING_RUN_ID: ${{ github.event.workflow_run.id || '' }}
+        run: python3 scripts/continue_collection.py

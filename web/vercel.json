@@ -39,5 +39,10 @@
       ]
     }
   ],
-  "installCommand": ""
+  "installCommand": "",
+  "git": {
+    "deploymentEnabled": {
+      "data": false
+    }
+  }
 }

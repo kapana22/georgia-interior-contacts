@@ -3,7 +3,7 @@ import { GitHubClient, REPOSITORY, REPO_URL, WORKFLOW_URL, rawURL, normalizeReco
 const $ = id => document.getElementById(id);
 const client = new GitHubClient();
 const rememberedAuth = new RememberedAuth();
-const state = { records: [], report: null, sha: null, page: 1, pageSize: 20, activeId: null, timer: null, polling: false, sources: null, sourcesSHA: null, editingIndex: null };
+const state = { records: [], report: null, sha: null, page: 1, pageSize: 50, activeId: null, timer: null, polling: false, sources: null, sourcesSHA: null, editingIndex: null };
 
 function el(tag, className = '', text = '') {
   const node = document.createElement(tag);
@@ -55,8 +55,12 @@ function renderStats() {
   $('stat-target').textContent = `სამიზნე: ${direct.relevant} / ${state.report?.target_contacts || 1000}`;
   $('stat-review').textContent = state.records.filter(r => r.status === 'review').length;
   $('stat-new').textContent = state.report?.new_records ?? '—';
-  $('stat-date').textContent = state.report?.finished_at ? date(state.report.finished_at, true) : 'ანგარიში ჯერ არ არის';
-  $('data-updated').textContent = state.report?.finished_at ? `ბოლო შენახვა: ${date(state.report.finished_at)} · data ბრენჩი` : 'წყარო: რეპოზიტორიის data ბრენჩი';
+  const savedAt = state.report?.checkpoint_at || state.report?.finished_at;
+  $('stat-date').textContent = savedAt ? date(savedAt, true) : '';
+  const status = state.report?.collection_status;
+  const label = status === 'exhausted' ? 'წყაროები ამოწურულია' : status === 'paused' ? 'შეჩერებულია · გადასამოწმებელია' : state.report?.continuous ? (state.report.status === 'running' ? 'გროვდება' : 'ავტომატურად გაგრძელდება') : 'ავტომატური შეგროვება გამორთულია';
+  $('collection-state').textContent = label; $('collection-status').textContent = label;
+  $('data-updated').textContent = savedAt ? `ბოლო შენახვა: ${date(savedAt)} · data ბრენჩი` : 'წყარო: რეპოზიტორიის data ბრენჩი';
   const selected = $('city-filter').value;
   const cities = [...new Set(state.records.flatMap(r => values(r, 'city')))].sort((a, b) => a.localeCompare(b, 'ka'));
   $('city-filter').replaceChildren(el('option', '', 'ყველა ქალაქი'));
@@ -76,8 +80,16 @@ function contactLine(record, kind, label) {
     } else if (kind === 'email' && /^[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+$/.test(value)) {
       const a = el('a', '', value); a.href = `mailto:${encodeURIComponent(value).replace(/%40/g, '@')}`; items.append(a);
     } else if (kind === 'website') {
-      items.append(link(record.domains[0] || value, value));
+      items.append(link(safeURL(value) ? new URL(value).hostname.replace(/^www\./, '') : value, value));
     } else items.append(el('span', '', value));
+    if (['phone', 'email'].includes(kind)) {
+      const copy = el('button', 'copy-contact', '⧉'); copy.type = 'button';
+      copy.setAttribute('aria-label', `${label} ${value} კოპირება`);
+      copy.addEventListener('click', async () => {
+        try { await navigator.clipboard.writeText(value); message('download-message', 'კოპირებულია.'); }
+        catch { message('download-message', 'კოპირება ვერ მოხერხდა. კონტაქტი მონიშნე და დააკოპირე.', true); }
+      }); items.append(copy);
+    }
   }
   row.append(items); return row;
 }
@@ -108,7 +120,8 @@ function contactCard(record) {
 }
 
 function renderContacts() {
-  const filtered = filterRecords(state.records, { query: $('search').value, city: $('city-filter').value, status: $('status-filter').value }).sort((a, b) => a.name.localeCompare(b.name, 'ka'));
+  const filtered = filterRecords(state.records, { query: $('search').value, city: $('city-filter').value, status: $('status-filter').value, channel: $('contact-filter').value }).sort((a, b) => a.name.localeCompare(b.name, 'ka'));
+  $('clear-filters').hidden = !['search', 'city-filter', 'status-filter', 'contact-filter'].some(id => $(id).value);
   const pages = Math.max(1, Math.ceil(filtered.length / state.pageSize));
   state.page = Math.min(state.page, pages);
   const grid = $('contact-grid'); grid.replaceChildren(); grid.setAttribute('aria-busy', 'false');
@@ -130,7 +143,8 @@ async function refreshData(background = false) {
     const snapshot = await rawFile('data', 'snapshot.json');
     if (snapshot.version !== 1 || !snapshot.report || !Array.isArray(snapshot.records)) throw new Error('მონაცემების ფორმატი არასწორია.');
     const records = normalizeRecords(snapshot.records);
-    state.records = records; state.sha = 'data'; state.report = snapshot.report;
+    state.records = records; state.sha = 'data'; state.report = snapshot.report; state.snapshotRuns = snapshot.runs || [];
+    if (!state.publicCollector && !client.connected) renderRuns(state.snapshotRuns);
     notice('data-error');
     renderStats(); renderContacts(); document.querySelectorAll('[data-download]').forEach(b => { b.disabled = false; });
 
@@ -148,13 +162,14 @@ function renderRuns(runs) {
     const info = el('div', 'run-info'); info.append(el('strong', '', `შეგროვება #${run.run_number || run.id}`), el('span', '', date(run.created_at, true))); row.append(info);
     row.append(el('span', `run-badge ${pending ? 'pending' : failed ? 'failure' : ''}`, runLabel(run)), link('↗', run.html_url, 'run-arrow')); list.append(row);
   }
-  if (!runs.length) list.append(el('p', 'loading-row', 'შეგროვების გაშვებები ჯერ არ არის.'));
+  if (!runs.length) list.append(link('გაშვებები GitHub-ზე ↗', WORKFLOW_URL, 'loading-row'));
 }
 async function refreshRuns() {
   $('refresh-runs').disabled = true;
   try {
     const result = await collector(); state.publicCollector = result.configured;
-    const runs = !result.configured && client.connected ? await client.runs() : result.runs;
+    const runs = !result.configured ? (client.connected ? await client.runs() : state.snapshotRuns || []) : result.runs;
+    $('run-form').hidden = !result.configured && !client.connected;
     renderRuns(runs); notice('runs-error');
     const active = runs.find(run => run.status !== 'completed');
     if (active && !state.activeId) {
@@ -173,7 +188,7 @@ async function pollActiveRun() {
   if (!state.activeId || document.hidden || state.polling) return;
   state.polling = true;
   try {
-    const result = await collector(); const run = !result.configured && client.connected ? await client.run(state.activeId) : result.runs.find(r => String(r.id) === String(state.activeId));
+    const result = await collector(); const run = !result.configured && client.connected ? await client.run(state.activeId) : (result.configured ? result.runs : state.snapshotRuns || []).find(r => String(r.id) === String(state.activeId));
     if (!run) { state.timer = setTimeout(pollActiveRun, 15000); return; }
     $('active-run-label').textContent = runLabel(run);
     $('active-run-description').textContent = run.status === 'completed' ? (run.conclusion === 'success' ? 'შეგროვება დასრულდა. ბოლო შენახული შედეგები განახლდება.' : 'ნახე GitHub-ის ანგარიში. შესაძლოა ნაწილობრივი შედეგებიც შენახული იყოს.') : 'გვერდის დახურვა შეგროვებას არ აჩერებს. შედეგები დასრულების შემდეგ განახლდება.';
@@ -205,6 +220,7 @@ $('run-form').addEventListener('submit', async event => {
 });
 
 function updateAuth(user = null) {
+  $('run-form').hidden = !state.publicCollector && !user;
   $('auth-label').textContent = user ? user.login : 'მფლობელი'; $('auth-dot').classList.toggle('connected', Boolean(user));
   $('auth-connected').hidden = !user; $('auth-form').hidden = Boolean(user); $('auth-user').textContent = user?.login || '';
 }
@@ -226,7 +242,10 @@ $('sources').addEventListener('change', () => { const custom = $('sources').valu
 document.querySelectorAll('[data-limit]').forEach(button => button.addEventListener('click', () => { $('limit').value = button.dataset.limit; if (button.dataset.limit === '3') { $('sources').value = 'config/smoke.json'; $('sources').dispatchEvent(new Event('change')); } syncPresets(); }));
 function syncPresets() { document.querySelectorAll('[data-limit]').forEach(b => b.classList.toggle('selected', b.dataset.limit === $('limit').value)); }
 $('limit').addEventListener('input', syncPresets);
-for (const id of ['search', 'city-filter', 'status-filter']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { state.page = 1; renderContacts(); });
+for (const id of ['search', 'city-filter', 'status-filter', 'contact-filter']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { state.page = 1; renderContacts(); });
+$('clear-filters').addEventListener('click', () => { for (const id of ['search', 'city-filter', 'status-filter', 'contact-filter']) $(id).value = ''; state.page = 1; renderContacts(); $('search').focus(); });
+$('page-size').addEventListener('change', () => { state.pageSize = Number($('page-size').value); state.page = 1; renderContacts(); });
+document.addEventListener('keydown', event => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k' && !document.querySelector('dialog[open]')) { event.preventDefault(); $('search').focus(); $('search').select(); } });
 $('previous-page').addEventListener('click', () => { state.page--; renderContacts(); });
 $('next-page').addEventListener('click', () => { state.page++; renderContacts(); });
 $('refresh-data').addEventListener('click', () => refreshData());
