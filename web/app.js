@@ -1,7 +1,8 @@
-import { GitHubClient, REPOSITORY, REPO_URL, WORKFLOW_URL, rawURL, normalizeRecords, values, filterRecords, validateInputs, validateBusiness, safeURL, reasonText, runLabel, directContactCounts } from './core.js';
+import { GitHubClient, REPOSITORY, REPO_URL, WORKFLOW_URL, rawURL, normalizeRecords, values, filterRecords, validateInputs, validateBusiness, safeURL, reasonText, runLabel, directContactCounts, RememberedAuth } from './core.js';
 
 const $ = id => document.getElementById(id);
 const client = new GitHubClient();
+const rememberedAuth = new RememberedAuth();
 const state = { records: [], report: null, sha: null, page: 1, pageSize: 20, activeId: null, timer: null, polling: false, sources: null, sourcesSHA: null, editingIndex: null };
 
 function el(tag, className = '', text = '') {
@@ -189,11 +190,13 @@ function updateAuth(user = null) {
 $('auth-form').addEventListener('submit', async event => {
   event.preventDefault(); const token = $('github-token').value; $('github-token').value = '';
   busy($('connect-submit'), true, 'მოწმდება…'); message('auth-message');
-  try { const user = await client.connect(token); updateAuth(user); $('auth-dialog').close(); message('run-message', 'GitHub დაკავშირებულია. შეგიძლია დაიწყო შეგროვება.'); await refreshRuns(); if (state.activeId) { stopPolling(); pollActiveRun(); } }
+  try { const user = await client.connect(token);
+    const saved = $('remember-auth').checked ? rememberedAuth.save(token.trim()) : (rememberedAuth.clear(), false);
+    updateAuth(user); $('auth-dialog').close(); message('run-message', saved ? 'GitHub დაკავშირებულია და ამ ბრაუზერში დამახსოვრებულია.' : 'GitHub დაკავშირებულია მხოლოდ ამ სესიაში.'); await refreshRuns(); if (state.activeId) { stopPolling(); pollActiveRun(); } }
   catch (error) { updateAuth(); message('auth-message', error.message, true); }
   finally { busy($('connect-submit'), false, 'დაკავშირება →'); }
 });
-$('disconnect').addEventListener('click', () => { client.disconnect(); updateAuth(); stopPolling(); $('github-token').value = ''; message('auth-message', 'ავტორიზაცია გაითიშა.'); });
+$('disconnect').addEventListener('click', () => { rememberedAuth.clear(); client.disconnect(); updateAuth(); stopPolling(); $('github-token').value = ''; message('auth-message', 'ავტორიზაცია გაითიშა და შენახული ტოკენი წაიშალა.'); });
 $('auth-open').addEventListener('click', () => { message('auth-message'); $('auth-dialog').showModal(); });
 $('auth-dialog').addEventListener('close', () => { $('github-token').value = ''; });
 document.querySelectorAll('[data-close]').forEach(button => button.addEventListener('click', () => $(button.dataset.close).close()));
@@ -273,10 +276,24 @@ $('source-edit-form').addEventListener('submit', async event => {
 });
 
 window.addEventListener('pagehide', () => { client.disconnect(); $('github-token').value = ''; stopPolling(); });
-window.addEventListener('pageshow', event => { if (event.persisted) updateAuth(); });
+window.addEventListener('pageshow', event => { if (event.persisted) { updateAuth(); restoreAuthentication(); } });
 document.addEventListener('visibilitychange', () => { if (document.hidden) stopPolling(); else if (state.activeId && client.connected) pollActiveRun(); });
-Promise.allSettled([refreshData(), refreshRuns()]);
+Promise.allSettled([refreshData(), restoreAuthentication()]);
 
 // Public data may change through a CLI run or GitHub Actions outside this tab.
 setInterval(() => refreshData(true), 90000);
 window.addEventListener('focus', () => { if (Date.now() - (state.lastDataCheck || 0) > 90000) refreshData(true); });
+
+async function restoreAuthentication() {
+  if (state.restoringAuth) return;
+  state.restoringAuth = true;
+  busy($('connect-submit'), true, 'მოწმდება…');
+  try {
+    const user = await rememberedAuth.restore(client);
+    updateAuth(user);
+    if (user) message('run-message', 'GitHub ავტომატურად დაკავშირებულია.');
+  } catch (error) { updateAuth(); message('auth-message', error.message, true); }
+  finally { state.restoringAuth = false; busy($('connect-submit'), false, 'დაკავშირება →'); }
+  await refreshRuns();
+  if (state.activeId && client.connected) { stopPolling(); pollActiveRun(); }
+}

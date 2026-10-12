@@ -78,7 +78,7 @@ export class GitHubClient {
       });
     } catch { throw new Error('GitHub-თან კავშირი ვერ მოხერხდა. შეამოწმე ინტერნეტი და სცადე ხელახლა.'); }
     if (!response.ok) {
-      if (response.status === 401) throw new Error('GitHub ტოკენი არასწორია ან ვადა გაუვიდა.');
+      if (response.status === 401) throw Object.assign(new Error('GitHub ტოკენი არასწორია ან ვადა გაუვიდა.'), { status: 401 });
       if (response.status === 403 || response.status === 429) {
         if (response.headers.get('x-ratelimit-remaining') === '0' || response.status === 429) {
           throw new Error('GitHub-ის მოთხოვნების ლიმიტი ამოიწურა. განახლება მოგვიანებით სცადე.');
@@ -119,6 +119,43 @@ export class GitHubClient {
     return this.request(`/repos/${REPOSITORY}/actions/workflows/${WORKFLOW}/dispatches`, {
       method: 'POST', body: { ref: 'main', inputs }, authenticated: true,
     });
+  }
+}
+
+export const REMEMBERED_TOKEN_KEY = `github-auth:${REPOSITORY}:v1`;
+
+export class RememberedAuth {
+  constructor(storage = () => globalThis.localStorage) { this.storage = storage; }
+  load() {
+    try {
+      const token = this.storage()?.getItem(REMEMBERED_TOKEN_KEY) || '';
+      if (/^[A-Za-z0-9_]{20,}$/.test(token)) return token;
+      if (token) this.clear();
+    } catch { /* Private mode or browser policy may disable storage. */ }
+    return '';
+  }
+  save(token) {
+    if (!/^[A-Za-z0-9_]{20,}$/.test(token)) return false;
+    try {
+      const storage = this.storage();
+      if (!storage) return false;
+      storage.setItem(REMEMBERED_TOKEN_KEY, token);
+      return true;
+    } catch { return false; }
+  }
+  clear() {
+    try { this.storage()?.removeItem(REMEMBERED_TOKEN_KEY); return true; }
+    catch { return false; }
+  }
+  async restore(client) {
+    const token = this.load();
+    if (!token) return null;
+    try { return await client.connect(token); }
+    catch (error) {
+      // A transient network/rate-limit error must not erase a working credential.
+      if (error.status === 401) this.clear();
+      throw error;
+    }
   }
 }
 
