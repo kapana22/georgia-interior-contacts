@@ -19,9 +19,10 @@ CITIES = {"თბილისი": ("თბილისი", "თბილის
           "ზუგდიდი": ("ზუგდიდი", "zugdidi", "зугдиди"),
           "ფოთი": ("ფოთი", "poti", "поти"),
           "ქობულეთი": ("ქობულეთი", "kobuleti", "кобулети"),
-          "მცხეთა": ("მცხეთა", "mtskheta", "мцхета")}
+          "მცხეთა": ("მცხეთა", "mtskheta", "мцхета"),
+          "ოზურგეთი": ("ოზურგეთი", "ozurgeti", "озургети")}
 RELEVANT = re.compile(r"ინტერიერ\w*\s+დიზაინ|interior\s+(?:design|architecture)|дизайн\w*\s+интерьер", re.I)
-LINK_WORDS = re.compile(r"contact|about|service|studio|kontakti|chven|კონტაქტ|შესახებ|სერვის|მომსახურ|контакт|о-нас|услуг", re.I)
+LINK_WORDS = re.compile(r"contact|about|service|studio|team|people|kontakti|chven|კონტაქტ|შესახებ|სერვის|მომსახურ|გუნდი|თანამშრომლ|контакт|о-нас|услуг|команда", re.I)
 
 
 def normalize_phone(raw):

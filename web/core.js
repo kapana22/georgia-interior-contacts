@@ -123,6 +123,7 @@ export class GitHubClient {
 }
 
 export const REASONS = {
+  historical_pdf_contacts_require_verification: 'ძველი PDF კატალოგის კონტაქტები — მიმდინარე მოქმედება გადასამოწმებელია',
   directory_only_service_claim: 'სერვისის შესაბამისობა მხოლოდ კატალოგშია მითითებული',
   page_source_policy_prohibits_collection: 'წყაროს წესები შეგროვებას კრძალავს',
   manually_added_source_not_verified: 'ხელით დამატებული წყარო ჯერ გადასამოწმებელია',
@@ -206,7 +207,7 @@ export function directContactCounts(records) {
     for (const fact of record.facts || []) if (['phone', 'email'].includes(fact.kind)) {
       const key = fact.kind + ':' + fact.value;
       all.add(key);
-      if (eligible) relevant.add(key);
+      if (eligible && !fact.historical_source) relevant.add(key);
     }
   }
   return { total: all.size, relevant: relevant.size };

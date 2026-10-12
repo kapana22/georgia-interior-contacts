@@ -9,7 +9,7 @@ description = "Polite public business contact collection for Georgian interior d
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-dependencies = ["requests==2.34.2", "beautifulsoup4==4.15.0", "phonenumbers==9.0.41", "protego==0.7.0"]
+dependencies = ["requests==2.34.2", "beautifulsoup4==4.15.0", "phonenumbers==9.0.41", "protego==0.7.0", "pypdf==6.20.0"]
 
 [project.optional-dependencies]
 test = ["pytest==9.1.1"]

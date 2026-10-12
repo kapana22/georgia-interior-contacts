@@ -10,6 +10,10 @@ from protego import Protego
 from .urls import canonical_url, domain, public_url
 
 POLICY_BLOCKED = {
+    'linkedin.com': 'https://www.linkedin.com/legal/user-agreement',
+    'designgeorgia.org': 'https://designgeorgia.org/policies/terms-of-service',
+    'bestexperts.ge': 'https://bestexperts.ge/terms/',
+    'tbilisiexperts.ge': 'https://tbilisiexperts.ge/terms/',
     'bia.ge': 'https://www.bia.ge/Home/TermsAndConditions',
     'georgiayp.com': 'https://www.georgiayp.com/terms-of-use',
     'madloba.info': 'https://www.madloba.info/polzovatelskoye-soglasheniye/',
@@ -66,7 +70,8 @@ class Client:
         if seconds > 0:
             self.sleep(seconds)
 
-    def raw(self, url):
+    def raw(self, url, max_bytes=2_000_000):
+        max_bytes = max(1, min(20_000_000, int(max_bytes)))
         for attempt in range(3):
             self.check()
             host = domain(url)
@@ -86,7 +91,7 @@ class Client:
                     for chunk in r.iter_content(32768):
                         self.check()
                         body.extend(chunk)
-                        if len(body) > 2_000_000:
+                        if len(body) > max_bytes:
                             raise FetchError("unreachable", "response_too_large")
                     payload = bytes(body)
             except requests.RequestException:
@@ -141,7 +146,7 @@ class Client:
             raise rules
         return rules
 
-    def fetch(self, url, page_limit=5):
+    def fetch(self, url, page_limit=5, *, pdf=False):
         original = domain(url)
         for _ in range(5):
             url = canonical_url(url)
@@ -155,7 +160,7 @@ class Client:
             if self.counts.get(original, 0) >= page_limit:
                 raise FetchError("skipped", "page_limit")
             self.counts[original] = self.counts.get(original, 0) + 1
-            code, headers, body = self.raw(url)
+            code, headers, body = self.raw(url, max_bytes=20_000_000 if pdf else 2_000_000)
             if code in {301, 302, 303, 307, 308}:
                 target = headers.get("Location")
                 if not target:
@@ -168,8 +173,8 @@ class Client:
                 raise FetchError("unreachable", f"http_{code}")
             if not body.strip():
                 raise FetchError("unreachable", "empty_response")
-            if "html" not in headers.get("Content-Type", "").lower():
-                raise FetchError("unreachable", "not_html")
+            if ("application/pdf" if pdf else "html") not in headers.get("Content-Type", "").lower():
+                raise FetchError("unreachable", "not_pdf" if pdf else "not_html")
             low = body.lower()
             if any(marker in low for marker in (b"cf-chl-", b"verify you are human", b"attention required! | cloudflare")):
                 raise FetchError("blocked", "challenge")

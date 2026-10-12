@@ -40,10 +40,13 @@ def discover(client, config, events, progress=None):
     for directory in config.get("directories", []):
         if not directory.get("enabled", False):
             continue
-        if directory.get("adapter") not in {"yell", "city24", "links"} or not directory.get("policy_reviewed_at"):
+        if directory.get("adapter") not in {"yell", "city24", "links", "pdf_catalogue", "dizaini", "editorial", "awards"} or not directory.get("policy_reviewed_at"):
             raise ValueError("Directory adapter / documented policy review required")
         limit = max(1, min(5, int(directory.get("max_pages", 1))))
         cursor = progress.setdefault(directory['url'], {'pending': [directory['url']], 'seen': []})
+        if directory.get('revision') is not None and cursor.get('revision') != directory['revision']:
+            cursor = {'pending': [directory['url']], 'seen': [], 'revision': directory['revision']}
+            progress[directory['url']] = cursor
         queue, visited = cursor['pending'], set()
         seen = set(cursor['seen'])
         while queue and len(visited) < limit:
@@ -53,8 +56,16 @@ def discover(client, config, events, progress=None):
                 continue
             visited.add(url)
             try:
-                final, html = client.fetch(url, page_limit=5)
-                if directory['adapter'] == 'yell':
+                if directory['adapter'] == 'pdf_catalogue':
+                    from .pdf_catalogue import read_catalogue
+                    final, html = client.fetch(url, page_limit=5, pdf=True)
+                    sites = read_catalogue(html, directory, timestamp, client.check, events)
+                    more = []
+                else:
+                    final, html = client.fetch(url, page_limit=5)
+                if directory['adapter'] == 'pdf_catalogue':
+                    pass
+                elif directory['adapter'] == 'yell':
                     sites, more = yell_links(html, final)
                     if directory.get('collect_listing_contacts'):
                         enriched = yell_candidates(html, final, timestamp)
@@ -62,6 +73,9 @@ def discover(client, config, events, progress=None):
                         sites = enriched + [s for s in sites if domain(s['url']) not in enriched_hosts]
                 elif directory['adapter'] == 'city24':
                     sites, more = city24_links(html, final)
+                elif directory['adapter'] in {'dizaini', 'editorial', 'awards'}:
+                    from .source_pages import page_candidates
+                    sites, more = page_candidates(html, final, directory, timestamp)
                 else:
                     sites, more = approved_external_links(html, final, directory), []
                 results.extend(sites)
@@ -72,6 +86,18 @@ def discover(client, config, events, progress=None):
                 cursor['seen'] = sorted(seen)
             except FetchError as exc:
                 events.append({"url": url, "status": exc.status, "reason": exc.reason})
+                if exc.reason in {'http_404', 'http_410', 'directory_profile_layout_changed', 'directory_business_name_missing'}:
+                    # One deleted/malformed listing must not permanently block the queue.
+                    queue.pop(0)
+                    seen.add(url)
+                    cursor['seen'] = sorted(seen)
+                    continue
+                break
+            except Exception as exc:
+                from .network import Deadline
+                if isinstance(exc, Deadline):
+                    raise
+                events.append({'url': url, 'status': 'error', 'reason': 'directory_parser_' + type(exc).__name__})
                 break
         if not queue:
             cursor['pending'] = [directory['url']]

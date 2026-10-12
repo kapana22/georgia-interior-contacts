@@ -44,7 +44,8 @@ def export_all(output, state, before, report):
     report["contacts_total"] = sum(len({(f["kind"], f["value"]) for f in r["facts"] if f["kind"] in {"phone", "email", "instagram", "facebook"}}) for r in records)
     all_direct = {(f['kind'], f['value']) for r in records for f in r['facts'] if f['kind'] in {'phone', 'email'}}
     irrelevant = {'interior_service_not_confirmed', 'georgia_operation_not_confirmed', 'demo_or_fictional_business'}
-    qualified_direct = {(f['kind'], f['value']) for r in records if not irrelevant.intersection(r['review_reasons']) for f in r['facts'] if f['kind'] in {'phone', 'email'}}
+    qualified_direct = {(f['kind'], f['value']) for r in records if not irrelevant.intersection(r['review_reasons']) for f in r['facts'] if f['kind'] in {'phone', 'email'} and not f.get('historical_source')}
+    report['historical_direct_contacts_unique'] = len({(f['kind'], f['value']) for r in records for f in r['facts'] if f['kind'] in {'phone', 'email'} and f.get('historical_source')})
     report['direct_contacts_unique'] = len(all_direct)
     report['relevant_direct_contacts_unique'] = len(qualified_direct)
     report['target_reached'] = len(qualified_direct) >= report.get('target_contacts', 1000)

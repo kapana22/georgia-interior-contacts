@@ -114,3 +114,12 @@ test('direct-contact target excludes social links, duplicates and unrelated prov
   a.facts.push({kind:'instagram',value:'https://instagram.com/studio',source_url:'https://studio.test'});
   assert.deepEqual(directContactCounts([a,b]),{total:2,relevant:1});
 });
+
+
+test('historical PDF contact remains visible but only independent current evidence counts toward target', async () => {
+  const {directContactCounts} = await import('../core.js');
+  const records = [{ review_reasons: [], facts: [{kind: 'email', value: 'work@studio.test', historical_source: true}] }];
+  assert.deepEqual(directContactCounts(records), {total: 1, relevant: 0});
+  records[0].facts.push({kind: 'email', value: 'work@studio.test'});
+  assert.deepEqual(directContactCounts(records), {total: 1, relevant: 1});
+});

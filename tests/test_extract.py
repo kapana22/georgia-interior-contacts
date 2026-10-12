@@ -38,9 +38,9 @@ def test_no_guesses_and_placeholder_suppression():
 
 
 def test_structured_arbitrary_city_and_malformed_ld():
-    html = '<script type="application/ld+json">{"@type":"LocalBusiness","address":{"addressLocality":"Ozurgeti"}}</script><script type="application/ld+json">{bad}</script>'
+    html = '<script type="application/ld+json">{"@type":"LocalBusiness","address":{"addressLocality":"Ambrolauri"}}</script><script type="application/ld+json">{bad}</script>'
     p = extract(html, 'https://studio.test/', 'today')
-    assert any(f['kind'] == 'city' and f['value'] == 'Ozurgeti' for f in p['facts'])
+    assert any(f['kind'] == 'city' and f['value'] == 'Ambrolauri' for f in p['facts'])
     assert 'malformed_json_ld' in p['reasons']
 
 

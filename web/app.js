@@ -109,10 +109,13 @@ function renderContacts() {
   $('previous-page').disabled = state.page <= 1; $('next-page').disabled = state.page >= pages;
 }
 
-async function refreshData() {
+async function refreshData(background = false) {
+  if (state.refreshing || (background && document.hidden)) return;
+  state.refreshing = true;
   busy($('refresh-data'), true, 'იტვირთება…'); $('contact-grid').setAttribute('aria-busy', 'true');
   try {
     const sha = await client.snapshot();
+    if (background && sha === state.sha) return;
     const [recordsResult, reportResult] = await Promise.allSettled([rawFile(sha, 'contacts.json'), rawFile(sha, 'report.json')]);
     if (recordsResult.status !== 'fulfilled') throw recordsResult.reason;
     const records = normalizeRecords(recordsResult.value);
@@ -122,7 +125,7 @@ async function refreshData() {
   } catch (error) {
     notice('data-error', error.message + (state.sha ? ' ეკრანზე წინა ჩატვირთული შედეგები დარჩა.' : ''));
     if (!state.sha) { const empty = el('div', 'empty-state'); empty.append(el('span', 'empty-icon', '↻'), el('h3', '', 'ბაზა ვერ ჩაიტვირთა'), el('p', '', 'დააჭირე „განახლებას“ ან ნახე შედეგები GitHub-ზე.')); $('contact-grid').replaceChildren(empty); }
-  } finally { busy($('refresh-data'), false, '↻ განახლება'); $('contact-grid').setAttribute('aria-busy', 'false'); }
+  } finally { state.refreshing = false; state.lastDataCheck = Date.now(); busy($('refresh-data'), false, '↻ განახლება'); $('contact-grid').setAttribute('aria-busy', 'false'); }
 }
 
 function renderRuns(runs) {
@@ -201,7 +204,7 @@ $('limit').addEventListener('input', syncPresets);
 for (const id of ['search', 'city-filter', 'status-filter']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { state.page = 1; renderContacts(); });
 $('previous-page').addEventListener('click', () => { state.page--; renderContacts(); });
 $('next-page').addEventListener('click', () => { state.page++; renderContacts(); });
-$('refresh-data').addEventListener('click', refreshData);
+$('refresh-data').addEventListener('click', () => refreshData());
 $('refresh-runs').addEventListener('click', async () => { await refreshRuns(); if (state.activeId && client.connected) { stopPolling(); pollActiveRun(); } });
 
 document.querySelectorAll('[data-download]').forEach(button => button.addEventListener('click', async () => {
@@ -272,3 +275,7 @@ window.addEventListener('pagehide', () => { client.disconnect(); $('github-token
 window.addEventListener('pageshow', event => { if (event.persisted) updateAuth(); });
 document.addEventListener('visibilitychange', () => { if (document.hidden) stopPolling(); else if (state.activeId && client.connected) pollActiveRun(); });
 Promise.allSettled([refreshData(), refreshRuns()]);
+
+// Public data may change through a CLI run or GitHub Actions outside this tab.
+setInterval(() => refreshData(true), 90000);
+window.addEventListener('focus', () => { if (Date.now() - (state.lastDataCheck || 0) > 90000) refreshData(true); });

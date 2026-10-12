@@ -132,6 +132,7 @@ def run(args, client=None):
                 else:
                     old = known[key]
                     old['directory_facts'] = union_facts(old.get('directory_facts', []), item.get('directory_facts', []))
+                    old['review_reasons'] = sorted(set(old.get('review_reasons', [])) | set(item.get('review_reasons', [])))
                     for field in ('name', 'kind', 'business_key', 'directory_service_claim', 'directory_profile'):
                         if item.get(field):
                             old[field] = item[field]

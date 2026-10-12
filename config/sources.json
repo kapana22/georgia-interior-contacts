@@ -351,7 +351,7 @@
     {
       "adapter": "city24",
       "url": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/",
-      "enabled": true,
+      "enabled": false,
       "max_pages": 1,
       "policy_reviewed_at": "2026-10-12",
       "robots_url": "https://www.city24.ge/robots.txt",
@@ -359,14 +359,187 @@
       "review_notes": "Public category/profile links, no automation ban found on publicly linked about page. Current robots checked each run; profile budgets shared by host."
     },
     {
+      "adapter": "city24",
+      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/",
+      "enabled": true,
+      "max_pages": 1,
+      "policy_reviewed_at": "2026-10-12",
+      "robots_url": "https://www.city24.ge/robots.txt",
+      "policy_url": "https://www.city24.ge/ge/about-us/",
+      "review_notes": "Public category/profile links, no automation ban found on publicly linked about page. Current robots checked each run; profile budgets shared by host. Published national Georgia category expands coverage beyond Tbilisi; profile URLs are observed, never guessed."
+    },
+    {
       "adapter": "links",
       "url": "https://tbilisiexperts.ge/best-interior-designers-tbilisi/",
-      "enabled": true,
+      "enabled": false,
       "max_pages": 1,
       "link_selector": "a[href]",
       "label_pattern": "website",
       "policy_reviewed_at": "2026-10-12",
-      "review_notes": "Only published website links in researched Georgian interior-design guide; no contacts copied from ranking text."
+      "review_notes": "Disabled after full terms review: systematic scraping/populating another directory requires written permission.",
+      "policy_url": "https://tbilisiexperts.ge/terms/"
+    },
+    {
+      "adapter": "dizaini",
+      "url": "https://dizaini.ge/",
+      "max_pages": 5,
+      "policy_url": "https://dizaini.ge/about",
+      "review_notes": "Public business listings connect clients to professionals; no automation ban found on linked public about page. Read only business #more-info; client-side number reveal has no authorization requirement, no tracking POST sent.",
+      "enabled": true,
+      "policy_reviewed_at": "2026-10-12",
+      "revision": 2
+    },
+    {
+      "adapter": "editorial",
+      "url": "https://www.homeis.ge/category/adamianebi/",
+      "max_pages": 5,
+      "article_selector": ".entry-title a[href]",
+      "content_selector": ".entry-content",
+      "policy_url": "https://www.homeis.ge/",
+      "review_notes": "No linked automation restriction found. Discover only external websites from article body; do not copy editorial text, interviews, reader contacts or publisher footer.",
+      "enabled": true,
+      "policy_reviewed_at": "2026-10-12"
+    },
+    {
+      "adapter": "awards",
+      "url": "https://archiaward.com/en/Awards/2025",
+      "max_pages": 5,
+      "min_year": 2023,
+      "policy_url": "https://archiaward.com/en/terms?fix",
+      "review_notes": "Public post-award works and interior nominations only; policies distinguish confidential registrations. Discover business websites only; never read registration, jury/login or unpublished participant data.",
+      "enabled": true,
+      "policy_reviewed_at": "2026-10-12"
+    },
+    {
+      "adapter": "pdf_catalogue",
+      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf",
+      "max_pages": 1,
+      "policy_url": "https://geclose2eu.info/index.php?m=4",
+      "review_notes": "Public beneficiary promotional catalogue; no access/automation restriction found on publicly linked homepage/about. PDF metadata creation 2020; every extracted fact marked historical and excluded from current target unless independently seen on another source. Explicit reviewed page pairs prevent crossing business boundaries. Engineering-only contacts not collected.",
+      "entries": [
+        {
+          "name": "Artstudio Project",
+          "description_page": 6,
+          "contact_page": 7,
+          "expected_heading": "Artstudio"
+        },
+        {
+          "name": "Ambience",
+          "description_page": 8,
+          "contact_page": 9,
+          "expected_heading": "Ambience"
+        },
+        {
+          "name": "Archidea",
+          "description_page": 10,
+          "contact_page": 11,
+          "expected_heading": "Archidea"
+        },
+        {
+          "name": "Artytechs / Daduna Design",
+          "description_page": 12,
+          "contact_page": 13,
+          "expected_heading": "Artytechs"
+        },
+        {
+          "name": "BAU Design",
+          "description_page": 14,
+          "contact_page": 15,
+          "expected_heading": "BAU"
+        },
+        {
+          "name": "City Project",
+          "description_page": 16,
+          "contact_page": 17,
+          "expected_heading": "City Project"
+        },
+        {
+          "name": "DesignBureau",
+          "description_page": 18,
+          "contact_page": 19,
+          "expected_heading": "DesignBureau"
+        },
+        {
+          "name": "FONI",
+          "description_page": 22,
+          "contact_page": 23,
+          "expected_heading": "FONI"
+        },
+        {
+          "name": "FORTIS",
+          "description_page": 24,
+          "contact_page": 25,
+          "expected_heading": "FORTIS"
+        },
+        {
+          "name": "Georgian House",
+          "description_page": 26,
+          "contact_page": 27,
+          "expected_heading": "Georgian House"
+        },
+        {
+          "name": "Khmaladze Architects",
+          "description_page": 28,
+          "contact_page": 29,
+          "expected_heading": "Khmaladze"
+        },
+        {
+          "name": "Mosulishvili & Partners",
+          "description_page": 30,
+          "contact_page": 31,
+          "expected_heading": "Mosulishvili"
+        },
+        {
+          "name": "NBC Group",
+          "description_page": 32,
+          "contact_page": 33,
+          "expected_heading": "NBC Group"
+        },
+        {
+          "name": "STIPFOLD",
+          "description_page": 36,
+          "contact_page": 37,
+          "expected_heading": "STIPFOLD"
+        },
+        {
+          "name": "Tetraedri",
+          "description_page": 38,
+          "contact_page": 39,
+          "expected_heading": "Tetraedri"
+        },
+        {
+          "name": "TIMM Architecture",
+          "description_page": 40,
+          "contact_page": 41,
+          "expected_heading": "TIMM"
+        },
+        {
+          "name": "R312 Architects",
+          "description_page": 42,
+          "contact_page": 43,
+          "expected_heading": "R312"
+        },
+        {
+          "name": "VI Studio",
+          "description_page": 44,
+          "contact_page": 45,
+          "expected_heading": "VI Studio"
+        },
+        {
+          "name": "WERKRAUM",
+          "description_page": 46,
+          "contact_page": 47,
+          "expected_heading": "WERKRAUM"
+        },
+        {
+          "name": "Wunderwerk",
+          "description_page": 48,
+          "contact_page": 49,
+          "expected_heading": "Wunderwerk"
+        }
+      ],
+      "enabled": true,
+      "policy_reviewed_at": "2026-10-12"
     }
   ],
   "target_contacts": 1000,
@@ -390,6 +563,31 @@
       "url": "https://servisebi.ge/ka/product/detail/10011/interior-design/interior-design",
       "policy_url": "https://servisebi.ge/rules",
       "reason": "Section 18.3 restricts processing/republication without written permission."
+    },
+    {
+      "url": "https://designgeorgia.org/",
+      "policy_url": "https://designgeorgia.org/policies/terms-of-service",
+      "reason": "Section 12 prohibits spider/crawl/scrape; no member contact collection."
+    },
+    {
+      "url": "https://bestexperts.ge/interior-designers-tbilisi/",
+      "policy_url": "https://bestexperts.ge/terms/",
+      "reason": "Automated list collection requires written permission."
+    },
+    {
+      "url": "https://tbilisiexperts.ge/best-interior-designers-tbilisi/",
+      "policy_url": "https://tbilisiexperts.ge/terms/",
+      "reason": "Systematic scraping and populating another directory require written permission; previously enabled guide now disabled."
+    },
+    {
+      "url": "https://www.linkedin.com/",
+      "policy_url": "https://www.linkedin.com/legal/user-agreement",
+      "reason": "Automated profile collection prohibited; no logged-in scraping."
+    },
+    {
+      "url": "https://archias.ge/",
+      "policy_url": "https://archias.ge/robots.txt",
+      "reason": "robots endpoint returns HTML; fail-closed, not bypassed."
     }
   ]
 }

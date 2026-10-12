@@ -127,3 +127,17 @@ def test_known_policy_prohibition_prevents_all_requests():
     with pytest.raises(FetchError, match='source_policy_prohibits_collection'):
         c.fetch('https://www.georgiayp.com/category/Interior_design')
     assert s.calls == []
+
+
+def test_pdf_fetch_uses_same_robots_and_explicit_larger_bounded_response():
+    c, s, _ = client([robots(), Response(body=b'%PDF-' + b'a' * 2_000_001,
+                                       headers={'Content-Type': 'application/pdf'})])
+    final, body = c.fetch('https://studio.test/catalogue.pdf', pdf=True)
+    assert final.endswith('.pdf') and body.startswith(b'%PDF-') and len(s.calls) == 2
+    c, s, _ = client([robots(b'User-agent: *\nDisallow: /catalogue.pdf'), Response()])
+    with pytest.raises(FetchError, match='robots_disallowed'):
+        c.fetch('https://studio.test/catalogue.pdf', pdf=True)
+    assert len(s.calls) == 1
+    c, _, _ = client([Response(body=b'12345')])
+    with pytest.raises(FetchError, match='response_too_large'):
+        c.raw('https://studio.test/', max_bytes=4)
