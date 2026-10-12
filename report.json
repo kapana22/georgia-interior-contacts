@@ -1,46 +1,21 @@
 {
   "pipeline": "b2b-leads",
-  "started_at": "2026-10-12T19:41:04+00:00",
+  "started_at": "2026-10-12T19:41:51+00:00",
   "status": "completed",
-  "events": [
-    {
-      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=4",
-      "category": "beauty",
-      "status": "ok",
-      "records": 25
-    },
-    {
-      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=5",
-      "category": "beauty",
-      "status": "ok",
-      "records": 25
-    },
-    {
-      "source_url": "https://lamuse.ge/",
-      "status": "blocked",
-      "reason": "robots_unavailable_403"
-    },
-    {
-      "source_url": "http://www.junglefever.ge/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    }
-  ],
-  "pages_processed": 2,
-  "sites_processed": 3,
+  "events": [],
+  "pages_processed": 0,
+  "sites_processed": 1,
   "continuous": true,
   "batch_limit": 50,
   "sources_file": "config/leads-sources.json",
-  "github_run_id": "38299223682",
-  "records_total": 140,
-  "prospects_total": 89,
-  "direct_contacts_unique": 194,
-  "new_records": 50,
+  "github_run_id": "38299312130",
+  "records_total": 158,
+  "prospects_total": 103,
+  "direct_contacts_unique": 218,
+  "new_records": 18,
   "changed_records": 0,
-  "errors": 2,
-  "error_categories": {
-    "blocked": 2
-  },
+  "errors": 0,
+  "error_categories": {},
   "source_statuses": {
     "beauty": null,
     "auto": null,
@@ -51,9 +26,9 @@
   },
   "page_caps_reached": [],
   "remaining_directory_pages": 0,
-  "remaining_businesses": 18,
-  "work_remaining": true,
-  "collection_status": "active",
+  "remaining_businesses": 0,
+  "work_remaining": false,
+  "collection_status": "exhausted",
   "resume_after": 0,
-  "updated_at": "2026-10-12T19:41:22+00:00"
+  "updated_at": "2026-10-12T19:42:09+00:00"
 }
