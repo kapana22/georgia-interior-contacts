@@ -1,0 +1,48 @@
+{
+  "started_at": "2026-10-12T10:55:38+00:00",
+  "status": "completed",
+  "sites_processed": 3,
+  "events": [
+    {
+      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 17
+    },
+    {
+      "url": "https://dizainer.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.door032.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    }
+  ],
+  "records_total": 3,
+  "contacts_total": 8,
+  "new_records": 3,
+  "changed_records": 0,
+  "merged_records": 0,
+  "errors": 0,
+  "error_categories": {},
+  "candidates_available": 20,
+  "finished_at": "2026-10-12T10:55:54+00:00",
+  "http_requests": 10
+}

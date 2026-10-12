@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "08ee7755cc05623c",
+      "name": "Interiorismo",
+      "domains": [
+        "interiorismo.ge"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://interiorismo.ge/",
+          "first_seen": "2026-10-12T10:55:50+00:00",
+          "last_seen": "2026-10-12T10:55:50+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@interiorismo.ge",
+          "source_url": "https://interiorismo.ge/",
+          "first_seen": "2026-10-12T10:55:50+00:00",
+          "last_seen": "2026-10-12T10:55:50+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@interiorismo.ge",
+          "source_url": "https://interiorismo.ge/about",
+          "first_seen": "2026-10-12T10:55:54+00:00",
+          "last_seen": "2026-10-12T10:55:54+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@interiorismo.ge",
+          "source_url": "https://interiorismo.ge/contact",
+          "first_seen": "2026-10-12T10:55:51+00:00",
+          "last_seen": "2026-10-12T10:55:51+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/interiorismo.ge",
+          "source_url": "https://interiorismo.ge/",
+          "first_seen": "2026-10-12T10:55:50+00:00",
+          "last_seen": "2026-10-12T10:55:50+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/interiorismo.ge",
+          "source_url": "https://interiorismo.ge/contact",
+          "first_seen": "2026-10-12T10:55:51+00:00",
+          "last_seen": "2026-10-12T10:55:51+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/interiorismo.ge",
+          "source_url": "https://interiorismo.ge/",
+          "first_seen": "2026-10-12T10:55:50+00:00",
+          "last_seen": "2026-10-12T10:55:50+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/interiorismo.ge",
+          "source_url": "https://interiorismo.ge/contact",
+          "first_seen": "2026-10-12T10:55:51+00:00",
+          "last_seen": "2026-10-12T10:55:51+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Interiorismo",
+          "source_url": "https://interiorismo.ge/",
+          "first_seen": "2026-10-12T10:55:50+00:00",
+          "last_seen": "2026-10-12T10:55:50+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Interiorismo",
+          "source_url": "https://interiorismo.ge/about",
+          "first_seen": "2026-10-12T10:55:54+00:00",
+          "last_seen": "2026-10-12T10:55:54+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Interiorismo",
+          "source_url": "https://interiorismo.ge/contact",
+          "first_seen": "2026-10-12T10:55:51+00:00",
+          "last_seen": "2026-10-12T10:55:51+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995551147111",
+          "source_url": "https://interiorismo.ge/",
+          "first_seen": "2026-10-12T10:55:50+00:00",
+          "last_seen": "2026-10-12T10:55:50+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995551147111",
+          "source_url": "https://interiorismo.ge/about",
+          "first_seen": "2026-10-12T10:55:54+00:00",
+          "last_seen": "2026-10-12T10:55:54+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995551147111",
+          "source_url": "https://interiorismo.ge/contact",
+          "first_seen": "2026-10-12T10:55:51+00:00",
+          "last_seen": "2026-10-12T10:55:51+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://interiorismo.ge/",
+          "source_url": "https://interiorismo.ge/",
+          "first_seen": "2026-10-12T10:55:50+00:00",
+          "last_seen": "2026-10-12T10:55:50+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://interiorismo.ge/",
+          "source_url": "https://interiorismo.ge/about",
+          "first_seen": "2026-10-12T10:55:54+00:00",
+          "last_seen": "2026-10-12T10:55:54+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://interiorismo.ge/",
+          "source_url": "https://interiorismo.ge/contact",
+          "first_seen": "2026-10-12T10:55:51+00:00",
+          "last_seen": "2026-10-12T10:55:51+00:00"
+        }
+      ],
+      "first_seen": "2026-10-12T10:55:54+00:00",
+      "last_seen": "2026-10-12T10:55:54+00:00",
+      "status": "candidate",
+      "review_reasons": []
+    },
+    {
+      "id": "0addf814d184dae6",
+      "name": "კრეატივ სტუდია",
+      "domains": [
+        "dizainer.ge"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://dizainer.ge/",
+          "first_seen": "2026-10-12T10:55:45+00:00",
+          "last_seen": "2026-10-12T10:55:45+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@dizainer.ge",
+          "source_url": "https://dizainer.ge/",
+          "first_seen": "2026-10-12T10:55:45+00:00",
+          "last_seen": "2026-10-12T10:55:45+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "კრეატივ სტუდია",
+          "source_url": "https://dizainer.ge/",
+          "first_seen": "2026-10-12T10:55:45+00:00",
+          "last_seen": "2026-10-12T10:55:45+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599554188",
+          "source_url": "https://dizainer.ge/",
+          "first_seen": "2026-10-12T10:55:45+00:00",
+          "last_seen": "2026-10-12T10:55:45+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://dizainer.ge/",
+          "source_url": "https://dizainer.ge/",
+          "first_seen": "2026-10-12T10:55:45+00:00",
+          "last_seen": "2026-10-12T10:55:45+00:00"
+        }
+      ],
+      "first_seen": "2026-10-12T10:55:45+00:00",
+      "last_seen": "2026-10-12T10:55:45+00:00",
+      "status": "candidate",
+      "review_reasons": []
+    },
+    {
+      "id": "ad4ffcfdef3c195b",
+      "name": "DOOR 032",
+      "domains": [
+        "door032.com"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.door032.com/",
+          "first_seen": "2026-10-12T10:55:47+00:00",
+          "last_seen": "2026-10-12T10:55:47+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "contact@door032.com",
+          "source_url": "https://www.door032.com/",
+          "first_seen": "2026-10-12T10:55:47+00:00",
+          "last_seen": "2026-10-12T10:55:47+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DOOR 032",
+          "source_url": "https://www.door032.com/",
+          "first_seen": "2026-10-12T10:55:47+00:00",
+          "last_seen": "2026-10-12T10:55:47+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995593999999",
+          "source_url": "https://www.door032.com/",
+          "first_seen": "2026-10-12T10:55:47+00:00",
+          "last_seen": "2026-10-12T10:55:47+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.door032.com/",
+          "source_url": "https://www.door032.com/",
+          "first_seen": "2026-10-12T10:55:47+00:00",
+          "last_seen": "2026-10-12T10:55:47+00:00"
+        }
+      ],
+      "first_seen": "2026-10-12T10:55:47+00:00",
+      "last_seen": "2026-10-12T10:55:47+00:00",
+      "status": "candidate",
+      "review_reasons": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://anstudio.design/ka/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://expertmshen.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "http://www.treedesign.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://akhalisakhli.com/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://www.evospace.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://www.archideagroup.com/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "http://www.dmark.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "http://www.dynasty.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://architech.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "http://www.stipfold.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://www.hcg.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "http://www.designsector.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://ttg.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "http://www.showroom.com.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "http://www.designespas.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "name": "",
+      "discovered_from": "https://www.yell.ge/companies.php?rub=151&lan=eng"
+    }
+  ],
+  "attempts": {
+    "dizainer.ge": "2026-10-12T10:55:45+00:00",
+    "door032.com": "2026-10-12T10:55:47+00:00",
+    "interiorismo.ge": "2026-10-12T10:55:54+00:00"
+  },
+  "last_run": "2026-10-12T10:55:38+00:00"
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "08ee7755cc05623c",
+    "name": "Interiorismo",
+    "domains": [
+      "interiorismo.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://interiorismo.ge/",
+        "first_seen": "2026-10-12T10:55:50+00:00",
+        "last_seen": "2026-10-12T10:55:50+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@interiorismo.ge",
+        "source_url": "https://interiorismo.ge/",
+        "first_seen": "2026-10-12T10:55:50+00:00",
+        "last_seen": "2026-10-12T10:55:50+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@interiorismo.ge",
+        "source_url": "https://interiorismo.ge/about",
+        "first_seen": "2026-10-12T10:55:54+00:00",
+        "last_seen": "2026-10-12T10:55:54+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@interiorismo.ge",
+        "source_url": "https://interiorismo.ge/contact",
+        "first_seen": "2026-10-12T10:55:51+00:00",
+        "last_seen": "2026-10-12T10:55:51+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/interiorismo.ge",
+        "source_url": "https://interiorismo.ge/",
+        "first_seen": "2026-10-12T10:55:50+00:00",
+        "last_seen": "2026-10-12T10:55:50+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/interiorismo.ge",
+        "source_url": "https://interiorismo.ge/contact",
+        "first_seen": "2026-10-12T10:55:51+00:00",
+        "last_seen": "2026-10-12T10:55:51+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/interiorismo.ge",
+        "source_url": "https://interiorismo.ge/",
+        "first_seen": "2026-10-12T10:55:50+00:00",
+        "last_seen": "2026-10-12T10:55:50+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/interiorismo.ge",
+        "source_url": "https://interiorismo.ge/contact",
+        "first_seen": "2026-10-12T10:55:51+00:00",
+        "last_seen": "2026-10-12T10:55:51+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Interiorismo",
+        "source_url": "https://interiorismo.ge/",
+        "first_seen": "2026-10-12T10:55:50+00:00",
+        "last_seen": "2026-10-12T10:55:50+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Interiorismo",
+        "source_url": "https://interiorismo.ge/about",
+        "first_seen": "2026-10-12T10:55:54+00:00",
+        "last_seen": "2026-10-12T10:55:54+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Interiorismo",
+        "source_url": "https://interiorismo.ge/contact",
+        "first_seen": "2026-10-12T10:55:51+00:00",
+        "last_seen": "2026-10-12T10:55:51+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995551147111",
+        "source_url": "https://interiorismo.ge/",
+        "first_seen": "2026-10-12T10:55:50+00:00",
+        "last_seen": "2026-10-12T10:55:50+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995551147111",
+        "source_url": "https://interiorismo.ge/about",
+        "first_seen": "2026-10-12T10:55:54+00:00",
+        "last_seen": "2026-10-12T10:55:54+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995551147111",
+        "source_url": "https://interiorismo.ge/contact",
+        "first_seen": "2026-10-12T10:55:51+00:00",
+        "last_seen": "2026-10-12T10:55:51+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://interiorismo.ge/",
+        "source_url": "https://interiorismo.ge/",
+        "first_seen": "2026-10-12T10:55:50+00:00",
+        "last_seen": "2026-10-12T10:55:50+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://interiorismo.ge/",
+        "source_url": "https://interiorismo.ge/about",
+        "first_seen": "2026-10-12T10:55:54+00:00",
+        "last_seen": "2026-10-12T10:55:54+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://interiorismo.ge/",
+        "source_url": "https://interiorismo.ge/contact",
+        "first_seen": "2026-10-12T10:55:51+00:00",
+        "last_seen": "2026-10-12T10:55:51+00:00"
+      }
+    ],
+    "first_seen": "2026-10-12T10:55:54+00:00",
+    "last_seen": "2026-10-12T10:55:54+00:00",
+    "status": "candidate",
+    "review_reasons": []
+  },
+  {
+    "id": "0addf814d184dae6",
+    "name": "კრეატივ სტუდია",
+    "domains": [
+      "dizainer.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://dizainer.ge/",
+        "first_seen": "2026-10-12T10:55:45+00:00",
+        "last_seen": "2026-10-12T10:55:45+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@dizainer.ge",
+        "source_url": "https://dizainer.ge/",
+        "first_seen": "2026-10-12T10:55:45+00:00",
+        "last_seen": "2026-10-12T10:55:45+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "კრეატივ სტუდია",
+        "source_url": "https://dizainer.ge/",
+        "first_seen": "2026-10-12T10:55:45+00:00",
+        "last_seen": "2026-10-12T10:55:45+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995599554188",
+        "source_url": "https://dizainer.ge/",
+        "first_seen": "2026-10-12T10:55:45+00:00",
+        "last_seen": "2026-10-12T10:55:45+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://dizainer.ge/",
+        "source_url": "https://dizainer.ge/",
+        "first_seen": "2026-10-12T10:55:45+00:00",
+        "last_seen": "2026-10-12T10:55:45+00:00"
+      }
+    ],
+    "first_seen": "2026-10-12T10:55:45+00:00",
+    "last_seen": "2026-10-12T10:55:45+00:00",
+    "status": "candidate",
+    "review_reasons": []
+  },
+  {
+    "id": "ad4ffcfdef3c195b",
+    "name": "DOOR 032",
+    "domains": [
+      "door032.com"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.door032.com/",
+        "first_seen": "2026-10-12T10:55:47+00:00",
+        "last_seen": "2026-10-12T10:55:47+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "contact@door032.com",
+        "source_url": "https://www.door032.com/",
+        "first_seen": "2026-10-12T10:55:47+00:00",
+        "last_seen": "2026-10-12T10:55:47+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "DOOR 032",
+        "source_url": "https://www.door032.com/",
+        "first_seen": "2026-10-12T10:55:47+00:00",
+        "last_seen": "2026-10-12T10:55:47+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995593999999",
+        "source_url": "https://www.door032.com/",
+        "first_seen": "2026-10-12T10:55:47+00:00",
+        "last_seen": "2026-10-12T10:55:47+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.door032.com/",
+        "source_url": "https://www.door032.com/",
+        "first_seen": "2026-10-12T10:55:47+00:00",
+        "last_seen": "2026-10-12T10:55:47+00:00"
+      }
+    ],
+    "first_seen": "2026-10-12T10:55:47+00:00",
+    "last_seen": "2026-10-12T10:55:47+00:00",
+    "status": "candidate",
+    "review_reasons": []
+  }
+]
