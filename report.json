@@ -1,427 +1,324 @@
 {
-  "started_at": "2026-10-12T11:45:38+00:00",
+  "target_contacts": 1000,
+  "started_at": "2026-10-12T12:44:46+00:00",
   "status": "completed",
-  "sites_processed": 28,
+  "sites_processed": 10,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
       "status": "ok",
       "reason": "directory",
-      "discovered": 17
+      "discovered": 25
     },
     {
-      "url": "https://boadesign.ge/",
+      "url": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/page-2/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 20
+    },
+    {
+      "url": "https://tbilisiexperts.ge/best-interior-designers-tbilisi/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.designbatumi.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://boadesign.ge/momsakhurebebi/",
+      "url": "https://designbureau.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://boadesign.ge/brifi/?area=80&service=interieris-dizaini",
+      "url": "https://designbureau.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/studio/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.ei.ge/",
       "status": "blocked",
-      "reason": "meta_robots_opt_out"
+      "reason": "robots_unavailable_200"
     },
     {
-      "url": "https://www.designcity.ge/",
+      "url": "https://filletstudio.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://filletstudio.com/komerciuli-interieris-dizaini/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14697/ararchitechture/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14694/idea",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14738/up-design",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14779/areali",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14735/arcon-group",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14746/art-avenue",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14781/archexclusive",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14755/architectural-orchestra",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14717/arch-style",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14725/bb-studio",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14762/bart",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/3299/boraco",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15038/gallery-room-design",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15031/ge-ge/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15028/gika/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14775/gremic/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15039/daylight-design-group/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14696/demark/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14766/design-bureau/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14711/design-zone/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14723/design-line/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14727/design-studio/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14770/designfactor-ge/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/12542/dio/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14771/du-art/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14703/evo-build/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14695/ecohouse/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14721/n-group/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14774/esence/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/16855/estia/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14700/veli/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14709/versta/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.dio.ge/general.php",
       "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
+      "reason": "http_404"
     },
     {
-      "url": "https://hdesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/kontaqti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.jokhastudio.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jokhastudio.com/projects",
-      "status": "javascript_required",
-      "reason": "no_readable_content"
-    },
-    {
-      "url": "https://www.jokhastudio.com/video-galley",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jokhastudio.com/services",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jokhastudio.com/blog",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://keri.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://keri.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://keri.ge/en/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://keri.ge/ru/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://keri.ge/about",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://marchidesignstudio.com/",
-      "status": "javascript_required",
-      "reason": "javascript_shell_suspected"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/kontakti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/servisebi/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://akhalisakhli.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://akhalisakhli.com/contact-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://akhalisakhli.com/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://akhalisakhli.com/services/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://akhalisakhli.com/service/saproeqto-momsakhureba/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/ka/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/ka/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/ka/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.archideagroup.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://architech.ge/",
-      "status": "blocked",
-      "reason": "http_403"
-    },
-    {
-      "url": "http://www.designespas.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://designsector.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designsector.ge/contact-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designsector.ge/contact-us.php?lang=geo",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designsector.ge/contact-us.php?lang=eng",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.dmark.ge/",
-      "status": "unreachable",
-      "reason": "no_readable_content"
-    },
-    {
-      "url": "https://www.dynasty.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.dynasty.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.dynasty.ge/about-1",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.evospace.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.evospace.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.evospace.ge/evospace",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.evospace.ge/services",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.evospace.ge/services/renovation-calculator",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/about-us-2/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/service/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.hcg.ge/ka",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.hcg.ge/ka/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.hcg.ge/en/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "http://www.showroom.com.ge/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "http://www.stipfold.ge/",
-      "status": "blocked",
-      "reason": "robots_unavailable_403"
-    },
-    {
-      "url": "https://www.treedesign.ge//",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://ttg.ge/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    },
-    {
-      "url": "https://dizainer.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.door032.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://interiorismo.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://interiorismo.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://interiorismo.ge/about",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://artlinegroup.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://artlinegroup.ge/about/17-.html",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://artlinegroup.ge/services/29-interior-design.html",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://artlinegroup.ge/index.php?do=feedback",
+      "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "blocked",
       "reason": "robots_disallowed"
+    },
+    {
+      "url": "https://www.architeria.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://archpoint.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.belvedere.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.belvedere.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.belvedere.ge/about-us",
+      "status": "ok",
+      "reason": "business_page"
     }
   ],
-  "records_total": 20,
-  "contacts_total": 82,
-  "new_records": 16,
+  "records_total": 55,
+  "contacts_total": 222,
+  "direct_contacts_unique": 140,
+  "relevant_direct_contacts_unique": 119,
+  "target_reached": false,
+  "contacts_missing_to_target": 881,
+  "new_records": 4,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 11,
+  "errors": 4,
   "error_categories": {
-    "blocked": 6,
-    "unreachable": 3,
-    "javascript_required": 2
+    "blocked": 2,
+    "unreachable": 2
   },
-  "candidates_available": 28,
-  "finished_at": "2026-10-12T11:49:16+00:00",
-  "http_requests": 117
+  "candidates_available": 103,
+  "businesses_deferred_by_page_budget": 37,
+  "finished_at": "2026-10-12T12:45:50+00:00",
+  "http_requests": 40
 }
