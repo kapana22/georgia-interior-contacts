@@ -1,13 +1,393 @@
 {
-  "started_at": "2026-10-12T10:57:12+00:00",
+  "started_at": "2026-10-12T11:45:38+00:00",
   "status": "completed",
-  "sites_processed": 1,
+  "sites_processed": 28,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
       "status": "ok",
       "reason": "directory",
       "discovered": 17
+    },
+    {
+      "url": "https://boadesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://boadesign.ge/momsakhurebebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://boadesign.ge/brifi/?area=80&service=interieris-dizaini",
+      "status": "blocked",
+      "reason": "meta_robots_opt_out"
+    },
+    {
+      "url": "https://www.designcity.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://hdesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/kontaqti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.jokhastudio.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/projects",
+      "status": "javascript_required",
+      "reason": "no_readable_content"
+    },
+    {
+      "url": "https://www.jokhastudio.com/video-galley",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/blog",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/ru/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://keri.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://marchidesignstudio.com/",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/kontakti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/servisebi/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://akhalisakhli.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/contact-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/service/saproeqto-momsakhureba/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/ka/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/ka/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/ka/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.archideagroup.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://architech.ge/",
+      "status": "blocked",
+      "reason": "http_403"
+    },
+    {
+      "url": "http://www.designespas.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://designsector.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designsector.ge/contact-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designsector.ge/contact-us.php?lang=geo",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designsector.ge/contact-us.php?lang=eng",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.dmark.ge/",
+      "status": "unreachable",
+      "reason": "no_readable_content"
+    },
+    {
+      "url": "https://www.dynasty.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.dynasty.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.dynasty.ge/about-1",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/evospace",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/services/renovation-calculator",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/about-us-2/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/service/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.hcg.ge/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.hcg.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.hcg.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.showroom.com.ge/",
+      "status": "blocked",
+      "reason": "robots_cross_domain_redirect"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.stipfold.ge/",
+      "status": "blocked",
+      "reason": "robots_unavailable_403"
+    },
+    {
+      "url": "https://www.treedesign.ge//",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ttg.ge/",
+      "status": "blocked",
+      "reason": "robots_cross_domain_redirect"
+    },
+    {
+      "url": "https://dizainer.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.door032.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://interiorismo.ge/about",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://artlinegroup.ge/",
@@ -30,16 +410,18 @@
       "reason": "robots_disallowed"
     }
   ],
-  "records_total": 4,
-  "contacts_total": 15,
-  "new_records": 1,
+  "records_total": 20,
+  "contacts_total": 82,
+  "new_records": 16,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 1,
+  "errors": 11,
   "error_categories": {
-    "blocked": 1
+    "blocked": 6,
+    "unreachable": 3,
+    "javascript_required": 2
   },
   "candidates_available": 28,
-  "finished_at": "2026-10-12T10:57:23+00:00",
-  "http_requests": 6
+  "finished_at": "2026-10-12T11:49:16+00:00",
+  "http_requests": 117
 }
