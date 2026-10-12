@@ -1,35 +1,35 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:24:15+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T20:27:28+00:00",
+  "status": "running",
   "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/21/",
+      "url": "https://www.homeis.ge/thiko-sanikidze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/around-the-studio/",
+      "url": "https://www.homeis.ge/qali-dizainerebi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/shigeru-ban-architect/",
+      "url": "https://www.homeis.ge/nana_zaalishvili_idaaf-architects/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 1
+    },
+    {
+      "url": "https://www.homeis.ge/arqiteqtura-shegrdznebebis-doneze-lado-lomitashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/wom/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.homeis.ge/richard-meier/",
+      "url": "https://www.homeis.ge/andre-putmani/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -38,6 +38,11 @@
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "skipped",
       "reason": "social_profile_not_crawled"
+    },
+    {
+      "url": "https://idaafarchitects.com/",
+      "status": "unreachable",
+      "reason": "http_500"
     },
     {
       "url": "https://www.eglo.com/us/",
@@ -188,45 +193,20 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38303946409",
-  "remaining_directory_pages": 7,
-  "remaining_businesses": 9,
+  "github_run_id": "38304287759",
+  "remaining_directory_pages": 2,
+  "remaining_businesses": 10,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:26:55+00:00",
+  "checkpoint_at": "2026-10-12T20:29:35+00:00",
   "records_total": 203,
   "contacts_total": 686,
   "historical_direct_contacts_unique": 13,
@@ -237,13 +217,10 @@
   "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 1,
+  "errors": 2,
   "error_categories": {
-    "unreachable": 1
+    "unreachable": 2
   },
-  "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:26:55+00:00",
-  "http_requests": 65
+  "candidates_available": 10,
+  "businesses_deferred_by_page_budget": 1
 }
