@@ -140,3 +140,12 @@ def test_target_count_does_not_stop_continuation_and_cancel_does():
     assert controller.decision(report,runs)[0] is not None
     runs[0]['conclusion']='cancelled'
     assert controller.decision(report,runs)[0] is None
+
+
+def test_worker_ignores_itself_but_never_queues_over_another_job():
+    report={'continuous':True,'work_remaining':True,'github_run_id':'12','sources_file':'config/sources.json','batch_limit':1000}
+    current=[{'id':12,'status':'in_progress','conclusion':None}]
+    payload,_=controller.decision(report,current,'12','12')
+    assert payload['inputs']['limit']=='1000'
+    assert controller.decision(report,current+[{'id':13,'status':'queued'}],'12','12')[0] is None
+    assert controller.decision(report,current,'11','12')[0] is None

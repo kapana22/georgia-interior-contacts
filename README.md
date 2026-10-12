@@ -171,7 +171,7 @@ gh run download RUN_ID --repo kapana22/georgia-interior-contacts --dir downloade
 - scraper-ს push trigger საერთოდ არ აქვს. ოფლაინ CI მხოლოდ `main`-ის push/PR-ზე მუშაობს. `data` ცვლილებები არ წარმოქმნის ციკლს; commit-ს დამატებით აქვს `[skip ci]`.
 - CI მხოლოდ `contents: read`-ს იღებს. შეგროვების job-ს სჭირდება `contents: write` მხოლოდ snapshot-ისთვის. Actions მითითებულია commit SHA-ებით; გარე კოდი main-ზე მხოლოდ ავტორიზებულ ცვლილებებში უნდა მოხვდეს.
 
-მფლობელის მოთხოვნით ჩართულია **წყაროების ამოწურვამდე ავტომატური გაგრძელება**. `scrape.yml`-ის ხელით გაშვებაზე `continuous: true` იწყებს/აგრძელებს კამპანიას; `continue.yml` ყოველი დასრულების შემდეგ ჩაშენებული `GITHUB_TOKEN`-ით მომდევნო გაშვებას ითხოვს. მისი 30-წუთიანი watchdog მხოლოდ დაუმთავრებელ, უმოქმედო კამპანიას განაახლებს. კვირეული სრული ხელახალი გადამოწმება გამორთული რჩება.
+მფლობელის მოთხოვნით ჩართულია **წყაროების ამოწურვამდე ავტომატური გაგრძელება**. `scrape.yml`-ის ხელით გაშვებაზე `continuous: true` იწყებს/აგრძელებს კამპანიას; პარტიის ბოლოს თავად სამუშაო ჩაშენებული `GITHUB_TOKEN`-ით მომდევნო `workflow_dispatch`-ს ითხოვს. `continue.yml`-ის 30-წუთიანი watchdog მხოლოდ დაუმთავრებელ, უმოქმედო კამპანიას განაახლებს. კვირეული სრული ხელახალი გადამოწმება გამორთული რჩება.
 
 ```bash
 gh workflow run scrape.yml --ref main -f limit=1000 -f sources=config/sources.json -f continuous=true -f restart=false

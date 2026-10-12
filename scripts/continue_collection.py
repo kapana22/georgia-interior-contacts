@@ -14,16 +14,17 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
         raise RuntimeError('Unexpected redirect; token was not forwarded')
 
 
-def decision(report, runs, triggering_run=''):
+def decision(report, runs, triggering_run='', current_run=''):
+    runs = [r for r in runs if str(r['id']) != str(current_run)]
     if not report.get('continuous') or not report.get('work_remaining'):
         return None, 'No unfinished continuous campaign'
     if any(r['status'] != 'completed' for r in runs):
         return None, 'Collection already running or queued'
-    if runs and runs[0].get('conclusion') == 'cancelled':
+    if not current_run and runs and runs[0].get('conclusion') == 'cancelled':
         return None, 'Last collection cancelled; manual start required'
     if triggering_run and str(report.get('github_run_id')) != str(triggering_run):
         return None, 'Completed run does not own the current checkpoint'
-    if len(runs) >= 3 and all(r.get('conclusion') != 'success' for r in runs[:3]) and str(report.get('github_run_id')) not in {str(r['id']) for r in runs[:3]}:
+    if not current_run and len(runs) >= 3 and all(r.get('conclusion') != 'success' for r in runs[:3]) and str(report.get('github_run_id')) not in {str(r['id']) for r in runs[:3]}:
         return None, 'Three failed runs without a saved checkpoint; manual repair required'
     sources = report.get('sources_file', '')
     limit = report.get('batch_limit', 50)
@@ -54,7 +55,7 @@ def main():
         raise ValueError('Invalid data reference')
     report = request(f'https://raw.githubusercontent.com/{REPOSITORY}/{ref}/report.json', authenticated=False)
     runs = request(API + '/actions/workflows/scrape.yml/runs?per_page=5&branch=main')['workflow_runs']
-    payload, reason = decision(report, runs, os.environ.get('TRIGGERING_RUN_ID', ''))
+    payload, reason = decision(report, runs, os.environ.get('TRIGGERING_RUN_ID', ''), os.environ.get('CURRENT_RUN_ID', ''))
     print(reason)
     if payload:
         # Exactly one dispatch attempt; a timeout never repeats the POST.

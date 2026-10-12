@@ -41,6 +41,7 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write
+      actions: write # Explicit, bounded workflow_dispatch of the next batch.
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
@@ -66,6 +67,7 @@ jobs:
           if [ "$RESTART" = "true" ]; then args+=(--restart-campaign); fi
           python -m georgia_contacts.cli --limit "$BUSINESS_LIMIT" --sources "$SOURCES_FILE" --max-minutes 24 "${args[@]}"
       - name: Save checkpoint to data branch
+        id: save
         if: always() && steps.restore.outcome == 'success' && steps.scrape.outcome != 'skipped'
         run: python scripts/data_branch.py save
       - name: Upload results (including partial checkpoints)
@@ -82,3 +84,10 @@ jobs:
           if [ -f output/report.txt ]; then
             cat output/report.txt >> "$GITHUB_STEP_SUMMARY"
           fi
+      - name: Continue remaining campaign
+        if: always() && !cancelled() && steps.save.outcome == 'success' && inputs.continuous
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRIGGERING_RUN_ID: ${{ github.run_id }}
+          CURRENT_RUN_ID: ${{ github.run_id }}
+        run: python scripts/continue_collection.py
