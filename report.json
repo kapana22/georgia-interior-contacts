@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T13:23:54+00:00",
+  "started_at": "2026-10-12T13:33:53+00:00",
   "status": "completed",
-  "sites_processed": 5,
+  "sites_processed": 10,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
@@ -11,7 +11,7 @@
       "discovered": 25
     },
     {
-      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/",
+      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-2/",
       "status": "ok",
       "reason": "directory",
       "discovered": 20
@@ -36,70 +36,72 @@
     },
     {
       "url": "https://dizaini.ge/product/154",
-      "status": "unreachable",
-      "reason": "directory_business_name_missing"
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
     },
     {
       "url": "https://dizaini.ge/product/153",
-      "status": "unreachable",
-      "reason": "directory_business_name_missing"
-    },
-    {
-      "url": "https://www.homeis.ge/giorgi-chabalukha/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.homeis.ge/nikoloz-devdariani/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/daduna-shathashvili/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 5
-    },
-    {
-      "url": "https://www.homeis.ge/thamtha-gotsadze/",
+      "url": "https://www.homeis.ge/vakhtang-kasreli/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/allora/",
+      "url": "https://www.homeis.ge/thamar-benashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/Awards/2025/219",
+      "url": "https://www.homeis.ge/ana-getsadze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/Awards/2025/221",
+      "url": "https://www.homeis.ge/ezologia-nata-tatunashvili/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 4
+    },
+    {
+      "url": "https://www.homeis.ge/erdo/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/Awards/2024/202",
+      "url": "https://archiaward.com/en/Awards/2023/191",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/Awards/2024/204",
+      "url": "https://archiaward.com/en/Awards/2023/193",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/Awards/2024/212",
+      "url": "https://archiaward.com/en/work/4015",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://archiaward.com/en/work/4022",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://archiaward.com/en/work/4023",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -176,19 +178,14 @@
       "discovered": 17
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14779/areali/",
-      "status": "ok",
-      "reason": "business_page"
+      "url": "http://www.areali.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14735/arcon-group/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14746/art-avenue/",
       "status": "ok",
       "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14746/art-avenue",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14781/archexclusive",
@@ -556,53 +553,198 @@
       "reason": "page_limit"
     },
     {
-      "url": "https://iaod.net/",
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14710/g-t-design/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14748/georemonti/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14751/g-d-l/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14745/georgianhouse/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/batumi/organizations/14148/dio/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/kutaisi/organizations/14152/dio/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://nwds.world/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://iaod.net/about.php",
+      "url": "https://nwds.world/about",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://iaod.net/contact.php",
+      "url": "https://romedesignawards.com/winner-info.php?id=977",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://idpa-japan.com/the-wedding-house/",
+      "url": "https://romedesignawards.com/contact.php",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://idpa-japan.com/about/",
+      "url": "https://romedesignawards.com/design-awards.php",
+      "status": "blocked",
+      "reason": "challenge"
+    },
+    {
+      "url": "https://ubani.center/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.isync.ge/",
-      "status": "javascript_required",
-      "reason": "javascript_shell_suspected"
+      "url": "https://ubani.center/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ubani.center/publishing/guide-to-tbilisi-districts-kala/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ubani.center/research/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ubani.center/publishing/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.updesign.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.worlddesignconsortium.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14135/dio",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14749/av",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14697/ararchitechture",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.facebook.com/Dio.Ltd/timeline",
+      "status": "skipped",
+      "reason": "social_profile_not_crawled"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14694/idea",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.archidea.ge/ka/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.archidea.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.archidea.ge/ka/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Home/Contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Ka/Contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Home/AboutUs",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Ka/AboutUs",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/services",
+      "status": "ok",
+      "reason": "business_page"
     }
   ],
-  "records_total": 74,
-  "contacts_total": 291,
+  "records_total": 79,
+  "contacts_total": 322,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 188,
-  "relevant_direct_contacts_unique": 133,
+  "direct_contacts_unique": 198,
+  "relevant_direct_contacts_unique": 136,
   "target_reached": false,
-  "contacts_missing_to_target": 867,
-  "new_records": 4,
+  "contacts_missing_to_target": 864,
+  "new_records": 5,
   "changed_records": 0,
   "merged_records": 0,
   "errors": 3,
   "error_categories": {
     "unreachable": 2,
-    "javascript_required": 1
+    "blocked": 1
   },
-  "candidates_available": 170,
-  "businesses_deferred_by_page_budget": 74,
-  "finished_at": "2026-10-12T13:25:17+00:00",
-  "http_requests": 37
+  "candidates_available": 175,
+  "businesses_deferred_by_page_budget": 84,
+  "finished_at": "2026-10-12T13:36:11+00:00",
+  "http_requests": 60
 }
