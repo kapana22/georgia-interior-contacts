@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-12T10:55:38+00:00",
+  "started_at": "2026-10-12T10:57:12+00:00",
   "status": "completed",
-  "sites_processed": 3,
+  "sites_processed": 1,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
@@ -10,39 +10,36 @@
       "discovered": 17
     },
     {
-      "url": "https://dizainer.ge/",
+      "url": "https://artlinegroup.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.door032.com/",
+      "url": "https://artlinegroup.ge/about/17-.html",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://interiorismo.ge/",
+      "url": "https://artlinegroup.ge/services/29-interior-design.html",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://interiorismo.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://interiorismo.ge/about",
-      "status": "ok",
-      "reason": "business_page"
+      "url": "https://artlinegroup.ge/index.php?do=feedback",
+      "status": "blocked",
+      "reason": "robots_disallowed"
     }
   ],
-  "records_total": 3,
-  "contacts_total": 8,
-  "new_records": 3,
+  "records_total": 4,
+  "contacts_total": 15,
+  "new_records": 1,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 0,
-  "error_categories": {},
-  "candidates_available": 20,
-  "finished_at": "2026-10-12T10:55:54+00:00",
-  "http_requests": 10
+  "errors": 1,
+  "error_categories": {
+    "blocked": 1
+  },
+  "candidates_available": 28,
+  "finished_at": "2026-10-12T10:57:23+00:00",
+  "http_requests": 6
 }
