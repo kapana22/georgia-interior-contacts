@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="საქართველოს ინტერიერის დიზაინერებისა და სტუდიების საჯარო ბიზნესკონტაქტები — შეგროვება, წყაროები და შედეგები ერთ სივრცეში.">
+  <meta name="theme-color" content="#f5f3ed">
+  <title>ინტერიერის კონტაქტები · მართვის პანელი</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">მთავარ შინაარსზე გადასვლა</a>
+  <header class="topbar">
+    <a class="brand" href="/">კონტაქტები</a>
+    <nav class="topnav" aria-label="მთავარი ნავიგაცია"><a href="#contacts-section">კონტაქტები</a><button class="text-button" id="sources-open">წყაროები</button><a class="repo-link" href="https://github.com/kapana22/georgia-interior-contacts" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="button button-small button-outline" id="auth-open"><span class="status-dot" id="auth-dot"></span><span id="auth-label">ავტორიზაცია</span></button></nav>
+  </header>
+
+  <main id="main" class="page">
+    <div class="compact-stats" aria-label="სტატისტიკა">ბიზნესები: <strong id="stat-businesses">—</strong> · კონტაქტები: <strong id="stat-contacts">—</strong> · გადასამოწმებელი: <strong id="stat-review">—</strong> · ახალი: <strong id="stat-new">—</strong><span id="stat-date"></span></div>
+
+    <section class="workspace" aria-label="მართვა">
+      <div class="panel run-panel">
+        
+        <form id="run-form">
+          <label for="limit">ბიზნესების ლიმიტი <span class="label-note">ერთ გაშვებაზე</span></label>
+          <div class="number-input"><input id="limit" name="limit" type="number" min="1" max="1000" step="1" value="50" required><span>ბიზნესი</span></div>
+          <div class="presets" aria-label="ლიმიტის სწრაფი არჩევა"><button type="button" data-limit="3">3 · მცირე გამოცდა</button><button type="button" data-limit="50" class="selected">50 · სტანდარტული</button><button type="button" data-limit="100">100</button></div>
+          <label for="sources">წყაროების სია</label><select id="sources" name="sources"><option value="config/sources.json">ყველა წყარო</option><option value="config/smoke.json">მცირე გამოცდის წყაროები</option><option value="custom">სხვა ფაილი</option></select>
+          <div id="custom-sources-wrap" hidden><label for="custom-sources">ფაილის გზა რეპოზიტორიაში</label><input id="custom-sources" placeholder="config/my-sources.json" autocomplete="off"></div>
+          
+          <button class="button button-primary button-full" type="submit" id="run-submit">შეგროვების დაწყება <span aria-hidden="true">→</span></button>
+          <p class="form-message" id="run-message" role="status" aria-live="polite"></p>
+        </form>
+        <a class="fallback-link" href="https://github.com/kapana22/georgia-interior-contacts/actions/workflows/scrape.yml" target="_blank" rel="noopener noreferrer">ან გაუშვი GitHub-იდან ↗</a>
+        
+      </div>
+      <div class="panel activity-panel">
+        <div class="panel-heading"><strong>გაშვებები</strong><button class="icon-button" id="refresh-runs" aria-label="გაშვებების განახლება">↻</button></div>
+        <div id="runs-error" class="notice notice-error" role="status" hidden></div>
+        <div id="active-run" class="active-run" hidden><div class="active-heading"><span class="pulse-dot"></span><strong id="active-run-label">მოთხოვნა მიღებულია</strong><a id="active-run-link" target="_blank" rel="noopener noreferrer">ნახვა ↗</a></div><p id="active-run-description">შეგროვება GitHub Actions-ზე სრულდება.</p></div>
+        <div class="runs-list" id="runs-list" aria-live="polite"><div class="loading-row">გაშვებები იტვირთება…</div></div>
+
+      </div>
+    </section>
+
+    <section id="contacts-section" class="contacts-section" aria-labelledby="contacts-heading">
+      <div class="section-heading"><div><strong id="contacts-heading">კონტაქტები <span class="count-pill" id="results-count">—</span></strong></div><div class="downloads"><button class="button button-small button-outline" id="refresh-data">↻ განახლება</button><button class="button button-small button-dark" data-download="contacts.csv" disabled>↓ CSV</button><button class="button button-small button-outline" data-download="contacts.json" disabled>↓ JSON</button><details class="export-menu"><summary aria-label="სხვა ფაილების ჩამოტვირთვა">···</summary><div><button data-download="changes.csv" disabled>ცვლილებები · CSV</button><button data-download="report.txt" disabled>გაშვების ანგარიში · TXT</button><button data-download="report.json" disabled>გაშვების ანგარიში · JSON</button></div></details></div></div>
+      <div class="filters"><div class="search-input"><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="მოძებნე სახელი, ტელეფონი ან ელფოსტა…" aria-label="ბიზნესკონტაქტების ძიება"></div><select id="city-filter" aria-label="ქალაქით გაფილტვრა"><option value="">ყველა ქალაქი</option></select><select id="status-filter" aria-label="სტატუსით გაფილტვრა"><option value="">ყველა ჩანაწერი</option><option value="candidate">შესაბამისი კანდიდატები</option><option value="review">გადასამოწმებელი</option></select></div>
+      <div id="data-error" class="notice notice-error" role="status" hidden></div>
+      <div id="download-message" class="form-message" role="status" aria-live="polite"></div>
+      <div class="contact-grid" id="contact-grid" aria-live="polite" aria-busy="true"><div class="empty-state"><span class="empty-icon">◷</span><h3>კონტაქტები იტვირთება</h3><p>ვკითხულობთ ბაზის ბოლო შენახულ ვერსიას.</p></div></div>
+      <div class="pagination" id="pagination" hidden><button class="button button-small button-outline" id="previous-page">← წინა</button><span id="page-label"></span><button class="button button-small button-outline" id="next-page">შემდეგი →</button></div>
+      <div class="data-caption"><span class="status-dot"></span><span id="data-updated">წყარო: რეპოზიტორიის data ბრენჩი</span><a href="https://github.com/kapana22/georgia-interior-contacts/tree/data" target="_blank" rel="noopener noreferrer">მონაცემთა ისტორია ↗</a></div>
+    </section>
+
+  </main>
+
+  <dialog id="auth-dialog" aria-labelledby="auth-title"><div class="dialog-heading"><div><h2 id="auth-title">შეგროვების მართვა</h2></div><button class="icon-button dialog-close" data-close="auth-dialog" aria-label="დახურვა">×</button></div><p class="dialog-description">კონტაქტების ნახვა ყველას შეუძლია. შეგროვების გაშვება და წყაროების რედაქტირება რეპოზიტორიის უფლებას მოითხოვს.</p><div id="auth-connected" hidden><div class="notice notice-success">დაკავშირებულია: <strong id="auth-user"></strong></div><button class="button button-outline" id="disconnect">ავტორიზაციის გათიშვა</button></div><form id="auth-form"><label for="github-token">GitHub personal access token</label><input id="github-token" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…" required><p class="muted small">ტოკენი მხოლოდ ამ გვერდის მეხსიერებაში რჩება და უშუალოდ api.github.com-ს ეგზავნება. გვერდის დახურვის ან განახლებისას იშლება.</p><details class="auth-help"><summary>ტოკენის შექმნა და უფლებები</summary><ol><li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">შექმენი Fine-grained token GitHub-ზე ↗</a></li><li>Resource owner: <strong>kapana22</strong>; Repository access: მხოლოდ <strong>georgia-interior-contacts</strong>.</li><li>გაშვებისთვის: <strong>Actions → Read and write</strong>.</li><li>წყაროების შესაცვლელად დამატებით: <strong>Contents → Read and write</strong>.</li><li>აირჩიე მოკლე ვადა; ტოკენი ჩასვი ზემოთ.</li></ol></details><button class="button button-primary button-full" id="connect-submit" type="submit">დაკავშირება →</button></form><p class="form-message" id="auth-message" role="status" aria-live="polite"></p></dialog>
+
+  <dialog id="sources-dialog" class="wide-dialog" aria-labelledby="sources-title"><div class="dialog-heading"><div><h2 id="sources-title">წყაროების მართვა</h2></div><button class="icon-button dialog-close" data-close="sources-dialog" aria-label="დახურვა">×</button></div><p class="dialog-description">მართე ძირითადი <code>config/sources.json</code> სია. ცვლილება GitHub-ზე საჯარო commit-ად შეინახება და შემდეგ შეგროვებაზე გამოიყენება.</p><div class="source-toolbar"><span id="source-count">წყაროები იტვირთება…</span><button class="button button-small button-primary" id="source-add">+ ბიზნესის დამატება</button></div><p class="form-message" id="sources-message" role="status" aria-live="polite"></p><div id="sources-list" class="sources-list"></div><p class="muted small">გამორთვა ძველ კონტაქტებს არ შლის. კატალოგის ლიმიტები და სხვა JSON პარამეტრები რეპოზიტორიაში რედაქტირდება.</p></dialog>
+
+  <dialog id="source-edit-dialog" aria-labelledby="source-edit-title"><div class="dialog-heading"><h2 id="source-edit-title">ბიზნესის დამატება</h2><button class="icon-button dialog-close" data-close="source-edit-dialog" aria-label="დახურვა">×</button></div><form id="source-edit-form"><label for="source-name">ბიზნესის სახელი</label><input id="source-name" maxlength="250" required><label for="source-url">მთავარი ვებსაიტი</label><input id="source-url" type="url" placeholder="https://…" required><label for="source-pages">საკონტაქტო / ჩვენ შესახებ გვერდები <span class="label-note">არასავალდებულო</span></label><textarea id="source-pages" rows="3" placeholder="თითო URL ცალკე ხაზზე, მაქსიმუმ 4"></textarea><label class="checkbox-label"><input id="source-enabled" type="checkbox" checked> ჩართულია შეგროვებაში</label><div class="notice">ახალი წყარო ჯერ გადასამოწმებელია. დაამატე რეალური ბიზნესის საჯარო საიტი და გადაამოწმე წვდომის წესები.</div><button class="button button-primary button-full" type="submit" id="source-save">GitHub-ზე შენახვა →</button><p class="form-message" id="source-edit-message" role="status" aria-live="polite"></p></form></dialog>
+</body>
+</html>

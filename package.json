@@ -1,0 +1,12 @@
+{
+  "name": "georgia-interior-contacts-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node web/build.mjs",
+    "dev": "node web/server.mjs",
+    "test": "node --test web/tests/*.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

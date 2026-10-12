@@ -11,3 +11,8 @@ output/
 .env
 .env.*
 .DS_Store
+
+node_modules/
+web/dist/
+.vercel/
+web/.vercel/
