@@ -1,63 +1,43 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:21:27+00:00",
-  "status": "completed",
-  "sites_processed": 11,
+  "started_at": "2026-10-12T21:24:06+00:00",
+  "status": "running",
+  "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/32/",
+      "url": "https://www.homeis.ge/qhvela-proeqtze-gansakuth/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/rogor-gakhda-snohetta-msophlios-erth-erthi-gavleniani-arqiteqturuli-ophisi/",
+      "url": "https://www.homeis.ge/enzo-maris-dizainis-philo/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/dizaineruli-prophesiis-legendaruli-phudzemdebeli/",
+      "url": "https://www.homeis.ge/rusa_tumanishvili/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 2
+    },
+    {
+      "url": "https://www.homeis.ge/anuka-thavarthqiladze-interviu/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/yes-is-more-arqiteqtori-biarke-ingelsi/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 5
-    },
-    {
-      "url": "https://www.homeis.ge/simartive-da-khariskhi-ceramic-studio-1300/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/33/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
-    },
-    {
-      "url": "https://architizer.com/projects/79park/",
-      "status": "blocked",
-      "reason": "http_403"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "skipped",
       "reason": "social_profile_not_crawled"
-    },
-    {
-      "url": "https://www.dezeen.com/2023/03/15/blueberry-nights-hotel-tbilisi-georgia/?fbclid=IwAR2vLycffwZ2hlqg2sCBGxs9Iu7UgO0QnDXNtxXxLE9XNJdssi4YdqG0_w8",
-      "status": "blocked",
-      "reason": "http_403"
-    },
-    {
-      "url": "https://www.bernardkhoury.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.bernardkhoury.com/contact.php",
-      "status": "unreachable",
-      "reason": "http_409"
     },
     {
       "url": "https://www.eglo.com/us/",
@@ -238,15 +218,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38310086491",
-  "remaining_directory_pages": 5,
+  "github_run_id": "38310360656",
+  "remaining_directory_pages": 8,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 85,
-  "checkpoint_at": "2026-10-12T21:23:39+00:00",
+  "checkpoint_at": "2026-10-12T21:26:06+00:00",
   "records_total": 213,
   "contacts_total": 727,
   "historical_direct_contacts_unique": 13,
@@ -257,14 +237,10 @@
   "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 4,
+  "errors": 1,
   "error_categories": {
-    "blocked": 2,
-    "unreachable": 2
+    "unreachable": 1
   },
-  "candidates_available": 12,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:23:39+00:00",
-  "http_requests": 71
+  "candidates_available": 9,
+  "businesses_deferred_by_page_budget": 1
 }
