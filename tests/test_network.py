@@ -120,3 +120,10 @@ def test_crawl_delay_and_case_insensitive_headers():
     c, _, sleeps = client([robots(b'User-agent: *\nCrawl-delay: 6\n'),Response(headers={'content-type':'text/html'})])
     c.fetch('https://studio.test/')
     assert 6 in sleeps
+
+
+def test_known_policy_prohibition_prevents_all_requests():
+    c, s, _ = client([])
+    with pytest.raises(FetchError, match='source_policy_prohibits_collection'):
+        c.fetch('https://www.georgiayp.com/category/Interior_design')
+    assert s.calls == []

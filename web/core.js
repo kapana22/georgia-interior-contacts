@@ -123,6 +123,8 @@ export class GitHubClient {
 }
 
 export const REASONS = {
+  directory_only_service_claim: 'სერვისის შესაბამისობა მხოლოდ კატალოგშია მითითებული',
+  page_source_policy_prohibits_collection: 'წყაროს წესები შეგროვებას კრძალავს',
   manually_added_source_not_verified: 'ხელით დამატებული წყარო ჯერ გადასამოწმებელია',
   interior_service_not_confirmed: 'ინტერიერის დიზაინის სერვისი ვერ დადასტურდა',
   georgia_operation_not_confirmed: 'საქართველოში საქმიანობა ვერ დადასტურდა',
@@ -195,3 +197,17 @@ GitHubClient.prototype.saveSources = async function (config, sha) {
     body: { message: 'Update business sources from the web dashboard', content: encodeUTF8Base64(JSON.stringify(config, null, 2) + '\n'), sha, branch: 'main' },
   });
 };
+
+export function directContactCounts(records) {
+  const all = new Set(), relevant = new Set();
+  const excluded = new Set(['interior_service_not_confirmed', 'georgia_operation_not_confirmed', 'demo_or_fictional_business']);
+  for (const record of records) {
+    const eligible = !(record.review_reasons || []).some(reason => excluded.has(reason));
+    for (const fact of record.facts || []) if (['phone', 'email'].includes(fact.kind)) {
+      const key = fact.kind + ':' + fact.value;
+      all.add(key);
+      if (eligible) relevant.add(key);
+    }
+  }
+  return { total: all.size, relevant: relevant.size };
+}

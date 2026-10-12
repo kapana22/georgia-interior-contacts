@@ -42,6 +42,14 @@ def export_all(output, state, before, report):
     write_csv(output / "changes.csv", ["type", "record_id", "name", "collected_at", "before", "after"], changes)
     report["records_total"] = len(records)
     report["contacts_total"] = sum(len({(f["kind"], f["value"]) for f in r["facts"] if f["kind"] in {"phone", "email", "instagram", "facebook"}}) for r in records)
+    all_direct = {(f['kind'], f['value']) for r in records for f in r['facts'] if f['kind'] in {'phone', 'email'}}
+    irrelevant = {'interior_service_not_confirmed', 'georgia_operation_not_confirmed', 'demo_or_fictional_business'}
+    qualified_direct = {(f['kind'], f['value']) for r in records if not irrelevant.intersection(r['review_reasons']) for f in r['facts'] if f['kind'] in {'phone', 'email'}}
+    report['direct_contacts_unique'] = len(all_direct)
+    report['relevant_direct_contacts_unique'] = len(qualified_direct)
+    report['target_reached'] = len(qualified_direct) >= report.get('target_contacts', 1000)
+    report['contacts_missing_to_target'] = max(0, report.get('target_contacts', 1000) - len(qualified_direct))
+
     report["new_records"] = sum(c["type"] == "new" for c in changes)
     report["changed_records"] = sum(c["type"] == "changed" for c in changes)
     report["merged_records"] = sum(c["type"] == "merged" for c in changes)
@@ -54,6 +62,7 @@ def export_all(output, state, before, report):
             f"დამუშავებული ბიზნესის საიტები: {report['sites_processed']}\n"
             f"შენახული ბიზნესები (წინა მონაცემებით): {len(records)}\n"
             f"კონტაქტები (ტელეფონი/ელფოსტა/სოციალური): {report['contacts_total']}\n"
+            f"უნიკალური პირდაპირი ტელეფონი/ელფოსტა: {report['direct_contacts_unique']}; შესაბამისი კანდიდატების: {report['relevant_direct_contacts_unique']} / {report.get('target_contacts', 1000)}\n"
             f"ახალი: {report['new_records']}; შეცვლილი: {report['changed_records']}; გაერთიანებული: {report['merged_records']}\n"
             f"შეცდომები/ბლოკირება/JS: {len(errors)}\n"
             f"კატეგორიები: {json.dumps(report['error_categories'], ensure_ascii=False)}\n"

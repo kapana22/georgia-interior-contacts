@@ -74,7 +74,7 @@ def organizations(value):
     elif isinstance(value, dict):
         types = value.get("@type", [])
         types = [types] if isinstance(types, str) else types
-        if any(t in {"Organization", "LocalBusiness", "ProfessionalService", "HomeAndConstructionBusiness", "InteriorDesignBusiness", "Architect", "Corporation"} for t in types):
+        if ("Person" in types and RELEVANT.search(str(value.get("jobTitle", "")))) or any(t in {"Organization", "LocalBusiness", "ProfessionalService", "HomeAndConstructionBusiness", "InteriorDesignBusiness", "Architect", "Corporation"} for t in types):
             yield value
         # Do not scrape arbitrary Person, author, reviewer or publisher contacts.
         for key in ("@graph", "mainEntity"):

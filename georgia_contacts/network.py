@@ -9,6 +9,13 @@ from protego import Protego
 
 from .urls import canonical_url, domain, public_url
 
+POLICY_BLOCKED = {
+    'bia.ge': 'https://www.bia.ge/Home/TermsAndConditions',
+    'georgiayp.com': 'https://www.georgiayp.com/terms-of-use',
+    'madloba.info': 'https://www.madloba.info/polzovatelskoye-soglasheniye/',
+    'servisebi.ge': 'https://servisebi.ge/rules',
+}
+
 USER_AGENT = "GeorgiaInteriorContacts/0.1 (+https://github.com/kapana22/georgia-interior-contacts; public-business-contacts)"
 
 
@@ -62,6 +69,9 @@ class Client:
     def raw(self, url):
         for attempt in range(3):
             self.check()
+            host = domain(url)
+            if host in POLICY_BLOCKED or any(host.endswith('.' + h) for h in POLICY_BLOCKED):
+                raise FetchError('blocked', 'source_policy_prohibits_collection')
             if not self.validator(url):
                 raise FetchError("unreachable", "unsafe_or_unresolved_url")
             host = domain(url)

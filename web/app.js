@@ -1,4 +1,4 @@
-import { GitHubClient, REPOSITORY, REPO_URL, WORKFLOW_URL, rawURL, normalizeRecords, values, filterRecords, validateInputs, validateBusiness, safeURL, reasonText, runLabel } from './core.js';
+import { GitHubClient, REPOSITORY, REPO_URL, WORKFLOW_URL, rawURL, normalizeRecords, values, filterRecords, validateInputs, validateBusiness, safeURL, reasonText, runLabel, directContactCounts } from './core.js';
 
 const $ = id => document.getElementById(id);
 const client = new GitHubClient();
@@ -38,7 +38,9 @@ async function rawFile(ref, file, type = 'json') {
 
 function renderStats() {
   $('stat-businesses').textContent = state.records.length;
-  $('stat-contacts').textContent = state.records.reduce((n, r) => n + ['phone', 'email', 'instagram', 'facebook'].reduce((sum, kind) => sum + values(r, kind).length, 0), 0);
+  const direct = directContactCounts(state.records);
+  $('stat-contacts').textContent = direct.total;
+  $('stat-target').textContent = `სამიზნე: ${direct.relevant} / ${state.report?.target_contacts || 1000}`;
   $('stat-review').textContent = state.records.filter(r => r.status === 'review').length;
   $('stat-new').textContent = state.report?.new_records ?? '—';
   $('stat-date').textContent = state.report?.finished_at ? date(state.report.finished_at, true) : 'ანგარიში ჯერ არ არის';

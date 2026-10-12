@@ -18,7 +18,7 @@
   </header>
 
   <main id="main" class="page">
-    <div class="compact-stats" aria-label="სტატისტიკა">ბიზნესები: <strong id="stat-businesses">—</strong> · კონტაქტები: <strong id="stat-contacts">—</strong> · გადასამოწმებელი: <strong id="stat-review">—</strong> · ახალი: <strong id="stat-new">—</strong><span id="stat-date"></span></div>
+    <div class="compact-stats" aria-label="სტატისტიკა">ბიზნესები: <strong id="stat-businesses">—</strong> · ტელეფონი/ელფოსტა: <strong id="stat-contacts">—</strong> · გადასამოწმებელი: <strong id="stat-review">—</strong> · ახალი: <strong id="stat-new">—</strong><span id="stat-target">სამიზნე: — / 1000</span><span id="stat-date"></span></div>
 
     <section class="workspace" aria-label="მართვა">
       <div class="panel run-panel">
@@ -26,7 +26,7 @@
         <form id="run-form">
           <label for="limit">ბიზნესების ლიმიტი <span class="label-note">ერთ გაშვებაზე</span></label>
           <div class="number-input"><input id="limit" name="limit" type="number" min="1" max="1000" step="1" value="50" required><span>ბიზნესი</span></div>
-          <div class="presets" aria-label="ლიმიტის სწრაფი არჩევა"><button type="button" data-limit="3">3 · მცირე გამოცდა</button><button type="button" data-limit="50" class="selected">50 · სტანდარტული</button><button type="button" data-limit="100">100</button></div>
+          <div class="presets" aria-label="ლიმიტის სწრაფი არჩევა"><button type="button" data-limit="3">3 · მცირე გამოცდა</button><button type="button" data-limit="50" class="selected">50 · სტანდარტული</button><button type="button" data-limit="1000">1000</button></div>
           <label for="sources">წყაროების სია</label><select id="sources" name="sources"><option value="config/sources.json">ყველა წყარო</option><option value="config/smoke.json">მცირე გამოცდის წყაროები</option><option value="custom">სხვა ფაილი</option></select>
           <div id="custom-sources-wrap" hidden><label for="custom-sources">ფაილის გზა რეპოზიტორიაში</label><input id="custom-sources" placeholder="config/my-sources.json" autocomplete="off"></div>
 

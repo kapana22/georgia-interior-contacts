@@ -12,7 +12,9 @@ from .export import export_all
 from .extract import extract, assess
 from .network import Client, FetchError, Deadline
 from .state import load_state, merge_record, save_state, union_facts
-from .urls import canonical_url, domain
+from .urls import canonical_url, domain, SOCIAL_HOSTS
+from .directories import source_key, city24_profile
+from .extract import RELEVANT
 
 
 def now():
@@ -21,8 +23,18 @@ def now():
 
 def crawl(client, source, events):
     url = source["url"]
-    queue, visited, facts, texts, reasons = [url], set(), [], [], list(source.get("review_reasons", []))
-    name, any_success = source.get("name", ""), False
+    if domain(url) in SOCIAL_HOSTS:
+        events.append({"url": url, "status": "skipped", "reason": "social_profile_not_crawled"})
+        return None
+    facts = union_facts(source.get('directory_facts', []))
+    texts = ['ინტერიერის დიზაინი'] if source.get('directory_service_claim') else []
+    reasons = list(source.get('review_reasons', []))
+    if source.get('directory_facts') or source.get('kind') == 'profile':
+        reasons.append('directory_only_service_claim')
+    queue, visited = ([] if source.get('kind') == 'listing' else [url]), set()
+    name, any_success = source.get("name", ""), bool(facts)
+    domains = [] if source.get("kind") in {"listing", "profile"} else [domain(url)]
+    suggested = []
     while queue and len(visited) < 5:
         target = queue.pop(0)
         if target in visited:
@@ -31,7 +43,15 @@ def crawl(client, source, events):
         try:
             final, html = client.fetch(target, page_limit=5)
             visited.add(final)
-            parsed = extract(html, final, now(), source.get("name", ""))
+            if source.get('profile_adapter') == 'city24':
+                parsed = city24_profile(html, final, now(), source.get('name', ''))
+                suggested.extend(parsed.get('websites', []))
+                domains = sorted({domain(u) for u in suggested})
+                parsed['links'] = []
+            else:
+                parsed = extract(html, final, now(), source.get("name", ""))
+                if RELEVANT.search(parsed['text']) and 'directory_only_service_claim' in reasons:
+                    reasons.remove('directory_only_service_claim')
             if parsed["blocked"]:
                 raise FetchError("blocked", parsed["reasons"][0])
             if not parsed["text"].strip():
@@ -42,7 +62,7 @@ def crawl(client, source, events):
             any_success = True
             name = name or parsed["name"]
             for fact in parsed["facts"]:
-                if fact["kind"] == "website":
+                if fact["kind"] == "website" and source.get("kind") != "profile":
                     fact["value"] = url
             facts = union_facts(facts, parsed["facts"])
             texts.append(parsed["text"])
@@ -64,8 +84,10 @@ def crawl(client, source, events):
         return None
     timestamp = now()
     reasons = assess("\n".join(texts), facts, reasons)
-    return {"id": "", "name": name, "domains": [domain(url)], "facts": facts,
-            "first_seen": timestamp, "last_seen": timestamp,
+    return {"id": "", "name": name, "domains": domains, "facts": facts,
+            "business_key": source.get("business_key", ""), "suggested_websites": suggested,
+            "first_seen": min((f["first_seen"] for f in facts), default=timestamp),
+            "last_seen": max((f["last_seen"] for f in facts), default=timestamp),
             "status": "review" if reasons else "candidate", "review_reasons": reasons}
 
 
@@ -89,7 +111,7 @@ def run(args, client=None):
     state = load_state(args.state)
     config = load_sources(args.sources)
     before = copy.deepcopy(state["records"])
-    report = {"started_at": now(), "status": "running", "sites_processed": 0, "events": []}
+    report = {"target_contacts": int(config.get("target_contacts", 1000)), "started_at": now(), "status": "running", "sites_processed": 0, "events": []}
     client = client or Client(time.monotonic() + args.max_minutes * 60)
 
     def checkpoint():
@@ -100,32 +122,54 @@ def run(args, client=None):
     checkpoint()
     try:
         if not args.no_discovery:
-            discovered = discover(client, config, report["events"])
-            known = {domain(c["url"]) for c in state["candidates"]}
+            discovered = discover(client, config, report["events"], state.setdefault("discovery_queue", {}))
+            known = {source_key(c): c for c in state["candidates"]}
             for item in discovered:
-                if domain(item["url"]) not in known:
-                    state["candidates"].append(item)
-                    known.add(domain(item["url"]))
+                key = source_key(item)
+                if key not in known:
+                    state['candidates'].append(item)
+                    known[key] = item
+                else:
+                    old = known[key]
+                    old['directory_facts'] = union_facts(old.get('directory_facts', []), item.get('directory_facts', []))
+                    for field in ('name', 'kind', 'business_key', 'directory_service_claim', 'directory_profile'):
+                        if item.get(field):
+                            old[field] = item[field]
         sources = {}
         for source in state["candidates"] + config["businesses"]:
-            sources[domain(source["url"])] = source
+            key = source_key(source)
+            sources[key] = {**sources.get(key, {}), **source}
         # An explicit disabled entry also excludes previously discovered candidates.
         candidates = [s for s in sources.values() if s.get("enabled", True)]
-        candidates.sort(key=lambda s: (state["attempts"].get(domain(s["url"]), ""), 0 if s.get("verified_at") else 1, domain(s["url"])))
+        candidates.sort(key=lambda s: (state["attempts"].get(source_key(s), ""), 0 if s.get("verified_at") else 1, domain(s["url"])))
         report["candidates_available"] = len(candidates)
         checkpoint()
-        for source in candidates[:args.limit]:
+        for source in candidates:
+            if report["sites_processed"] >= args.limit:
+                break
             client.check()
+            event_start = len(report["events"])
             try:
                 record = crawl(client, source, report["events"])
                 if record:
                     merge_record(state["records"], record)
+                    candidate_keys = {source_key(c) for c in state['candidates']}
+                    for website in record.get('suggested_websites', []):
+                        key = domain(website)
+                        if key not in candidate_keys:
+                            state['candidates'].append({'url': website, 'name': record['name'], 'discovered_from': source['url']})
+                            candidate_keys.add(key)
             except Deadline:
                 raise
             except Exception as exc:
                 # One site's malformed markup must not discard previous checkpoints.
                 report["events"].append({"url": source["url"], "status": "error", "reason": "parser_" + type(exc).__name__})
-            state["attempts"][domain(source["url"])] = now()
+            recent = report['events'][event_start:]
+            only_budget_skip = recent and all(e['status'] == 'skipped' for e in recent)
+            if only_budget_skip:
+                report["businesses_deferred_by_page_budget"] = report.get("businesses_deferred_by_page_budget", 0) + 1
+                continue
+            state['attempts'][source_key(source)] = now()
             report["sites_processed"] += 1
             checkpoint()
             print(f"Processed {report['sites_processed']}: {domain(source['url'])}", flush=True)

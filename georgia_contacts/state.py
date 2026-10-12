@@ -55,7 +55,7 @@ def union_facts(*groups):
 
 
 def identities(record):
-    return {("domain", d) for d in record["domains"]} | {(f["kind"], f["value"]) for f in record["facts"] if f["kind"] in {"phone", "email"}}
+    return ({("domain", d) for d in record["domains"]} | ({("listing", record["business_key"])} if record.get("business_key") else set())) | {(f["kind"], f["value"]) for f in record["facts"] if f["kind"] in {"phone", "email"}}
 
 
 def merge_record(records, incoming):
@@ -85,7 +85,7 @@ def merge_record(records, incoming):
         records[:] = [r for r in records if r not in matches]
     else:
         result = incoming
-        result["id"] = hashlib.sha256(incoming["domains"][0].encode()).hexdigest()[:16]
+        result["id"] = hashlib.sha256((incoming["domains"][0] if incoming["domains"] else incoming["business_key"]).encode()).hexdigest()[:16]
     records.append(result)
     records.sort(key=lambda r: r["id"])
     return result

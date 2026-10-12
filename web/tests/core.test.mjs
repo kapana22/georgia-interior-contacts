@@ -104,3 +104,13 @@ test('public snapshots do not require contents permissions or transmit the token
   assert.equal(await client.snapshot(), sha);
   assert.equal(calls[1][1].headers.Authorization, undefined);
 });
+
+test('direct-contact target excludes social links, duplicates and unrelated providers', async () => {
+  const {directContactCounts} = await import('../core.js');
+  const a = record('Designer');
+  const b = record('Supplier', 'review');
+  b.review_reasons = ['interior_service_not_confirmed'];
+  b.facts.push({kind:'phone',value:'+995599554188',source_url:'https://studio.test'});
+  a.facts.push({kind:'instagram',value:'https://instagram.com/studio',source_url:'https://studio.test'});
+  assert.deepEqual(directContactCounts([a,b]),{total:2,relevant:1});
+});
