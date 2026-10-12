@@ -1,35 +1,35 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:51:15+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T20:53:47+00:00",
+  "status": "running",
   "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/alberto-pinto/",
+      "url": "https://www.homeis.ge/material-editors-is-gidi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/26/",
+      "url": "https://www.homeis.ge/rada-merebashvili-abazhurebi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/interviu-guga-kotetishviltan/",
+      "url": "https://www.homeis.ge/ana-natsvlishvili-bau-design/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/gvanca-kikalishvili/",
+      "url": "https://www.homeis.ge/aqsel-vervurdti/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/maka-jishkariani/",
+      "url": "https://www.homeis.ge/olson-kundig-brendi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -218,15 +218,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38306855728",
-  "remaining_directory_pages": 7,
+  "github_run_id": "38307118945",
+  "remaining_directory_pages": 2,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:53:18+00:00",
+  "checkpoint_at": "2026-10-12T20:55:52+00:00",
   "records_total": 204,
   "contacts_total": 691,
   "historical_direct_contacts_unique": 13,
@@ -242,8 +242,5 @@
     "unreachable": 1
   },
   "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:53:18+00:00",
-  "http_requests": 64
+  "businesses_deferred_by_page_budget": 1
 }
