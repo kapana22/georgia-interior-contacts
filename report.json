@@ -1,65 +1,65 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:00:15+00:00",
-  "status": "completed",
-  "sites_processed": 8,
+  "started_at": "2026-10-12T20:02:58+00:00",
+  "status": "running",
+  "sites_processed": 7,
   "events": [
     {
-      "url": "https://www.homeis.ge/hening-larseni/",
+      "url": "https://www.homeis.ge/david-chipperfield/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/glen-merkati/",
+      "url": "https://www.homeis.ge/interviu-mariam-supatashvilthan/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/charlz-reni-makintoshi/",
+      "url": "https://www.homeis.ge/alberto-campo-baeza/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/17/",
+      "url": "https://www.homeis.ge/ruso-janshiashvilis-interviu/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/due-interviu/",
+      "url": "https://www.homeis.ge/phernando-romero/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3429",
+      "url": "https://archiaward.com/en/work/3461",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3441",
+      "url": "https://archiaward.com/en/work/3471",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3456",
+      "url": "https://archiaward.com/en/work/3474",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3457",
+      "url": "https://archiaward.com/en/work/3490",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3458",
+      "url": "https://archiaward.com/en/work/3496",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -75,22 +75,22 @@
       "reason": "social_profile_not_crawled"
     },
     {
-      "url": "https://www.eglo.com/uk/",
+      "url": "https://www.eglo.com/us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.eglo.com/us/contact_us",
       "status": "ok",
       "reason": "business_page"
     },
     {
       "url": "https://www.eglo.com/uk/contact_us",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.eglo.com/gr/contact_us",
       "status": "skipped",
       "reason": "page_limit"
     },
     {
-      "url": "https://www.eglo.com/us/contact_us",
+      "url": "https://www.eglo.com/gr/contact_us",
       "status": "skipped",
       "reason": "page_limit"
     },
@@ -223,45 +223,20 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38301321262",
-  "remaining_directory_pages": 29,
+  "github_run_id": "38301630182",
+  "remaining_directory_pages": 19,
   "remaining_businesses": 10,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:02:33+00:00",
+  "checkpoint_at": "2026-10-12T20:05:01+00:00",
   "records_total": 202,
   "contacts_total": 683,
   "historical_direct_contacts_unique": 13,
@@ -277,8 +252,5 @@
     "unreachable": 1
   },
   "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 2,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:02:33+00:00",
-  "http_requests": 70
+  "businesses_deferred_by_page_budget": 2
 }
