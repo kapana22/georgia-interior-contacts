@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:38:08+00:00",
-  "status": "running",
-  "sites_processed": 13,
+  "status": "completed",
+  "sites_processed": 17,
   "events": [
     {
       "url": "https://dizaini.ge/product/89",
@@ -768,6 +768,101 @@
       "url": "https://timmarchitecture.com/team/",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://hdesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/kontaqti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/kontakti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/servisebi/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -781,7 +876,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 39,
-  "checkpoint_at": "2026-10-12T18:40:09+00:00",
+  "checkpoint_at": "2026-10-12T18:41:00+00:00",
   "records_total": 103,
   "contacts_total": 402,
   "historical_direct_contacts_unique": 13,
@@ -797,5 +892,8 @@
     "unreachable": 4
   },
   "candidates_available": 127,
-  "businesses_deferred_by_page_budget": 110
+  "businesses_deferred_by_page_budget": 110,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T18:41:00+00:00",
+  "http_requests": 87
 }
