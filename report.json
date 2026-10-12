@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T20:00:15+00:00",
-  "status": "running",
-  "sites_processed": 7,
+  "status": "completed",
+  "sites_processed": 8,
   "events": [
     {
       "url": "https://www.homeis.ge/hening-larseni/",
@@ -223,6 +223,31 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -236,7 +261,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:02:21+00:00",
+  "checkpoint_at": "2026-10-12T20:02:33+00:00",
   "records_total": 202,
   "contacts_total": 683,
   "historical_direct_contacts_unique": 13,
@@ -252,5 +277,8 @@
     "unreachable": 1
   },
   "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 2
+  "businesses_deferred_by_page_budget": 2,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T20:02:33+00:00",
+  "http_requests": 70
 }
