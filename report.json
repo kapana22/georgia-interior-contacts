@@ -1,56 +1,43 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:11:10+00:00",
-  "status": "completed",
-  "sites_processed": 9,
+  "started_at": "2026-10-12T20:13:53+00:00",
+  "status": "running",
+  "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/sezar-peli/",
+      "url": "https://www.homeis.ge/albert-kani-detroitis-arqiteqtori/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nino-manjavidze/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/19/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/karlo-skarpa/",
+      "url": "https://www.homeis.ge/phrei-pol-oto/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nino-mshvelidze/",
+      "url": "https://www.homeis.ge/kengo-kuma/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/aldo-rosi/",
+      "url": "https://www.homeis.ge/teqsturirebuli-khelovneba-mariam-gakhokidze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3597",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/3612",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/3622",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
+      "url": "https://www.facebook.com/Dio.Ltd/timeline",
+      "status": "skipped",
+      "reason": "social_profile_not_crawled"
     },
     {
       "url": "https://archiaward.com/en/work/2249",
@@ -64,23 +51,18 @@
     },
     {
       "url": "https://archiaward.com/ge/contacts",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://archiaward.com/en/about?fix",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://archiaward.com/en/about/regulations?fix",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.facebook.com/Dio.Ltd/timeline",
-      "status": "skipped",
-      "reason": "social_profile_not_crawled"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.eglo.com/us/",
@@ -231,45 +213,20 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38302516753",
-  "remaining_directory_pages": 2,
-  "remaining_businesses": 10,
+  "github_run_id": "38302804559",
+  "remaining_directory_pages": 5,
+  "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:13:26+00:00",
+  "checkpoint_at": "2026-10-12T20:16:03+00:00",
   "records_total": 203,
   "contacts_total": 686,
   "historical_direct_contacts_unique": 13,
@@ -277,7 +234,7 @@
   "relevant_direct_contacts_unique": 141,
   "target_reached": false,
   "contacts_missing_to_target": 859,
-  "new_records": 1,
+  "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
   "errors": 1,
@@ -285,8 +242,5 @@
     "unreachable": 1
   },
   "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:13:26+00:00",
-  "http_requests": 70
+  "businesses_deferred_by_page_budget": 1
 }
