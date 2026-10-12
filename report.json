@@ -1,73 +1,68 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T19:34:37+00:00",
-  "status": "completed",
-  "sites_processed": 18,
+  "started_at": "2026-10-12T19:37:44+00:00",
+  "status": "running",
+  "sites_processed": 20,
   "events": [
     {
-      "url": "https://www.homeis.ge/oskar-nimeierri/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/14/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nika-lekveishvili/",
+      "url": "https://www.homeis.ge/interviu-nodar-kvantchianthan/",
       "status": "ok",
       "reason": "directory",
-      "discovered": 1
+      "discovered": 11
     },
     {
-      "url": "https://www.homeis.ge/interviu-givi-gogritchianthan/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.homeis.ge/sami/",
+      "url": "https://www.homeis.ge/mariam-dzamashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/merab-gujejiani/",
+      "url": "https://www.homeis.ge/interviu-nino-imnadzesthan/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3464",
+      "url": "https://www.homeis.ge/misha-baliashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3436",
+      "url": "https://archiaward.com/en/work/3431",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3502",
+      "url": "https://archiaward.com/en/work/3402",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3548",
+      "url": "https://archiaward.com/en/work/3403",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3430",
+      "url": "https://archiaward.com/en/work/3408",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "http://www.3quadrates.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
+      "url": "https://archiaward.com/en/work/3411",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
     },
     {
       "url": "https://archiaward.com/en/work/2249",
@@ -75,59 +70,39 @@
       "reason": "page_limit"
     },
     {
-      "url": "http://www.ccn1.ge/",
+      "url": "https://archive-2020.biennial.ge/en/project/critical-analysis-of-georgian-architecture/16",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://arriolafiol.com/portfolio_page/place-perdtemps-nyon/",
       "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://www.city24.ge/ru/tbilisi/organizations/14698/studio-kiwi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ru/tbilisi/organizations/14763/space/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ru/tbilisi/organizations/15037/skhivi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ru/tbilisi/organizations/14741/tenttown/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ru/tbilisi/organizations/14720/techo-georgia-limited/",
-      "status": "ok",
-      "reason": "business_page"
+      "reason": "http_404"
     },
     {
       "url": "https://www.city24.ge/ru/tbilisi/organizations/14740/uni-group/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ru/tbilisi/organizations/14742/fine-art/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ru/tbilisi/organizations/14765/pharaon/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ru/tbilisi/organizations/16849/full-house/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ru/tbilisi/organizations/16851/khararka/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ru/tbilisi/organizations/14759/helix/",
@@ -143,6 +118,111 @@
       "url": "https://www.city24.ge/ru/tbilisi/organizations/14708/khelosanta-sakhli/",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://dearchitetti.it/project/residenze-carlo-erba-milan-degli-esposti-architetti-new-residential-building/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://dearchitetti.it/contact-degli-esposti-architetti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://dearchitetti.it/news-about-degli-esposti-architetti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://dearchitetti.it/news/conversation-about-the-modern-peter-eisenman-and-rafael-moneo/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://dearchitetti.it/degli-esposti-architetti-studio/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.designstudionao.com/projects/crosby-website-7lxy6-n8m8a-9b2e6-dmn26?fbclid=IwAR1JRw9vyegV4zqLZC6fVtMrr-2QyIUVgoJr3qJ6aP6uFCP37djn5VOCY14",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.designstudionao.com/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.designstudionao.com/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/studio",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/projects/3",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.space.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.techo.com/",
+      "status": "blocked",
+      "reason": "robots_disallowed"
+    },
+    {
+      "url": "http://www.tenttown.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.terravivacompetitions.com/hangar-ticinum-competition-results-2021/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.terravivacompetitions.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.terravivacompetitions.com/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.terravivacompetitions.com/extra-services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://ytaa.miesbcn.com/work/1038?fbclid=IwAR2ddNgMrjXqsRqpIuc5D9JwSBhTN5EKhN9dgHjs6o4BNl0U7f50xDvl9",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14135/dio",
@@ -205,17 +285,22 @@
       "reason": "page_limit"
     },
     {
+      "url": "http://www.3quadrates.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.ccn1.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
       "url": "https://www.alyasaarchitects.com/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
     {
       "url": "http://www.citydesign.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.petra.com.ge/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
@@ -238,192 +323,35 @@
       "url": "https://www.eglo.com/gr/contact_us",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://verona.ge/ka",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://verona.ge/ka/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://verona.ge/en/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://verona.ge/ru/contact",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://cityproject.ge/ka/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://cityproject.ge/ka/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://cityproject.ge/en/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://cityproject.ge/ka/about",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://timmarchitecture.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://timmarchitecture.com/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://timmarchitecture.com/wp-content/uploads/2014/12/contact_sketch_2.jpg",
-      "status": "unreachable",
-      "reason": "not_html"
-    },
-    {
-      "url": "https://timmarchitecture.com/team/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://hdesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/kontaqti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/kontakti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/servisebi/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38298515849",
-  "remaining_directory_pages": 59,
-  "remaining_businesses": 36,
+  "github_run_id": "38298861245",
+  "remaining_directory_pages": 62,
+  "remaining_businesses": 34,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 64,
-  "checkpoint_at": "2026-10-12T19:37:15+00:00",
-  "records_total": 189,
-  "contacts_total": 640,
+  "unavailable_sources_total": 67,
+  "checkpoint_at": "2026-10-12T19:39:48+00:00",
+  "records_total": 199,
+  "contacts_total": 672,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 464,
-  "relevant_direct_contacts_unique": 137,
+  "direct_contacts_unique": 487,
+  "relevant_direct_contacts_unique": 142,
   "target_reached": false,
-  "contacts_missing_to_target": 863,
-  "new_records": 5,
+  "contacts_missing_to_target": 858,
+  "new_records": 10,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 6,
+  "errors": 9,
   "error_categories": {
-    "unreachable": 6
+    "unreachable": 8,
+    "blocked": 1
   },
-  "candidates_available": 39,
-  "businesses_deferred_by_page_budget": 21,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T19:37:15+00:00",
-  "http_requests": 76
+  "candidates_available": 43,
+  "businesses_deferred_by_page_budget": 16
 }
