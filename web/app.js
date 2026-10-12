@@ -105,7 +105,7 @@ function renderContacts() {
   if (!filtered.length) {
     const empty = el('div', 'empty-state'); empty.append(el('span', 'empty-icon', '⌕'), el('h3', '', state.records.length ? 'შესაბამისი ჩანაწერი ვერ მოიძებნა' : 'კონტაქტები ჯერ არ არის'), el('p', '', state.records.length ? 'შეცვალე ძიება ან ფილტრები.' : 'შეგროვების დასრულების შემდეგ შედეგები აქ გამოჩნდება.')); grid.append(empty);
   }
-  $('pagination').hidden = pages <= 1; $('page-label').textContent = `${state.page} / ${pages}`;
+  $('pagination').hidden = pages <= 1; $('page-label').textContent = `${filtered.length ? (state.page - 1) * state.pageSize + 1 : 0}–${Math.min(state.page * state.pageSize, filtered.length)} / ${filtered.length}`;
   $('previous-page').disabled = state.page <= 1; $('next-page').disabled = state.page >= pages;
 }
 
