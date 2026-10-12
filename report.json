@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:08:47+00:00",
-  "status": "running",
-  "sites_processed": 94,
+  "status": "completed",
+  "sites_processed": 101,
   "events": [
     {
       "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-1/",
@@ -1769,6 +1769,86 @@
       "url": "https://ubani.center/publishing/",
       "status": "ok",
       "reason": "business_page"
+    },
+    {
+      "url": "http://www.updesign.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.worlddesignconsortium.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.archidea.ge/ka/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.archidea.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.archidea.ge/ka/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Home/Contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Ka/Contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Home/AboutUs",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artstudio.ge/Ka/AboutUs",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.artytechs.ge/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.ad-project.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.architectonics.ge/en",
+      "status": "unreachable",
+      "reason": "http_404"
     }
   ],
   "continuous": true,
@@ -1776,12 +1856,12 @@
   "batch_limit": 1000,
   "github_run_id": "38288901096",
   "remaining_directory_pages": 237,
-  "remaining_businesses": 156,
+  "remaining_businesses": 152,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "unavailable_sources_total": 14,
-  "checkpoint_at": "2026-10-12T18:21:17+00:00",
+  "checkpoint_at": "2026-10-12T18:21:54+00:00",
   "records_total": 90,
   "contacts_total": 358,
   "historical_direct_contacts_unique": 13,
@@ -1792,12 +1872,15 @@
   "new_records": 4,
   "changed_records": 4,
   "merged_records": 0,
-  "errors": 33,
+  "errors": 36,
   "error_categories": {
-    "unreachable": 19,
+    "unreachable": 22,
     "javascript_required": 4,
     "blocked": 10
   },
   "candidates_available": 225,
-  "businesses_deferred_by_page_budget": 124
+  "businesses_deferred_by_page_budget": 124,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T18:21:54+00:00",
+  "http_requests": 363
 }
