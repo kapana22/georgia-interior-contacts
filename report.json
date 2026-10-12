@@ -1,43 +1,53 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:18:54+00:00",
-  "status": "completed",
-  "sites_processed": 9,
+  "started_at": "2026-10-12T21:21:27+00:00",
+  "status": "running",
+  "sites_processed": 10,
   "events": [
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/31/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/32/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/qarthuli-thikha-ceramic-rooms/",
+      "url": "https://www.homeis.ge/rogor-gakhda-snohetta-msophlios-erth-erthi-gavleniani-arqiteqturuli-ophisi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/ras-guliskhmobs-loft-stili-interieris-dizainshi/",
+      "url": "https://www.homeis.ge/dizaineruli-prophesiis-legendaruli-phudzemdebeli/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/zaha-hadidi-msophlio-arqiteqturis-diva/",
+      "url": "https://www.homeis.ge/yes-is-more-arqiteqtori-biarke-ingelsi/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 5
+    },
+    {
+      "url": "https://www.homeis.ge/simartive-da-khariskhi-ceramic-studio-1300/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/rikardo-bophilis-surealisturi-arqiteqtura/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
+      "url": "https://architizer.com/projects/79park/",
+      "status": "blocked",
+      "reason": "http_403"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "skipped",
       "reason": "social_profile_not_crawled"
+    },
+    {
+      "url": "https://www.dezeen.com/2023/03/15/blueberry-nights-hotel-tbilisi-georgia/?fbclid=IwAR2vLycffwZ2hlqg2sCBGxs9Iu7UgO0QnDXNtxXxLE9XNJdssi4YdqG0_w8",
+      "status": "blocked",
+      "reason": "http_403"
     },
     {
       "url": "https://www.bernardkhoury.com/",
@@ -50,22 +60,22 @@
       "reason": "http_409"
     },
     {
-      "url": "https://www.eglo.com/uk/",
+      "url": "https://www.eglo.com/us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.eglo.com/us/contact_us",
       "status": "ok",
       "reason": "business_page"
     },
     {
       "url": "https://www.eglo.com/uk/contact_us",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.eglo.com/gr/contact_us",
       "status": "skipped",
       "reason": "page_limit"
     },
     {
-      "url": "https://www.eglo.com/us/contact_us",
+      "url": "https://www.eglo.com/gr/contact_us",
       "status": "skipped",
       "reason": "page_limit"
     },
@@ -198,45 +208,20 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38309800897",
-  "remaining_directory_pages": 1,
-  "remaining_businesses": 10,
+  "github_run_id": "38310086491",
+  "remaining_directory_pages": 5,
+  "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 83,
-  "checkpoint_at": "2026-10-12T21:21:03+00:00",
+  "unavailable_sources_total": 85,
+  "checkpoint_at": "2026-10-12T21:23:27+00:00",
   "records_total": 213,
   "contacts_total": 727,
   "historical_direct_contacts_unique": 13,
@@ -247,13 +232,11 @@
   "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 2,
+  "errors": 4,
   "error_categories": {
+    "blocked": 2,
     "unreachable": 2
   },
-  "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:21:03+00:00",
-  "http_requests": 67
+  "candidates_available": 12,
+  "businesses_deferred_by_page_budget": 1
 }
