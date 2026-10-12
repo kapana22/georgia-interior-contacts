@@ -1,103 +1,38 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:59:09+00:00",
-  "status": "completed",
-  "sites_processed": 14,
+  "started_at": "2026-10-12T21:02:29+00:00",
+  "status": "running",
+  "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/jan-lui-denio/",
+      "url": "https://www.homeis.ge/giorgi-amiranashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/le-korbuzie/",
+      "url": "https://www.homeis.ge/skami-giorgi-surguladze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/zurab-saphareli/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 6
-    },
-    {
-      "url": "https://www.homeis.ge/dizaini-rogorts-poezia-nino-chubinishvilis-philosophia/",
+      "url": "https://www.homeis.ge/arqiteqturuli-photographia-mamasakhlisi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/luis-baragani/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/28/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://arclinea.com/en/",
+      "url": "https://www.homeis.ge/qarthuli-dizaini-rooms-studio/",
       "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://arclinea.com/en/contact.html",
-      "status": "blocked",
-      "reason": "cross_domain_redirect_requires_review"
-    },
-    {
-      "url": "https://decastelli.com/en/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://decastelli.com/en/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://decastelli.com/en/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://decastelli.com/it/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.eclettis.it/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.giorgettimeda.com/en/the-art-of-shaping",
-      "status": "blocked",
-      "reason": "http_403"
-    },
-    {
-      "url": "https://www.mosaicomicro.com/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    },
-    {
-      "url": "https://nerosicilia.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nerosicilia.com/partnership/maustudio-lavabo-pietra-lavica/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nerosicilia.com/contatti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nerosicilia.com/en/partnership/maustudio-lavabo-pietra-lavica/",
-      "status": "ok",
-      "reason": "business_page"
+      "reason": "directory",
+      "discovered": 0
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -283,15 +218,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38307693043",
-  "remaining_directory_pages": 4,
+  "github_run_id": "38308064732",
+  "remaining_directory_pages": 10,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 81,
-  "checkpoint_at": "2026-10-12T21:02:00+00:00",
+  "checkpoint_at": "2026-10-12T21:04:36+00:00",
   "records_total": 208,
   "contacts_total": 709,
   "historical_direct_contacts_unique": 13,
@@ -299,17 +234,13 @@
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
-  "new_records": 4,
+  "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 4,
+  "errors": 1,
   "error_categories": {
-    "blocked": 3,
     "unreachable": 1
   },
-  "candidates_available": 15,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:02:00+00:00",
-  "http_requests": 91
+  "candidates_available": 9,
+  "businesses_deferred_by_page_budget": 1
 }
