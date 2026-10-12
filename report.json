@@ -1,63 +1,38 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:48:31+00:00",
-  "status": "completed",
-  "sites_processed": 9,
+  "started_at": "2026-10-12T20:51:15+00:00",
+  "status": "running",
+  "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/zhan-nuveli-arqiteqturith-gadmotsemuli-poezia/",
+      "url": "https://www.homeis.ge/alberto-pinto/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/jonathan-adler-biografia/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/26/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/cnobili-kali-arkitektori-kazuo-sejima/",
+      "url": "https://www.homeis.ge/interviu-guga-kotetishviltan/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/steven-hall-architects/",
+      "url": "https://www.homeis.ge/gvanca-kikalishvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/ruso-margishvili/",
+      "url": "https://www.homeis.ge/maka-jishkariani/",
       "status": "ok",
       "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.architectsofinvention.com/?fbclid=IwAR2FC2m1xjOkNxSRPqSd-czM1MMUNFJEp2xQpuLm7Lo0x9YsJW2VywtIhiI",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.architectsofinvention.com/en/profile",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.architectsofinvention.com/en/profile/contacts",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.architectsofinvention.com/en/profile/contacts",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.architectsofinvention.com/en/profile/people",
-      "status": "ok",
-      "reason": "business_page"
+      "discovered": 0
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -243,15 +218,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38306565912",
-  "remaining_directory_pages": 2,
+  "github_run_id": "38306855728",
+  "remaining_directory_pages": 7,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:50:48+00:00",
+  "checkpoint_at": "2026-10-12T20:53:16+00:00",
   "records_total": 204,
   "contacts_total": 691,
   "historical_direct_contacts_unique": 13,
@@ -259,16 +234,13 @@
   "relevant_direct_contacts_unique": 144,
   "target_reached": false,
   "contacts_missing_to_target": 856,
-  "new_records": 1,
+  "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
   "errors": 1,
   "error_categories": {
     "unreachable": 1
   },
-  "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:50:48+00:00",
-  "http_requests": 71
+  "candidates_available": 9,
+  "businesses_deferred_by_page_budget": 1
 }
