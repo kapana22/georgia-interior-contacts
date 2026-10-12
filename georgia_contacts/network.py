@@ -10,6 +10,7 @@ from protego import Protego
 from .urls import canonical_url, domain, public_url
 
 POLICY_BLOCKED = {
+    'biznesebi.ge': 'https://biznesebi.ge/ru/pirobebi',
     'linkedin.com': 'https://www.linkedin.com/legal/user-agreement',
     'designgeorgia.org': 'https://designgeorgia.org/policies/terms-of-service',
     'bestexperts.ge': 'https://bestexperts.ge/terms/',

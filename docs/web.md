@@ -58,7 +58,7 @@ POST მოთხოვნა ავტომატურად არ მეო
 
 ## შემოწმება
 
-78 Python და 27 JavaScript ოფლაინ ტესტი: კონტაქტები, მდგომარეობის შენარჩუნება, გაერთიანება, საჯარო სერვერის პარამეტრები/ტოკენის გაუმჟღავნებლობა, აქტიური სამუშაოს ხელახალი გამოყენება და dispatch-ის არგამეორება. მიმდინარე ცოცხალი შემოწმების შედეგები: `docs/VALIDATION.md`.
+80 Python და 27 JavaScript ოფლაინ ტესტი: კონტაქტები, მდგომარეობის შენარჩუნება, გაერთიანება, საჯარო სერვერის პარამეტრები/ტოკენის გაუმჟღავნებლობა, აქტიური სამუშაოს ხელახალი გამოყენება და dispatch-ის არგამეორება. მიმდინარე ცოცხალი შემოწმების შედეგები: `docs/VALIDATION.md`.
 
 ოფიციალური ინსტრუქციები: [Vercel Node functions](https://vercel.com/docs/functions/runtimes/node-js), [Environment variables](https://vercel.com/docs/environment-variables), [GitHub workflow dispatch](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event).
 

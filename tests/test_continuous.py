@@ -149,3 +149,11 @@ def test_worker_ignores_itself_but_never_queues_over_another_job():
     assert payload['inputs']['limit']=='1000'
     assert controller.decision(report,current+[{'id':13,'status':'queued'}],'12','12')[0] is None
     assert controller.decision(report,current,'11','12')[0] is None
+
+
+def test_adding_a_source_preserves_finished_work_in_the_same_campaign(tmp_path):
+    a=args(tmp_path, {'businesses':[{'url':'https://one.test/'}]})
+    run(a,Client())
+    a=args(tmp_path, {'businesses':[{'url':'https://one.test/'},{'url':'https://two.test/'}]})
+    c=Client();r=run(a,c)
+    assert c.calls==['https://two.test/'] and not r['work_remaining']

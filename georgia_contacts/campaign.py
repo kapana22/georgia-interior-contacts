@@ -29,8 +29,9 @@ def prepare(state, config, sources_file, started_at):
     signature = fingerprint({'config': config, 'sources': str(sources_file)})
     campaign = state.get('campaign', {})
     if campaign.get('signature') != signature:
-        campaign = {'signature': signature, 'started_at': started_at, 'sources': str(sources_file),
-                    'processed': {}, 'failures': {}, 'status': 'active'}
+        previous = campaign if campaign.get('sources') == str(sources_file) else {}
+        campaign = {'signature': signature, 'started_at': previous.get('started_at', started_at), 'sources': str(sources_file),
+                    'processed': previous.get('processed', {}), 'failures': previous.get('failures', {}), 'status': 'active'}
         state['campaign'] = campaign
     return campaign
 

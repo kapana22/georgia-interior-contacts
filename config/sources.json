@@ -589,6 +589,11 @@
       "url": "https://archias.ge/",
       "policy_url": "https://archias.ge/robots.txt",
       "reason": "robots endpoint returns HTML; fail-closed, not bypassed."
+    },
+    {
+      "url": "https://biznesebi.ge/ru/kategoria/interieris-dizaini",
+      "policy_url": "https://biznesebi.ge/ru/pirobebi",
+      "reason": "Section 14 explicitly prohibits automated scanning, scraping and bulk export; reviewed 2026-10-12, not enabled."
     }
   ],
   "excluded_business_domains": [
