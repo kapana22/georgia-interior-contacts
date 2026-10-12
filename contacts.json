@@ -470,6 +470,50 @@
     ]
   },
   {
+    "id": "0617438bb20060ee",
+    "name": "Арк Стаыли",
+    "domains": [],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14717/arch-style/",
+        "first_seen": "2026-10-12T18:23:09+00:00",
+        "last_seen": "2026-10-12T18:23:09+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "არქ სტილი",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14717/arch-style/",
+        "first_seen": "2026-10-12T18:23:09+00:00",
+        "last_seen": "2026-10-12T18:23:09+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995571397239",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14717/arch-style/",
+        "first_seen": "2026-10-12T18:23:09+00:00",
+        "last_seen": "2026-10-12T18:23:09+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995599700075",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14717/arch-style/",
+        "first_seen": "2026-10-12T18:23:09+00:00",
+        "last_seen": "2026-10-12T18:23:09+00:00"
+      }
+    ],
+    "business_key": "city24:14717",
+    "suggested_websites": [],
+    "first_seen": "2026-10-12T18:23:09+00:00",
+    "last_seen": "2026-10-12T18:23:09+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim",
+      "interior_service_not_confirmed"
+    ]
+  },
+  {
     "id": "08ee7755cc05623c",
     "name": "Interiorismo",
     "domains": [
@@ -661,90 +705,90 @@
         "value": "თბილისი",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:11:06+00:00"
+        "last_seen": "2026-10-12T18:23:52+00:00"
       },
       {
         "kind": "city",
         "value": "თბილისი",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:11:04+00:00"
+        "last_seen": "2026-10-12T18:23:50+00:00"
       },
       {
         "kind": "email",
         "value": "info@cityproject.ge",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:11:06+00:00"
+        "last_seen": "2026-10-12T18:23:52+00:00"
       },
       {
         "kind": "email",
         "value": "info@cityproject.ge",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:11:04+00:00"
+        "last_seen": "2026-10-12T18:23:50+00:00"
       },
       {
         "kind": "name",
         "value": "City Project",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:11:06+00:00"
+        "last_seen": "2026-10-12T18:23:52+00:00"
       },
       {
         "kind": "name",
         "value": "City Project",
         "source_url": "https://cityproject.ge/ka/",
         "first_seen": "2026-10-12T13:13:42+00:00",
-        "last_seen": "2026-10-12T18:11:03+00:00"
+        "last_seen": "2026-10-12T18:23:48+00:00"
       },
       {
         "kind": "name",
         "value": "City Project",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:11:04+00:00"
+        "last_seen": "2026-10-12T18:23:50+00:00"
       },
       {
         "kind": "phone",
         "value": "+995322555888",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:11:06+00:00"
+        "last_seen": "2026-10-12T18:23:52+00:00"
       },
       {
         "kind": "phone",
         "value": "+995322555888",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:11:04+00:00"
+        "last_seen": "2026-10-12T18:23:50+00:00"
       },
       {
         "kind": "website",
         "value": "https://www.cityproject.ge/",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:11:06+00:00"
+        "last_seen": "2026-10-12T18:23:52+00:00"
       },
       {
         "kind": "website",
         "value": "https://www.cityproject.ge/",
         "source_url": "https://cityproject.ge/ka/",
         "first_seen": "2026-10-12T13:13:42+00:00",
-        "last_seen": "2026-10-12T18:11:03+00:00"
+        "last_seen": "2026-10-12T18:23:48+00:00"
       },
       {
         "kind": "website",
         "value": "https://www.cityproject.ge/",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:11:04+00:00"
+        "last_seen": "2026-10-12T18:23:50+00:00"
       }
     ],
     "business_key": "",
     "suggested_websites": [],
     "first_seen": "2026-10-12T13:13:42+00:00",
-    "last_seen": "2026-10-12T18:11:06+00:00",
+    "last_seen": "2026-10-12T18:23:52+00:00",
     "status": "review",
     "review_reasons": [
       "interior_service_not_confirmed",
@@ -7723,6 +7767,13 @@
       {
         "kind": "facebook",
         "value": "https://www.facebook.com/monarchitectsstudio",
+        "source_url": "https://dizaini.ge/product/139",
+        "first_seen": "2026-10-12T18:22:16+00:00",
+        "last_seen": "2026-10-12T18:22:16+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/monarchitectsstudio",
         "source_url": "https://dizaini.ge/product/140",
         "first_seen": "2026-10-12T18:08:47+00:00",
         "last_seen": "2026-10-12T18:08:47+00:00"
@@ -7758,6 +7809,13 @@
       {
         "kind": "name",
         "value": "MON ARCH Studio",
+        "source_url": "https://dizaini.ge/product/139",
+        "first_seen": "2026-10-12T18:22:16+00:00",
+        "last_seen": "2026-10-12T18:22:16+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "MON ARCH Studio",
         "source_url": "https://dizaini.ge/product/140",
         "first_seen": "2026-10-12T18:08:47+00:00",
         "last_seen": "2026-10-12T18:08:47+00:00"
@@ -7789,6 +7847,14 @@
         "source_url": "https://dizaini.ge/product/157",
         "first_seen": "2026-10-12T18:06:45+00:00",
         "last_seen": "2026-10-12T18:06:45+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995577002220",
+        "source_url": "https://dizaini.ge/product/139",
+        "first_seen": "2026-10-12T18:22:16+00:00",
+        "last_seen": "2026-10-12T18:22:16+00:00",
+        "source_disclosure": "public_client_side_reveal"
       },
       {
         "kind": "phone",
@@ -7834,7 +7900,7 @@
     "business_key": "dizaini:65",
     "suggested_websites": [],
     "first_seen": "2026-10-12T18:06:45+00:00",
-    "last_seen": "2026-10-12T18:08:47+00:00",
+    "last_seen": "2026-10-12T18:22:16+00:00",
     "status": "review",
     "review_reasons": [
       "directory_only_service_claim"
@@ -8858,6 +8924,75 @@
     "suggested_websites": [],
     "first_seen": "2026-10-12T13:35:15+00:00",
     "last_seen": "2026-10-12T13:35:15+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim",
+      "interior_service_not_confirmed"
+    ]
+  },
+  {
+    "id": "bc52e9907d7ee144",
+    "name": "Аса Группа",
+    "domains": [
+      "asa-group.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
+        "first_seen": "2026-10-12T18:23:13+00:00",
+        "last_seen": "2026-10-12T18:23:13+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@asa-group.ge",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
+        "first_seen": "2026-10-12T18:23:13+00:00",
+        "last_seen": "2026-10-12T18:23:13+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ასა ჯგუფი",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
+        "first_seen": "2026-10-12T18:23:13+00:00",
+        "last_seen": "2026-10-12T18:23:13+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322913878",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
+        "first_seen": "2026-10-12T18:23:13+00:00",
+        "last_seen": "2026-10-12T18:23:13+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995570707117",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
+        "first_seen": "2026-10-12T18:23:13+00:00",
+        "last_seen": "2026-10-12T18:23:13+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995599793731",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
+        "first_seen": "2026-10-12T18:23:13+00:00",
+        "last_seen": "2026-10-12T18:23:13+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.asa-group.ge/",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
+        "first_seen": "2026-10-12T18:23:13+00:00",
+        "last_seen": "2026-10-12T18:23:13+00:00"
+      }
+    ],
+    "business_key": "city24:14754",
+    "suggested_websites": [
+      "http://www.asa-group.ge/"
+    ],
+    "first_seen": "2026-10-12T18:23:13+00:00",
+    "last_seen": "2026-10-12T18:23:13+00:00",
     "status": "review",
     "review_reasons": [
       "directory_only_service_claim",
@@ -11158,9 +11293,65 @@
       {
         "kind": "city",
         "value": "თბილისი",
+        "source_url": "https://www.ao.ge/",
+        "first_seen": "2026-10-12T18:22:58+00:00",
+        "last_seen": "2026-10-12T18:22:58+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.ao.ge/1-c23o0",
+        "first_seen": "2026-10-12T18:23:04+00:00",
+        "last_seen": "2026-10-12T18:23:04+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.ao.ge/contact",
+        "first_seen": "2026-10-12T18:23:00+00:00",
+        "last_seen": "2026-10-12T18:23:00+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
         "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14755/architectural-orchestra/",
         "first_seen": "2026-10-12T18:09:36+00:00",
         "last_seen": "2026-10-12T18:09:36+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "bigvava@ao.ge",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "giorgi@ao.ge",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@ao.ge",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@ao.ge",
+        "source_url": "https://www.ao.ge/contact",
+        "first_seen": "2026-10-12T18:23:00+00:00",
+        "last_seen": "2026-10-12T18:23:00+00:00"
       },
       {
         "kind": "email",
@@ -11168,6 +11359,90 @@
         "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14755/architectural-orchestra/",
         "first_seen": "2026-10-12T18:09:36+00:00",
         "last_seen": "2026-10-12T18:09:36+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architecturalorchestraofficial",
+        "source_url": "https://www.ao.ge/",
+        "first_seen": "2026-10-12T18:22:58+00:00",
+        "last_seen": "2026-10-12T18:22:58+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architecturalorchestraofficial",
+        "source_url": "https://www.ao.ge/1-c23o0",
+        "first_seen": "2026-10-12T18:23:04+00:00",
+        "last_seen": "2026-10-12T18:23:04+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architecturalorchestraofficial",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architecturalorchestraofficial",
+        "source_url": "https://www.ao.ge/contact",
+        "first_seen": "2026-10-12T18:23:00+00:00",
+        "last_seen": "2026-10-12T18:23:00+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/architectural_orchestra",
+        "source_url": "https://www.ao.ge/",
+        "first_seen": "2026-10-12T18:22:58+00:00",
+        "last_seen": "2026-10-12T18:22:58+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/architectural_orchestra",
+        "source_url": "https://www.ao.ge/1-c23o0",
+        "first_seen": "2026-10-12T18:23:04+00:00",
+        "last_seen": "2026-10-12T18:23:04+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/architectural_orchestra",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/architectural_orchestra",
+        "source_url": "https://www.ao.ge/contact",
+        "first_seen": "2026-10-12T18:23:00+00:00",
+        "last_seen": "2026-10-12T18:23:00+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "AO",
+        "source_url": "https://www.ao.ge/",
+        "first_seen": "2026-10-12T18:22:58+00:00",
+        "last_seen": "2026-10-12T18:22:58+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "AO",
+        "source_url": "https://www.ao.ge/1-c23o0",
+        "first_seen": "2026-10-12T18:23:04+00:00",
+        "last_seen": "2026-10-12T18:23:04+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "AO",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "AO",
+        "source_url": "https://www.ao.ge/contact",
+        "first_seen": "2026-10-12T18:23:00+00:00",
+        "last_seen": "2026-10-12T18:23:00+00:00"
       },
       {
         "kind": "name",
@@ -11178,10 +11453,45 @@
       },
       {
         "kind": "phone",
+        "value": "+995571442244",
+        "source_url": "https://www.ao.ge/contact",
+        "first_seen": "2026-10-12T18:23:00+00:00",
+        "last_seen": "2026-10-12T18:23:00+00:00"
+      },
+      {
+        "kind": "phone",
         "value": "+995593111219",
         "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14755/architectural-orchestra/",
         "first_seen": "2026-10-12T18:09:36+00:00",
         "last_seen": "2026-10-12T18:09:36+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.ao.ge/",
+        "source_url": "https://www.ao.ge/",
+        "first_seen": "2026-10-12T18:22:58+00:00",
+        "last_seen": "2026-10-12T18:22:58+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.ao.ge/",
+        "source_url": "https://www.ao.ge/1-c23o0",
+        "first_seen": "2026-10-12T18:23:04+00:00",
+        "last_seen": "2026-10-12T18:23:04+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.ao.ge/",
+        "source_url": "https://www.ao.ge/about",
+        "first_seen": "2026-10-12T18:23:03+00:00",
+        "last_seen": "2026-10-12T18:23:03+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.ao.ge/",
+        "source_url": "https://www.ao.ge/contact",
+        "first_seen": "2026-10-12T18:23:00+00:00",
+        "last_seen": "2026-10-12T18:23:00+00:00"
       },
       {
         "kind": "website",
@@ -11196,7 +11506,7 @@
       "http://www.ao.ge/"
     ],
     "first_seen": "2026-10-12T18:09:36+00:00",
-    "last_seen": "2026-10-12T18:09:36+00:00",
+    "last_seen": "2026-10-12T18:23:04+00:00",
     "status": "review",
     "review_reasons": [
       "directory_only_service_claim",
