@@ -1,77 +1,45 @@
 {
   "pipeline": "b2b-leads",
-  "started_at": "2026-10-12T19:37:53+00:00",
+  "started_at": "2026-10-12T19:41:04+00:00",
   "status": "completed",
   "events": [
     {
-      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=2",
+      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=4",
       "category": "beauty",
       "status": "ok",
       "records": 25
     },
     {
-      "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3487&SR_pg=2",
-      "category": "auto",
-      "status": "ok",
-      "records": 18
-    },
-    {
-      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=3",
+      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=5",
       "category": "beauty",
       "status": "ok",
       "records": 25
     },
     {
-      "source_url": "http://www.shine.ge/",
-      "status": "unreachable",
-      "reason": "network_error"
-    },
-    {
-      "source_url": "http://www.renault.ge/",
-      "status": "unreachable",
-      "reason": "network_error"
-    },
-    {
-      "source_url": "https://www.jeep.com/ge",
+      "source_url": "https://lamuse.ge/",
       "status": "blocked",
       "reason": "robots_unavailable_403"
     },
     {
-      "source_url": "http://www.mazda-tegeta.ge/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    },
-    {
-      "source_url": "https://www.kiamotors.ge/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    },
-    {
-      "source_url": "http://www.audi.ge/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    },
-    {
-      "source_url": "http://www.natali.ge/",
+      "source_url": "http://www.junglefever.ge/",
       "status": "blocked",
       "reason": "robots_cross_domain_redirect"
     }
   ],
-  "pages_processed": 3,
-  "sites_processed": 19,
+  "pages_processed": 2,
+  "sites_processed": 3,
   "continuous": true,
   "batch_limit": 50,
   "sources_file": "config/leads-sources.json",
-  "github_run_id": "38298889667",
-  "records_total": 90,
-  "prospects_total": 49,
-  "direct_contacts_unique": 129,
-  "new_records": 44,
-  "changed_records": 4,
-  "errors": 7,
+  "github_run_id": "38299223682",
+  "records_total": 140,
+  "prospects_total": 89,
+  "direct_contacts_unique": 194,
+  "new_records": 50,
+  "changed_records": 0,
+  "errors": 2,
   "error_categories": {
-    "unreachable": 2,
-    "blocked": 5
+    "blocked": 2
   },
   "source_statuses": {
     "beauty": null,
@@ -82,10 +50,10 @@
     }
   },
   "page_caps_reached": [],
-  "remaining_directory_pages": 2,
+  "remaining_directory_pages": 0,
   "remaining_businesses": 18,
   "work_remaining": true,
   "collection_status": "active",
   "resume_after": 0,
-  "updated_at": "2026-10-12T19:40:33+00:00"
+  "updated_at": "2026-10-12T19:41:22+00:00"
 }
