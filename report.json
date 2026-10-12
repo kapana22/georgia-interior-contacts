@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:22:16+00:00",
-  "status": "running",
-  "sites_processed": 25,
+  "status": "completed",
+  "sites_processed": 31,
   "events": [
     {
       "url": "https://dizaini.ge/product/139",
@@ -963,6 +963,36 @@
       "url": "http://www.dio.ge/general.php",
       "status": "unreachable",
       "reason": "http_404"
+    },
+    {
+      "url": "https://archpoint.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.ararchitecture.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.areali.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.updesign.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.ad-project.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://www.architectonics.ge/en",
+      "status": "unreachable",
+      "reason": "http_404"
     }
   ],
   "continuous": true,
@@ -970,12 +1000,12 @@
   "batch_limit": 1000,
   "github_run_id": "38289500719",
   "remaining_directory_pages": 222,
-  "remaining_businesses": 150,
+  "remaining_businesses": 148,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 14,
-  "checkpoint_at": "2026-10-12T18:26:29+00:00",
+  "unavailable_sources_total": 16,
+  "checkpoint_at": "2026-10-12T18:26:43+00:00",
   "records_total": 92,
   "contacts_total": 369,
   "historical_direct_contacts_unique": 13,
@@ -986,10 +1016,13 @@
   "new_records": 2,
   "changed_records": 1,
   "merged_records": 0,
-  "errors": 16,
+  "errors": 22,
   "error_categories": {
-    "unreachable": 16
+    "unreachable": 22
   },
   "candidates_available": 153,
-  "businesses_deferred_by_page_budget": 122
+  "businesses_deferred_by_page_budget": 122,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T18:26:43+00:00",
+  "http_requests": 118
 }
