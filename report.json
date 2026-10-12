@@ -1,65 +1,65 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:05:40+00:00",
-  "status": "completed",
-  "sites_processed": 8,
+  "started_at": "2026-10-12T20:08:26+00:00",
+  "status": "running",
+  "sites_processed": 7,
   "events": [
     {
-      "url": "https://www.homeis.ge/vladimer-abramishvili/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.homeis.ge/lika-phanjikidzis-interviu/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/18/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/bernard-chumi/",
+      "url": "https://www.homeis.ge/giorgi-khmaladze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/nino-arziani/",
+      "url": "https://www.homeis.ge/kristopher-reni/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/uiliam-morisi-pirveli-dizaineri/",
+      "url": "https://www.homeis.ge/deniel-bernhemi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3527",
+      "url": "https://www.homeis.ge/nino-nozadze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3513",
+      "url": "https://archiaward.com/en/work/3567",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3524",
+      "url": "https://archiaward.com/en/work/3574",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3529",
+      "url": "https://archiaward.com/en/work/3589",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/3556",
+      "url": "https://archiaward.com/en/work/3590",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://archiaward.com/en/work/3593",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -223,45 +223,20 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38301914894",
-  "remaining_directory_pages": 9,
+  "github_run_id": "38302215005",
+  "remaining_directory_pages": 10,
   "remaining_businesses": 10,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:07:58+00:00",
+  "checkpoint_at": "2026-10-12T20:10:32+00:00",
   "records_total": 202,
   "contacts_total": 683,
   "historical_direct_contacts_unique": 13,
@@ -277,8 +252,5 @@
     "unreachable": 1
   },
   "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 2,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:07:58+00:00",
-  "http_requests": 70
+  "businesses_deferred_by_page_budget": 2
 }
