@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:08:47+00:00",
   "status": "running",
-  "sites_processed": 58,
+  "sites_processed": 72,
   "events": [
     {
       "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-1/",
@@ -1319,6 +1319,226 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://akhalisakhli.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/contact-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://akhalisakhli.com/service/saproeqto-momsakhureba/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/ka/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/ka/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/ka/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://anstudio.design/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.archideagroup.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://architech.ge/",
+      "status": "blocked",
+      "reason": "http_403"
+    },
+    {
+      "url": "http://www.designespas.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://designsector.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designsector.ge/contact-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designsector.ge/contact-us.php?lang=geo",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designsector.ge/contact-us.php?lang=eng",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.dmark.ge/",
+      "status": "unreachable",
+      "reason": "no_readable_content"
+    },
+    {
+      "url": "https://www.dynasty.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.dynasty.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.dynasty.ge/about-1",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.dynasty.ge/our-team",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/evospace",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.evospace.ge/services/renovation-calculator",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/about-us-2/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://expertmshen.ge/service/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.hcg.ge/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.hcg.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.hcg.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.showroom.com.ge/",
+      "status": "blocked",
+      "reason": "robots_cross_domain_redirect"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -1326,12 +1546,12 @@
   "batch_limit": 1000,
   "github_run_id": "38288901096",
   "remaining_directory_pages": 237,
-  "remaining_businesses": 184,
+  "remaining_businesses": 174,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 6,
-  "checkpoint_at": "2026-10-12T18:17:04+00:00",
+  "unavailable_sources_total": 8,
+  "checkpoint_at": "2026-10-12T18:19:11+00:00",
   "records_total": 90,
   "contacts_total": 356,
   "historical_direct_contacts_unique": 13,
@@ -1340,13 +1560,13 @@
   "target_reached": false,
   "contacts_missing_to_target": 854,
   "new_records": 4,
-  "changed_records": 1,
+  "changed_records": 3,
   "merged_records": 0,
-  "errors": 19,
+  "errors": 23,
   "error_categories": {
-    "unreachable": 13,
+    "unreachable": 15,
     "javascript_required": 3,
-    "blocked": 3
+    "blocked": 5
   },
   "candidates_available": 225,
   "businesses_deferred_by_page_budget": 124
