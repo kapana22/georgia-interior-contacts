@@ -115,7 +115,7 @@ def opportunity(record):
     if websites:
         checks = record.get('website_checks', [])
         if any(c['outcome'] == 'reachable' for c in checks): return 'website_listed'
-        if any(c['outcome'] == 'unreachable' for c in checks): return 'website_unreachable'
+        if any(c['outcome'] == 'unreachable' and c.get('reason') in {'http_404', 'http_410'} for c in checks): return 'website_unreachable'
         return 'website_listed'
     outcomes = {c['outcome'] for c in record.get('checks', [])}
     if 'reference_unresolved' in outcomes or 'listed' in outcomes: return 'uncertain'

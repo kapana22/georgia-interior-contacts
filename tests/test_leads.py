@@ -115,3 +115,11 @@ def test_continuation_does_not_accept_interior_report():
     report['pipeline']='b2b-leads'
     payload,_=mod.decision(report,[])
     assert payload['inputs']['sources']=='config/leads-sources.json'
+
+
+def test_dns_failure_is_not_a_website_absence_signal():
+    record = listing(HTML.replace('</p>', '</p><a href="https://salon.example.ge">Website</a>'))
+    record['website_checks'] = [{'url':'https://salon.example.ge','outcome':'unreachable','reason':'unsafe_or_unresolved_url'}]
+    assert opportunity(record) == 'website_listed'
+    record['website_checks'][0]['reason'] = 'http_404'
+    assert opportunity(record) == 'website_unreachable'
