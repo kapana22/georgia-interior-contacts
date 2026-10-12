@@ -1,3 +1,4 @@
+import collector from './api/collector.mjs';
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 const allowed = new Set(['index.html', 'styles.css', 'app.js', 'core.js', 'favicon.svg']);
@@ -5,6 +6,7 @@ const types = { html: 'text/html', css: 'text/css', js: 'text/javascript', svg: 
 const port = Number(process.env.PORT || 4173);
 createServer(async (req, res) => {
   const name = new URL(req.url, 'http://localhost').pathname.slice(1) || 'index.html';
+  if (name === 'api/collector') { await collector(req, res); return; }
   if (!allowed.has(name)) { res.writeHead(404); res.end('Not found'); return; }
   try {
     const body = await readFile(new URL(name, import.meta.url));

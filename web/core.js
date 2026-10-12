@@ -4,7 +4,7 @@ export const API = 'https://api.github.com';
 export const API_VERSION = '2026-03-10';
 export const WORKFLOW = 'scrape.yml';
 export const WORKFLOW_URL = `${REPO_URL}/actions/workflows/${WORKFLOW}`;
-export const EXPORT_FILES = new Set(['contacts.csv', 'contacts.json', 'changes.csv', 'report.txt', 'report.json']);
+export const EXPORT_FILES = new Set(['contacts.csv', 'contacts.json', 'changes.csv', 'report.txt', 'report.json', 'snapshot.json']);
 
 export function validateInputs(limit, sources) {
   const numeric = Number(limit);
@@ -53,7 +53,7 @@ export function normalizeRecords(payload) {
 }
 
 export function rawURL(ref, file) {
-  if (!/^(main|[a-f0-9]{40})$/.test(ref)) throw new Error('Invalid repository reference');
+  if (!/^(main|data|[a-f0-9]{40})$/.test(ref)) throw new Error('Invalid repository reference');
   if (!EXPORT_FILES.has(file) && !/^config\/[a-zA-Z0-9_/-]+\.json$/.test(file)) throw new Error('Invalid repository file');
   return `https://raw.githubusercontent.com/${REPOSITORY}/${ref}/${file}`;
 }
@@ -222,7 +222,7 @@ export function validateBusiness({ name, url, pages = '', enabled = true }, busi
 }
 
 GitHubClient.prototype.readSources = async function () {
-  const file = await this.request(`/repos/${REPOSITORY}/contents/config/sources.json?ref=main`, { publicOnly: true });
+  const file = await this.request(`/repos/${REPOSITORY}/contents/config/sources.json?ref=main`, { publicOnly: !this.connected });
   if (file.encoding !== 'base64' || !/^[a-f0-9]{40}$/.test(file.sha || '')) throw new Error('წყაროების ფაილის ვერსია ვერ წაიკითხა.');
   const config = JSON.parse(decodeUTF8Base64(file.content));
   if (!Array.isArray(config.businesses)) throw new Error('წყაროების ფაილის ფორმატი არასწორია.');

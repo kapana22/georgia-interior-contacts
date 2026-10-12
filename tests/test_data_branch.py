@@ -33,10 +33,11 @@ def test_data_branch_roundtrip_and_no_workflow_files(tmp_path):
     state=empty_state()
     save_state(repo/'.state/state.json',state)
     output=repo/'output'; output.mkdir()
-    for name in ('contacts.csv','contacts.json','changes.csv','report.json','report.txt'):
+    for name in ('contacts.csv','contacts.json','changes.csv','report.json','report.txt','snapshot.json'):
         (output/name).write_text('[]')
     call(sys.executable,str(SCRIPT),'save',cwd=repo)
     files=call('git','--git-dir',str(remote),'ls-tree','--name-only','data').splitlines()
+    assert 'snapshot.json' in files
     assert 'state.json' in files and '.github' not in files and 'README.md' not in files
     clone=tmp_path/'next'
     call('git','clone','--branch','main',str(remote),str(clone))

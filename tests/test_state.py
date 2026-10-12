@@ -56,6 +56,10 @@ def test_network_failure_preserves_old_state(tmp_path):
     report = run(args, client=FailedClient())
     assert load_state(state_path)['records'] == state['records']
     assert report['errors'] == 1 and report['new_records'] == 0 and report['changed_records'] == 0
+    snapshot = json.loads((args.output/'snapshot.json').read_text())
+    assert snapshot['version'] == 1
+    assert snapshot['records'] == state['records']
+    assert snapshot['report'] == json.loads((args.output/'report.json').read_text())
     assert (args.output/'contacts.csv').read_bytes().startswith(b'\xef\xbb\xbf')
 
 

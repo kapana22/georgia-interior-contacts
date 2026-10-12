@@ -6,7 +6,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-FILES = ('contacts.csv', 'contacts.json', 'changes.csv', 'report.json', 'report.txt')
+FILES = ('contacts.csv', 'contacts.json', 'changes.csv', 'report.json', 'report.txt', 'snapshot.json')
 
 
 def git(*args, cwd=None, capture=False):

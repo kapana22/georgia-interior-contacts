@@ -58,6 +58,7 @@ def export_all(output, state, before, report):
     report["errors"] = len(errors)
     report["error_categories"] = dict(Counter(e["status"] for e in errors))
     atomic_text(output / "report.json", json.dumps(report, ensure_ascii=False, indent=2) + "\n")
+    atomic_text(output / "snapshot.json", json.dumps({"version": 1, "records": records, "report": report}, ensure_ascii=False) + "\n")
     text = (f"გაშვების დასაწყისი: {report['started_at']}\n"
             f"მდგომარეობა: {report['status']}\n"
             f"დამუშავებული ბიზნესის საიტები: {report['sites_processed']}\n"

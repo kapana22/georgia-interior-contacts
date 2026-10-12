@@ -31,7 +31,7 @@ test('records reject malformed data but preserve text without treating it as mar
 });
 test('downloads pin a commit and whitelist files', () => {
   assert.equal(rawURL(sha, 'contacts.csv'), `https://raw.githubusercontent.com/${REPOSITORY}/${sha}/contacts.csv`);
-  assert.throws(() => rawURL('data', 'contacts.csv'));
+  assert.equal(rawURL('data', 'snapshot.json'), `https://raw.githubusercontent.com/${REPOSITORY}/data/snapshot.json`);
   assert.throws(() => rawURL(sha, 'state.json'));
 });
 test('source validation preserves Georgian and rejects duplicates and unrelated pages', () => {

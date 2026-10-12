@@ -29,6 +29,17 @@ function notice(id, text = '') { $(id).textContent = text; $(id).hidden = !text;
 function sourcePath() { return $('sources').value === 'custom' ? $('custom-sources').value : $('sources').value; }
 function busy(button, active, label) { button.disabled = active; button.textContent = label; }
 
+async function collector(method = 'GET', body) {
+  const response = await fetch('/api/collector', {
+    method, credentials: 'omit', cache: 'no-store', redirect: 'error',
+    headers: { 'Content-Type': 'application/json' },
+    body: body ? JSON.stringify(body) : undefined, signal: AbortSignal.timeout(20000),
+  });
+  const result = await response.json();
+  if (!response.ok) throw new Error(result.error || 'გაშვების სერვისი დროებით მიუწვდომელია.');
+  return result;
+}
+
 async function rawFile(ref, file, type = 'json') {
   let response;
   try { response = await fetch(rawURL(ref, file), { credentials: 'omit', redirect: 'error', cache: 'no-store', signal: AbortSignal.timeout(20000) }); }
@@ -115,15 +126,14 @@ async function refreshData(background = false) {
   state.refreshing = true;
   busy($('refresh-data'), true, 'იტვირთება…'); $('contact-grid').setAttribute('aria-busy', 'true');
   try {
-    const sha = await client.snapshot();
-    if (background && sha === state.sha) return;
-    const [recordsResult, reportResult] = await Promise.allSettled([rawFile(sha, 'contacts.json'), rawFile(sha, 'report.json')]);
-    if (recordsResult.status !== 'fulfilled') throw recordsResult.reason;
-    const records = normalizeRecords(recordsResult.value);
-    state.records = records; state.sha = sha; state.report = reportResult.status === 'fulfilled' ? reportResult.value : null;
-    notice('data-error', reportResult.status === 'rejected' ? 'კონტაქტები ჩაიტვირთა, მაგრამ გაშვების ანგარიში მიუწვდომელია.' : '');
+    // One atomic public file: no anonymous GitHub API request or token needed.
+    const snapshot = await rawFile('data', 'snapshot.json');
+    if (snapshot.version !== 1 || !snapshot.report || !Array.isArray(snapshot.records)) throw new Error('მონაცემების ფორმატი არასწორია.');
+    const records = normalizeRecords(snapshot.records);
+    state.records = records; state.sha = 'data'; state.report = snapshot.report;
+    notice('data-error');
     renderStats(); renderContacts(); document.querySelectorAll('[data-download]').forEach(b => { b.disabled = false; });
-    if (background) await refreshRuns();
+
   } catch (error) {
     notice('data-error', error.message + (state.sha ? ' ეკრანზე წინა ჩატვირთული შედეგები დარჩა.' : ''));
     if (!state.sha) { const empty = el('div', 'empty-state'); empty.append(el('span', 'empty-icon', '↻'), el('h3', '', 'ბაზა ვერ ჩაიტვირთა'), el('p', '', 'დააჭირე „განახლებას“ ან ნახე შედეგები GitHub-ზე.')); $('contact-grid').replaceChildren(empty); }
@@ -142,17 +152,18 @@ function renderRuns(runs) {
 }
 async function refreshRuns() {
   $('refresh-runs').disabled = true;
-  try { renderRuns(await client.runs()); notice('runs-error'); }
+  try { const result = await collector(); state.publicCollector = result.configured; renderRuns(!result.configured && client.connected ? await client.runs() : result.runs); notice('runs-error'); }
   catch (error) { notice('runs-error', error.message); if ($('runs-list').querySelector('.loading-row')) $('runs-list').replaceChildren(); }
   finally { $('refresh-runs').disabled = false; }
 }
 
 function stopPolling() { if (state.timer) clearTimeout(state.timer); state.timer = null; }
 async function pollActiveRun() {
-  if (!state.activeId || !client.connected || document.hidden || state.polling) return;
+  if (!state.activeId || document.hidden || state.polling) return;
   state.polling = true;
   try {
-    const run = await client.run(state.activeId);
+    const result = await collector(); const run = !result.configured && client.connected ? await client.run(state.activeId) : result.runs.find(r => String(r.id) === String(state.activeId));
+    if (!run) { state.timer = setTimeout(pollActiveRun, 15000); return; }
     $('active-run-label').textContent = runLabel(run);
     $('active-run-description').textContent = run.status === 'completed' ? (run.conclusion === 'success' ? 'შეგროვება დასრულდა. ბოლო შენახული შედეგები განახლდება.' : 'ნახე GitHub-ის ანგარიში. შესაძლოა ნაწილობრივი შედეგებიც შენახული იყოს.') : 'გვერდის დახურვა შეგროვებას არ აჩერებს. შედეგები დასრულების შემდეგ განახლდება.';
     if (run.status === 'completed') { state.activeId = null; stopPolling(); await Promise.allSettled([refreshData(), refreshRuns()]); }
@@ -165,12 +176,11 @@ $('run-form').addEventListener('submit', async event => {
   event.preventDefault(); message('run-message');
   try { validateInputs($('limit').value, sourcePath()); }
   catch (error) { message('run-message', error.message, true); return; }
-  if (!client.connected) { message('run-message', 'პირდაპირი გაშვებისთვის GitHub ავტორიზაცია გაიარე.'); $('auth-dialog').showModal(); return; }
   busy($('run-submit'), true, 'მოთხოვნა იგზავნება…');
   try {
     const input = validateInputs($('limit').value, sourcePath());
     await rawFile('main', input.sources); // Confirm the editable path exists before dispatch.
-    const result = await client.dispatch(input.limit, input.sources);
+    const result = !state.publicCollector && client.connected ? await client.dispatch(input.limit, input.sources) : await collector('POST', input);
     message('run-message', 'მოთხოვნა მიღებულია. შეგროვება GitHub Actions-ზე დაიწყება.');
     $('active-run').hidden = false; $('active-run-label').textContent = 'მოთხოვნა მიღებულია';
     const id = result?.workflow_run_id; const href = id && /^\d+$/.test(String(id)) ? `${REPO_URL}/actions/runs/${id}` : WORKFLOW_URL;
@@ -184,7 +194,7 @@ $('run-form').addEventListener('submit', async event => {
 });
 
 function updateAuth(user = null) {
-  $('auth-label').textContent = user ? user.login : 'ავტორიზაცია'; $('auth-dot').classList.toggle('connected', Boolean(user));
+  $('auth-label').textContent = user ? user.login : 'მფლობელი'; $('auth-dot').classList.toggle('connected', Boolean(user));
   $('auth-connected').hidden = !user; $('auth-form').hidden = Boolean(user); $('auth-user').textContent = user?.login || '';
 }
 $('auth-form').addEventListener('submit', async event => {
@@ -209,7 +219,7 @@ for (const id of ['search', 'city-filter', 'status-filter']) $(id).addEventListe
 $('previous-page').addEventListener('click', () => { state.page--; renderContacts(); });
 $('next-page').addEventListener('click', () => { state.page++; renderContacts(); });
 $('refresh-data').addEventListener('click', () => refreshData());
-$('refresh-runs').addEventListener('click', async () => { await refreshRuns(); if (state.activeId && client.connected) { stopPolling(); pollActiveRun(); } });
+$('refresh-runs').addEventListener('click', async () => { await refreshRuns(); if (state.activeId) { stopPolling(); pollActiveRun(); } });
 
 document.querySelectorAll('[data-download]').forEach(button => button.addEventListener('click', async () => {
   if (!state.sha) return; button.disabled = true; message('download-message');
@@ -234,7 +244,7 @@ function renderSources() {
 }
 async function loadSources() {
   $('source-add').disabled = true; message('sources-message');
-  try { const result = await client.readSources(); state.sources = result.config; state.sourcesSHA = result.sha; renderSources(); }
+  try { const result = client.connected ? await client.readSources() : { config: await rawFile('main', 'config/sources.json'), sha: null }; state.sources = result.config; state.sourcesSHA = result.sha; renderSources(); }
   catch (error) { message('sources-message', error.message, true); }
   finally { $('source-add').disabled = !state.sources; }
 }
@@ -277,7 +287,7 @@ $('source-edit-form').addEventListener('submit', async event => {
 
 window.addEventListener('pagehide', () => { client.disconnect(); $('github-token').value = ''; stopPolling(); });
 window.addEventListener('pageshow', event => { if (event.persisted) { updateAuth(); restoreAuthentication(); } });
-document.addEventListener('visibilitychange', () => { if (document.hidden) stopPolling(); else if (state.activeId && client.connected) pollActiveRun(); });
+document.addEventListener('visibilitychange', () => { if (document.hidden) stopPolling(); else if (state.activeId) pollActiveRun(); });
 Promise.allSettled([refreshData(), restoreAuthentication()]);
 
 // Public data may change through a CLI run or GitHub Actions outside this tab.
@@ -295,5 +305,5 @@ async function restoreAuthentication() {
   } catch (error) { updateAuth(); message('auth-message', error.message, true); }
   finally { state.restoringAuth = false; busy($('connect-submit'), false, 'დაკავშირება →'); }
   await refreshRuns();
-  if (state.activeId && client.connected) { stopPolling(); pollActiveRun(); }
+  if (state.activeId) { stopPolling(); pollActiveRun(); }
 }
