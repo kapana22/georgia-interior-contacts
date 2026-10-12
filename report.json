@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T14:10:19+00:00",
+  "started_at": "2026-10-12T17:35:16+00:00",
   "status": "completed",
-  "sites_processed": 93,
+  "sites_processed": 95,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
@@ -11,97 +11,97 @@
       "discovered": 25
     },
     {
-      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-4/",
+      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-5/",
       "status": "ok",
       "reason": "directory",
       "discovered": 20
     },
     {
-      "url": "https://dizaini.ge/product/261",
+      "url": "https://dizaini.ge/product/218",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/250",
+      "url": "https://dizaini.ge/product/211",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/243",
+      "url": "https://dizaini.ge/product/207",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/232",
+      "url": "https://dizaini.ge/product/205",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/220",
+      "url": "https://dizaini.ge/product/199",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/othar-kutchava/",
+      "url": "https://www.homeis.ge/spott-studio/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/ana-davrishashvilli/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.homeis.ge/at-architect/",
+      "url": "https://www.homeis.ge/giga-qareli/",
       "status": "ok",
       "reason": "directory",
       "discovered": 1
     },
     {
-      "url": "https://www.homeis.ge/studio11/",
+      "url": "https://www.homeis.ge/nini-athanelishvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/thamar-thurmanidze/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/3/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4038",
+      "url": "https://www.homeis.ge/thako-mentheshashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4076",
+      "url": "https://archiaward.com/en/work/4055",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4077",
+      "url": "https://archiaward.com/en/work/4056",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4057",
+      "url": "https://archiaward.com/en/work/4084",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4058",
+      "url": "https://archiaward.com/en/work/4098",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://archiaward.com/en/work/4096",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -178,39 +178,14 @@
       "discovered": 17
     },
     {
-      "url": "http://www.artexclusive.ge/",
-      "status": "javascript_required",
-      "reason": "javascript_shell_suspected"
+      "url": "http://www.arthouse.ge/",
+      "status": "unreachable",
+      "reason": "http_404"
     },
     {
-      "url": "https://www.atarchitect.ge/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project/",
       "status": "ok",
       "reason": "business_page"
-    },
-    {
-      "url": "https://www.atarchitect.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.atarchitect.ge/about",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.atarchitect.ge/services",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14755/architectural-orchestra",
@@ -603,6 +578,101 @@
       "reason": "page_limit"
     },
     {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14758/number/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14783/nou-hau/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14744/new-line-studio/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14719/new-house/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/16853/new-house/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14750/orbeli-91/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14714/orient-/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/6885/papiloni/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14764/petra/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14772/portal-/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14734/rooms/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14777/sakhazavi/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/3336/savane-group/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/16850/light-room/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14731/sinthesis-group/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14705/city-building/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/3340/city-design/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14773/cityproject/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://mua.ge/en",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
+    },
+    {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14135/dio",
       "status": "skipped",
       "reason": "page_limit"
@@ -649,6 +719,36 @@
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14781/archexclusive",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.artexclusive.ge/",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
+    },
+    {
+      "url": "https://www.atarchitect.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.atarchitect.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.atarchitect.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.atarchitect.ge/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house",
       "status": "skipped",
       "reason": "page_limit"
     },
@@ -1723,24 +1823,24 @@
       "reason": "business_page"
     }
   ],
-  "records_total": 85,
-  "contacts_total": 343,
+  "records_total": 86,
+  "contacts_total": 349,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 211,
+  "direct_contacts_unique": 215,
   "relevant_direct_contacts_unique": 143,
   "target_reached": false,
   "contacts_missing_to_target": 857,
-  "new_records": 2,
+  "new_records": 1,
   "changed_records": 1,
   "merged_records": 0,
-  "errors": 30,
+  "errors": 32,
   "error_categories": {
-    "javascript_required": 3,
-    "unreachable": 17,
+    "unreachable": 18,
+    "javascript_required": 4,
     "blocked": 10
   },
-  "candidates_available": 182,
-  "businesses_deferred_by_page_budget": 89,
-  "finished_at": "2026-10-12T14:23:09+00:00",
-  "http_requests": 355
+  "candidates_available": 202,
+  "businesses_deferred_by_page_budget": 107,
+  "finished_at": "2026-10-12T17:48:05+00:00",
+  "http_requests": 359
 }
