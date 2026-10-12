@@ -152,7 +152,18 @@ function renderRuns(runs) {
 }
 async function refreshRuns() {
   $('refresh-runs').disabled = true;
-  try { const result = await collector(); state.publicCollector = result.configured; renderRuns(!result.configured && client.connected ? await client.runs() : result.runs); notice('runs-error'); }
+  try {
+    const result = await collector(); state.publicCollector = result.configured;
+    const runs = !result.configured && client.connected ? await client.runs() : result.runs;
+    renderRuns(runs); notice('runs-error');
+    const active = runs.find(run => run.status !== 'completed');
+    if (active && !state.activeId) {
+      state.activeId = active.id; $('active-run').hidden = false;
+      $('active-run-label').textContent = runLabel(active);
+      $('active-run-link').href = `${REPO_URL}/actions/runs/${active.id}`;
+      if (!state.polling) { stopPolling(); state.timer = setTimeout(pollActiveRun, 15000); }
+    }
+  }
   catch (error) { notice('runs-error', error.message); if ($('runs-list').querySelector('.loading-row')) $('runs-list').replaceChildren(); }
   finally { $('refresh-runs').disabled = false; }
 }
