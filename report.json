@@ -1,35 +1,35 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:16:37+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T20:19:08+00:00",
+  "status": "running",
   "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/alesandro-mendini/",
+      "url": "https://www.homeis.ge/ron-aradi-pholadis-adamiani/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/eilin-grei-industriuli-dizaini/",
+      "url": "https://www.homeis.ge/dizainis-mivitsqhebuli-legenda-greta-magnuson-grosmani/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/dizaineri-tom-diqsoni/",
+      "url": "https://www.homeis.ge/eero-saarinenis-sakulto-proeqtebi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/achile-kastilioni/",
+      "url": "https://www.homeis.ge/bertold-lubetkini/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/20/",
+      "url": "https://www.homeis.ge/7-qhvelaze-tsnobili-arqiteqtori/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -218,15 +218,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38303114103",
-  "remaining_directory_pages": 11,
+  "github_run_id": "38303382538",
+  "remaining_directory_pages": 6,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:18:41+00:00",
+  "checkpoint_at": "2026-10-12T20:21:16+00:00",
   "records_total": 203,
   "contacts_total": 686,
   "historical_direct_contacts_unique": 13,
@@ -242,8 +242,5 @@
     "unreachable": 1
   },
   "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:18:41+00:00",
-  "http_requests": 64
+  "businesses_deferred_by_page_budget": 1
 }
