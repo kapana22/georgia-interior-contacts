@@ -1,138 +1,113 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T18:22:16+00:00",
-  "status": "completed",
-  "sites_processed": 31,
+  "started_at": "2026-10-12T18:27:08+00:00",
+  "status": "running",
+  "sites_processed": 11,
   "events": [
     {
-      "url": "https://dizaini.ge/product/139",
+      "url": "https://dizaini.ge/product/105",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/104",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/103",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/102",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/101",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/givi-jaqheli/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/landscape-association-tamar-tavartkiladze/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/category/adamianebi/page/5/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://www.homeis.ge/gaqhidvebis-khelovneba-thamar-jibladze-verona/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 3
+    },
+    {
+      "url": "https://www.homeis.ge/ingo-maureri-sinathlis-arqiteqtura/",
       "status": "ok",
       "reason": "directory",
       "discovered": 1
     },
     {
-      "url": "https://dizaini.ge/product/137",
+      "url": "https://archiaward.com/en/work/4232",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/136",
+      "url": "https://archiaward.com/en/work/4236",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/135",
+      "url": "https://archiaward.com/en/work/4246",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/106",
+      "url": "https://archiaward.com/en/work/4247",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/aleqsandre-kvantaliani/",
+      "url": "https://archiaward.com/en/work/4249",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/beqa-phkhakadze/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
+      "url": "http://www.asa-group.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
     },
     {
-      "url": "https://www.homeis.ge/nino-chkhartishvili/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.homeis.ge/niko-qsovreli/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.homeis.ge/vladimer-vardosanidze/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4194",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4210",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4213",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4226",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://archiaward.com/en/work/4227",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.ao.ge/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.ao.ge/contact",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo/",
       "status": "ok",
       "reason": "business_page"
-    },
-    {
-      "url": "https://www.ao.ge/about",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.ao.ge/1-c23o0",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14717/arch-style/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14725/bb-studio",
@@ -675,6 +650,51 @@
       "reason": "page_limit"
     },
     {
+      "url": "https://www.ingo-maurer.com/en/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.ingo-maurer.com/en/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.ingo-maurer.com/en/contact/addresses/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.ingo-maurer.com/en/contact/imprint/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://verona.ge/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://verona.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://verona.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://verona.ge/ru/contact",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14135/dio",
       "status": "skipped",
       "reason": "page_limit"
@@ -778,251 +798,33 @@
       "url": "https://www.mosulishvili.com/",
       "status": "unreachable",
       "reason": "network_error"
-    },
-    {
-      "url": "https://www.r312.eu/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://timmarchitecture.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://timmarchitecture.com/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://timmarchitecture.com/wp-content/uploads/2014/12/contact_sketch_2.jpg",
-      "status": "unreachable",
-      "reason": "not_html"
-    },
-    {
-      "url": "https://timmarchitecture.com/team/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.werk-raum.com/",
-      "status": "unreachable",
-      "reason": "network_error"
-    },
-    {
-      "url": "https://www.wu-werk.com/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://idaafarchitects.com/",
-      "status": "unreachable",
-      "reason": "http_500"
-    },
-    {
-      "url": "https://perla.ge/en",
-      "status": "unreachable",
-      "reason": "network_error"
-    },
-    {
-      "url": "https://www.designcity.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://hdesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/kontaqti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.jokhastudio.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jokhastudio.com/projects",
-      "status": "unreachable",
-      "reason": "response_too_large"
-    },
-    {
-      "url": "https://www.jokhastudio.com/video-galley",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jokhastudio.com/services",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.jokhastudio.com/blog",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/kontakti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/servisebi/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "http://www.designespas.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.dmark.ge/",
-      "status": "unreachable",
-      "reason": "no_readable_content"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "http://www.dio.ge/general.php",
-      "status": "unreachable",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://archpoint.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.ararchitecture.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.areali.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.updesign.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.ad-project.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://www.architectonics.ge/en",
-      "status": "unreachable",
-      "reason": "http_404"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38289500719",
-  "remaining_directory_pages": 222,
-  "remaining_businesses": 148,
+  "github_run_id": "38290952835",
+  "remaining_directory_pages": 215,
+  "remaining_businesses": 144,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 16,
-  "checkpoint_at": "2026-10-12T18:26:43+00:00",
-  "records_total": 92,
-  "contacts_total": 369,
+  "unavailable_sources_total": 21,
+  "checkpoint_at": "2026-10-12T18:29:24+00:00",
+  "records_total": 96,
+  "contacts_total": 385,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 229,
+  "direct_contacts_unique": 241,
   "relevant_direct_contacts_unique": 146,
   "target_reached": false,
   "contacts_missing_to_target": 854,
-  "new_records": 2,
-  "changed_records": 1,
+  "new_records": 4,
+  "changed_records": 0,
   "merged_records": 0,
-  "errors": 22,
+  "errors": 6,
   "error_categories": {
-    "unreachable": 22
+    "unreachable": 6
   },
-  "candidates_available": 153,
-  "businesses_deferred_by_page_budget": 122,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T18:26:43+00:00",
-  "http_requests": 118
+  "candidates_available": 150,
+  "businesses_deferred_by_page_budget": 120
 }

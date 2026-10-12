@@ -705,94 +705,149 @@
         "value": "თბილისი",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:23:52+00:00"
+        "last_seen": "2026-10-12T18:28:55+00:00"
       },
       {
         "kind": "city",
         "value": "თბილისი",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:23:50+00:00"
+        "last_seen": "2026-10-12T18:28:53+00:00"
       },
       {
         "kind": "email",
         "value": "info@cityproject.ge",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:23:52+00:00"
+        "last_seen": "2026-10-12T18:28:55+00:00"
       },
       {
         "kind": "email",
         "value": "info@cityproject.ge",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:23:50+00:00"
+        "last_seen": "2026-10-12T18:28:53+00:00"
       },
       {
         "kind": "name",
         "value": "City Project",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:23:52+00:00"
+        "last_seen": "2026-10-12T18:28:55+00:00"
       },
       {
         "kind": "name",
         "value": "City Project",
         "source_url": "https://cityproject.ge/ka/",
         "first_seen": "2026-10-12T13:13:42+00:00",
-        "last_seen": "2026-10-12T18:23:48+00:00"
+        "last_seen": "2026-10-12T18:28:51+00:00"
       },
       {
         "kind": "name",
         "value": "City Project",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:23:50+00:00"
+        "last_seen": "2026-10-12T18:28:53+00:00"
       },
       {
         "kind": "phone",
         "value": "+995322555888",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:23:52+00:00"
+        "last_seen": "2026-10-12T18:28:55+00:00"
       },
       {
         "kind": "phone",
         "value": "+995322555888",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:23:50+00:00"
+        "last_seen": "2026-10-12T18:28:53+00:00"
       },
       {
         "kind": "website",
         "value": "https://www.cityproject.ge/",
         "source_url": "https://cityproject.ge/en/contact",
         "first_seen": "2026-10-12T13:13:46+00:00",
-        "last_seen": "2026-10-12T18:23:52+00:00"
+        "last_seen": "2026-10-12T18:28:55+00:00"
       },
       {
         "kind": "website",
         "value": "https://www.cityproject.ge/",
         "source_url": "https://cityproject.ge/ka/",
         "first_seen": "2026-10-12T13:13:42+00:00",
-        "last_seen": "2026-10-12T18:23:48+00:00"
+        "last_seen": "2026-10-12T18:28:51+00:00"
       },
       {
         "kind": "website",
         "value": "https://www.cityproject.ge/",
         "source_url": "https://cityproject.ge/ka/contact",
         "first_seen": "2026-10-12T13:13:44+00:00",
-        "last_seen": "2026-10-12T18:23:50+00:00"
+        "last_seen": "2026-10-12T18:28:53+00:00"
       }
     ],
     "business_key": "",
     "suggested_websites": [],
     "first_seen": "2026-10-12T13:13:42+00:00",
-    "last_seen": "2026-10-12T18:23:52+00:00",
+    "last_seen": "2026-10-12T18:28:55+00:00",
     "status": "review",
     "review_reasons": [
       "interior_service_not_confirmed",
       "page_page_limit"
+    ]
+  },
+  {
+    "id": "12a8fb51ad3b9194",
+    "name": "Барио",
+    "domains": [
+      "baryo.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo/",
+        "first_seen": "2026-10-12T18:27:52+00:00",
+        "last_seen": "2026-10-12T18:27:52+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@baryo.ge",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo/",
+        "first_seen": "2026-10-12T18:27:52+00:00",
+        "last_seen": "2026-10-12T18:27:52+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ბარიო",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo/",
+        "first_seen": "2026-10-12T18:27:52+00:00",
+        "last_seen": "2026-10-12T18:27:52+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995597733993",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo/",
+        "first_seen": "2026-10-12T18:27:52+00:00",
+        "last_seen": "2026-10-12T18:27:52+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.baryo.ge/",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14730/baryo/",
+        "first_seen": "2026-10-12T18:27:52+00:00",
+        "last_seen": "2026-10-12T18:27:52+00:00"
+      }
+    ],
+    "business_key": "city24:14730",
+    "suggested_websites": [
+      "http://www.baryo.ge/"
+    ],
+    "first_seen": "2026-10-12T18:27:52+00:00",
+    "last_seen": "2026-10-12T18:27:52+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim",
+      "interior_service_not_confirmed"
     ]
   },
   {
@@ -7110,6 +7165,61 @@
     "review_reasons": []
   },
   {
+    "id": "9caaed61c8000a31",
+    "name": "Новый Версаль",
+    "domains": [
+      "newv.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles/",
+        "first_seen": "2026-10-12T18:27:48+00:00",
+        "last_seen": "2026-10-12T18:27:48+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@newv.ge",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles/",
+        "first_seen": "2026-10-12T18:27:48+00:00",
+        "last_seen": "2026-10-12T18:27:48+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ახალი ვერსალი",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles/",
+        "first_seen": "2026-10-12T18:27:48+00:00",
+        "last_seen": "2026-10-12T18:27:48+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322907407",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles/",
+        "first_seen": "2026-10-12T18:27:48+00:00",
+        "last_seen": "2026-10-12T18:27:48+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.newv.ge/",
+        "source_url": "https://www.city24.ge/ge/tbilisi/organizations/15032/new-versailles/",
+        "first_seen": "2026-10-12T18:27:48+00:00",
+        "last_seen": "2026-10-12T18:27:48+00:00"
+      }
+    ],
+    "business_key": "city24:15032",
+    "suggested_websites": [
+      "http://www.newv.ge/"
+    ],
+    "first_seen": "2026-10-12T18:27:48+00:00",
+    "last_seen": "2026-10-12T18:27:48+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim",
+      "interior_service_not_confirmed"
+    ]
+  },
+  {
     "id": "9efb23de49e7dd4f",
     "name": "META STUDIO",
     "domains": [],
@@ -11284,6 +11394,157 @@
     ]
   },
   {
+    "id": "ef686c565f831e70",
+    "name": "Verona",
+    "domains": [
+      "verona.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://verona.ge/en/contact",
+        "first_seen": "2026-10-12T18:28:19+00:00",
+        "last_seen": "2026-10-12T18:28:19+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@verona.ge",
+        "source_url": "https://verona.ge/en/contact",
+        "first_seen": "2026-10-12T18:28:19+00:00",
+        "last_seen": "2026-10-12T18:28:19+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@verona.ge",
+        "source_url": "https://verona.ge/ka",
+        "first_seen": "2026-10-12T18:28:15+00:00",
+        "last_seen": "2026-10-12T18:28:15+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@verona.ge",
+        "source_url": "https://verona.ge/ka/contact",
+        "first_seen": "2026-10-12T18:28:17+00:00",
+        "last_seen": "2026-10-12T18:28:17+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/verona.tbilisi",
+        "source_url": "https://verona.ge/en/contact",
+        "first_seen": "2026-10-12T18:28:19+00:00",
+        "last_seen": "2026-10-12T18:28:19+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/verona.tbilisi",
+        "source_url": "https://verona.ge/ka",
+        "first_seen": "2026-10-12T18:28:15+00:00",
+        "last_seen": "2026-10-12T18:28:15+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/verona.tbilisi",
+        "source_url": "https://verona.ge/ka/contact",
+        "first_seen": "2026-10-12T18:28:17+00:00",
+        "last_seen": "2026-10-12T18:28:17+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/verona.tbilisi",
+        "source_url": "https://verona.ge/en/contact",
+        "first_seen": "2026-10-12T18:28:19+00:00",
+        "last_seen": "2026-10-12T18:28:19+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/verona.tbilisi",
+        "source_url": "https://verona.ge/ka",
+        "first_seen": "2026-10-12T18:28:15+00:00",
+        "last_seen": "2026-10-12T18:28:15+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/verona.tbilisi",
+        "source_url": "https://verona.ge/ka/contact",
+        "first_seen": "2026-10-12T18:28:17+00:00",
+        "last_seen": "2026-10-12T18:28:17+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Verona",
+        "source_url": "https://verona.ge/en/contact",
+        "first_seen": "2026-10-12T18:28:19+00:00",
+        "last_seen": "2026-10-12T18:28:19+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Verona",
+        "source_url": "https://verona.ge/ka",
+        "first_seen": "2026-10-12T18:28:15+00:00",
+        "last_seen": "2026-10-12T18:28:15+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Verona",
+        "source_url": "https://verona.ge/ka/contact",
+        "first_seen": "2026-10-12T18:28:17+00:00",
+        "last_seen": "2026-10-12T18:28:17+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995596244224",
+        "source_url": "https://verona.ge/en/contact",
+        "first_seen": "2026-10-12T18:28:19+00:00",
+        "last_seen": "2026-10-12T18:28:19+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995596244224",
+        "source_url": "https://verona.ge/ka",
+        "first_seen": "2026-10-12T18:28:15+00:00",
+        "last_seen": "2026-10-12T18:28:15+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995596244224",
+        "source_url": "https://verona.ge/ka/contact",
+        "first_seen": "2026-10-12T18:28:17+00:00",
+        "last_seen": "2026-10-12T18:28:17+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.verona.ge/",
+        "source_url": "https://verona.ge/en/contact",
+        "first_seen": "2026-10-12T18:28:19+00:00",
+        "last_seen": "2026-10-12T18:28:19+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.verona.ge/",
+        "source_url": "https://verona.ge/ka",
+        "first_seen": "2026-10-12T18:28:15+00:00",
+        "last_seen": "2026-10-12T18:28:15+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.verona.ge/",
+        "source_url": "https://verona.ge/ka/contact",
+        "first_seen": "2026-10-12T18:28:17+00:00",
+        "last_seen": "2026-10-12T18:28:17+00:00"
+      }
+    ],
+    "business_key": "",
+    "suggested_websites": [],
+    "first_seen": "2026-10-12T18:28:15+00:00",
+    "last_seen": "2026-10-12T18:28:19+00:00",
+    "status": "review",
+    "review_reasons": [
+      "interior_service_not_confirmed",
+      "page_page_limit"
+    ]
+  },
+  {
     "id": "f060e32152ab2960",
     "name": "Архитектурный оркестр",
     "domains": [
@@ -11510,6 +11771,290 @@
     "status": "review",
     "review_reasons": [
       "directory_only_service_claim",
+      "interior_service_not_confirmed"
+    ]
+  },
+  {
+    "id": "f16ebd2a8a50be34",
+    "name": "Ingo Maurer: Light Design from Munich | Lighting | Lamps",
+    "domains": [
+      "ingo-maurer.com"
+    ],
+    "facts": [
+      {
+        "kind": "email",
+        "value": "info@ingo-maurer.com",
+        "source_url": "https://www.ingo-maurer.com/en/",
+        "first_seen": "2026-10-12T18:27:56+00:00",
+        "last_seen": "2026-10-12T18:27:56+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@ingo-maurer.com",
+        "source_url": "https://www.ingo-maurer.com/en/contact/",
+        "first_seen": "2026-10-12T18:27:58+00:00",
+        "last_seen": "2026-10-12T18:27:58+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@ingo-maurer.com",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@ingo-maurer.com",
+        "source_url": "https://www.ingo-maurer.com/en/contact/imprint/",
+        "first_seen": "2026-10-12T18:28:02+00:00",
+        "last_seen": "2026-10-12T18:28:02+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@ingo-maurer.com",
+        "source_url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+        "first_seen": "2026-10-12T18:28:04+00:00",
+        "last_seen": "2026-10-12T18:28:04+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "making-light@ingomaurer-usa.com",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/ingomaurerofficial",
+        "source_url": "https://www.ingo-maurer.com/en/",
+        "first_seen": "2026-10-12T18:27:56+00:00",
+        "last_seen": "2026-10-12T18:27:56+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/ingomaurerofficial",
+        "source_url": "https://www.ingo-maurer.com/en/contact/",
+        "first_seen": "2026-10-12T18:27:58+00:00",
+        "last_seen": "2026-10-12T18:27:58+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/ingomaurerofficial",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/ingomaurerofficial",
+        "source_url": "https://www.ingo-maurer.com/en/contact/imprint/",
+        "first_seen": "2026-10-12T18:28:02+00:00",
+        "last_seen": "2026-10-12T18:28:02+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/ingomaurerofficial",
+        "source_url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+        "first_seen": "2026-10-12T18:28:04+00:00",
+        "last_seen": "2026-10-12T18:28:04+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/ingomaurer_official",
+        "source_url": "https://www.ingo-maurer.com/en/",
+        "first_seen": "2026-10-12T18:27:56+00:00",
+        "last_seen": "2026-10-12T18:27:56+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/ingomaurer_official",
+        "source_url": "https://www.ingo-maurer.com/en/contact/",
+        "first_seen": "2026-10-12T18:27:58+00:00",
+        "last_seen": "2026-10-12T18:27:58+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/ingomaurer_official",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/ingomaurer_official",
+        "source_url": "https://www.ingo-maurer.com/en/contact/imprint/",
+        "first_seen": "2026-10-12T18:28:02+00:00",
+        "last_seen": "2026-10-12T18:28:02+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/ingomaurer_official",
+        "source_url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+        "first_seen": "2026-10-12T18:28:04+00:00",
+        "last_seen": "2026-10-12T18:28:04+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Ingo Maurer: Contact",
+        "source_url": "https://www.ingo-maurer.com/en/contact/",
+        "first_seen": "2026-10-12T18:27:58+00:00",
+        "last_seen": "2026-10-12T18:27:58+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Ingo Maurer: Imprint",
+        "source_url": "https://www.ingo-maurer.com/en/contact/imprint/",
+        "first_seen": "2026-10-12T18:28:02+00:00",
+        "last_seen": "2026-10-12T18:28:02+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Ingo Maurer: Kopfbereich-Kontakt",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Ingo Maurer: Light Design from Munich | Lighting | Lamps",
+        "source_url": "https://www.ingo-maurer.com/en/",
+        "first_seen": "2026-10-12T18:27:56+00:00",
+        "last_seen": "2026-10-12T18:27:56+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Ingo Maurer: Privacy rules",
+        "source_url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+        "first_seen": "2026-10-12T18:28:04+00:00",
+        "last_seen": "2026-10-12T18:28:04+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+12129658817",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+49893816060",
+        "source_url": "https://www.ingo-maurer.com/en/",
+        "first_seen": "2026-10-12T18:27:56+00:00",
+        "last_seen": "2026-10-12T18:27:56+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+49893816060",
+        "source_url": "https://www.ingo-maurer.com/en/contact/",
+        "first_seen": "2026-10-12T18:27:58+00:00",
+        "last_seen": "2026-10-12T18:27:58+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+49893816060",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+49893816060",
+        "source_url": "https://www.ingo-maurer.com/en/contact/imprint/",
+        "first_seen": "2026-10-12T18:28:02+00:00",
+        "last_seen": "2026-10-12T18:28:02+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+49893816060",
+        "source_url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+        "first_seen": "2026-10-12T18:28:04+00:00",
+        "last_seen": "2026-10-12T18:28:04+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+498938160620",
+        "source_url": "https://www.ingo-maurer.com/en/",
+        "first_seen": "2026-10-12T18:27:56+00:00",
+        "last_seen": "2026-10-12T18:27:56+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+498938160620",
+        "source_url": "https://www.ingo-maurer.com/en/contact/",
+        "first_seen": "2026-10-12T18:27:58+00:00",
+        "last_seen": "2026-10-12T18:27:58+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+498938160620",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+498938160620",
+        "source_url": "https://www.ingo-maurer.com/en/contact/imprint/",
+        "first_seen": "2026-10-12T18:28:02+00:00",
+        "last_seen": "2026-10-12T18:28:02+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+498938160620",
+        "source_url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+        "first_seen": "2026-10-12T18:28:04+00:00",
+        "last_seen": "2026-10-12T18:28:04+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+498938160691",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.ingo-maurer.com/en/",
+        "source_url": "https://www.ingo-maurer.com/en/",
+        "first_seen": "2026-10-12T18:27:56+00:00",
+        "last_seen": "2026-10-12T18:27:56+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.ingo-maurer.com/en/",
+        "source_url": "https://www.ingo-maurer.com/en/contact/",
+        "first_seen": "2026-10-12T18:27:58+00:00",
+        "last_seen": "2026-10-12T18:27:58+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.ingo-maurer.com/en/",
+        "source_url": "https://www.ingo-maurer.com/en/contact/addresses/",
+        "first_seen": "2026-10-12T18:28:00+00:00",
+        "last_seen": "2026-10-12T18:28:00+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.ingo-maurer.com/en/",
+        "source_url": "https://www.ingo-maurer.com/en/contact/imprint/",
+        "first_seen": "2026-10-12T18:28:02+00:00",
+        "last_seen": "2026-10-12T18:28:02+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.ingo-maurer.com/en/",
+        "source_url": "https://www.ingo-maurer.com/en/contact/privacy-rules/",
+        "first_seen": "2026-10-12T18:28:04+00:00",
+        "last_seen": "2026-10-12T18:28:04+00:00"
+      }
+    ],
+    "business_key": "",
+    "suggested_websites": [],
+    "first_seen": "2026-10-12T18:27:56+00:00",
+    "last_seen": "2026-10-12T18:28:04+00:00",
+    "status": "review",
+    "review_reasons": [
+      "georgia_operation_not_confirmed",
       "interior_service_not_confirmed"
     ]
   },
