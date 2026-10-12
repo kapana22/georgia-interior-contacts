@@ -1,133 +1,118 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T18:32:17+00:00",
-  "status": "completed",
-  "sites_processed": 13,
+  "started_at": "2026-10-12T18:35:13+00:00",
+  "status": "running",
+  "sites_processed": 12,
   "events": [
     {
-      "url": "https://dizaini.ge/product/100",
+      "url": "https://dizaini.ge/product/94",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/99",
+      "url": "https://dizaini.ge/product/93",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/98",
+      "url": "https://dizaini.ge/product/92",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/96",
+      "url": "https://dizaini.ge/product/91",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://dizaini.ge/product/95",
+      "url": "https://dizaini.ge/product/90",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/alekhandro-aravena/",
+      "url": "https://www.homeis.ge/category/adamianebi/page/6/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/anuka-thavarthqiladze/",
+      "url": "https://www.homeis.ge/sinathlis-khelovneba-lika-nezhinskaia/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/neri-hu/",
+      "url": "https://www.homeis.ge/nino-mshvelidze-structura/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/kuma-kengo/",
+      "url": "https://www.homeis.ge/brutalizmi-merab-mebuke/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/aleqsandre-bagrationi/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://archiaward.com/en/work/4252",
+      "url": "https://www.homeis.ge/mariana-tchqhonia/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4255",
+      "url": "https://archiaward.com/en/work/4046",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4014",
+      "url": "https://archiaward.com/en/work/4080",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4020",
+      "url": "https://archiaward.com/en/work/4062",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4021",
+      "url": "https://archiaward.com/en/work/4082",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://bagrationdavitashvili.com/",
-      "status": "blocked",
-      "reason": "robots_unavailable_403"
+      "url": "https://archiaward.com/en/work/4113",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
     },
     {
-      "url": "http://www.baryo.ge/",
+      "url": "http://www.bbstudio.ge/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14725/bb-studio/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/3299/boraco/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/14762/bart/",
+      "url": "https://www.city24.ge/ge/tbilisi/organizations/15038/gallery-room-design/",
       "status": "ok",
       "reason": "business_page"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/3299/boraco",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.city24.ge/ge/tbilisi/organizations/15038/gallery-room-design",
-      "status": "skipped",
-      "reason": "page_limit"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/15031/ge-ge/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/15028/gika/",
@@ -645,11 +630,6 @@
       "reason": "page_limit"
     },
     {
-      "url": "http://www.newv.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14135/dio",
       "status": "skipped",
       "reason": "page_limit"
@@ -710,7 +690,17 @@
       "reason": "page_limit"
     },
     {
+      "url": "http://www.baryo.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
       "url": "http://www.asa-group.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.newv.ge/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
@@ -823,82 +813,34 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38291539145",
-  "remaining_directory_pages": 200,
-  "remaining_businesses": 129,
+  "github_run_id": "38291868842",
+  "remaining_directory_pages": 196,
+  "remaining_businesses": 127,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 36,
-  "checkpoint_at": "2026-10-12T18:34:44+00:00",
-  "records_total": 98,
-  "contacts_total": 389,
+  "resume_after": 0,
+  "unavailable_sources_total": 37,
+  "checkpoint_at": "2026-10-12T18:37:18+00:00",
+  "records_total": 100,
+  "contacts_total": 393,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 245,
-  "relevant_direct_contacts_unique": 146,
+  "direct_contacts_unique": 249,
+  "relevant_direct_contacts_unique": 144,
   "target_reached": false,
-  "contacts_missing_to_target": 854,
+  "contacts_missing_to_target": 856,
   "new_records": 2,
-  "changed_records": 0,
+  "changed_records": 1,
   "merged_records": 0,
   "errors": 5,
   "error_categories": {
-    "blocked": 1,
-    "unreachable": 4
+    "unreachable": 5
   },
-  "candidates_available": 131,
-  "businesses_deferred_by_page_budget": 118,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T18:34:44+00:00",
-  "http_requests": 75
+  "candidates_available": 129,
+  "businesses_deferred_by_page_budget": 115
 }
