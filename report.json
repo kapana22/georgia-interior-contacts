@@ -1,35 +1,35 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:40:49+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T20:43:24+00:00",
+  "status": "running",
   "sites_processed": 8,
   "events": [
     {
-      "url": "https://www.homeis.ge/category/adamianebi/page/24/",
+      "url": "https://www.homeis.ge/mario-bellini-dizaini/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/richard-rogers-biografia/",
+      "url": "https://www.homeis.ge/norman-foster/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/renzo-piano-arkitektura/",
+      "url": "https://www.homeis.ge/giorgi-magradze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/gae-aulenti/",
+      "url": "https://www.homeis.ge/sergio-asti-biografia/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/louis-sullivan/",
+      "url": "https://www.homeis.ge/please-wait-to-be-seated-istoria/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
@@ -218,15 +218,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38305748150",
-  "remaining_directory_pages": 6,
+  "github_run_id": "38306006401",
+  "remaining_directory_pages": 1,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:42:52+00:00",
+  "checkpoint_at": "2026-10-12T20:45:26+00:00",
   "records_total": 203,
   "contacts_total": 686,
   "historical_direct_contacts_unique": 13,
@@ -242,8 +242,5 @@
     "unreachable": 1
   },
   "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:42:52+00:00",
-  "http_requests": 64
+  "businesses_deferred_by_page_budget": 1
 }
