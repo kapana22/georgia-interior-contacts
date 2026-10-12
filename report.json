@@ -1,46 +1,46 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:07:37+00:00",
-  "status": "completed",
-  "sites_processed": 9,
+  "started_at": "2026-10-12T21:10:18+00:00",
+  "status": "running",
+  "sites_processed": 7,
   "events": [
     {
-      "url": "https://www.homeis.ge/phrenk-geri-arqiteqturis-stradivariusi/",
+      "url": "https://www.homeis.ge/davith-giorgadze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/stipfold/",
+      "url": "https://www.homeis.ge/adamiani-rogorts-arqiteqturis-tsentri-mua-s-philosophia/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 1
+    },
+    {
+      "url": "https://www.homeis.ge/ecuador-project/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 1
+    },
+    {
+      "url": "https://www.homeis.ge/advices-for-interior-design/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/r312-architects/",
+      "url": "https://www.homeis.ge/alvar-aalto-rephormatori/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/thewhynotgallery-e-kapanadze-interviu/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 2
-    },
-    {
-      "url": "https://www.homeis.ge/category/adamianebi/page/29/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.thewhynotgallery.com/ka",
+      "url": "https://janninacabal.com/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.thewhynotgallery.com/ka/aboutus",
+      "url": "https://janninacabal.com/contacto/",
       "status": "ok",
       "reason": "business_page"
     },
@@ -178,69 +178,24 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38308618327",
-  "remaining_directory_pages": 8,
+  "github_run_id": "38308886820",
+  "remaining_directory_pages": 3,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 81,
-  "checkpoint_at": "2026-10-12T21:09:47+00:00",
-  "records_total": 209,
-  "contacts_total": 713,
+  "checkpoint_at": "2026-10-12T21:12:19+00:00",
+  "records_total": 210,
+  "contacts_total": 716,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 510,
+  "direct_contacts_unique": 511,
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
@@ -252,8 +207,5 @@
     "unreachable": 1
   },
   "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:09:47+00:00",
-  "http_requests": 67
+  "businesses_deferred_by_page_budget": 1
 }
