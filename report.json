@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:27:08+00:00",
   "status": "running",
-  "sites_processed": 11,
+  "sites_processed": 26,
   "events": [
     {
       "url": "https://dizaini.ge/product/105",
@@ -798,6 +798,191 @@
       "url": "https://www.mosulishvili.com/",
       "status": "unreachable",
       "reason": "network_error"
+    },
+    {
+      "url": "https://www.r312.eu/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://timmarchitecture.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://timmarchitecture.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://timmarchitecture.com/wp-content/uploads/2014/12/contact_sketch_2.jpg",
+      "status": "unreachable",
+      "reason": "not_html"
+    },
+    {
+      "url": "https://timmarchitecture.com/team/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.werk-raum.com/",
+      "status": "unreachable",
+      "reason": "network_error"
+    },
+    {
+      "url": "https://www.wu-werk.com/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://idaafarchitects.com/",
+      "status": "unreachable",
+      "reason": "http_500"
+    },
+    {
+      "url": "https://www.designcity.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://perla.ge/en",
+      "status": "unreachable",
+      "reason": "network_error"
+    },
+    {
+      "url": "https://hdesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/kontaqti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://www.jokhastudio.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/projects",
+      "status": "unreachable",
+      "reason": "response_too_large"
+    },
+    {
+      "url": "https://www.jokhastudio.com/video-galley",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/blog",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/kontakti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/servisebi/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.designespas.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.dmark.ge/",
+      "status": "unreachable",
+      "reason": "no_readable_content"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.dio.ge/general.php",
+      "status": "unreachable",
+      "reason": "http_404"
     }
   ],
   "continuous": true,
@@ -805,12 +990,12 @@
   "batch_limit": 1000,
   "github_run_id": "38290952835",
   "remaining_directory_pages": 215,
-  "remaining_businesses": 144,
+  "remaining_businesses": 134,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
-  "unavailable_sources_total": 21,
-  "checkpoint_at": "2026-10-12T18:29:24+00:00",
+  "unavailable_sources_total": 31,
+  "checkpoint_at": "2026-10-12T18:31:38+00:00",
   "records_total": 96,
   "contacts_total": 385,
   "historical_direct_contacts_unique": 13,
@@ -821,9 +1006,9 @@
   "new_records": 4,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 6,
+  "errors": 17,
   "error_categories": {
-    "unreachable": 6
+    "unreachable": 17
   },
   "candidates_available": 150,
   "businesses_deferred_by_page_budget": 120
