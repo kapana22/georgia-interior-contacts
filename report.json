@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T19:06:31+00:00",
-  "status": "running",
-  "sites_processed": 12,
+  "status": "completed",
+  "sites_processed": 15,
   "events": [
     {
       "url": "https://www.homeis.ge/category/adamianebi/page/10/",
@@ -518,6 +518,76 @@
       "url": "https://hdesign.ge/servisebi",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/kontakti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/servisebi/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -531,7 +601,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 50,
-  "checkpoint_at": "2026-10-12T19:08:38+00:00",
+  "checkpoint_at": "2026-10-12T19:09:17+00:00",
   "records_total": 144,
   "contacts_total": 517,
   "historical_direct_contacts_unique": 13,
@@ -547,5 +617,8 @@
     "unreachable": 3
   },
   "candidates_available": 80,
-  "businesses_deferred_by_page_budget": 65
+  "businesses_deferred_by_page_budget": 65,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T19:09:17+00:00",
+  "http_requests": 78
 }
