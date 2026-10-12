@@ -1,38 +1,43 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:53:47+00:00",
-  "status": "completed",
-  "sites_processed": 8,
+  "started_at": "2026-10-12T20:56:30+00:00",
+  "status": "running",
+  "sites_processed": 9,
   "events": [
     {
-      "url": "https://www.homeis.ge/material-editors-is-gidi/",
+      "url": "https://www.homeis.ge/sheridanandco/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 1
+    },
+    {
+      "url": "https://www.homeis.ge/category/adamianebi/page/27/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/rada-merebashvili-abazhurebi/",
+      "url": "https://www.homeis.ge/taapani-aartoma/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/ana-natsvlishvili-bau-design/",
+      "url": "https://www.homeis.ge/antonio-citerrio/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/aqsel-vervurdti/",
+      "url": "https://www.homeis.ge/thathia-ghvineria/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/olson-kundig-brendi/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
+      "url": "https://tbcconcept.ge/",
+      "status": "blocked",
+      "reason": "robots_unavailable_200"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -218,15 +223,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38307118945",
-  "remaining_directory_pages": 2,
+  "github_run_id": "38307396065",
+  "remaining_directory_pages": 9,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:55:53+00:00",
+  "unavailable_sources_total": 78,
+  "checkpoint_at": "2026-10-12T20:58:38+00:00",
   "records_total": 204,
   "contacts_total": 691,
   "historical_direct_contacts_unique": 13,
@@ -237,13 +242,11 @@
   "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 1,
+  "errors": 2,
   "error_categories": {
+    "blocked": 1,
     "unreachable": 1
   },
-  "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:55:53+00:00",
-  "http_requests": 64
+  "candidates_available": 10,
+  "businesses_deferred_by_page_budget": 1
 }
