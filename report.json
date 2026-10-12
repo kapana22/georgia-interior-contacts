@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:08:47+00:00",
   "status": "running",
-  "sites_processed": 13,
+  "sites_processed": 27,
   "events": [
     {
       "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-1/",
@@ -804,6 +804,146 @@
       "url": "https://baudesign.ge/about-us/",
       "status": "ok",
       "reason": "business_page"
+    },
+    {
+      "url": "https://cityproject.ge/ka/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://cityproject.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://cityproject.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://cityproject.ge/ka/about",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "http://www.design.4you.ge/",
+      "status": "unreachable",
+      "reason": "http_500"
+    },
+    {
+      "url": "https://elteg.ge/ka-ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://elteg.ge/ka-ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://elteg.ge/contact-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://elteg.ge/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://elteg.ge/ka-ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.giorgikhmaladze.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.giorgikhmaladze.com/studio",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.giorgikhmaladze.com/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.mosulishvili.com/",
+      "status": "unreachable",
+      "reason": "network_error"
+    },
+    {
+      "url": "https://www.r312.eu/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://timmarchitecture.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://timmarchitecture.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://timmarchitecture.com/wp-content/uploads/2014/12/contact_sketch_2.jpg",
+      "status": "unreachable",
+      "reason": "not_html"
+    },
+    {
+      "url": "https://timmarchitecture.com/team/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://ton.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ton.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ton.ge/en/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ton.ge/ka/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ton.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.werk-raum.com/",
+      "status": "unreachable",
+      "reason": "network_error"
+    },
+    {
+      "url": "https://www.wu-werk.com/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://cube.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://cube.ge/%e1%83%99%e1%83%9d%e1%83%9c%e1%83%a2%e1%83%90%e1%83%a5%e1%83%a2%e1%83%98/",
+      "status": "ok",
+      "reason": "business_page"
     }
   ],
   "continuous": true,
@@ -811,12 +951,12 @@
   "batch_limit": 1000,
   "github_run_id": "38288901096",
   "remaining_directory_pages": 237,
-  "remaining_businesses": 216,
+  "remaining_businesses": 209,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "unavailable_sources_total": 2,
-  "checkpoint_at": "2026-10-12T18:10:50+00:00",
+  "checkpoint_at": "2026-10-12T18:12:55+00:00",
   "records_total": 90,
   "contacts_total": 356,
   "historical_direct_contacts_unique": 13,
@@ -827,9 +967,9 @@
   "new_records": 4,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 5,
+  "errors": 11,
   "error_categories": {
-    "unreachable": 3,
+    "unreachable": 9,
     "javascript_required": 2
   },
   "candidates_available": 225,
