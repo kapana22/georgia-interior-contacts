@@ -122,6 +122,7 @@ async function refreshData(background = false) {
     state.records = records; state.sha = sha; state.report = reportResult.status === 'fulfilled' ? reportResult.value : null;
     notice('data-error', reportResult.status === 'rejected' ? 'კონტაქტები ჩაიტვირთა, მაგრამ გაშვების ანგარიში მიუწვდომელია.' : '');
     renderStats(); renderContacts(); document.querySelectorAll('[data-download]').forEach(b => { b.disabled = false; });
+    if (background) await refreshRuns();
   } catch (error) {
     notice('data-error', error.message + (state.sha ? ' ეკრანზე წინა ჩატვირთული შედეგები დარჩა.' : ''));
     if (!state.sha) { const empty = el('div', 'empty-state'); empty.append(el('span', 'empty-icon', '↻'), el('h3', '', 'ბაზა ვერ ჩაიტვირთა'), el('p', '', 'დააჭირე „განახლებას“ ან ნახე შედეგები GitHub-ზე.')); $('contact-grid').replaceChildren(empty); }
