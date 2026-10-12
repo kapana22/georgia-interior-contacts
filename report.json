@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T20:48:31+00:00",
-  "status": "running",
-  "sites_processed": 8,
+  "status": "completed",
+  "sites_processed": 9,
   "events": [
     {
       "url": "https://www.homeis.ge/zhan-nuveli-arqiteqturith-gadmotsemuli-poezia/",
@@ -213,6 +213,31 @@
       "url": "https://renovare.ge/renovation/",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -226,7 +251,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 77,
-  "checkpoint_at": "2026-10-12T20:50:37+00:00",
+  "checkpoint_at": "2026-10-12T20:50:48+00:00",
   "records_total": 204,
   "contacts_total": 691,
   "historical_direct_contacts_unique": 13,
@@ -242,5 +267,8 @@
     "unreachable": 1
   },
   "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1
+  "businesses_deferred_by_page_budget": 1,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T20:50:48+00:00",
+  "http_requests": 71
 }
