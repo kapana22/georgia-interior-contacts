@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-12T18:48:16+00:00",
-  "status": "running",
-  "sites_processed": 13,
+  "status": "completed",
+  "sites_processed": 16,
   "events": [
     {
       "url": "https://dizaini.ge/product/59",
@@ -713,6 +713,76 @@
       "url": "https://hdesign.ge/servisebi",
       "status": "skipped",
       "reason": "page_limit"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/kontakti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://roomdesignstudio.ge/servisebi/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "skipped",
+      "reason": "page_limit"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "skipped",
+      "reason": "page_limit"
     }
   ],
   "continuous": true,
@@ -726,7 +796,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 43,
-  "checkpoint_at": "2026-10-12T18:50:25+00:00",
+  "checkpoint_at": "2026-10-12T18:51:09+00:00",
   "records_total": 119,
   "contacts_total": 453,
   "historical_direct_contacts_unique": 13,
@@ -743,5 +813,8 @@
     "unreachable": 3
   },
   "candidates_available": 111,
-  "businesses_deferred_by_page_budget": 95
+  "businesses_deferred_by_page_budget": 95,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-12T18:51:09+00:00",
+  "http_requests": 84
 }
