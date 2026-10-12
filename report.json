@@ -1,53 +1,83 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:13:09+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T21:15:50+00:00",
+  "status": "running",
   "sites_processed": 10,
   "events": [
     {
-      "url": "https://www.homeis.ge/tsumtoris-mistiuri-arqiteqtura/",
+      "url": "https://www.homeis.ge/laboratory-of-architecture-interview/",
       "status": "ok",
       "reason": "directory",
-      "discovered": 3
+      "discovered": 6
     },
     {
-      "url": "https://www.homeis.ge/butsa-jorbenadze/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 0
-    },
-    {
-      "url": "https://www.homeis.ge/category/adamianebi/page/30/",
+      "url": "https://www.homeis.ge/ana-machaidze-khalichebi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/landscape-architecture-tamar-tavartkiladze/",
+      "url": "https://www.homeis.ge/lominashvilis-skamebi/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/dziebis-protsesi-sanathebis-dizainshi-interviu-nathia-dalaqishvilthan/",
+      "url": "https://www.homeis.ge/timm-architecture/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 6
+    },
+    {
+      "url": "https://www.homeis.ge/6835-2/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.atlasofplaces.com/architecture/shelter-roman-archaeological-site/",
+      "url": "https://www.bernardkhoury.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.bernardkhoury.com/contact.php",
+      "status": "unreachable",
+      "reason": "http_409"
+    },
+    {
+      "url": "https://www.herzogdemeuron.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.herzogdemeuron.com/practice/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.herzogdemeuron.com/news/new-ceo-at-hdm/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.herzogdemeuron.com/practice/people/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://olgiati.net/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://studiomk27.com.br/",
       "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
+      "reason": "cross_domain_redirect_requires_review"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
       "status": "skipped",
       "reason": "social_profile_not_crawled"
-    },
-    {
-      "url": "https://www.archdaily.com/876990/the-grove-design-hotel-laboratory-of-architecture-number-3",
-      "status": "ok",
-      "reason": "business_page"
     },
     {
       "url": "https://www.eglo.com/us/",
@@ -178,83 +208,35 @@
       "url": "https://roomdesignstudio.ge/servisebi/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38309203517",
-  "remaining_directory_pages": 6,
-  "remaining_businesses": 9,
+  "github_run_id": "38309482437",
+  "remaining_directory_pages": 1,
+  "remaining_businesses": 10,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 82,
-  "checkpoint_at": "2026-10-12T21:15:24+00:00",
-  "records_total": 210,
-  "contacts_total": 716,
+  "unavailable_sources_total": 83,
+  "checkpoint_at": "2026-10-12T21:18:02+00:00",
+  "records_total": 213,
+  "contacts_total": 727,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 511,
+  "direct_contacts_unique": 518,
   "relevant_direct_contacts_unique": 148,
   "target_reached": false,
   "contacts_missing_to_target": 852,
-  "new_records": 0,
+  "new_records": 3,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 2,
+  "errors": 3,
   "error_categories": {
-    "blocked": 1,
-    "unreachable": 1
+    "unreachable": 2,
+    "blocked": 1
   },
-  "candidates_available": 11,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T21:15:24+00:00",
-  "http_requests": 67
+  "candidates_available": 13,
+  "businesses_deferred_by_page_budget": 1
 }
