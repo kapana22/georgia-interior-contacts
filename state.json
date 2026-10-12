@@ -960,90 +960,90 @@
           "value": "თბილისი",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T20:57:29+00:00"
+          "last_seen": "2026-10-12T21:00:52+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T20:57:27+00:00"
+          "last_seen": "2026-10-12T21:00:50+00:00"
         },
         {
           "kind": "email",
           "value": "info@cityproject.ge",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T20:57:29+00:00"
+          "last_seen": "2026-10-12T21:00:52+00:00"
         },
         {
           "kind": "email",
           "value": "info@cityproject.ge",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T20:57:27+00:00"
+          "last_seen": "2026-10-12T21:00:50+00:00"
         },
         {
           "kind": "name",
           "value": "City Project",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T20:57:29+00:00"
+          "last_seen": "2026-10-12T21:00:52+00:00"
         },
         {
           "kind": "name",
           "value": "City Project",
           "source_url": "https://cityproject.ge/ka/",
           "first_seen": "2026-10-12T13:13:42+00:00",
-          "last_seen": "2026-10-12T20:57:25+00:00"
+          "last_seen": "2026-10-12T21:00:48+00:00"
         },
         {
           "kind": "name",
           "value": "City Project",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T20:57:27+00:00"
+          "last_seen": "2026-10-12T21:00:50+00:00"
         },
         {
           "kind": "phone",
           "value": "+995322555888",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T20:57:29+00:00"
+          "last_seen": "2026-10-12T21:00:52+00:00"
         },
         {
           "kind": "phone",
           "value": "+995322555888",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T20:57:27+00:00"
+          "last_seen": "2026-10-12T21:00:50+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.cityproject.ge/",
           "source_url": "https://cityproject.ge/en/contact",
           "first_seen": "2026-10-12T13:13:46+00:00",
-          "last_seen": "2026-10-12T20:57:29+00:00"
+          "last_seen": "2026-10-12T21:00:52+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.cityproject.ge/",
           "source_url": "https://cityproject.ge/ka/",
           "first_seen": "2026-10-12T13:13:42+00:00",
-          "last_seen": "2026-10-12T20:57:25+00:00"
+          "last_seen": "2026-10-12T21:00:48+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.cityproject.ge/",
           "source_url": "https://cityproject.ge/ka/contact",
           "first_seen": "2026-10-12T13:13:44+00:00",
-          "last_seen": "2026-10-12T20:57:27+00:00"
+          "last_seen": "2026-10-12T21:00:50+00:00"
         }
       ],
       "business_key": "",
       "suggested_websites": [],
       "first_seen": "2026-10-12T13:13:42+00:00",
-      "last_seen": "2026-10-12T20:57:29+00:00",
+      "last_seen": "2026-10-12T21:00:52+00:00",
       "status": "review",
       "review_reasons": [
         "interior_service_not_confirmed",
@@ -2958,6 +2958,59 @@
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
+        "interior_service_not_confirmed"
+      ]
+    },
+    {
+      "id": "2ad10b1cd6672b90",
+      "name": "Eclettis",
+      "domains": [
+        "eclettis.it"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@eclettis.com",
+          "source_url": "https://www.eclettis.it/",
+          "first_seen": "2026-10-12T20:59:53+00:00",
+          "last_seen": "2026-10-12T20:59:53+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/eclettis",
+          "source_url": "https://www.eclettis.it/",
+          "first_seen": "2026-10-12T20:59:53+00:00",
+          "last_seen": "2026-10-12T20:59:53+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/eclettis.official",
+          "source_url": "https://www.eclettis.it/",
+          "first_seen": "2026-10-12T20:59:53+00:00",
+          "last_seen": "2026-10-12T20:59:53+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Eclettis",
+          "source_url": "https://www.eclettis.it/",
+          "first_seen": "2026-10-12T20:59:53+00:00",
+          "last_seen": "2026-10-12T20:59:53+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.eclettis.it/",
+          "source_url": "https://www.eclettis.it/",
+          "first_seen": "2026-10-12T20:59:53+00:00",
+          "last_seen": "2026-10-12T20:59:53+00:00"
+        }
+      ],
+      "business_key": "",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T20:59:53+00:00",
+      "last_seen": "2026-10-12T20:59:53+00:00",
+      "status": "review",
+      "review_reasons": [
+        "georgia_operation_not_confirmed",
         "interior_service_not_confirmed"
       ]
     },
@@ -5564,14 +5617,14 @@
           "value": "info-usa@eglo.com",
           "source_url": "https://www.eglo.com/us/",
           "first_seen": "2026-10-12T19:10:27+00:00",
-          "last_seen": "2026-10-12T20:56:58+00:00"
+          "last_seen": "2026-10-12T21:00:20+00:00"
         },
         {
           "kind": "email",
           "value": "info-usa@eglo.com",
           "source_url": "https://www.eglo.com/us/contact_us",
           "first_seen": "2026-10-12T19:10:29+00:00",
-          "last_seen": "2026-10-12T20:56:59+00:00"
+          "last_seen": "2026-10-12T21:00:22+00:00"
         },
         {
           "kind": "email",
@@ -5592,14 +5645,14 @@
           "value": "https://www.facebook.com/eglousa",
           "source_url": "https://www.eglo.com/us/",
           "first_seen": "2026-10-12T19:10:27+00:00",
-          "last_seen": "2026-10-12T20:56:58+00:00"
+          "last_seen": "2026-10-12T21:00:20+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/eglousa",
           "source_url": "https://www.eglo.com/us/contact_us",
           "first_seen": "2026-10-12T19:10:29+00:00",
-          "last_seen": "2026-10-12T20:56:59+00:00"
+          "last_seen": "2026-10-12T21:00:22+00:00"
         },
         {
           "kind": "facebook",
@@ -5634,14 +5687,14 @@
           "value": "https://www.instagram.com/eglo_usa",
           "source_url": "https://www.eglo.com/us/",
           "first_seen": "2026-10-12T19:10:27+00:00",
-          "last_seen": "2026-10-12T20:56:58+00:00"
+          "last_seen": "2026-10-12T21:00:20+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/eglo_usa",
           "source_url": "https://www.eglo.com/us/contact_us",
           "first_seen": "2026-10-12T19:10:29+00:00",
-          "last_seen": "2026-10-12T20:56:59+00:00"
+          "last_seen": "2026-10-12T21:00:22+00:00"
         },
         {
           "kind": "name",
@@ -5662,14 +5715,14 @@
           "value": "Лайт Хаус",
           "source_url": "https://www.eglo.com/us/",
           "first_seen": "2026-10-12T19:10:27+00:00",
-          "last_seen": "2026-10-12T20:56:58+00:00"
+          "last_seen": "2026-10-12T21:00:20+00:00"
         },
         {
           "kind": "name",
           "value": "Лайт Хаус",
           "source_url": "https://www.eglo.com/us/contact_us",
           "first_seen": "2026-10-12T19:10:29+00:00",
-          "last_seen": "2026-10-12T20:56:59+00:00"
+          "last_seen": "2026-10-12T21:00:22+00:00"
         },
         {
           "kind": "name",
@@ -5690,14 +5743,14 @@
           "value": "+18778920007",
           "source_url": "https://www.eglo.com/us/",
           "first_seen": "2026-10-12T19:10:27+00:00",
-          "last_seen": "2026-10-12T20:56:58+00:00"
+          "last_seen": "2026-10-12T21:00:20+00:00"
         },
         {
           "kind": "phone",
           "value": "+18778920007",
           "source_url": "https://www.eglo.com/us/contact_us",
           "first_seen": "2026-10-12T19:10:29+00:00",
-          "last_seen": "2026-10-12T20:56:59+00:00"
+          "last_seen": "2026-10-12T21:00:22+00:00"
         },
         {
           "kind": "phone",
@@ -5788,14 +5841,14 @@
           "value": "http://www.eglo.com/",
           "source_url": "https://www.eglo.com/us/",
           "first_seen": "2026-10-12T19:10:27+00:00",
-          "last_seen": "2026-10-12T20:56:58+00:00"
+          "last_seen": "2026-10-12T21:00:20+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.eglo.com/",
           "source_url": "https://www.eglo.com/us/contact_us",
           "first_seen": "2026-10-12T19:10:29+00:00",
-          "last_seen": "2026-10-12T20:56:59+00:00"
+          "last_seen": "2026-10-12T21:00:22+00:00"
         }
       ],
       "business_key": "city24:6882",
@@ -5803,7 +5856,7 @@
         "http://www.eglo.com/"
       ],
       "first_seen": "2026-10-12T19:07:08+00:00",
-      "last_seen": "2026-10-12T20:56:59+00:00",
+      "last_seen": "2026-10-12T21:00:22+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -8430,6 +8483,67 @@
       ]
     },
     {
+      "id": "694f9e3d487e706b",
+      "name": "DESIGNHOLDING",
+      "domains": [
+        "arclinea.com"
+      ],
+      "facts": [
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/arclineakitchens",
+          "source_url": "https://arclinea.com/en/",
+          "first_seen": "2026-10-12T20:59:34+00:00",
+          "last_seen": "2026-10-12T20:59:34+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/designholding",
+          "source_url": "https://arclinea.com/en/",
+          "first_seen": "2026-10-12T20:59:34+00:00",
+          "last_seen": "2026-10-12T20:59:34+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/arclinea_official",
+          "source_url": "https://arclinea.com/en/",
+          "first_seen": "2026-10-12T20:59:34+00:00",
+          "last_seen": "2026-10-12T20:59:34+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/designholding",
+          "source_url": "https://arclinea.com/en/",
+          "first_seen": "2026-10-12T20:59:34+00:00",
+          "last_seen": "2026-10-12T20:59:34+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DESIGNHOLDING",
+          "source_url": "https://arclinea.com/en/",
+          "first_seen": "2026-10-12T20:59:34+00:00",
+          "last_seen": "2026-10-12T20:59:34+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.arclinea.com/eng/",
+          "source_url": "https://arclinea.com/en/",
+          "first_seen": "2026-10-12T20:59:34+00:00",
+          "last_seen": "2026-10-12T20:59:34+00:00"
+        }
+      ],
+      "business_key": "",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T20:59:34+00:00",
+      "last_seen": "2026-10-12T20:59:34+00:00",
+      "status": "review",
+      "review_reasons": [
+        "georgia_operation_not_confirmed",
+        "interior_service_not_confirmed",
+        "page_cross_domain_redirect_requires_review"
+      ]
+    },
+    {
       "id": "6ce0fefcbd5ce620",
       "name": "Арт-Хаузы",
       "domains": [
@@ -8678,6 +8792,170 @@
       "review_reasons": [
         "directory_only_service_claim",
         "page_robots_cross_domain_redirect"
+      ]
+    },
+    {
+      "id": "75a4c33f1a991210",
+      "name": "De Castelli",
+      "domains": [
+        "decastelli.com"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "milano@decastelli.com",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/decastelliofficial",
+          "source_url": "https://decastelli.com/en/",
+          "first_seen": "2026-10-12T20:59:44+00:00",
+          "last_seen": "2026-10-12T20:59:44+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/decastelliofficial",
+          "source_url": "https://decastelli.com/en/about/",
+          "first_seen": "2026-10-12T20:59:48+00:00",
+          "last_seen": "2026-10-12T20:59:48+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/decastelliofficial",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/decastelliofficial",
+          "source_url": "https://decastelli.com/it/about/",
+          "first_seen": "2026-10-12T20:59:50+00:00",
+          "last_seen": "2026-10-12T20:59:50+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/decastelli_official",
+          "source_url": "https://decastelli.com/en/",
+          "first_seen": "2026-10-12T20:59:44+00:00",
+          "last_seen": "2026-10-12T20:59:44+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/decastelli_official",
+          "source_url": "https://decastelli.com/en/about/",
+          "first_seen": "2026-10-12T20:59:48+00:00",
+          "last_seen": "2026-10-12T20:59:48+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/decastelli_official",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/decastelli_official",
+          "source_url": "https://decastelli.com/it/about/",
+          "first_seen": "2026-10-12T20:59:50+00:00",
+          "last_seen": "2026-10-12T20:59:50+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "De Castelli",
+          "source_url": "https://decastelli.com/en/",
+          "first_seen": "2026-10-12T20:59:44+00:00",
+          "last_seen": "2026-10-12T20:59:44+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "De Castelli",
+          "source_url": "https://decastelli.com/en/about/",
+          "first_seen": "2026-10-12T20:59:48+00:00",
+          "last_seen": "2026-10-12T20:59:48+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "De Castelli",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "De Castelli",
+          "source_url": "https://decastelli.com/it/about/",
+          "first_seen": "2026-10-12T20:59:50+00:00",
+          "last_seen": "2026-10-12T20:59:50+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+390276006999",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+390423638218",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995423638218",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "tel:0276006999",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.decastelli.com/en/",
+          "source_url": "https://decastelli.com/en/",
+          "first_seen": "2026-10-12T20:59:44+00:00",
+          "last_seen": "2026-10-12T20:59:44+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.decastelli.com/en/",
+          "source_url": "https://decastelli.com/en/about/",
+          "first_seen": "2026-10-12T20:59:48+00:00",
+          "last_seen": "2026-10-12T20:59:48+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.decastelli.com/en/",
+          "source_url": "https://decastelli.com/en/contacts/",
+          "first_seen": "2026-10-12T20:59:46+00:00",
+          "last_seen": "2026-10-12T20:59:46+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.decastelli.com/en/",
+          "source_url": "https://decastelli.com/it/about/",
+          "first_seen": "2026-10-12T20:59:50+00:00",
+          "last_seen": "2026-10-12T20:59:50+00:00"
+        }
+      ],
+      "business_key": "",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T20:59:44+00:00",
+      "last_seen": "2026-10-12T20:59:50+00:00",
+      "status": "review",
+      "review_reasons": [
+        "unverified_phone_structure"
       ]
     },
     {
@@ -13873,6 +14151,156 @@
       "review_reasons": []
     },
     {
+      "id": "ac5fcbf4a78b7242",
+      "name": "Nerosicilia Group",
+      "domains": [
+        "nerosicilia.com"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@nerosicilia.com",
+          "source_url": "https://nerosicilia.com/contatti/",
+          "first_seen": "2026-10-12T21:00:05+00:00",
+          "last_seen": "2026-10-12T21:00:05+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/",
+          "first_seen": "2026-10-12T20:59:59+00:00",
+          "last_seen": "2026-10-12T20:59:59+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/contatti/",
+          "first_seen": "2026-10-12T21:00:05+00:00",
+          "last_seen": "2026-10-12T21:00:05+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/en/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:07+00:00",
+          "last_seen": "2026-10-12T21:00:07+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:04+00:00",
+          "last_seen": "2026-10-12T21:00:04+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/",
+          "first_seen": "2026-10-12T20:59:59+00:00",
+          "last_seen": "2026-10-12T20:59:59+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/contatti/",
+          "first_seen": "2026-10-12T21:00:05+00:00",
+          "last_seen": "2026-10-12T21:00:05+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/en/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:07+00:00",
+          "last_seen": "2026-10-12T21:00:07+00:00"
+        },
+        {
+          "kind": "instagram",
+          "value": "https://www.instagram.com/nerosicilia",
+          "source_url": "https://nerosicilia.com/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:04+00:00",
+          "last_seen": "2026-10-12T21:00:04+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Nerosicilia Group",
+          "source_url": "https://nerosicilia.com/",
+          "first_seen": "2026-10-12T20:59:59+00:00",
+          "last_seen": "2026-10-12T20:59:59+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Nerosicilia Group",
+          "source_url": "https://nerosicilia.com/contatti/",
+          "first_seen": "2026-10-12T21:00:05+00:00",
+          "last_seen": "2026-10-12T21:00:05+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Nerosicilia Group",
+          "source_url": "https://nerosicilia.com/en/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:07+00:00",
+          "last_seen": "2026-10-12T21:00:07+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "Nerosicilia Group",
+          "source_url": "https://nerosicilia.com/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:04+00:00",
+          "last_seen": "2026-10-12T21:00:04+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+390932963254",
+          "source_url": "https://nerosicilia.com/contatti/",
+          "first_seen": "2026-10-12T21:00:05+00:00",
+          "last_seen": "2026-10-12T21:00:05+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+393291228011",
+          "source_url": "https://nerosicilia.com/contatti/",
+          "first_seen": "2026-10-12T21:00:05+00:00",
+          "last_seen": "2026-10-12T21:00:05+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://nerosicilia.com/",
+          "source_url": "https://nerosicilia.com/",
+          "first_seen": "2026-10-12T20:59:59+00:00",
+          "last_seen": "2026-10-12T20:59:59+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://nerosicilia.com/",
+          "source_url": "https://nerosicilia.com/contatti/",
+          "first_seen": "2026-10-12T21:00:05+00:00",
+          "last_seen": "2026-10-12T21:00:05+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://nerosicilia.com/",
+          "source_url": "https://nerosicilia.com/en/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:07+00:00",
+          "last_seen": "2026-10-12T21:00:07+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://nerosicilia.com/",
+          "source_url": "https://nerosicilia.com/partnership/maustudio-lavabo-pietra-lavica/",
+          "first_seen": "2026-10-12T21:00:04+00:00",
+          "last_seen": "2026-10-12T21:00:04+00:00"
+        }
+      ],
+      "business_key": "",
+      "suggested_websites": [],
+      "first_seen": "2026-10-12T20:59:59+00:00",
+      "last_seen": "2026-10-12T21:00:07+00:00",
+      "status": "review",
+      "review_reasons": [
+        "georgia_operation_not_confirmed"
+      ]
+    },
+    {
       "id": "ad4ffcfdef3c195b",
       "name": "DOOR 032",
       "domains": [
@@ -14608,97 +15036,97 @@
           "value": "info@timmarchitecture.com",
           "source_url": "https://timmarchitecture.com/",
           "first_seen": "2026-10-12T13:14:40+00:00",
-          "last_seen": "2026-10-12T20:57:37+00:00"
+          "last_seen": "2026-10-12T21:00:59+00:00"
         },
         {
           "kind": "email",
           "value": "info@timmarchitecture.com",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/timmarchitecture",
           "source_url": "https://timmarchitecture.com/",
           "first_seen": "2026-10-12T13:14:40+00:00",
-          "last_seen": "2026-10-12T20:57:37+00:00"
+          "last_seen": "2026-10-12T21:00:59+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/timmarchitecture",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/timmarchitecture",
           "source_url": "https://timmarchitecture.com/",
           "first_seen": "2026-10-12T13:14:40+00:00",
-          "last_seen": "2026-10-12T20:57:37+00:00"
+          "last_seen": "2026-10-12T21:00:59+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/timmarchitecture",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         },
         {
           "kind": "name",
           "value": "TIMM Architecture",
           "source_url": "https://timmarchitecture.com/",
           "first_seen": "2026-10-12T13:14:40+00:00",
-          "last_seen": "2026-10-12T20:57:37+00:00"
+          "last_seen": "2026-10-12T21:00:59+00:00"
         },
         {
           "kind": "name",
           "value": "TIMM Architecture",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         },
         {
           "kind": "phone",
           "value": "+390229003054",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         },
         {
           "kind": "phone",
           "value": "+905354133351",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         },
         {
           "kind": "phone",
           "value": "+995599725900",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.timmarchitecture.com/",
           "source_url": "https://timmarchitecture.com/",
           "first_seen": "2026-10-12T13:14:40+00:00",
-          "last_seen": "2026-10-12T20:57:37+00:00"
+          "last_seen": "2026-10-12T21:00:59+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.timmarchitecture.com/",
           "source_url": "https://timmarchitecture.com/contact/",
           "first_seen": "2026-10-12T13:14:42+00:00",
-          "last_seen": "2026-10-12T20:57:39+00:00"
+          "last_seen": "2026-10-12T21:01:02+00:00"
         }
       ],
       "business_key": "",
       "suggested_websites": [],
       "first_seen": "2026-10-12T13:14:40+00:00",
-      "last_seen": "2026-10-12T20:57:39+00:00",
+      "last_seen": "2026-10-12T21:01:02+00:00",
       "status": "review",
       "review_reasons": [
         "interior_service_not_confirmed",
@@ -19121,139 +19549,139 @@
           "value": "თბილისი",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T20:57:14+00:00"
+          "last_seen": "2026-10-12T21:00:36+00:00"
         },
         {
           "kind": "email",
           "value": "info@verona.ge",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T20:57:14+00:00"
+          "last_seen": "2026-10-12T21:00:36+00:00"
         },
         {
           "kind": "email",
           "value": "info@verona.ge",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T20:57:10+00:00"
+          "last_seen": "2026-10-12T21:00:32+00:00"
         },
         {
           "kind": "email",
           "value": "info@verona.ge",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T20:57:12+00:00"
+          "last_seen": "2026-10-12T21:00:34+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/verona.tbilisi",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T20:57:14+00:00"
+          "last_seen": "2026-10-12T21:00:36+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T20:57:10+00:00"
+          "last_seen": "2026-10-12T21:00:32+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T20:57:12+00:00"
+          "last_seen": "2026-10-12T21:00:34+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/verona.tbilisi",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T20:57:14+00:00"
+          "last_seen": "2026-10-12T21:00:36+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T20:57:10+00:00"
+          "last_seen": "2026-10-12T21:00:32+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/verona.tbilisi",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T20:57:12+00:00"
+          "last_seen": "2026-10-12T21:00:34+00:00"
         },
         {
           "kind": "name",
           "value": "Verona",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T20:57:14+00:00"
+          "last_seen": "2026-10-12T21:00:36+00:00"
         },
         {
           "kind": "name",
           "value": "Verona",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T20:57:10+00:00"
+          "last_seen": "2026-10-12T21:00:32+00:00"
         },
         {
           "kind": "name",
           "value": "Verona",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T20:57:12+00:00"
+          "last_seen": "2026-10-12T21:00:34+00:00"
         },
         {
           "kind": "phone",
           "value": "+995596244224",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T20:57:14+00:00"
+          "last_seen": "2026-10-12T21:00:36+00:00"
         },
         {
           "kind": "phone",
           "value": "+995596244224",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T20:57:10+00:00"
+          "last_seen": "2026-10-12T21:00:32+00:00"
         },
         {
           "kind": "phone",
           "value": "+995596244224",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T20:57:12+00:00"
+          "last_seen": "2026-10-12T21:00:34+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.verona.ge/",
           "source_url": "https://verona.ge/en/contact",
           "first_seen": "2026-10-12T18:28:19+00:00",
-          "last_seen": "2026-10-12T20:57:14+00:00"
+          "last_seen": "2026-10-12T21:00:36+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.verona.ge/",
           "source_url": "https://verona.ge/ka",
           "first_seen": "2026-10-12T18:28:15+00:00",
-          "last_seen": "2026-10-12T20:57:10+00:00"
+          "last_seen": "2026-10-12T21:00:32+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.verona.ge/",
           "source_url": "https://verona.ge/ka/contact",
           "first_seen": "2026-10-12T18:28:17+00:00",
-          "last_seen": "2026-10-12T20:57:12+00:00"
+          "last_seen": "2026-10-12T21:00:34+00:00"
         }
       ],
       "business_key": "",
       "suggested_websites": [],
       "first_seen": "2026-10-12T18:28:15+00:00",
-      "last_seen": "2026-10-12T20:57:14+00:00",
+      "last_seen": "2026-10-12T21:00:36+00:00",
       "status": "review",
       "review_reasons": [
         "interior_service_not_confirmed",
@@ -25544,6 +25972,36 @@
       "url": "https://tbcconcept.ge/",
       "name": "",
       "discovered_from": "https://www.homeis.ge/sheridanandco/"
+    },
+    {
+      "url": "https://www.giorgettimeda.com/en/the-art-of-shaping",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/zurab-saphareli/"
+    },
+    {
+      "url": "https://www.arclinea.com/eng/",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/zurab-saphareli/"
+    },
+    {
+      "url": "https://www.decastelli.com/en/",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/zurab-saphareli/"
+    },
+    {
+      "url": "https://nerosicilia.com/",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/zurab-saphareli/"
+    },
+    {
+      "url": "https://www.mosaicomicro.com/",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/zurab-saphareli/"
+    },
+    {
+      "url": "https://www.eclettis.it/",
+      "name": "",
+      "discovered_from": "https://www.homeis.ge/zurab-saphareli/"
     }
   ],
   "attempts": {
@@ -25621,7 +26079,7 @@
     "bankofgeorgia.ge": "2026-10-12T13:13:05+00:00",
     "baudesign.ge": "2026-10-12T18:10:50+00:00",
     "city24:14738": "2026-10-12T19:48:57+00:00",
-    "cityproject.ge": "2026-10-12T20:57:29+00:00",
+    "cityproject.ge": "2026-10-12T21:00:52+00:00",
     "design.4you.ge": "2026-10-12T18:29:03+00:00",
     "elteg.ge": "2026-10-12T18:11:24+00:00",
     "pdf:fabe1a019e2af988:9": "2026-10-12T18:11:24+00:00",
@@ -25631,7 +26089,7 @@
     "lhw.com": "2026-10-12T13:14:12+00:00",
     "mosulishvili.com": "2026-10-12T18:29:24+00:00",
     "r312.eu": "2026-10-12T18:29:26+00:00",
-    "timmarchitecture.com": "2026-10-12T20:57:47+00:00",
+    "timmarchitecture.com": "2026-10-12T21:01:09+00:00",
     "ton.ge": "2026-10-12T18:12:23+00:00",
     "werk-raum.com": "2026-10-12T18:29:55+00:00",
     "wu-werk.com": "2026-10-12T18:29:55+00:00",
@@ -25671,7 +26129,7 @@
     "city24:15032": "2026-10-12T18:27:48+00:00",
     "city24:14730": "2026-10-12T18:27:52+00:00",
     "ingo-maurer.com": "2026-10-12T18:28:05+00:00",
-    "verona.ge": "2026-10-12T20:57:14+00:00",
+    "verona.ge": "2026-10-12T21:00:36+00:00",
     "bagrationdavitashvili.com": "2026-10-12T18:32:51+00:00",
     "baryo.ge": "2026-10-12T18:39:22+00:00",
     "city24:14725": "2026-10-12T18:32:56+00:00",
@@ -25754,7 +26212,7 @@
     "city24:14743": "2026-10-12T19:10:10+00:00",
     "city24:15042": "2026-10-12T19:10:13+00:00",
     "city24:16844": "2026-10-12T19:10:14+00:00",
-    "eglo.com": "2026-10-12T20:57:00+00:00",
+    "eglo.com": "2026-10-12T21:00:22+00:00",
     "fabrikatbilisi.com": "2026-10-12T19:10:40+00:00",
     "lechuza.ge": "2026-10-12T19:16:38+00:00",
     "linearchitects.org": "2026-10-12T19:16:39+00:00",
@@ -25843,9 +26301,15 @@
     "archilabmilano.com": "2026-10-12T19:57:42+00:00",
     "archiaward.com": "2026-10-12T20:14:19+00:00",
     "architectsofinvention.com": "2026-10-12T20:48:56+00:00",
-    "tbcconcept.ge": "2026-10-12T20:56:45+00:00"
+    "tbcconcept.ge": "2026-10-12T20:56:45+00:00",
+    "arclinea.com": "2026-10-12T20:59:35+00:00",
+    "decastelli.com": "2026-10-12T20:59:50+00:00",
+    "eclettis.it": "2026-10-12T20:59:53+00:00",
+    "giorgettimeda.com": "2026-10-12T20:59:56+00:00",
+    "mosaicomicro.com": "2026-10-12T20:59:57+00:00",
+    "nerosicilia.com": "2026-10-12T21:00:07+00:00"
   },
-  "last_run": "2026-10-12T20:56:30+00:00",
+  "last_run": "2026-10-12T20:59:09+00:00",
   "discovery_queue": {
     "https://www.yell.ge/companies.php?rub=151&lan=eng": {
       "pending": [],
@@ -25974,11 +26438,6 @@
     },
     "https://www.homeis.ge/category/adamianebi/": {
       "pending": [
-        "https://www.homeis.ge/jan-lui-denio/",
-        "https://www.homeis.ge/le-korbuzie/",
-        "https://www.homeis.ge/zurab-saphareli/",
-        "https://www.homeis.ge/dizaini-rogorts-poezia-nino-chubinishvilis-philosophia/",
-        "https://www.homeis.ge/luis-baragani/",
         "https://www.homeis.ge/giorgi-amiranashvili/",
         "https://www.homeis.ge/skami-giorgi-surguladze/",
         "https://www.homeis.ge/arqiteqturuli-photographia-mamasakhlisi/",
@@ -26072,6 +26531,7 @@
         "https://www.homeis.ge/devi-qituashvili/",
         "https://www.homeis.ge/dimitri-shaphaqidze/",
         "https://www.homeis.ge/dizaineri-tom-diqsoni/",
+        "https://www.homeis.ge/dizaini-rogorts-poezia-nino-chubinishvilis-philosophia/",
         "https://www.homeis.ge/dizainis-mivitsqhebuli-legenda-greta-magnuson-grosmani/",
         "https://www.homeis.ge/dodoshka-chkheidze/",
         "https://www.homeis.ge/dotarchitects/",
@@ -26131,6 +26591,7 @@
         "https://www.homeis.ge/interviu-thatha-bregvadzesthan/",
         "https://www.homeis.ge/interviu-thatha-svanadzesthan/",
         "https://www.homeis.ge/irakli-zhvania/",
+        "https://www.homeis.ge/jan-lui-denio/",
         "https://www.homeis.ge/jean-marie-massaud/",
         "https://www.homeis.ge/jean-prouve/",
         "https://www.homeis.ge/jeanne-gang/",
@@ -26147,11 +26608,13 @@
         "https://www.homeis.ge/landscape-association-tamar-tavartkiladze/",
         "https://www.homeis.ge/landshaphtis-dizaini-lika-kesanashvili/",
         "https://www.homeis.ge/laura-bilde/",
+        "https://www.homeis.ge/le-korbuzie/",
         "https://www.homeis.ge/levan-kalandarishvili/",
         "https://www.homeis.ge/lika-phanjikidzis-interviu/",
         "https://www.homeis.ge/louis-kahn/",
         "https://www.homeis.ge/louis-sullivan/",
         "https://www.homeis.ge/luigi-dominioni/",
+        "https://www.homeis.ge/luis-baragani/",
         "https://www.homeis.ge/ma-architect/",
         "https://www.homeis.ge/maia-adamia/",
         "https://www.homeis.ge/maka-jishkariani/",
@@ -26289,7 +26752,8 @@
         "https://www.homeis.ge/wohnung-architects/",
         "https://www.homeis.ge/wom/",
         "https://www.homeis.ge/zaza-khaladze/",
-        "https://www.homeis.ge/zhan-nuveli-arqiteqturith-gadmotsemuli-poezia/"
+        "https://www.homeis.ge/zhan-nuveli-arqiteqturith-gadmotsemuli-poezia/",
+        "https://www.homeis.ge/zurab-saphareli/"
       ]
     },
     "https://archiaward.com/en/Awards/2025": {
@@ -27678,6 +28142,30 @@
       "tbcconcept.ge": {
         "signature": "7d3d13b12d77e4ab9ce7341199f1e3f39ca3286a956c1fab7e30e1b5b60c3765",
         "outcome": "unavailable"
+      },
+      "arclinea.com": {
+        "signature": "d7c5c860492a5c0177f43bfc7c57d5e0d9bc338ed1ec8221856842204ed03604",
+        "outcome": "unavailable"
+      },
+      "decastelli.com": {
+        "signature": "b560e06337c1a6e4a2e0a5d9f83e45d119f58550118e4f9c47ceddee940d6bfb",
+        "outcome": "done"
+      },
+      "eclettis.it": {
+        "signature": "8195034537e8f3d52dc75e674520095565a1df41234fff301df09c7d4a1ee56d",
+        "outcome": "done"
+      },
+      "giorgettimeda.com": {
+        "signature": "b7d88b1fc703863d29c76fe17aa99ac5414323e66bc1b9995196b29d881a9d33",
+        "outcome": "unavailable"
+      },
+      "mosaicomicro.com": {
+        "signature": "c083ee50426e626196d57503ba00dc9174949650954fecc9c4e51084fa33a6c6",
+        "outcome": "unavailable"
+      },
+      "nerosicilia.com": {
+        "signature": "c4f72e024218eef6800f918290311b3668bf358027c72fafc8c17045a7dde150",
+        "outcome": "done"
       }
     },
     "failures": {
@@ -27742,6 +28230,13 @@
   },
   "run_history": [
     {
+      "id": "38307693043",
+      "created_at": "2026-10-12T20:59:09+00:00",
+      "status": "in_progress",
+      "conclusion": "neutral",
+      "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38307693043"
+    },
+    {
       "id": "38307396065",
       "created_at": "2026-10-12T20:56:30+00:00",
       "status": "completed",
@@ -27768,13 +28263,6 @@
       "status": "completed",
       "conclusion": "success",
       "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38306565912"
-    },
-    {
-      "id": "38306282960",
-      "created_at": "2026-10-12T20:45:59+00:00",
-      "status": "completed",
-      "conclusion": "success",
-      "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38306282960"
     }
   ],
   "cooldowns": {}

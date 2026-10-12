@@ -1,43 +1,103 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T20:56:30+00:00",
-  "status": "completed",
-  "sites_processed": 9,
+  "started_at": "2026-10-12T20:59:09+00:00",
+  "status": "running",
+  "sites_processed": 10,
   "events": [
     {
-      "url": "https://www.homeis.ge/sheridanandco/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.homeis.ge/category/adamianebi/page/27/",
+      "url": "https://www.homeis.ge/jan-lui-denio/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/taapani-aartoma/",
+      "url": "https://www.homeis.ge/le-korbuzie/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/antonio-citerrio/",
+      "url": "https://www.homeis.ge/zurab-saphareli/",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 6
+    },
+    {
+      "url": "https://www.homeis.ge/dizaini-rogorts-poezia-nino-chubinishvilis-philosophia/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/thathia-ghvineria/",
+      "url": "https://www.homeis.ge/luis-baragani/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://tbcconcept.ge/",
+      "url": "https://arclinea.com/en/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://arclinea.com/en/contact.html",
       "status": "blocked",
-      "reason": "robots_unavailable_200"
+      "reason": "cross_domain_redirect_requires_review"
+    },
+    {
+      "url": "https://decastelli.com/en/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://decastelli.com/en/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://decastelli.com/en/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://decastelli.com/it/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.eclettis.it/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.giorgettimeda.com/en/the-art-of-shaping",
+      "status": "blocked",
+      "reason": "http_403"
+    },
+    {
+      "url": "https://www.mosaicomicro.com/",
+      "status": "blocked",
+      "reason": "robots_cross_domain_redirect"
+    },
+    {
+      "url": "https://nerosicilia.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nerosicilia.com/partnership/maustudio-lavabo-pietra-lavica/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nerosicilia.com/contatti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nerosicilia.com/en/partnership/maustudio-lavabo-pietra-lavica/",
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -123,133 +183,35 @@
       "url": "https://timmarchitecture.com/team/",
       "status": "skipped",
       "reason": "page_limit"
-    },
-    {
-      "url": "https://hdesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/kontaqti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/kontakti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/servisebi/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38307396065",
-  "remaining_directory_pages": 9,
+  "github_run_id": "38307693043",
+  "remaining_directory_pages": 4,
   "remaining_businesses": 9,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 78,
-  "checkpoint_at": "2026-10-12T20:58:39+00:00",
-  "records_total": 204,
-  "contacts_total": 691,
+  "unavailable_sources_total": 81,
+  "checkpoint_at": "2026-10-12T21:01:09+00:00",
+  "records_total": 208,
+  "contacts_total": 709,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 500,
-  "relevant_direct_contacts_unique": 144,
+  "direct_contacts_unique": 508,
+  "relevant_direct_contacts_unique": 148,
   "target_reached": false,
-  "contacts_missing_to_target": 856,
-  "new_records": 0,
+  "contacts_missing_to_target": 852,
+  "new_records": 4,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 2,
+  "errors": 4,
   "error_categories": {
-    "blocked": 1,
+    "blocked": 3,
     "unreachable": 1
   },
-  "candidates_available": 10,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-12T20:58:39+00:00",
-  "http_requests": 65
+  "candidates_available": 15,
+  "businesses_deferred_by_page_budget": 1
 }
