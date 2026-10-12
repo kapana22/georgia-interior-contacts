@@ -13608,11 +13608,13 @@
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14695/ecohouse/",
-      "name": "ეკოჰაუსი",
+      "name": "Экохаусы",
       "kind": "profile",
       "profile_adapter": "city24",
       "business_key": "city24:14695",
-      "discovered_from": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/page-2/"
+      "discovered_from": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/page-2/",
+      "directory_facts": [],
+      "review_reasons": []
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14778/m-d-c/",
@@ -13636,11 +13638,13 @@
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/14774/esence/",
-      "name": "ესენს",
+      "name": "Эсенс",
       "kind": "profile",
       "profile_adapter": "city24",
       "business_key": "city24:14774",
-      "discovered_from": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/page-2/"
+      "discovered_from": "https://www.city24.ge/ge/tbilisi/catalogue/real-estate-construction/interior-design/page-2/",
+      "directory_facts": [],
+      "review_reasons": []
     },
     {
       "url": "https://www.city24.ge/ge/tbilisi/organizations/16855/estia/",
@@ -15073,6 +15077,110 @@
       "url": "https://ladoberidze.com/",
       "name": "",
       "discovered_from": "https://www.homeis.ge/lado-beridze/"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14760/home-studio/",
+      "name": "Хоум Студио",
+      "kind": "profile",
+      "profile_adapter": "city24",
+      "business_key": "city24:14760",
+      "discovered_from": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-7/"
+    },
+    {
+      "url": "https://www.city24.ge/ru/tbilisi/organizations/14708/khelosanta-sakhli/",
+      "name": "Хэлусанта Сахли",
+      "kind": "profile",
+      "profile_adapter": "city24",
+      "business_key": "city24:14708",
+      "discovered_from": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-7/"
+    },
+    {
+      "url": "https://dizaini.ge/product/157",
+      "name": "MON ARCH Studio",
+      "kind": "listing",
+      "business_key": "dizaini:65",
+      "directory_facts": [
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/monarchitectsstudio",
+          "source_url": "https://dizaini.ge/product/152",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/monarchitectsstudio",
+          "source_url": "https://dizaini.ge/product/157",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "MON ARCH Studio",
+          "source_url": "https://dizaini.ge/product/152",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "MON ARCH Studio",
+          "source_url": "https://dizaini.ge/product/157",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577002220",
+          "source_url": "https://dizaini.ge/product/152",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00",
+          "source_disclosure": "public_client_side_reveal"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577002220",
+          "source_url": "https://dizaini.ge/product/157",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00",
+          "source_disclosure": "public_client_side_reveal"
+        }
+      ],
+      "directory_service_claim": true,
+      "discovered_from": "https://dizaini.ge/product/157",
+      "review_reasons": []
+    },
+    {
+      "url": "https://iotagroup.ge/en?fbclid=IwAR3afYLuxgWcKqw2K5w4BV31FtEpTGrOafFJPyRvtqb11kNpOAML4dWSdFw",
+      "name": "Iota Design • იოტა დიზაინი",
+      "kind": "website",
+      "business_key": "dizaini:81",
+      "directory_facts": [
+        {
+          "kind": "name",
+          "value": "Iota Design • იოტა დიზაინი",
+          "source_url": "https://dizaini.ge/product/151",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599557565",
+          "source_url": "https://dizaini.ge/product/151",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00",
+          "source_disclosure": "public_client_side_reveal"
+        },
+        {
+          "kind": "website",
+          "value": "https://iotagroup.ge/en?fbclid=IwAR3afYLuxgWcKqw2K5w4BV31FtEpTGrOafFJPyRvtqb11kNpOAML4dWSdFw",
+          "source_url": "https://dizaini.ge/product/151",
+          "first_seen": "2026-10-12T18:06:45+00:00",
+          "last_seen": "2026-10-12T18:06:45+00:00"
+        }
+      ],
+      "directory_service_claim": true,
+      "discovered_from": "https://dizaini.ge/product/151",
+      "review_reasons": []
     }
   ],
   "attempts": {
@@ -15186,9 +15294,10 @@
     "arthouse.ge": "2026-10-12T17:36:21+00:00",
     "city24:14733": "2026-10-12T17:36:24+00:00",
     "mua.ge": "2026-10-12T17:36:29+00:00",
-    "ad-project.ge": "2026-10-12T18:06:14+00:00"
+    "ad-project.ge": "2026-10-12T18:06:14+00:00",
+    "architectonics.ge": "2026-10-12T18:07:29+00:00"
   },
-  "last_run": "2026-10-12T18:05:21+00:00",
+  "last_run": "2026-10-12T18:06:45+00:00",
   "discovery_queue": {
     "https://www.yell.ge/companies.php?rub=151&lan=eng": {
       "pending": [],
@@ -15219,11 +15328,6 @@
     },
     "https://dizaini.ge/": {
       "pending": [
-        "https://dizaini.ge/product/157",
-        "https://dizaini.ge/product/156",
-        "https://dizaini.ge/product/155",
-        "https://dizaini.ge/product/152",
-        "https://dizaini.ge/product/151",
         "https://dizaini.ge/product/147",
         "https://dizaini.ge/product/146",
         "https://dizaini.ge/product/143",
@@ -15290,8 +15394,13 @@
         "https://dizaini.ge/",
         "https://dizaini.ge/product/141",
         "https://dizaini.ge/product/150",
+        "https://dizaini.ge/product/151",
+        "https://dizaini.ge/product/152",
         "https://dizaini.ge/product/153",
         "https://dizaini.ge/product/154",
+        "https://dizaini.ge/product/155",
+        "https://dizaini.ge/product/156",
+        "https://dizaini.ge/product/157",
         "https://dizaini.ge/product/161",
         "https://dizaini.ge/product/171",
         "https://dizaini.ge/product/172",
@@ -15317,16 +15426,12 @@
     },
     "https://www.homeis.ge/category/adamianebi/": {
       "pending": [
-        "https://www.homeis.ge/nikoloz-japharidze_architects-of-invention/",
-        "https://www.homeis.ge/alter-design/",
-        "https://www.homeis.ge/sandro-lominashvili/",
-        "https://www.homeis.ge/of-a-home-studio/",
-        "https://www.homeis.ge/megi-davithidze/",
         "https://www.homeis.ge/nina-kikalishvili/",
         "https://www.homeis.ge/category/adamianebi/page/4/"
       ],
       "seen": [
         "https://www.homeis.ge/allora/",
+        "https://www.homeis.ge/alter-design/",
         "https://www.homeis.ge/ana-davrishashvilli/",
         "https://www.homeis.ge/ana-getsadze/",
         "https://www.homeis.ge/at-architect/",
@@ -15345,11 +15450,15 @@
         "https://www.homeis.ge/giorgi-shervashidze/",
         "https://www.homeis.ge/lado-beridze/",
         "https://www.homeis.ge/mariam-karbaia/",
+        "https://www.homeis.ge/megi-davithidze/",
         "https://www.homeis.ge/nikoloz-devdariani/",
+        "https://www.homeis.ge/nikoloz-japharidze_architects-of-invention/",
         "https://www.homeis.ge/nini-athanelishvili/",
+        "https://www.homeis.ge/of-a-home-studio/",
         "https://www.homeis.ge/othar-kutchava/",
         "https://www.homeis.ge/salome-chochishvili/",
         "https://www.homeis.ge/salome-kikvadze/",
+        "https://www.homeis.ge/sandro-lominashvili/",
         "https://www.homeis.ge/spott-studio/",
         "https://www.homeis.ge/studio11/",
         "https://www.homeis.ge/studio22/",
@@ -15365,11 +15474,6 @@
     },
     "https://archiaward.com/en/Awards/2025": {
       "pending": [
-        "https://archiaward.com/en/work/4118",
-        "https://archiaward.com/en/work/4135",
-        "https://archiaward.com/en/work/4136",
-        "https://archiaward.com/en/work/4142",
-        "https://archiaward.com/en/work/4146",
         "https://archiaward.com/en/work/4182",
         "https://archiaward.com/en/work/4183",
         "https://archiaward.com/en/work/4243",
@@ -15584,6 +15688,11 @@
         "https://archiaward.com/en/work/4099",
         "https://archiaward.com/en/work/4109",
         "https://archiaward.com/en/work/4117",
+        "https://archiaward.com/en/work/4118",
+        "https://archiaward.com/en/work/4135",
+        "https://archiaward.com/en/work/4136",
+        "https://archiaward.com/en/work/4142",
+        "https://archiaward.com/en/work/4146",
         "https://archiaward.com/en/work/4216"
       ]
     },
@@ -15596,7 +15705,6 @@
     },
     "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/": {
       "pending": [
-        "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-7",
         "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-1"
       ],
       "seen": [
@@ -15605,7 +15713,8 @@
         "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-3",
         "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-4",
         "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-5",
-        "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-6"
+        "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-6",
+        "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-7"
       ]
     }
   },
@@ -15615,12 +15724,20 @@
     "sources": "config/sources.json",
     "processed": {},
     "failures": {
-      "ad-project.ge:abc4ba33cdbbbb4ee28b777920bcd947d3294e1a75234f673e04667f31c6cba5": 1
+      "ad-project.ge:abc4ba33cdbbbb4ee28b777920bcd947d3294e1a75234f673e04667f31c6cba5": 1,
+      "architectonics.ge:ee6300db57c58bf4902900366f6fc1bbb27aee5878bed56e3d4e9250f5ed85ab": 1
     },
     "status": "active",
     "no_progress_batches": 0
   },
   "run_history": [
+    {
+      "id": "38288688641",
+      "created_at": "2026-10-12T18:06:45+00:00",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/kapana22/georgia-interior-contacts/actions/runs/38288688641"
+    },
     {
       "id": "38288524433",
       "created_at": "2026-10-12T18:05:21+00:00",

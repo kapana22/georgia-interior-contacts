@@ -1,199 +1,122 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T18:05:21+00:00",
+  "started_at": "2026-10-12T18:06:45+00:00",
   "status": "completed",
   "sites_processed": 1,
   "events": [
     {
-      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-7/",
       "status": "ok",
       "reason": "directory",
-      "discovered": 25
+      "discovered": 4
     },
     {
-      "url": "https://www.city24.ge/ru/georgia/catalogue/real-estate-construction/interior-design/page-6/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 20
-    },
-    {
-      "url": "https://dizaini.ge/product/194",
+      "url": "https://dizaini.ge/product/157",
       "status": "ok",
       "reason": "directory",
       "discovered": 1
     },
     {
-      "url": "https://dizaini.ge/product/184",
+      "url": "https://dizaini.ge/product/156",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/155",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 0
+    },
+    {
+      "url": "https://dizaini.ge/product/152",
       "status": "ok",
       "reason": "directory",
       "discovered": 1
     },
     {
-      "url": "https://dizaini.ge/product/172",
+      "url": "https://dizaini.ge/product/151",
       "status": "ok",
       "reason": "directory",
       "discovered": 1
     },
     {
-      "url": "https://dizaini.ge/product/171",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://dizaini.ge/product/161",
+      "url": "https://www.homeis.ge/nikoloz-japharidze_architects-of-invention/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/thatho-qharasashvili/",
+      "url": "https://www.homeis.ge/alter-design/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/beqa-dvali/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.homeis.ge/dotarchitects/",
+      "url": "https://www.homeis.ge/sandro-lominashvili/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://www.homeis.ge/lado-beridze/",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 1
-    },
-    {
-      "url": "https://www.homeis.ge/mariam-karbaia/",
+      "url": "https://www.homeis.ge/of-a-home-studio/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4097",
+      "url": "https://www.homeis.ge/megi-davithidze/",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4099",
+      "url": "https://archiaward.com/en/work/4118",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4216",
+      "url": "https://archiaward.com/en/work/4135",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4109",
+      "url": "https://archiaward.com/en/work/4136",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://archiaward.com/en/work/4117",
+      "url": "https://archiaward.com/en/work/4142",
       "status": "ok",
       "reason": "directory",
       "discovered": 0
     },
     {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=11",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=15",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=17",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=19",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=27",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=29",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=31",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=37",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=39",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=41",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=45",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=47",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf#page=49",
-      "status": "skipped",
-      "reason": "pdf_interior_service_not_confirmed"
-    },
-    {
-      "url": "https://geclose2eu.info/uploads/brosh/architecture.pdf",
+      "url": "https://archiaward.com/en/work/4146",
       "status": "ok",
       "reason": "directory",
-      "discovered": 17
+      "discovered": 0
     },
     {
-      "url": "http://www.ad-project.ge/",
+      "url": "https://www.architectonics.ge/en",
       "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
+      "reason": "http_404"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1,
-  "github_run_id": "38288524433",
-  "remaining_directory_pages": 258,
-  "remaining_businesses": 220,
+  "github_run_id": "38288688641",
+  "remaining_directory_pages": 242,
+  "remaining_businesses": 223,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "unavailable_sources_total": 0,
-  "checkpoint_at": "2026-10-12T18:06:14+00:00",
+  "checkpoint_at": "2026-10-12T18:07:29+00:00",
   "records_total": 86,
   "contacts_total": 349,
   "historical_direct_contacts_unique": 13,
@@ -208,8 +131,8 @@
   "error_categories": {
     "unreachable": 1
   },
-  "candidates_available": 220,
+  "candidates_available": 223,
   "no_progress_batches": 0,
-  "finished_at": "2026-10-12T18:06:14+00:00",
-  "http_requests": 25
+  "finished_at": "2026-10-12T18:07:29+00:00",
+  "http_requests": 23
 }
