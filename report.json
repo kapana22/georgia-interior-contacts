@@ -1,93 +1,51 @@
 {
   "pipeline": "b2b-leads",
-  "started_at": "2026-10-12T19:35:21+00:00",
-  "status": "completed",
+  "started_at": "2026-10-12T19:37:53+00:00",
+  "status": "running",
   "events": [
     {
-      "source_url": "https://www.yell.ge/companies.php?rub=398&lan=eng",
+      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=2",
       "category": "beauty",
       "status": "ok",
       "records": 25
     },
     {
-      "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3487",
+      "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3487&SR_pg=2",
       "category": "auto",
+      "status": "ok",
+      "records": 18
+    },
+    {
+      "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=3",
+      "category": "beauty",
       "status": "ok",
       "records": 25
     },
     {
-      "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-      "category": "food",
-      "status": "javascript_only",
-      "reason": "no_business_cards_js_or_layout_requires_review"
-    },
-    {
-      "source_url": "https://beauty-center-nice.business.site/",
+      "source_url": "http://www.shine.ge/",
       "status": "unreachable",
-      "reason": "http_404"
+      "reason": "network_error"
     },
     {
-      "source_url": "https://www.afroamericanhairingeorgia.com/",
+      "source_url": "http://www.renault.ge/",
       "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "source_url": "https://www.dodge.com/ge",
-      "status": "blocked",
-      "reason": "robots_unavailable_403"
-    },
-    {
-      "source_url": "http://www.hyundai.ge/",
-      "status": "blocked",
-      "reason": "http_403"
-    },
-    {
-      "source_url": "https://aspgroup.ge/",
-      "status": "blocked",
-      "reason": "cross_domain_redirect_requires_review"
-    },
-    {
-      "source_url": "https://autogallery.ge/",
-      "status": "blocked",
-      "reason": "robots_disallowed"
-    },
-    {
-      "source_url": "http://www.porsche.ge/",
-      "status": "blocked",
-      "reason": "robots_unavailable_403"
-    },
-    {
-      "source_url": "https://senaautogroup.com/",
-      "status": "blocked",
-      "reason": "cross_domain_redirect_requires_review"
-    },
-    {
-      "source_url": "https://www.citroen.com.ge/",
-      "status": "javascript_only",
-      "reason": "insufficient_html_text"
-    },
-    {
-      "source_url": "http://www.mitsubishi.ge/",
-      "status": "blocked",
-      "reason": "cross_domain_redirect_requires_review"
+      "reason": "network_error"
     }
   ],
-  "pages_processed": 2,
-  "sites_processed": 25,
+  "pages_processed": 3,
+  "sites_processed": 8,
   "continuous": true,
   "batch_limit": 50,
   "sources_file": "config/leads-sources.json",
-  "github_run_id": "38298600072",
-  "records_total": 46,
-  "prospects_total": 24,
-  "direct_contacts_unique": 70,
-  "new_records": 46,
-  "changed_records": 0,
-  "errors": 11,
+  "github_run_id": "38298889667",
+  "records_total": 90,
+  "prospects_total": 49,
+  "direct_contacts_unique": 129,
+  "new_records": 44,
+  "changed_records": 4,
+  "errors": 2,
   "error_categories": {
-    "javascript_only": 2,
-    "unreachable": 2,
-    "blocked": 7
+    "unreachable": 2
   },
   "source_statuses": {
     "beauty": null,
@@ -98,10 +56,10 @@
     }
   },
   "page_caps_reached": [],
-  "remaining_directory_pages": 5,
-  "remaining_businesses": 0,
+  "remaining_directory_pages": 2,
+  "remaining_businesses": 29,
   "work_remaining": true,
   "collection_status": "active",
   "resume_after": 0,
-  "updated_at": "2026-10-12T19:37:32+00:00"
+  "updated_at": "2026-10-12T19:40:07+00:00"
 }
