@@ -188,7 +188,7 @@ async function pollActiveRun() {
   if (!state.activeId || document.hidden || state.polling) return;
   state.polling = true;
   try {
-    const result = await collector(); const run = !result.configured && client.connected ? await client.run(state.activeId) : (result.configured ? result.runs : state.snapshotRuns || []).find(r => String(r.id) === String(state.activeId));
+    const result = !state.publicCollector && !client.connected ? { configured: false, runs: state.snapshotRuns || [] } : await collector(); const run = !result.configured && client.connected ? await client.run(state.activeId) : (result.configured ? result.runs : state.snapshotRuns || []).find(r => String(r.id) === String(state.activeId));
     if (!run) { state.timer = setTimeout(pollActiveRun, 15000); return; }
     $('active-run-label').textContent = runLabel(run);
     $('active-run-description').textContent = run.status === 'completed' ? (run.conclusion === 'success' ? 'შეგროვება დასრულდა. ბოლო შენახული შედეგები განახლდება.' : 'ნახე GitHub-ის ანგარიში. შესაძლოა ნაწილობრივი შედეგებიც შენახული იყოს.') : 'გვერდის დახურვა შეგროვებას არ აჩერებს. შედეგები დასრულების შემდეგ განახლდება.';
