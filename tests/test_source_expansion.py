@@ -80,6 +80,22 @@ def test_dizaini_scoped_public_business_reveal_excludes_neighbours_footer():
     assert not any(f['value'] in {'private@reviewer.test', 'info@portal.test', '+995599554188'} for f in facts)
 
 
+def test_dizaini_does_not_attribute_award_badges_as_business_websites():
+    html = '''<div id="more-info"><h5>კომპანია : Studio</h5><h5>ტიპი : ინტერიერის დიზაინი</h5>
+    <h5>ვებ-გვერდი: <a href="https://studio.test/">website</a></h5>
+    <p>Membership <a href="https://association.test/">Association</a></p></div>'''
+    rows, _ = page_candidates(html, 'https://dizaini.ge/product/1', {'adapter': 'dizaini'}, 'today')
+    assert rows[0]['url'] == 'https://studio.test/'
+    assert not any(f['kind'] == 'website' and 'association.test' in f['value'] for f in rows[0]['directory_facts'])
+
+
+def test_public_service_contact_without_business_name_keeps_name_empty():
+    html = '<div id="more-info"><h5>ტიპი : ინტერიერის დიზაინი</h5><a href="tel:+995599554188">Call</a></div>'
+    rows, _ = page_candidates(html, 'https://dizaini.ge/product/2', {'adapter': 'dizaini'}, 'today')
+    assert rows[0]['name'] == '' and rows[0]['review_reasons'] == ['business_name_missing']
+    assert any(f['kind'] == 'phone' and f['value'] == '+995599554188' for f in rows[0]['directory_facts'])
+
+
 def test_editorial_uses_body_links_and_published_next_page_only():
     config = {'adapter': 'editorial'}
     html = '<link rel="next" href="/category/people/page/2/"><h3 class="entry-title"><a href="/studio">Studio</a></h3>'

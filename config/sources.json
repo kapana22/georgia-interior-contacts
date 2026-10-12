@@ -387,7 +387,7 @@
       "review_notes": "Public business listings connect clients to professionals; no automation ban found on linked public about page. Read only business #more-info; client-side number reveal has no authorization requirement, no tracking POST sent.",
       "enabled": true,
       "policy_reviewed_at": "2026-10-12",
-      "revision": 2
+      "revision": 3
     },
     {
       "adapter": "editorial",
@@ -398,7 +398,8 @@
       "policy_url": "https://www.homeis.ge/",
       "review_notes": "No linked automation restriction found. Discover only external websites from article body; do not copy editorial text, interviews, reader contacts or publisher footer.",
       "enabled": true,
-      "policy_reviewed_at": "2026-10-12"
+      "policy_reviewed_at": "2026-10-12",
+      "article_label_pattern": "ინტერვიუ|დიზაინ|ინტერიერ|არქიტექტ|studio|design|architect"
     },
     {
       "adapter": "awards",
@@ -589,5 +590,11 @@
       "policy_url": "https://archias.ge/robots.txt",
       "reason": "robots endpoint returns HTML; fail-closed, not bypassed."
     }
+  ],
+  "excluded_business_domains": [
+    "iaod.net",
+    "idpa-japan.com",
+    "bankofgeorgia.ge",
+    "lhw.com"
   ]
 }

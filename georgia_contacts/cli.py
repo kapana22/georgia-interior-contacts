@@ -141,7 +141,8 @@ def run(args, client=None):
             key = source_key(source)
             sources[key] = {**sources.get(key, {}), **source}
         # An explicit disabled entry also excludes previously discovered candidates.
-        candidates = [s for s in sources.values() if s.get("enabled", True)]
+        excluded_domains = set(config.get("excluded_business_domains", []))
+        candidates = [s for s in sources.values() if s.get("enabled", True) and domain(s["url"]) not in excluded_domains]
         candidates.sort(key=lambda s: (state["attempts"].get(source_key(s), ""), 0 if s.get("verified_at") else 1, domain(s["url"])))
         report["candidates_available"] = len(candidates)
         checkpoint()

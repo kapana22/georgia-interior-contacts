@@ -35,9 +35,7 @@ def dizaini_profile(soup, url, timestamp):
     if not section:
         raise FetchError('unreachable', 'directory_profile_layout_changed')
     name_node = next((n for n in section.select('h5') if 'კომპანია' in n.get_text()), None)
-    if not name_node:
-        raise FetchError('unreachable', 'directory_business_name_missing')
-    name = name_node.get_text(' ', strip=True).split(':', 1)[-1].strip()
+    name = name_node.get_text(' ', strip=True).split(':', 1)[-1].strip() if name_node else ''
     parsed = extract(str(section), url, timestamp, name)
     if not RELEVANT.search(parsed['text']):
         return []
@@ -57,7 +55,13 @@ def dizaini_profile(soup, url, timestamp):
                     facts.append({'kind': 'phone', 'value': value, 'source_url': url,
                                   'first_seen': timestamp, 'last_seen': timestamp,
                                   'source_disclosure': 'public_client_side_reveal'})
-    sites = external_business_links(section, url)
+    # Award/member badges also appear in this block. Only the explicit business
+    # website field belongs to the listing; never attribute an association to it.
+    websites = BeautifulSoup('<div></div>', 'html.parser')
+    for node in section.select('h5'):
+        if 'ვებ-გვერდი' in node.get_text() or 'ვებგვერდი' in node.get_text():
+            websites.div.append(BeautifulSoup(str(node), 'html.parser'))
+    sites = external_business_links(websites, url)
     for site in sites:
         facts.append({'kind': 'website', 'value': site['url'], 'source_url': url,
                       'first_seen': timestamp, 'last_seen': timestamp})
@@ -66,7 +70,8 @@ def dizaini_profile(soup, url, timestamp):
     identity = owner['href'].rstrip('/').split('/')[-1] if owner else urlsplit(url).path.rsplit('/', 1)[-1]
     return [{'url': sites[0]['url'] if sites else url, 'name': name,
              'kind': 'website' if sites else 'listing', 'business_key': 'dizaini:' + identity,
-             'directory_facts': facts, 'directory_service_claim': True, 'discovered_from': url}]
+             'directory_facts': facts, 'directory_service_claim': True, 'discovered_from': url,
+             'review_reasons': ['business_name_missing'] if not name else []}]
 
 
 def page_candidates(html, url, source, timestamp):
@@ -94,6 +99,9 @@ def page_candidates(html, url, source, timestamp):
             results.extend(external_business_links(content, url))
         else:
             for a in soup.select(source.get('article_selector', '.entry-title a[href]')):
+                pattern = source.get('article_label_pattern')
+                if pattern and not re.search(pattern, a.get_text(' ', strip=True), re.I):
+                    continue
                 target = canonical_url(urljoin(url, a.get('href', '')))
                 if target and domain(target) == domain(url) and 'nofollow' not in a.get('rel', []):
                     pages.append(target)

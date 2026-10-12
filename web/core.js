@@ -123,6 +123,7 @@ export class GitHubClient {
 }
 
 export const REASONS = {
+  business_name_missing: 'ბიზნესის სახელი წყაროში არ არის მითითებული',
   historical_pdf_contacts_require_verification: 'ძველი PDF კატალოგის კონტაქტები — მიმდინარე მოქმედება გადასამოწმებელია',
   directory_only_service_claim: 'სერვისის შესაბამისობა მხოლოდ კატალოგშია მითითებული',
   page_source_policy_prohibits_collection: 'წყაროს წესები შეგროვებას კრძალავს',
