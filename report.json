@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-13T11:51:29+00:00",
-  "status": "running",
-  "sites_processed": 26,
+  "status": "completed",
+  "sites_processed": 50,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
@@ -423,6 +423,31 @@
       "url": "https://urbanshop.ge/ka/products/detail/shushis-karis-sakhelurebi-studio-rondo-lever-handle-pair",
       "status": "ok",
       "reason": "business_page"
+    },
+    {
+      "url": "https://urbanx.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanx.ge/contact-2/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanx.ge/en/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanx.ge/en/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanx.ge/urbanx-%e1%83%98%e1%83%a1-%e1%83%a8%e1%83%94%e1%83%a1%e1%83%90%e1%83%ae%e1%83%94%e1%83%91/",
+      "status": "ok",
+      "reason": "business_page"
     }
   ],
   "continuous": true,
@@ -430,27 +455,30 @@
   "batch_limit": 50,
   "github_run_id": "38393080572",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 74,
+  "remaining_businesses": 50,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 92,
-  "checkpoint_at": "2026-10-13T11:55:40+00:00",
-  "records_total": 242,
-  "contacts_total": 855,
+  "checkpoint_at": "2026-10-13T11:55:55+00:00",
+  "records_total": 261,
+  "contacts_total": 912,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 598,
-  "relevant_direct_contacts_unique": 226,
+  "direct_contacts_unique": 639,
+  "relevant_direct_contacts_unique": 266,
   "target_reached": false,
-  "contacts_missing_to_target": 774,
-  "new_records": 25,
-  "changed_records": 1,
+  "contacts_missing_to_target": 734,
+  "new_records": 44,
+  "changed_records": 6,
   "merged_records": 0,
   "errors": 11,
   "error_categories": {
     "unreachable": 8,
     "blocked": 3
   },
-  "candidates_available": 92
+  "candidates_available": 92,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-13T11:55:55+00:00",
+  "http_requests": 135
 }
