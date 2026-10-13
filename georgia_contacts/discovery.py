@@ -1,9 +1,17 @@
 """Bounded directory discovery from observed links, never invented pagination."""
-from urllib.parse import parse_qs, urlsplit, urljoin
+import re
+from urllib.parse import parse_qs, urlsplit, urljoin, urlencode, urlunsplit
 from bs4 import BeautifulSoup
 from .urls import canonical_url, domain, SOCIAL_HOSTS
 from .network import FetchError
 from .directories import yell_candidates, city24_links
+
+
+def yell_page_key(url):
+    p = urlsplit(url)
+    query = parse_qs(p.query)
+    query.setdefault('SR_pg', ['1'])
+    return domain(url), p.path, tuple(sorted((k, tuple(v)) for k, v in query.items()))
 
 
 def yell_links(html, url):
@@ -26,9 +34,25 @@ def yell_links(html, url):
         p = urlsplit(target)
         query = parse_qs(p.query)
         if domain(target) == "yell.ge" and p.path == "/companies.php" and query.get("rub") == ["151"]:
-            if not any(k in query for k in ("sort", "filter", "ubani")) and target != url:
+            scope = parse_qs(urlsplit(url).query)
+            if (not any(k in query for k in ("sort", "filter", "ubani")) and target != url
+                    and all(query.get(k) == scope.get(k) for k in ('lan', 'SI_1'))):
                 if label.isdigit() or any(x in label for x in ("next", "შემდეგ", "след")) or "next" in a.get("rel", []):
                     pages.append(target)
+    # The live catalogue publishes div/img controls rather than pagination anchors.
+    # Follow only the page numbers actually present; retain category and city scope.
+    base = urlsplit(url)
+    query = parse_qs(base.query)
+    if (domain(url) == 'yell.ge' and base.path == '/companies.php'
+            and query.get('rub') == ['151']
+            and set(query) <= {'rub', 'lan', 'SI_1', 'SR_pg'}):
+        current = query.get('SR_pg', ['1'])
+        for node in soup.select('[onclick]'):
+            match = re.fullmatch(r'\s*F_change_SR_pg\((\d+)\)\s*;?\s*', node['onclick'])
+            if match and 1 <= int(match[1]) <= 500 and [match[1]] != current:
+                next_query = dict(query, SR_pg=[match[1]])
+                pages.append(urlunsplit((base.scheme, base.netloc, base.path,
+                                        urlencode(next_query, doseq=True), '')))
     return websites, list(dict.fromkeys(pages))
 
 
@@ -82,6 +106,9 @@ def discover(client, config, events, progress=None, *, one_pass=False, on_candid
                 events.append({"url": final, "status": "ok", "reason": "directory", "discovered": len(sites)})
                 queue.pop(0)
                 seen.add(url)
+                if directory['adapter'] == 'yell':
+                    known = {yell_page_key(x) for x in seen | set(queue)}
+                    more = [x for x in more if yell_page_key(x) not in known]
                 queue.extend(x for x in more if x not in seen and x not in queue)
                 cursor['seen'] = sorted(seen)
                 if on_candidates is not None:

@@ -59,3 +59,36 @@ def test_directory_page_limit():
     c=Client()
     discover(c,{'directories':[{'enabled':True,'adapter':'yell','policy_reviewed_at':'today','url':'https://www.yell.ge/companies.php?rub=151','max_pages':2}]},[])
     assert len(c.calls)==2
+
+
+def test_yell_observed_controls_keep_region_and_ignore_wrong_schema():
+    from urllib.parse import parse_qs, urlsplit
+    url = 'https://www.yell.ge/companies.php?rub=151&lan=eng&SI_1=Batumi'
+    html = '''<script type="application/ld+json">{"@type":"ItemList","url":"https://www.yell.ge/companies.php?rub=41&SR_pg=1"}</script>
+    <div onclick="F_change_SR_pg(2)">2</div><img onclick="F_change_SR_pg(2)">
+    <div onclick="F_change_SR_pg(4)">4</div><div onclick="F_change_SR_pg(9999)">bad</div>
+    <div onclick="somethingElse(3)">3</div><a href="?rub=151&lan=eng&SR_pg=3">3</a>'''
+    _, pages = yell_links(html, url)
+    assert len(pages) == 2
+    assert [parse_qs(urlsplit(p).query)['SR_pg'] for p in pages] == [['2'], ['4']]
+    assert all(parse_qs(urlsplit(p).query)['SI_1'] == ['Batumi'] for p in pages)
+    assert yell_links(html, url + '&filter=x')[1] == []
+
+
+def test_yell_resume_uses_published_pages_without_revisiting_page_one():
+    url = 'https://www.yell.ge/companies.php?rub=151&lan=eng'
+    class Client:
+        def __init__(self): self.calls = []
+        def fetch(self, url, **kw):
+            self.calls.append(url)
+            return url, '<div onclick="F_change_SR_pg(1)">1</div><div onclick="F_change_SR_pg(2)">2</div><div onclick="F_change_SR_pg(3)">3</div>'
+    client = Client()
+    config = {'directories': [{'url': url, 'adapter': 'yell', 'enabled': True,
+                              'policy_reviewed_at': 'today', 'max_pages': 2, 'revision': 1}]}
+    progress = {url: {'pending': [], 'seen': [url], 'complete': True}}
+    discover(client, config, [], progress, one_pass=True)
+    assert len(client.calls) == 2
+    assert len(progress[url]['pending']) == 1
+    discover(client, config, [], progress, one_pass=True)
+    assert len(client.calls) == 3
+    assert progress[url]['complete']

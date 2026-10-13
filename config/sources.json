@@ -334,6 +334,24 @@
       "verified_at": "2026-10-12",
       "evidence_url": "https://www.ei.ge/ka/design",
       "evidence": "The public business site describes interior design services in Georgia."
+    },
+    {
+      "name": "ARCUS",
+      "url": "https://arcus.ge/contact-us.html",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-13",
+      "evidence_url": "https://arcus.ge/contact-us.html",
+      "evidence": "Batumi interior design and turnkey renovation; public business phone/email/address verified on contact page."
+    },
+    {
+      "name": "Meinraum",
+      "url": "https://meinraum.ge/en/contacts/",
+      "pages": [],
+      "enabled": true,
+      "verified_at": "2026-10-13",
+      "evidence_url": "https://meinraum.ge/en/contacts/",
+      "evidence": "Interior, exterior and landscape design; Tbilisi office and business phone verified on contact page."
     }
   ],
   "directories": [
@@ -341,12 +359,25 @@
       "adapter": "yell",
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
       "enabled": true,
-      "max_pages": 1,
-      "policy_reviewed_at": "2026-10-12",
+      "max_pages": 5,
+      "policy_reviewed_at": "2026-10-13",
       "robots_url": "https://www.yell.ge/robots.txt",
       "policy_url": "https://www.yell.ge/privacy_policy.php?lan=eng",
-      "review_notes": "Public category is not disallowed by wildcard robots rules; no automated-access prohibition found in linked public policy/about pages. Recheck before expanding; follow current robots on every run.",
-      "collect_listing_contacts": true
+      "review_notes": "Public category is not disallowed by wildcard robots rules; no automated-access prohibition found in linked public policy/about pages. Recheck before expanding; follow current robots on every run. Reviewed published F_change_SR_pg controls: national pages 1–4; live page 2 returns distinct business cards. Only observed numbers are followed, never arbitrary ranges.",
+      "collect_listing_contacts": true,
+      "revision": 1
+    },
+    {
+      "adapter": "yell",
+      "url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+      "enabled": true,
+      "max_pages": 1,
+      "policy_reviewed_at": "2026-10-13",
+      "robots_url": "https://www.yell.ge/robots.txt",
+      "policy_url": "https://www.yell.ge/privacy_policy.php?lan=eng",
+      "review_notes": "Public Batumi interior-design category; 6 business cards observed 2026-10-13. Same Yell policy; robots checked at runtime. Mixed-service suppliers require review.",
+      "collect_listing_contacts": true,
+      "revision": 1
     },
     {
       "adapter": "city24",
