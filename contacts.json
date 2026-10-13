@@ -1254,6 +1254,59 @@
     ]
   },
   {
+    "id": "133f09658173caec",
+    "name": "BUILDLINE CONSTRUCTION",
+    "domains": [
+      "buildline.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@buildline.ge",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/buildline.ge",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "BUILDLINE CONSTRUCTION",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://buildline.ge/",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      }
+    ],
+    "business_key": "yell:157454",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:51:29+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim",
+      "page_network_error"
+    ]
+  },
+  {
     "id": "1495519a3a938da6",
     "name": "Ивес Делорме",
     "domains": [],
@@ -3148,6 +3201,234 @@
     ]
   },
   {
+    "id": "26e9306cfb80b344",
+    "name": "ARC DIGITS",
+    "domains": [
+      "arcdigits.com"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://arcdigits.com/",
+        "first_seen": "2026-10-13T11:52:14+00:00",
+        "last_seen": "2026-10-13T11:52:14+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://arcdigits.com/about-us/",
+        "first_seen": "2026-10-13T11:52:18+00:00",
+        "last_seen": "2026-10-13T11:52:18+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://arcdigits.com/contact/",
+        "first_seen": "2026-10-13T11:52:16+00:00",
+        "last_seen": "2026-10-13T11:52:16+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://arcdigits.com/creative-and-branding/",
+        "first_seen": "2026-10-13T11:52:20+00:00",
+        "last_seen": "2026-10-13T11:52:20+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcdesign.ge",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcdigits.com",
+        "source_url": "https://arcdigits.com/",
+        "first_seen": "2026-10-13T11:52:14+00:00",
+        "last_seen": "2026-10-13T11:52:14+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcdigits.com",
+        "source_url": "https://arcdigits.com/about-us/",
+        "first_seen": "2026-10-13T11:52:18+00:00",
+        "last_seen": "2026-10-13T11:52:18+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcdigits.com",
+        "source_url": "https://arcdigits.com/contact/",
+        "first_seen": "2026-10-13T11:52:16+00:00",
+        "last_seen": "2026-10-13T11:52:16+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcdigits.com",
+        "source_url": "https://arcdigits.com/creative-and-branding/",
+        "first_seen": "2026-10-13T11:52:20+00:00",
+        "last_seen": "2026-10-13T11:52:20+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcdigits",
+        "source_url": "https://arcdigits.com/",
+        "first_seen": "2026-10-13T11:52:14+00:00",
+        "last_seen": "2026-10-13T11:52:14+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcdigits",
+        "source_url": "https://arcdigits.com/about-us/",
+        "first_seen": "2026-10-13T11:52:18+00:00",
+        "last_seen": "2026-10-13T11:52:18+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcdigits",
+        "source_url": "https://arcdigits.com/contact/",
+        "first_seen": "2026-10-13T11:52:16+00:00",
+        "last_seen": "2026-10-13T11:52:16+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcdigits",
+        "source_url": "https://arcdigits.com/creative-and-branding/",
+        "first_seen": "2026-10-13T11:52:20+00:00",
+        "last_seen": "2026-10-13T11:52:20+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcdigits",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARC DIGITS",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARC Digits",
+        "source_url": "https://arcdigits.com/",
+        "first_seen": "2026-10-13T11:52:14+00:00",
+        "last_seen": "2026-10-13T11:52:14+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARC Digits",
+        "source_url": "https://arcdigits.com/about-us/",
+        "first_seen": "2026-10-13T11:52:18+00:00",
+        "last_seen": "2026-10-13T11:52:18+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARC Digits",
+        "source_url": "https://arcdigits.com/contact/",
+        "first_seen": "2026-10-13T11:52:16+00:00",
+        "last_seen": "2026-10-13T11:52:16+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARC Digits",
+        "source_url": "https://arcdigits.com/creative-and-branding/",
+        "first_seen": "2026-10-13T11:52:20+00:00",
+        "last_seen": "2026-10-13T11:52:20+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595411850",
+        "source_url": "https://arcdigits.com/",
+        "first_seen": "2026-10-13T11:52:14+00:00",
+        "last_seen": "2026-10-13T11:52:14+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595411850",
+        "source_url": "https://arcdigits.com/about-us/",
+        "first_seen": "2026-10-13T11:52:18+00:00",
+        "last_seen": "2026-10-13T11:52:18+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595411850",
+        "source_url": "https://arcdigits.com/contact/",
+        "first_seen": "2026-10-13T11:52:16+00:00",
+        "last_seen": "2026-10-13T11:52:16+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595411850",
+        "source_url": "https://arcdigits.com/creative-and-branding/",
+        "first_seen": "2026-10-13T11:52:20+00:00",
+        "last_seen": "2026-10-13T11:52:20+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595411850",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcdigits.com/",
+        "source_url": "https://arcdigits.com/",
+        "first_seen": "2026-10-13T11:52:14+00:00",
+        "last_seen": "2026-10-13T11:52:14+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcdigits.com/",
+        "source_url": "https://arcdigits.com/about-us/",
+        "first_seen": "2026-10-13T11:52:18+00:00",
+        "last_seen": "2026-10-13T11:52:18+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcdigits.com/",
+        "source_url": "https://arcdigits.com/contact/",
+        "first_seen": "2026-10-13T11:52:16+00:00",
+        "last_seen": "2026-10-13T11:52:16+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcdigits.com/",
+        "source_url": "https://arcdigits.com/creative-and-branding/",
+        "first_seen": "2026-10-13T11:52:20+00:00",
+        "last_seen": "2026-10-13T11:52:20+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcdigits.com/",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      }
+    ],
+    "business_key": "yell:142457",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:52:20+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim",
+      "page_http_404"
+    ]
+  },
+  {
     "id": "28949661403aff65",
     "name": "Схиви",
     "domains": [],
@@ -3326,6 +3607,198 @@
     "review_reasons": [
       "directory_only_service_claim",
       "page_network_error"
+    ]
+  },
+  {
+    "id": "2f27343e75a5f66c",
+    "name": "BEST REMONT",
+    "domains": [
+      "bestremont.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://www.bestremont.ge/",
+        "first_seen": "2026-10-13T11:53:08+00:00",
+        "last_seen": "2026-10-13T11:53:08+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://www.bestremont.ge/contact",
+        "first_seen": "2026-10-13T11:53:10+00:00",
+        "last_seen": "2026-10-13T11:53:10+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://www.bestremont.ge/contact/agents",
+        "first_seen": "2026-10-13T11:53:12+00:00",
+        "last_seen": "2026-10-13T11:53:12+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@bestremont.ge",
+        "source_url": "https://www.bestremont.ge/contact",
+        "first_seen": "2026-10-13T11:53:10+00:00",
+        "last_seen": "2026-10-13T11:53:10+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@bestremont.ge",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/bestremont.ge",
+        "source_url": "https://www.bestremont.ge/",
+        "first_seen": "2026-10-13T11:53:08+00:00",
+        "last_seen": "2026-10-13T11:53:08+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/bestremont.ge",
+        "source_url": "https://www.bestremont.ge/contact",
+        "first_seen": "2026-10-13T11:53:10+00:00",
+        "last_seen": "2026-10-13T11:53:10+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/bestremont.ge",
+        "source_url": "https://www.bestremont.ge/contact/agents",
+        "first_seen": "2026-10-13T11:53:12+00:00",
+        "last_seen": "2026-10-13T11:53:12+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/bestremont.ge",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/bestremont.ge",
+        "source_url": "https://www.bestremont.ge/",
+        "first_seen": "2026-10-13T11:53:08+00:00",
+        "last_seen": "2026-10-13T11:53:08+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/bestremont.ge",
+        "source_url": "https://www.bestremont.ge/contact",
+        "first_seen": "2026-10-13T11:53:10+00:00",
+        "last_seen": "2026-10-13T11:53:10+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/bestremont.ge",
+        "source_url": "https://www.bestremont.ge/contact/agents",
+        "first_seen": "2026-10-13T11:53:12+00:00",
+        "last_seen": "2026-10-13T11:53:12+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "BEST REMONT",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Недвижимость в Батуми, покупка и продажа | BEST Property",
+        "source_url": "https://www.bestremont.ge/",
+        "first_seen": "2026-10-13T11:53:08+00:00",
+        "last_seen": "2026-10-13T11:53:08+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Недвижимость в Батуми, покупка и продажа | BEST Property",
+        "source_url": "https://www.bestremont.ge/contact",
+        "first_seen": "2026-10-13T11:53:10+00:00",
+        "last_seen": "2026-10-13T11:53:10+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Недвижимость в Батуми, покупка и продажа | BEST Property",
+        "source_url": "https://www.bestremont.ge/contact/agents",
+        "first_seen": "2026-10-13T11:53:12+00:00",
+        "last_seen": "2026-10-13T11:53:12+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995577150155",
+        "source_url": "https://www.bestremont.ge/",
+        "first_seen": "2026-10-13T11:53:08+00:00",
+        "last_seen": "2026-10-13T11:53:08+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995577150155",
+        "source_url": "https://www.bestremont.ge/contact",
+        "first_seen": "2026-10-13T11:53:10+00:00",
+        "last_seen": "2026-10-13T11:53:10+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995577150155",
+        "source_url": "https://www.bestremont.ge/contact/agents",
+        "first_seen": "2026-10-13T11:53:12+00:00",
+        "last_seen": "2026-10-13T11:53:12+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995577150155",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.bestremont.ge/",
+        "source_url": "https://www.bestremont.ge/",
+        "first_seen": "2026-10-13T11:53:08+00:00",
+        "last_seen": "2026-10-13T11:53:08+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.bestremont.ge/",
+        "source_url": "https://www.bestremont.ge/contact",
+        "first_seen": "2026-10-13T11:53:10+00:00",
+        "last_seen": "2026-10-13T11:53:10+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.bestremont.ge/",
+        "source_url": "https://www.bestremont.ge/contact/agents",
+        "first_seen": "2026-10-13T11:53:12+00:00",
+        "last_seen": "2026-10-13T11:53:12+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.bestremont.ge/",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      }
+    ],
+    "business_key": "yell:142594",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:53:12+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim"
     ]
   },
   {
@@ -4242,6 +4715,210 @@
     "review_reasons": [
       "directory_only_service_claim"
     ]
+  },
+  {
+    "id": "406e03dc041d6a7b",
+    "name": "ARCUS",
+    "domains": [
+      "arcus.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://arcus.ge/about-us.html",
+        "first_seen": "2026-10-13T11:51:50+00:00",
+        "last_seen": "2026-10-13T11:51:50+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://arcus.ge/contact-us.html",
+        "first_seen": "2026-10-13T11:51:49+00:00",
+        "last_seen": "2026-10-13T11:51:49+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://arcus.ge/services-pricing.html",
+        "first_seen": "2026-10-13T11:51:52+00:00",
+        "last_seen": "2026-10-13T11:51:52+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcus.ge",
+        "source_url": "https://arcus.ge/about-us.html",
+        "first_seen": "2026-10-13T11:51:50+00:00",
+        "last_seen": "2026-10-13T11:51:50+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcus.ge",
+        "source_url": "https://arcus.ge/contact-us.html",
+        "first_seen": "2026-10-13T11:51:49+00:00",
+        "last_seen": "2026-10-13T11:51:49+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcus.ge",
+        "source_url": "https://arcus.ge/services-pricing.html",
+        "first_seen": "2026-10-13T11:51:52+00:00",
+        "last_seen": "2026-10-13T11:51:52+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@arcus.ge",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcus.ge",
+        "source_url": "https://arcus.ge/about-us.html",
+        "first_seen": "2026-10-13T11:51:50+00:00",
+        "last_seen": "2026-10-13T11:51:50+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcus.ge",
+        "source_url": "https://arcus.ge/contact-us.html",
+        "first_seen": "2026-10-13T11:51:49+00:00",
+        "last_seen": "2026-10-13T11:51:49+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcus.ge",
+        "source_url": "https://arcus.ge/services-pricing.html",
+        "first_seen": "2026-10-13T11:51:52+00:00",
+        "last_seen": "2026-10-13T11:51:52+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/arcus.ge",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/arcus.ge",
+        "source_url": "https://arcus.ge/about-us.html",
+        "first_seen": "2026-10-13T11:51:50+00:00",
+        "last_seen": "2026-10-13T11:51:50+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/arcus.ge",
+        "source_url": "https://arcus.ge/contact-us.html",
+        "first_seen": "2026-10-13T11:51:49+00:00",
+        "last_seen": "2026-10-13T11:51:49+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/arcus.ge",
+        "source_url": "https://arcus.ge/services-pricing.html",
+        "first_seen": "2026-10-13T11:51:52+00:00",
+        "last_seen": "2026-10-13T11:51:52+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCUS",
+        "source_url": "https://arcus.ge/about-us.html",
+        "first_seen": "2026-10-13T11:51:50+00:00",
+        "last_seen": "2026-10-13T11:51:50+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCUS",
+        "source_url": "https://arcus.ge/contact-us.html",
+        "first_seen": "2026-10-13T11:51:49+00:00",
+        "last_seen": "2026-10-13T11:51:49+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCUS",
+        "source_url": "https://arcus.ge/services-pricing.html",
+        "first_seen": "2026-10-13T11:51:52+00:00",
+        "last_seen": "2026-10-13T11:51:52+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCUS",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555521478",
+        "source_url": "https://arcus.ge/about-us.html",
+        "first_seen": "2026-10-13T11:51:50+00:00",
+        "last_seen": "2026-10-13T11:51:50+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555521478",
+        "source_url": "https://arcus.ge/contact-us.html",
+        "first_seen": "2026-10-13T11:51:49+00:00",
+        "last_seen": "2026-10-13T11:51:49+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555521478",
+        "source_url": "https://arcus.ge/services-pricing.html",
+        "first_seen": "2026-10-13T11:51:52+00:00",
+        "last_seen": "2026-10-13T11:51:52+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555521478",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcus.ge/",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcus.ge/contact-us.html",
+        "source_url": "https://arcus.ge/about-us.html",
+        "first_seen": "2026-10-13T11:51:50+00:00",
+        "last_seen": "2026-10-13T11:51:50+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcus.ge/contact-us.html",
+        "source_url": "https://arcus.ge/contact-us.html",
+        "first_seen": "2026-10-13T11:51:49+00:00",
+        "last_seen": "2026-10-13T11:51:49+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://arcus.ge/contact-us.html",
+        "source_url": "https://arcus.ge/services-pricing.html",
+        "first_seen": "2026-10-13T11:51:52+00:00",
+        "last_seen": "2026-10-13T11:51:52+00:00"
+      }
+    ],
+    "business_key": "yell:163005",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:51:52+00:00",
+    "status": "candidate",
+    "review_reasons": []
   },
   {
     "id": "445d616038429b92",
@@ -6294,6 +6971,280 @@
       "directory_only_service_claim",
       "interior_service_not_confirmed"
     ]
+  },
+  {
+    "id": "559dd9c4349c76c3",
+    "name": "Meinraum",
+    "domains": [
+      "meinraum.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://meinraum.ge/about-us/",
+        "first_seen": "2026-10-13T11:52:01+00:00",
+        "last_seen": "2026-10-13T11:52:01+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://meinraum.ge/contacts/",
+        "first_seen": "2026-10-13T11:51:57+00:00",
+        "last_seen": "2026-10-13T11:51:57+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://meinraum.ge/en/about-us/",
+        "first_seen": "2026-10-13T11:51:59+00:00",
+        "last_seen": "2026-10-13T11:51:59+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://meinraum.ge/en/contacts/",
+        "first_seen": "2026-10-13T11:51:55+00:00",
+        "last_seen": "2026-10-13T11:51:55+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
+        "first_seen": "2026-10-13T11:52:03+00:00",
+        "last_seen": "2026-10-13T11:52:03+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@meinraum.ge",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/alpharenders3d",
+        "source_url": "https://meinraum.ge/about-us/",
+        "first_seen": "2026-10-13T11:52:01+00:00",
+        "last_seen": "2026-10-13T11:52:01+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/alpharenders3d",
+        "source_url": "https://meinraum.ge/contacts/",
+        "first_seen": "2026-10-13T11:51:57+00:00",
+        "last_seen": "2026-10-13T11:51:57+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/alpharenders3d",
+        "source_url": "https://meinraum.ge/en/about-us/",
+        "first_seen": "2026-10-13T11:51:59+00:00",
+        "last_seen": "2026-10-13T11:51:59+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/alpharenders3d",
+        "source_url": "https://meinraum.ge/en/contacts/",
+        "first_seen": "2026-10-13T11:51:55+00:00",
+        "last_seen": "2026-10-13T11:51:55+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/alpharenders3d",
+        "source_url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
+        "first_seen": "2026-10-13T11:52:03+00:00",
+        "last_seen": "2026-10-13T11:52:03+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/alpharenders3d",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/meinraum__",
+        "source_url": "https://meinraum.ge/about-us/",
+        "first_seen": "2026-10-13T11:52:01+00:00",
+        "last_seen": "2026-10-13T11:52:01+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/meinraum__",
+        "source_url": "https://meinraum.ge/contacts/",
+        "first_seen": "2026-10-13T11:51:57+00:00",
+        "last_seen": "2026-10-13T11:51:57+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/meinraum__",
+        "source_url": "https://meinraum.ge/en/about-us/",
+        "first_seen": "2026-10-13T11:51:59+00:00",
+        "last_seen": "2026-10-13T11:51:59+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/meinraum__",
+        "source_url": "https://meinraum.ge/en/contacts/",
+        "first_seen": "2026-10-13T11:51:55+00:00",
+        "last_seen": "2026-10-13T11:51:55+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/meinraum__",
+        "source_url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
+        "first_seen": "2026-10-13T11:52:03+00:00",
+        "last_seen": "2026-10-13T11:52:03+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "MEINRAUM",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "meinraum.ge",
+        "source_url": "https://meinraum.ge/about-us/",
+        "first_seen": "2026-10-13T11:52:01+00:00",
+        "last_seen": "2026-10-13T11:52:01+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "meinraum.ge",
+        "source_url": "https://meinraum.ge/contacts/",
+        "first_seen": "2026-10-13T11:51:57+00:00",
+        "last_seen": "2026-10-13T11:51:57+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "meinraum.ge",
+        "source_url": "https://meinraum.ge/en/about-us/",
+        "first_seen": "2026-10-13T11:51:59+00:00",
+        "last_seen": "2026-10-13T11:51:59+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "meinraum.ge",
+        "source_url": "https://meinraum.ge/en/contacts/",
+        "first_seen": "2026-10-13T11:51:55+00:00",
+        "last_seen": "2026-10-13T11:51:55+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "meinraum.ge",
+        "source_url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
+        "first_seen": "2026-10-13T11:52:03+00:00",
+        "last_seen": "2026-10-13T11:52:03+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995510101217",
+        "source_url": "https://meinraum.ge/about-us/",
+        "first_seen": "2026-10-13T11:52:01+00:00",
+        "last_seen": "2026-10-13T11:52:01+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995510101217",
+        "source_url": "https://meinraum.ge/contacts/",
+        "first_seen": "2026-10-13T11:51:57+00:00",
+        "last_seen": "2026-10-13T11:51:57+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995510101217",
+        "source_url": "https://meinraum.ge/en/about-us/",
+        "first_seen": "2026-10-13T11:51:59+00:00",
+        "last_seen": "2026-10-13T11:51:59+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995510101217",
+        "source_url": "https://meinraum.ge/en/contacts/",
+        "first_seen": "2026-10-13T11:51:55+00:00",
+        "last_seen": "2026-10-13T11:51:55+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995510101217",
+        "source_url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
+        "first_seen": "2026-10-13T11:52:03+00:00",
+        "last_seen": "2026-10-13T11:52:03+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995510101217",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555501215",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://meinraum.ge/",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://meinraum.ge/en/contacts/",
+        "source_url": "https://meinraum.ge/about-us/",
+        "first_seen": "2026-10-13T11:52:01+00:00",
+        "last_seen": "2026-10-13T11:52:01+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://meinraum.ge/en/contacts/",
+        "source_url": "https://meinraum.ge/contacts/",
+        "first_seen": "2026-10-13T11:51:57+00:00",
+        "last_seen": "2026-10-13T11:51:57+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://meinraum.ge/en/contacts/",
+        "source_url": "https://meinraum.ge/en/about-us/",
+        "first_seen": "2026-10-13T11:51:59+00:00",
+        "last_seen": "2026-10-13T11:51:59+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://meinraum.ge/en/contacts/",
+        "source_url": "https://meinraum.ge/en/contacts/",
+        "first_seen": "2026-10-13T11:51:55+00:00",
+        "last_seen": "2026-10-13T11:51:55+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://meinraum.ge/en/contacts/",
+        "source_url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
+        "first_seen": "2026-10-13T11:52:03+00:00",
+        "last_seen": "2026-10-13T11:52:03+00:00"
+      }
+    ],
+    "business_key": "yell:160874",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:52:03+00:00",
+    "status": "candidate",
+    "review_reasons": []
   },
   {
     "id": "55a104448e3bf2fe",
@@ -10605,6 +11556,261 @@
     ]
   },
   {
+    "id": "87ce505a4619c126",
+    "name": "ARCHICON",
+    "domains": [
+      "archicon.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "http://archicon.ge/ka",
+        "first_seen": "2026-10-13T11:52:38+00:00",
+        "last_seen": "2026-10-13T11:52:38+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "http://archicon.ge/ka/about",
+        "first_seen": "2026-10-13T11:52:42+00:00",
+        "last_seen": "2026-10-13T11:52:42+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "http://archicon.ge/ka/contact",
+        "first_seen": "2026-10-13T11:52:40+00:00",
+        "last_seen": "2026-10-13T11:52:40+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "http://archicon.ge/ka/services",
+        "first_seen": "2026-10-13T11:52:44+00:00",
+        "last_seen": "2026-10-13T11:52:44+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archicon.ge",
+        "source_url": "http://archicon.ge/ka",
+        "first_seen": "2026-10-13T11:52:38+00:00",
+        "last_seen": "2026-10-13T11:52:38+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archicon.ge",
+        "source_url": "http://archicon.ge/ka/about",
+        "first_seen": "2026-10-13T11:52:42+00:00",
+        "last_seen": "2026-10-13T11:52:42+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archicon.ge",
+        "source_url": "http://archicon.ge/ka/contact",
+        "first_seen": "2026-10-13T11:52:40+00:00",
+        "last_seen": "2026-10-13T11:52:40+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archicon.ge",
+        "source_url": "http://archicon.ge/ka/services",
+        "first_seen": "2026-10-13T11:52:44+00:00",
+        "last_seen": "2026-10-13T11:52:44+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archicon.ge",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archicon.official",
+        "source_url": "http://archicon.ge/ka",
+        "first_seen": "2026-10-13T11:52:38+00:00",
+        "last_seen": "2026-10-13T11:52:38+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archicon.official",
+        "source_url": "http://archicon.ge/ka/about",
+        "first_seen": "2026-10-13T11:52:42+00:00",
+        "last_seen": "2026-10-13T11:52:42+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archicon.official",
+        "source_url": "http://archicon.ge/ka/contact",
+        "first_seen": "2026-10-13T11:52:40+00:00",
+        "last_seen": "2026-10-13T11:52:40+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archicon.official",
+        "source_url": "http://archicon.ge/ka/services",
+        "first_seen": "2026-10-13T11:52:44+00:00",
+        "last_seen": "2026-10-13T11:52:44+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archicon.architecture",
+        "source_url": "http://archicon.ge/ka",
+        "first_seen": "2026-10-13T11:52:38+00:00",
+        "last_seen": "2026-10-13T11:52:38+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archicon.architecture",
+        "source_url": "http://archicon.ge/ka/about",
+        "first_seen": "2026-10-13T11:52:42+00:00",
+        "last_seen": "2026-10-13T11:52:42+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archicon.architecture",
+        "source_url": "http://archicon.ge/ka/contact",
+        "first_seen": "2026-10-13T11:52:40+00:00",
+        "last_seen": "2026-10-13T11:52:40+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archicon.architecture",
+        "source_url": "http://archicon.ge/ka/services",
+        "first_seen": "2026-10-13T11:52:44+00:00",
+        "last_seen": "2026-10-13T11:52:44+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHICON",
+        "source_url": "http://archicon.ge/ka",
+        "first_seen": "2026-10-13T11:52:38+00:00",
+        "last_seen": "2026-10-13T11:52:38+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHICON",
+        "source_url": "http://archicon.ge/ka/about",
+        "first_seen": "2026-10-13T11:52:42+00:00",
+        "last_seen": "2026-10-13T11:52:42+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHICON",
+        "source_url": "http://archicon.ge/ka/contact",
+        "first_seen": "2026-10-13T11:52:40+00:00",
+        "last_seen": "2026-10-13T11:52:40+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHICON",
+        "source_url": "http://archicon.ge/ka/services",
+        "first_seen": "2026-10-13T11:52:44+00:00",
+        "last_seen": "2026-10-13T11:52:44+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHICON",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595410061",
+        "source_url": "http://archicon.ge/ka",
+        "first_seen": "2026-10-13T11:52:38+00:00",
+        "last_seen": "2026-10-13T11:52:38+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595410061",
+        "source_url": "http://archicon.ge/ka/about",
+        "first_seen": "2026-10-13T11:52:42+00:00",
+        "last_seen": "2026-10-13T11:52:42+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595410061",
+        "source_url": "http://archicon.ge/ka/contact",
+        "first_seen": "2026-10-13T11:52:40+00:00",
+        "last_seen": "2026-10-13T11:52:40+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595410061",
+        "source_url": "http://archicon.ge/ka/services",
+        "first_seen": "2026-10-13T11:52:44+00:00",
+        "last_seen": "2026-10-13T11:52:44+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995595410061",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995599243018",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://archicon.ge/",
+        "source_url": "http://archicon.ge/ka",
+        "first_seen": "2026-10-13T11:52:38+00:00",
+        "last_seen": "2026-10-13T11:52:38+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://archicon.ge/",
+        "source_url": "http://archicon.ge/ka/about",
+        "first_seen": "2026-10-13T11:52:42+00:00",
+        "last_seen": "2026-10-13T11:52:42+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://archicon.ge/",
+        "source_url": "http://archicon.ge/ka/contact",
+        "first_seen": "2026-10-13T11:52:40+00:00",
+        "last_seen": "2026-10-13T11:52:40+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://archicon.ge/",
+        "source_url": "http://archicon.ge/ka/services",
+        "first_seen": "2026-10-13T11:52:44+00:00",
+        "last_seen": "2026-10-13T11:52:44+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://archicon.ge/",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      }
+    ],
+    "business_key": "yell:148086",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:52:44+00:00",
+    "status": "review",
+    "review_reasons": [
+      "malformed_json_ld"
+    ]
+  },
+  {
     "id": "89e7dfb399e58bb7",
     "name": "Belvedere",
     "domains": [
@@ -11268,6 +12474,175 @@
       "directory_only_service_claim",
       "interior_service_not_confirmed"
     ]
+  },
+  {
+    "id": "91bc92affa9ed5e6",
+    "name": "DESIGN STUDIO AM",
+    "domains": [
+      "am.com.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@am.com.ge",
+        "source_url": "https://www.am.com.ge/",
+        "first_seen": "2026-10-13T11:52:08+00:00",
+        "last_seen": "2026-10-13T11:52:08+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@am.com.ge",
+        "source_url": "https://www.am.com.ge/contact",
+        "first_seen": "2026-10-13T11:52:09+00:00",
+        "last_seen": "2026-10-13T11:52:09+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@am.com.ge",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architectuream",
+        "source_url": "https://www.am.com.ge/",
+        "first_seen": "2026-10-13T11:52:08+00:00",
+        "last_seen": "2026-10-13T11:52:08+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architectuream",
+        "source_url": "https://www.am.com.ge/blog/%F0%9D%97%A9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%94-%E1%83%A8%E1%83%98-%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%95%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%93%E1%83%98-%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0-%E1%83%9B%E1%83%90%E1%83%AE%E1%83%90%E1%83%A1%E1%83%98%E1%83%90%E1%83%97%E1%83%94%E1%83%91%E1%83%9A%E1%83%94%E1%83%91%E1%83%A1-%E1%83%92%E1%83%90%E1%83%9B%E1%83%AB%E1%83%9A%E1%83%94%E1%83%9D%E1%83%91%E1%83%90%E1%83%A1-%E1%83%93%E1%83%90-%E1%83%AE%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%AE%E1%83%A1-%E1%83%90%E1%83%A5-%E1%83%95%E1%83%AE%E1%83%95%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%97-%E1%83%A4%E1%83%90%E1%83%A0%E1%83%97%E1%83%9D-%E1%83%90%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A1-%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98%E1%83%AA-%E1%83%9B%E1%83%9D%E1%83%94%E1%83%A0%E1%83%92%E1%83%94%E1%83%91%E1%83%90-%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0-%E1%83%97%E1%83%A5%E1%83%95%E1%83%94%E1%83%9C%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9B%E1%83%90%E1%83%AD%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%94%E1%83%A0%E1%83%98-am-interior-studio",
+        "first_seen": "2026-10-13T11:52:11+00:00",
+        "last_seen": "2026-10-13T11:52:11+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architectuream",
+        "source_url": "https://www.am.com.ge/contact",
+        "first_seen": "2026-10-13T11:52:09+00:00",
+        "last_seen": "2026-10-13T11:52:09+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/architectuream",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/architectureamstudio",
+        "source_url": "https://www.am.com.ge/",
+        "first_seen": "2026-10-13T11:52:08+00:00",
+        "last_seen": "2026-10-13T11:52:08+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/architectureamstudio",
+        "source_url": "https://www.am.com.ge/blog/%F0%9D%97%A9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%94-%E1%83%A8%E1%83%98-%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%95%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%93%E1%83%98-%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0-%E1%83%9B%E1%83%90%E1%83%AE%E1%83%90%E1%83%A1%E1%83%98%E1%83%90%E1%83%97%E1%83%94%E1%83%91%E1%83%9A%E1%83%94%E1%83%91%E1%83%A1-%E1%83%92%E1%83%90%E1%83%9B%E1%83%AB%E1%83%9A%E1%83%94%E1%83%9D%E1%83%91%E1%83%90%E1%83%A1-%E1%83%93%E1%83%90-%E1%83%AE%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%AE%E1%83%A1-%E1%83%90%E1%83%A5-%E1%83%95%E1%83%AE%E1%83%95%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%97-%E1%83%A4%E1%83%90%E1%83%A0%E1%83%97%E1%83%9D-%E1%83%90%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A1-%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98%E1%83%AA-%E1%83%9B%E1%83%9D%E1%83%94%E1%83%A0%E1%83%92%E1%83%94%E1%83%91%E1%83%90-%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0-%E1%83%97%E1%83%A5%E1%83%95%E1%83%94%E1%83%9C%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9B%E1%83%90%E1%83%AD%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%94%E1%83%A0%E1%83%98-am-interior-studio",
+        "first_seen": "2026-10-13T11:52:11+00:00",
+        "last_seen": "2026-10-13T11:52:11+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/architectureamstudio",
+        "source_url": "https://www.am.com.ge/contact",
+        "first_seen": "2026-10-13T11:52:09+00:00",
+        "last_seen": "2026-10-13T11:52:09+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "AM Interior Studio",
+        "source_url": "https://www.am.com.ge/",
+        "first_seen": "2026-10-13T11:52:08+00:00",
+        "last_seen": "2026-10-13T11:52:08+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "AM Interior Studio",
+        "source_url": "https://www.am.com.ge/blog/%F0%9D%97%A9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%94-%E1%83%A8%E1%83%98-%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%95%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%93%E1%83%98-%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0-%E1%83%9B%E1%83%90%E1%83%AE%E1%83%90%E1%83%A1%E1%83%98%E1%83%90%E1%83%97%E1%83%94%E1%83%91%E1%83%9A%E1%83%94%E1%83%91%E1%83%A1-%E1%83%92%E1%83%90%E1%83%9B%E1%83%AB%E1%83%9A%E1%83%94%E1%83%9D%E1%83%91%E1%83%90%E1%83%A1-%E1%83%93%E1%83%90-%E1%83%AE%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%AE%E1%83%A1-%E1%83%90%E1%83%A5-%E1%83%95%E1%83%AE%E1%83%95%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%97-%E1%83%A4%E1%83%90%E1%83%A0%E1%83%97%E1%83%9D-%E1%83%90%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A1-%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98%E1%83%AA-%E1%83%9B%E1%83%9D%E1%83%94%E1%83%A0%E1%83%92%E1%83%94%E1%83%91%E1%83%90-%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0-%E1%83%97%E1%83%A5%E1%83%95%E1%83%94%E1%83%9C%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9B%E1%83%90%E1%83%AD%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%94%E1%83%A0%E1%83%98-am-interior-studio",
+        "first_seen": "2026-10-13T11:52:11+00:00",
+        "last_seen": "2026-10-13T11:52:11+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "AM Interior Studio",
+        "source_url": "https://www.am.com.ge/contact",
+        "first_seen": "2026-10-13T11:52:09+00:00",
+        "last_seen": "2026-10-13T11:52:09+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "DESIGN STUDIO AM",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555777727",
+        "source_url": "https://www.am.com.ge/",
+        "first_seen": "2026-10-13T11:52:08+00:00",
+        "last_seen": "2026-10-13T11:52:08+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555777727",
+        "source_url": "https://www.am.com.ge/contact",
+        "first_seen": "2026-10-13T11:52:09+00:00",
+        "last_seen": "2026-10-13T11:52:09+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995555777727",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.am.com.ge/",
+        "source_url": "https://www.am.com.ge/",
+        "first_seen": "2026-10-13T11:52:08+00:00",
+        "last_seen": "2026-10-13T11:52:08+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.am.com.ge/",
+        "source_url": "https://www.am.com.ge/blog/%F0%9D%97%A9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%94-%E1%83%A8%E1%83%98-%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%95%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%93%E1%83%98-%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0-%E1%83%9B%E1%83%90%E1%83%AE%E1%83%90%E1%83%A1%E1%83%98%E1%83%90%E1%83%97%E1%83%94%E1%83%91%E1%83%9A%E1%83%94%E1%83%91%E1%83%A1-%E1%83%92%E1%83%90%E1%83%9B%E1%83%AB%E1%83%9A%E1%83%94%E1%83%9D%E1%83%91%E1%83%90%E1%83%A1-%E1%83%93%E1%83%90-%E1%83%AE%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%AE%E1%83%A1-%E1%83%90%E1%83%A5-%E1%83%95%E1%83%AE%E1%83%95%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%97-%E1%83%A4%E1%83%90%E1%83%A0%E1%83%97%E1%83%9D-%E1%83%90%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A1-%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98%E1%83%AA-%E1%83%9B%E1%83%9D%E1%83%94%E1%83%A0%E1%83%92%E1%83%94%E1%83%91%E1%83%90-%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0-%E1%83%97%E1%83%A5%E1%83%95%E1%83%94%E1%83%9C%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9B%E1%83%90%E1%83%AD%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%94%E1%83%A0%E1%83%98-am-interior-studio",
+        "first_seen": "2026-10-13T11:52:11+00:00",
+        "last_seen": "2026-10-13T11:52:11+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.am.com.ge/",
+        "source_url": "https://www.am.com.ge/contact",
+        "first_seen": "2026-10-13T11:52:09+00:00",
+        "last_seen": "2026-10-13T11:52:09+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.am.com.ge/",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      }
+    ],
+    "business_key": "yell:157654",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:52:11+00:00",
+    "status": "candidate",
+    "review_reasons": []
   },
   {
     "id": "91cb63a3ef83fc26",
@@ -14454,10 +15829,89 @@
   },
   {
     "id": "aa163d6afb81632c",
-    "name": "MON ARCH Studio",
-    "domains": [],
+    "name": "ARCHENOME",
+    "domains": [
+      "archenome.ge"
+    ],
     "facts": [
       {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archenome.com",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archenome",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archenome",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archenome",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archenome",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archenome",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/monarchitectsstudio",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/monarchitectsstudio",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/monarchitectsstudio",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/monarchitectsstudio",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
         "kind": "facebook",
         "value": "https://www.facebook.com/monarchitectsstudio",
         "source_url": "https://dizaini.ge/product/139",
@@ -14500,6 +15954,97 @@
         "last_seen": "2026-10-12T18:06:45+00:00"
       },
       {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archenome",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archenome",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archenome",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archenome",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/mon__arch__studio",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/mon__arch__studio",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/mon__arch__studio",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/mon__arch__studio",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHENOME",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHENOME",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHENOME",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHENOME",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHENOME",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
         "kind": "name",
         "value": "MON ARCH Studio",
         "source_url": "https://dizaini.ge/product/139",
@@ -14540,6 +16085,76 @@
         "source_url": "https://dizaini.ge/product/157",
         "first_seen": "2026-10-12T18:06:45+00:00",
         "last_seen": "2026-10-12T18:06:45+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550500105",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550500105",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550500105",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550500105",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550501005",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550501005",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550501005",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550501005",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995550501005",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995577002220",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
       },
       {
         "kind": "phone",
@@ -14588,15 +16203,51 @@
         "first_seen": "2026-10-12T18:06:45+00:00",
         "last_seen": "2026-10-12T18:06:45+00:00",
         "source_disclosure": "public_client_side_reveal"
+      },
+      {
+        "kind": "website",
+        "value": "https://archenome.ge/",
+        "source_url": "https://archenome.ge/",
+        "first_seen": "2026-10-13T11:52:25+00:00",
+        "last_seen": "2026-10-13T11:52:25+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://archenome.ge/",
+        "source_url": "https://archenome.ge/contact",
+        "first_seen": "2026-10-13T11:52:27+00:00",
+        "last_seen": "2026-10-13T11:52:27+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://archenome.ge/",
+        "source_url": "https://archenome.ge/portfolio",
+        "first_seen": "2026-10-13T11:52:31+00:00",
+        "last_seen": "2026-10-13T11:52:31+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://archenome.ge/",
+        "source_url": "https://archenome.ge/services",
+        "first_seen": "2026-10-13T11:52:29+00:00",
+        "last_seen": "2026-10-13T11:52:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://archenome.ge/",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
       }
     ],
     "business_key": "dizaini:65",
     "suggested_websites": [],
     "first_seen": "2026-10-12T18:06:45+00:00",
-    "last_seen": "2026-10-12T18:22:16+00:00",
+    "last_seen": "2026-10-13T11:52:31+00:00",
     "status": "review",
     "review_reasons": [
-      "directory_only_service_claim"
+      "directory_only_service_claim",
+      "page_meta_robots_opt_out"
     ]
   },
   {
@@ -18061,6 +19712,310 @@
     "review_reasons": [
       "page_no_readable_content",
       "page_response_too_large"
+    ]
+  },
+  {
+    "id": "d51a3f6d5587416d",
+    "name": "ARCHTRADE",
+    "domains": [
+      "archtrade.ge"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archtrade.ge",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archtrade.ge",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archtrade.ge",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archtrade.ge",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@archtrade.ge",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archtrade-%e1%83%90%e1%83%a0%e1%83%a5%e1%83%97%e1%83%a0%e1%83%94%e1%83%98%e1%83%93%e1%83%98-1672867512974327",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archtrade-%e1%83%90%e1%83%a0%e1%83%a5%e1%83%97%e1%83%a0%e1%83%94%e1%83%98%e1%83%93%e1%83%98-1672867512974327",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archtrade-%e1%83%90%e1%83%a0%e1%83%a5%e1%83%97%e1%83%a0%e1%83%94%e1%83%98%e1%83%93%e1%83%98-1672867512974327",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archtrade-%e1%83%90%e1%83%a0%e1%83%a5%e1%83%97%e1%83%a0%e1%83%94%e1%83%98%e1%83%93%e1%83%98-1672867512974327",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/archtrade-არქთრეიდი-1672867512974327",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archtrade_llc",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archtrade_llc",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archtrade_llc",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/archtrade_llc",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHTRADE",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHTRADE",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHTRADE",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHTRADE",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "ARCHTRADE",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207400",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207400",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207400",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207400",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207401",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207401",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207401",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207401",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207500",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207500",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207500",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322207500",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.archtrade.ge/",
+        "source_url": "https://www.archtrade.ge/",
+        "first_seen": "2026-10-13T11:52:53+00:00",
+        "last_seen": "2026-10-13T11:52:53+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.archtrade.ge/",
+        "source_url": "https://www.archtrade.ge/about-us.html",
+        "first_seen": "2026-10-13T11:52:57+00:00",
+        "last_seen": "2026-10-13T11:52:57+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.archtrade.ge/",
+        "source_url": "https://www.archtrade.ge/construction-services.html",
+        "first_seen": "2026-10-13T11:52:59+00:00",
+        "last_seen": "2026-10-13T11:52:59+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.archtrade.ge/",
+        "source_url": "https://www.archtrade.ge/contact.html",
+        "first_seen": "2026-10-13T11:52:55+00:00",
+        "last_seen": "2026-10-13T11:52:55+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "http://www.archtrade.ge/",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      }
+    ],
+    "business_key": "yell:66643",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:52:59+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim"
     ]
   },
   {
@@ -21605,6 +23560,242 @@
     "review_reasons": [
       "directory_only_service_claim",
       "interior_service_not_confirmed",
+      "unverified_phone_structure"
+    ]
+  },
+  {
+    "id": "f5c71881d9052235",
+    "name": "CITADELI",
+    "domains": [
+      "citadeli.com"
+    ],
+    "facts": [
+      {
+        "kind": "city",
+        "value": "ბათუმი",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "city",
+        "value": "თბილისი",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@citadeli.com",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@citadeli.com",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "info@citadeli.com",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "marketing@citadeli.com",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "marketing@citadeli.com",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "email",
+        "value": "onlinestore@citadeli.com",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/citadeli",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/citadeli",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/citadeli",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "facebook",
+        "value": "https://www.facebook.com/citadeli",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/citadeli_building_materials",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "instagram",
+        "value": "https://www.instagram.com/citadeli_building_materials",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "CITADELI",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "CITADELI",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Citadeli.com",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "name",
+        "value": "Citadeli.com",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322350035",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322350035",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322350035",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone",
+        "value": "+995322350035",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "phone_unverified",
+        "value": "tel:*7070",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "phone_unverified",
+        "value": "tel:*7070",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "phone_unverified",
+        "value": "tel:*7070 | 032 235 00 35",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "phone_unverified",
+        "value": "tel:*7070 | 032 235 00 35",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "phone_unverified",
+        "value": "tel:37410770909",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.citadeli.com/ka",
+        "source_url": "https://citadeli.com/ka/contact",
+        "first_seen": "2026-10-13T11:53:34+00:00",
+        "last_seen": "2026-10-13T11:53:34+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.citadeli.com/ka",
+        "source_url": "https://www.citadeli.com/ka",
+        "first_seen": "2026-10-13T11:53:23+00:00",
+        "last_seen": "2026-10-13T11:53:23+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.citadeli.com/ka",
+        "source_url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      },
+      {
+        "kind": "website",
+        "value": "https://www.citadeli.com/ka",
+        "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+        "first_seen": "2026-10-13T11:51:29+00:00",
+        "last_seen": "2026-10-13T11:51:29+00:00"
+      }
+    ],
+    "business_key": "yell:141622",
+    "suggested_websites": [],
+    "first_seen": "2026-10-13T11:51:29+00:00",
+    "last_seen": "2026-10-13T11:53:34+00:00",
+    "status": "review",
+    "review_reasons": [
+      "directory_only_service_claim",
+      "page_http_404",
       "unverified_phone_structure"
     ]
   },

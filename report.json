@@ -1,206 +1,251 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-13T11:07:57+00:00",
-  "status": "completed",
-  "sites_processed": 9,
+  "started_at": "2026-10-13T11:51:29+00:00",
+  "status": "running",
+  "sites_processed": 10,
   "events": [
     {
-      "url": "https://www.facebook.com/Dio.Ltd/timeline",
-      "status": "skipped",
-      "reason": "social_profile_not_crawled"
+      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 25
     },
     {
-      "url": "https://www.eglo.com/us/",
+      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 25
+    },
+    {
+      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 25
+    },
+    {
+      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 19
+    },
+    {
+      "url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
+      "status": "ok",
+      "reason": "directory",
+      "discovered": 6
+    },
+    {
+      "url": "https://arcus.ge/contact-us.html",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.eglo.com/us/contact_us",
+      "url": "https://arcus.ge/about-us.html",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.eglo.com/uk/contact_us",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://verona.ge/ka",
+      "url": "https://arcus.ge/services-pricing.html",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://verona.ge/ka/contact",
+      "url": "https://meinraum.ge/en/contacts/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://verona.ge/en/contact",
+      "url": "https://meinraum.ge/contacts/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://verona.ge/ru/contact",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://cityproject.ge/ka/",
+      "url": "https://meinraum.ge/en/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://cityproject.ge/ka/contact",
+      "url": "https://meinraum.ge/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://cityproject.ge/en/contact",
+      "url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://cityproject.ge/ka/about",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://timmarchitecture.com/",
+      "url": "https://www.am.com.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://timmarchitecture.com/contact/",
+      "url": "https://www.am.com.ge/contact",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://timmarchitecture.com/team/",
+      "url": "https://www.am.com.ge/blog/%F0%9D%97%A9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%94-%E1%83%A8%E1%83%98-%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%95%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%93%E1%83%98-%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0-%E1%83%9B%E1%83%90%E1%83%AE%E1%83%90%E1%83%A1%E1%83%98%E1%83%90%E1%83%97%E1%83%94%E1%83%91%E1%83%9A%E1%83%94%E1%83%91%E1%83%A1-%E1%83%92%E1%83%90%E1%83%9B%E1%83%AB%E1%83%9A%E1%83%94%E1%83%9D%E1%83%91%E1%83%90%E1%83%A1-%E1%83%93%E1%83%90-%E1%83%AE%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%AE%E1%83%A1-%E1%83%90%E1%83%A5-%E1%83%95%E1%83%AE%E1%83%95%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%97-%E1%83%A4%E1%83%90%E1%83%A0%E1%83%97%E1%83%9D-%E1%83%90%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A1-%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98%E1%83%AA-%E1%83%9B%E1%83%9D%E1%83%94%E1%83%A0%E1%83%92%E1%83%94%E1%83%91%E1%83%90-%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0-%E1%83%97%E1%83%A5%E1%83%95%E1%83%94%E1%83%9C%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9B%E1%83%90%E1%83%AD%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%94%E1%83%A0%E1%83%98-am-interior-studio",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://hdesign.ge/",
+      "url": "https://arcdigits.com/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://hdesign.ge/servisebi/",
+      "url": "https://arcdigits.com/contact/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://hdesign.ge/chven-shesakheb/",
+      "url": "https://arcdigits.com/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://hdesign.ge/kontaqti/",
+      "url": "https://arcdigits.com/creative-and-branding/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://hdesign.ge/servisebi",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
+      "url": "https://arcdigits.com/contacts/",
+      "status": "unreachable",
+      "reason": "http_404"
     },
     {
-      "url": "https://roomdesignstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://roomdesignstudio.ge/kontakti/",
+      "url": "https://archenome.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://roomdesignstudio.ge/",
+      "url": "https://archenome.ge/contact",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://roomdesignstudio.ge/chven-shesakheb/",
+      "url": "https://archenome.ge/services",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://roomdesignstudio.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://renovare.ge/",
+      "url": "https://archenome.ge/portfolio",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://renovare.ge/contacts/",
+      "url": "https://archenome.ge/services?Section=2",
+      "status": "blocked",
+      "reason": "meta_robots_opt_out"
+    },
+    {
+      "url": "http://archicon.ge/ka",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://renovare.ge/about/",
+      "url": "http://archicon.ge/ka/contact",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://renovare.ge/renovation/",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://spectrum.ge/",
+      "url": "http://archicon.ge/ka/about",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://spectrum.ge/contact",
+      "url": "http://archicon.ge/ka/services",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "url": "https://www.archtrade.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://spectrum.ge/ar/contact",
+      "url": "https://www.archtrade.ge/contact.html",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://spectrum.ge/en/contact",
+      "url": "https://www.archtrade.ge/about-us.html",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.archtrade.ge/construction-services.html",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.bestremont.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.bestremont.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.bestremont.ge/contact/agents",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://buildline.ge/",
+      "status": "unreachable",
+      "reason": "network_error"
+    },
+    {
+      "url": "https://www.citadeli.com/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://citadeli.com/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://citadeli.com/en/contact",
+      "status": "unreachable",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://citadeli.com/ru/contact",
       "status": "ok",
       "reason": "business_page_limit_reached"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
-  "batch_limit": 1000,
-  "github_run_id": "38388063188",
+  "batch_limit": 50,
+  "github_run_id": "38393080572",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 0,
-  "work_remaining": false,
-  "collection_status": "exhausted",
-  "collection_stop_reason": "available_sources_exhausted",
+  "remaining_businesses": 85,
+  "work_remaining": true,
+  "collection_status": "active",
+  "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 89,
-  "checkpoint_at": "2026-10-13T11:09:49+00:00",
-  "records_total": 217,
-  "contacts_total": 737,
+  "unavailable_sources_total": 90,
+  "checkpoint_at": "2026-10-13T11:53:36+00:00",
+  "records_total": 226,
+  "contacts_total": 784,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 520,
-  "relevant_direct_contacts_unique": 148,
+  "direct_contacts_unique": 547,
+  "relevant_direct_contacts_unique": 175,
   "target_reached": false,
-  "contacts_missing_to_target": 852,
-  "new_records": 0,
+  "contacts_missing_to_target": 825,
+  "new_records": 9,
   "changed_records": 1,
   "merged_records": 0,
-  "errors": 0,
-  "error_categories": {},
-  "candidates_available": 9,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-13T11:09:49+00:00",
-  "http_requests": 55
+  "errors": 4,
+  "error_categories": {
+    "unreachable": 3,
+    "blocked": 1
+  },
+  "candidates_available": 92
 }
