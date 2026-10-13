@@ -9,6 +9,7 @@ import signal
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from .discovery import discover
 from .export import export_all
@@ -30,6 +31,7 @@ def crawl(client, source, events):
     if domain(url) in SOCIAL_HOSTS:
         events.append({"url": url, "status": "skipped", "reason": "social_profile_not_crawled"})
         return None
+    initial_domain_requests = getattr(client, 'counts', {}).get(domain(url), 0)
     facts = union_facts(source.get('directory_facts', []))
     texts = ['ინტერიერის დიზაინი'] if source.get('directory_service_claim') else []
     reasons = list(source.get('review_reasons', []))
@@ -76,9 +78,16 @@ def crawl(client, source, events):
                 # Explicit URLs are editable, but must stay on the same business host.
                 queue.extend(source.get("pages", []))
             queue.extend(parsed["links"])
-            queue = list(dict.fromkeys(x for x in queue if domain(x) == domain(url) and x not in visited))
+            queue = list(dict.fromkeys(x for x in queue if domain(x) == domain(url) and x not in visited
+                                       and not urlsplit(x).path.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.ico', '.pdf', '.zip', '.mp4', '.css', '.js'))))
             queue.sort(key=lambda x: (0 if any(k in x.lower() for k in ("contact", "kontakti", "კონტაქტ")) else 1 if any(k in x.lower() for k in ("about", "შესახებ")) else 2))
         except FetchError as exc:
+            if exc.reason == 'page_limit' and initial_domain_requests == 0:
+                # Redirects also consume the host budget. Repeating this business
+                # from its homepage cannot unlock more pages in another batch.
+                events.append({'url': target, 'status': 'ok' if any_success else 'unreachable',
+                               'reason': 'business_page_limit_reached' if any_success else 'page_budget_without_readable_page'})
+                break
             events.append({"url": target, "status": exc.status, "reason": exc.reason})
             reasons.append("page_" + exc.reason)
             # A challenge/rate limit is a stop signal, not a reason to try other URLs.
@@ -211,7 +220,7 @@ def run(args, client=None):
                 # One site's malformed markup must not discard previous checkpoints.
                 report["events"].append({"url": source["url"], "status": "error", "reason": "parser_" + type(exc).__name__})
             recent = report['events'][event_start:]
-            only_budget_skip = recent and all(e['status'] == 'skipped' for e in recent)
+            only_budget_skip = recent and all(e['status'] == 'skipped' and e['reason'] in {'page_limit', 'retry_after_cooldown'} for e in recent)
             if only_budget_skip:
                 counter = "businesses_deferred_by_retry_after" if any(e["reason"] == "retry_after_cooldown" for e in recent) else "businesses_deferred_by_page_budget"
                 report[counter] = report.get(counter, 0) + 1
@@ -227,6 +236,11 @@ def run(args, client=None):
         report["status"] = "time_limit_partial"
     except KeyboardInterrupt:
         report["status"] = "interrupted_partial"
+        report['collection_stop_reason'] = 'interrupted_requires_review'
+    except Exception:
+        report['status'] = 'failed'
+        report['collection_stop_reason'] = 'unexpected_error_requires_review'
+        raise
     finally:
         if continuous:
             update_report(state, config, report, no_discovery=args.no_discovery)

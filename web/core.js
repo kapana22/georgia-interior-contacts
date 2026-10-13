@@ -257,3 +257,17 @@ export function directContactCounts(records) {
   }
   return { total: all.size, relevant: relevant.size };
 }
+
+// Public snapshot status only. A stale snapshot does not prove a worker failed.
+export function collectionNotice(report, now = Date.now()) {
+  if (!report?.continuous) return null;
+  const run = report.github_run_id || report.started_at || '';
+  const status = report.collection_status;
+  if (status === 'exhausted') return {key:`exhausted:${run}`,kind:'exhausted',title:'დამატებული წყაროები ამოიწურა',message:`მიმდინარე წყაროების დამუშავება დასრულდა. შენახულია ${report.records_total || 0} ბიზნესი. ეს არ ნიშნავს საქართველოს ყველა დიზაინერის სრულ ბაზას. ახალი კონტაქტებისთვის საჭიროა ახალი წყაროების დამატება ან მოგვიანებით ხელახლა შემოწმება.`};
+  if (status === 'error' || report.status === 'failed') return {key:`error:${run}`,kind:'error',title:'შეგროვება შეცდომის გამო შეჩერდა',message:'ბოლო გაშვება ვერ დასრულდა. უკვე შეგროვებული კონტაქტები შენარჩუნებულია. დეტალები ნახე გაშვების ანგარიშში.'};
+  if (status === 'paused') return {key:`paused:${run}`,kind:'paused',title:'შეგროვება საჭიროებს შემოწმებას',message:`დარჩენილია ${report.remaining_businesses || 0} ბიზნესი და ${report.remaining_directory_pages || 0} კატალოგის გვერდი. ეს წყაროების ამოწურვას არ ნიშნავს. კონტაქტები შენარჩუნებულია; დეტალები ნახე გაშვების ანგარიშში.`};
+  if (status === 'waiting' && report.resume_after * 1000 > now) return {key:`waiting:${report.resume_after}`,kind:'waiting',title:'წყარომ დროებითი პაუზა მოითხოვა',message:`შეგროვება ავტომატურად გაგრძელდება ${new Date(report.resume_after * 1000).toLocaleString('ka-GE')}-ის შემდეგ. კონტაქტები შენარჩუნებულია.`};
+  const saved = Date.parse(report.checkpoint_at || report.finished_at || report.started_at);
+  if (report.work_remaining && Number.isFinite(saved) && now - saved > 75 * 60 * 1000) return {key:`stale:${run}`,kind:'stale',title:'შეგროვების განახლება იგვიანებს',message:'75 წუთზე მეტია ახალი ანგარიში არ მოსულა. სკრაპერის მიმდინარე მდგომარეობა დაუდასტურებელია — ნახე GitHub-ის გაშვებები. წყაროები ამოწურულად არ არის მონიშნული.'};
+  return null;
+}

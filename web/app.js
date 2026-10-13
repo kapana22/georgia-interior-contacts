@@ -1,8 +1,9 @@
-import { GitHubClient, REPOSITORY, REPO_URL, WORKFLOW_URL, rawURL, normalizeRecords, values, filterRecords, validateInputs, validateBusiness, safeURL, reasonText, runLabel, directContactCounts, RememberedAuth } from './core.js';
+import { GitHubClient, REPOSITORY, REPO_URL, WORKFLOW_URL, rawURL, normalizeRecords, values, filterRecords, validateInputs, validateBusiness, safeURL, reasonText, runLabel, directContactCounts, RememberedAuth, collectionNotice } from './core.js';
 
 const $ = id => document.getElementById(id);
 const client = new GitHubClient();
 const rememberedAuth = new RememberedAuth();
+const collectionNoticesSeen = new Set();
 const state = { records: [], report: null, sha: null, page: 1, pageSize: 50, activeId: null, timer: null, polling: false, sources: null, sourcesSHA: null, editingIndex: null };
 
 function el(tag, className = '', text = '') {
@@ -48,6 +49,19 @@ async function rawFile(ref, file, type = 'json') {
   return type === 'blob' ? response.blob() : response.json();
 }
 
+function showCollectionNotice(notice) {
+  if (!notice) return;
+  const key = 'contacts-notice:' + notice.key;
+  let dismissed = collectionNoticesSeen.has(key);
+  try { dismissed ||= sessionStorage.getItem(key) === 'seen'; } catch { /* Optional browser storage. */ }
+  if (dismissed || document.hidden || document.querySelector('dialog[open]')) return;
+  $('collection-notice-title').textContent = notice.title;
+  $('collection-notice-message').textContent = notice.message;
+  $('collection-notice-dialog').showModal();
+  collectionNoticesSeen.add(key);
+  try { sessionStorage.setItem(key, 'seen'); } catch { /* In-memory deduplication still applies. */ }
+}
+
 function renderStats() {
   $('stat-businesses').textContent = state.records.length;
   const direct = directContactCounts(state.records);
@@ -59,7 +73,10 @@ function renderStats() {
   $('stat-date').textContent = savedAt ? date(savedAt, true) : '';
   const status = state.report?.collection_status;
   const label = status === 'exhausted' ? 'წყაროები ამოწურულია' : status === 'waiting' ? 'წყაროს პაუზის დასრულებას ელოდება' : status === 'paused' ? 'შეჩერებულია · გადასამოწმებელია' : state.report?.continuous ? (state.report.status === 'running' ? 'გროვდება' : 'ავტომატურად გაგრძელდება') : 'ავტომატური შეგროვება გამორთულია';
-  $('collection-state').textContent = label; $('collection-status').textContent = label;
+  const notification = collectionNotice(state.report);
+  const shownLabel = notification?.kind === 'stale' ? 'განახლება იგვიანებს · გადაამოწმე' : notification?.kind === 'error' ? 'შეცდომა · გადაამოწმე' : label;
+  $('collection-state').textContent = shownLabel; $('collection-status').textContent = shownLabel;
+  showCollectionNotice(notification);
   $('data-updated').textContent = savedAt ? `ბოლო შენახვა: ${date(savedAt)} · data ბრენჩი` : 'წყარო: რეპოზიტორიის data ბრენჩი';
   const selected = $('city-filter').value;
   const cities = [...new Set(state.records.flatMap(r => values(r, 'city')))].sort((a, b) => a.localeCompare(b, 'ka'));
@@ -150,6 +167,7 @@ async function refreshData(background = false) {
 
   } catch (error) {
     notice('data-error', error.message + (state.sha ? ' ეკრანზე წინა ჩატვირთული შედეგები დარჩა.' : ''));
+    showCollectionNotice({key:'snapshot-unavailable',title:'მონაცემების განახლება ვერ მოხერხდა',message:'საიტმა ბოლო ანგარიში ვერ ჩამოტვირთა. ეს არ ადასტურებს სკრაპერის გაჩერებას. სცადე განახლება ან ნახე GitHub-ის გაშვებები.'});
     if (!state.sha) { const empty = el('div', 'empty-state'); empty.append(el('span', 'empty-icon', '↻'), el('h3', '', 'ბაზა ვერ ჩაიტვირთა'), el('p', '', 'დააჭირე „განახლებას“ ან ნახე შედეგები GitHub-ზე.')); $('contact-grid').replaceChildren(empty); }
   } finally { state.refreshing = false; state.lastDataCheck = Date.now(); busy($('refresh-data'), false, '↻ განახლება'); $('contact-grid').setAttribute('aria-busy', 'false'); }
 }

@@ -66,9 +66,9 @@ def update_report(state, config, report, *, no_discovery=False):
     report['remaining_directory_pages'] = remaining_pages
     report['remaining_businesses'] = remaining_businesses
     report['work_remaining'] = remaining_pages + remaining_businesses > 0
-    if report.get('collection_stop_reason') == 'no_progress_requires_review':
+    if report.get('collection_stop_reason') in {'no_progress_requires_review', 'unexpected_error_requires_review', 'interrupted_requires_review'}:
         report['work_remaining'] = False
-        campaign['status'] = report['collection_status'] = 'paused'
+        campaign['status'] = report['collection_status'] = 'error' if report.get('status') == 'failed' else 'paused'
         return
     campaign['status'] = 'active' if report['work_remaining'] else 'exhausted'
     report['collection_status'] = campaign['status']

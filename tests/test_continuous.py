@@ -171,3 +171,67 @@ def test_all_waiting_sources_defer_dispatch_without_false_exhaustion(tmp_path):
         assert report['work_remaining'] and report['collection_status']=='waiting'
     saved={**report,'sources_file':'config/sources.json'}
     assert controller.decision(saved,[])[0] is None
+
+
+def test_own_domain_budget_after_success_finishes_without_repeat(tmp_path):
+    a=args(tmp_path, {'businesses':[{'url':'https://studio.test/'}]})
+    class RedirectBudget(Client):
+        def __init__(self): super().__init__(); self.counts={}
+        def fetch(self,url,**kw):
+            self.calls.append(url)
+            if self.counts.get('studio.test',0) >= 5: raise FetchError('skipped','page_limit')
+            # Three redirects plus homepage and contact consume the five-request cap.
+            self.counts['studio.test']=5
+            return url,b'<p>Interior design studio in Tbilisi info@studio.test</p><a href="/contact">Contact</a>'
+    c=RedirectBudget();report=run(a,c)
+    assert report['collection_status']=='exhausted'
+    assert any(e['reason']=='business_page_limit_reached' for e in report['events'])
+    c=RedirectBudget();run(a,c);assert not c.calls
+    assert load_state(a.state)['records']
+
+
+def test_shared_directory_host_budget_defers_to_next_run(tmp_path):
+    a=args(tmp_path, {'businesses':[{'url':'https://studio.test/'}]})
+    class SharedBudget(Client):
+        counts={'studio.test':5}
+        def fetch(self,*a,**kw):raise FetchError('skipped','page_limit')
+    assert run(a,SharedBudget())['work_remaining']
+    assert run(a,Client())['collection_status']=='exhausted'
+
+
+def test_social_skip_does_not_remain_in_pending_queue(tmp_path):
+    a=args(tmp_path, {'businesses':[{'url':'https://www.facebook.com/example'}]})
+    c=Client();report=run(a,c)
+    assert report['collection_status']=='exhausted' and not c.calls
+    assert report['remaining_businesses']==0
+
+
+def test_redirects_exhaust_budget_before_readable_page_retry_bounded(tmp_path):
+    a=args(tmp_path, {'businesses':[{'url':'https://studio.test/'}]})
+    class EmptyBudget(Client):
+        counts={}
+        def fetch(self,*a,**kw):raise FetchError('skipped','page_limit')
+    for _ in range(2):assert run(a,EmptyBudget())['work_remaining']
+    report=run(a,EmptyBudget())
+    assert report['collection_status']=='exhausted' and report['unavailable_sources_total']==1
+
+
+def test_contact_named_image_does_not_waste_page_budget(tmp_path):
+    a=args(tmp_path, {'businesses':[{'url':'https://studio.test/'}]})
+    class Images(Client):
+        def fetch(self,url,**kw):
+            self.calls.append(url)
+            return url,b'<p>Interior design in Tbilisi info@studio.test</p><a href="/contact-sketch.jpg">Contact</a>'
+    c=Images();assert run(a,c)['collection_status']=='exhausted'
+    assert c.calls==['https://studio.test/']
+
+
+def test_fatal_failure_publishes_error_not_running_or_exhausted(tmp_path):
+    import pytest
+    a=args(tmp_path, {'businesses':[{'url':'https://studio.test/'}]})
+    class Fatal(Client):
+        def check(self):raise RuntimeError('fixture failure')
+    with pytest.raises(RuntimeError):run(a,Fatal())
+    report=json.loads((a.output/'report.json').read_text())
+    assert report['status']=='failed' and report['collection_status']=='error'
+    assert report['remaining_businesses']==1 and not report['work_remaining']

@@ -2,7 +2,7 @@ name: Continue unfinished collection
 on:
   # Watchdog: recovery if a completion event or dispatch is delayed/lost.
   schedule:
-    - cron: '9,39 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
 permissions:
