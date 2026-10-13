@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-13T12:01:21+00:00",
+  "started_at": "2026-10-13T12:02:50+00:00",
   "status": "completed",
-  "sites_processed": 13,
+  "sites_processed": 5,
   "events": [
     {
       "url": "http://www.ad-project.ge/",
@@ -48,95 +48,20 @@
       "url": "http://www.dmark.ge/",
       "status": "unreachable",
       "reason": "no_readable_content"
-    },
-    {
-      "url": "https://arcdigits.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://arcdigits.com/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://arcdigits.com/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://arcdigits.com/creative-and-branding/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://arcdigits.com/contacts/",
-      "status": "unreachable",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://buildline.ge/",
-      "status": "unreachable",
-      "reason": "network_error"
-    },
-    {
-      "url": "https://www.citadeli.com/ka",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://citadeli.com/ka/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://citadeli.com/en/contact",
-      "status": "unreachable",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://citadeli.com/ru/contact",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://ggroup-000.com/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.mshenberi.com/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://sndesign.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.studiaarea.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.universum.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 50,
-  "github_run_id": "38394226040",
+  "github_run_id": "38394411200",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 5,
-  "work_remaining": true,
-  "collection_status": "active",
-  "collection_stop_reason": "",
+  "remaining_businesses": 0,
+  "work_remaining": false,
+  "collection_status": "exhausted",
+  "collection_stop_reason": "available_sources_exhausted",
   "resume_after": 0,
   "unavailable_sources_total": 100,
-  "checkpoint_at": "2026-10-13T12:02:22+00:00",
+  "checkpoint_at": "2026-10-13T12:03:11+00:00",
   "records_total": 268,
   "contacts_total": 943,
   "historical_direct_contacts_unique": 13,
@@ -147,12 +72,12 @@
   "new_records": 0,
   "changed_records": 0,
   "merged_records": 0,
-  "errors": 13,
+  "errors": 5,
   "error_categories": {
-    "unreachable": 13
+    "unreachable": 5
   },
-  "candidates_available": 13,
+  "candidates_available": 5,
   "no_progress_batches": 0,
-  "finished_at": "2026-10-13T12:02:22+00:00",
-  "http_requests": 29
+  "finished_at": "2026-10-13T12:03:11+00:00",
+  "http_requests": 11
 }
