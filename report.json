@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-13T11:51:29+00:00",
   "status": "running",
-  "sites_processed": 10,
+  "sites_processed": 26,
   "events": [
     {
       "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
@@ -218,6 +218,211 @@
       "url": "https://citadeli.com/ru/contact",
       "status": "ok",
       "reason": "business_page_limit_reached"
+    },
+    {
+      "url": "https://dizaineri.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://dizaineri.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://dizaineri.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://dizaineri.ge/en/contacts/",
+      "status": "ok",
+      "reason": "business_page_limit_reached"
+    },
+    {
+      "url": "https://www.excity.ge/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.excity.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.excity.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.excity.ge/ka/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://ggroup-000.com/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.gsr.ge/",
+      "status": "blocked",
+      "reason": "cross_domain_redirect_requires_review"
+    },
+    {
+      "url": "https://www.luni.com.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.luni.com.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.luni.com.ge/about",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.luni.com.ge/renovation",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://mosulishvili.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://mosulishvili.ge/contact-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://mosulishvili.ge/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.mshenberi.com/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://patioart.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://patioart.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://patioart.ge/en/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://patioart.ge/en/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.planner.ge/",
+      "status": "blocked",
+      "reason": "cross_domain_redirect_requires_review"
+    },
+    {
+      "url": "https://scalaholding.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://scalaholding.ge/contacts",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://sndesign.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.studiaarea.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://surgula.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://surgula.com/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://surgula.com/studio",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://tetrix.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://tetrix.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://tetrix.ge/contact-en/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://tetrix.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://tetrix.ge/about-en/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.universum.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "https://urbanshop.ge/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanshop.ge/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanshop.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanshop.ge/ru/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://urbanshop.ge/ka/products/detail/shushis-karis-sakhelurebi-studio-rondo-lever-handle-pair",
+      "status": "ok",
+      "reason": "business_page"
     }
   ],
   "continuous": true,
@@ -225,27 +430,27 @@
   "batch_limit": 50,
   "github_run_id": "38393080572",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 85,
+  "remaining_businesses": 74,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 90,
-  "checkpoint_at": "2026-10-13T11:53:36+00:00",
-  "records_total": 226,
-  "contacts_total": 784,
+  "unavailable_sources_total": 92,
+  "checkpoint_at": "2026-10-13T11:55:40+00:00",
+  "records_total": 242,
+  "contacts_total": 855,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 547,
-  "relevant_direct_contacts_unique": 175,
+  "direct_contacts_unique": 598,
+  "relevant_direct_contacts_unique": 226,
   "target_reached": false,
-  "contacts_missing_to_target": 825,
-  "new_records": 9,
+  "contacts_missing_to_target": 774,
+  "new_records": 25,
   "changed_records": 1,
   "merged_records": 0,
-  "errors": 4,
+  "errors": 11,
   "error_categories": {
-    "unreachable": 3,
-    "blocked": 1
+    "unreachable": 8,
+    "blocked": 3
   },
   "candidates_available": 92
 }
