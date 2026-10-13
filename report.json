@@ -1,234 +1,9 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-13T11:56:20+00:00",
+  "started_at": "2026-10-13T12:01:21+00:00",
   "status": "completed",
-  "sites_processed": 50,
+  "sites_processed": 13,
   "events": [
-    {
-      "url": "http://www.artexclusive.ge/",
-      "status": "javascript_required",
-      "reason": "javascript_shell_suspected"
-    },
-    {
-      "url": "https://fortis.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://fortis.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://fortis.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://fortis.ge/en/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://fortis.ge/en/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://iotagroup.ge/en",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://iotagroup.ge/en/contact-us",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://iotagroup.ge/ge/contact-us",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://iotagroup.ge/ru/contact-us",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://studio9.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://studio9.ge/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://studio9.ge/ka/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://studio9.ge/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://studio9.ge/ka/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://boadesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://boadesign.ge/momsakhurebebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://boadesign.ge/brifi/?area=80&service=interieris-dizaini",
-      "status": "blocked",
-      "reason": "meta_robots_opt_out"
-    },
-    {
-      "url": "https://anstudio.design/ka/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/ka/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/ka/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://anstudio.design/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.archideagroup.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designsector.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designsector.ge/contact-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designsector.ge/contact-us.php?lang=geo",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designsector.ge/contact-us.php?lang=eng",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.dynasty.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.dynasty.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.dynasty.ge/about-1",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.dynasty.ge/our-team",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/about-us-2/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://expertmshen.ge/service/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.hcg.ge/ka",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.hcg.ge/ka/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.hcg.ge/en/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.treedesign.ge//",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://ttg.ge/",
-      "status": "blocked",
-      "reason": "robots_cross_domain_redirect"
-    },
-    {
-      "url": "https://designbureau.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designbureau.ge/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designbureau.ge/studio/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://designbureau.ge/services/",
-      "status": "ok",
-      "reason": "business_page"
-    },
     {
       "url": "http://www.ad-project.ge/",
       "status": "unreachable",
@@ -265,154 +40,14 @@
       "reason": "business_page"
     },
     {
-      "url": "http://www.dmark.ge/",
-      "status": "unreachable",
-      "reason": "no_readable_content"
-    },
-    {
       "url": "http://www.asa-group.ge/",
       "status": "unreachable",
       "reason": "unsafe_or_unresolved_url"
     },
     {
-      "url": "http://www.tds.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.inexdesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.inexdesign.ge/index.php?run=information/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://inexdesign.ge/index.php?run=information/information&information_id=1",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://inexdesign.ge/index.php?run=information/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nsstudio.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nsstudio.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nsstudio.ge/studio",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://nsstudio.ge/projects/3",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.unig.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.unig.ge/index/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://unig.ge/index/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.unig.ge/index/index/contact/lang/geo/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/chven-shesakheb/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/kontaqti/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://hdesign.ge/servisebi",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://renovare.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/contacts/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://renovare.ge/renovation/",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://spectrum.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/ar/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://spectrum.ge/en/contact",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
+      "url": "http://www.dmark.ge/",
+      "status": "unreachable",
+      "reason": "no_readable_content"
     },
     {
       "url": "https://arcdigits.com/",
@@ -493,15 +128,15 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 50,
-  "github_run_id": "38393648488",
+  "github_run_id": "38394226040",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 13,
+  "remaining_businesses": 5,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
-  "unavailable_sources_total": 92,
-  "checkpoint_at": "2026-10-13T12:00:50+00:00",
+  "unavailable_sources_total": 100,
+  "checkpoint_at": "2026-10-13T12:02:22+00:00",
   "records_total": 268,
   "contacts_total": 943,
   "historical_direct_contacts_unique": 13,
@@ -509,17 +144,15 @@
   "relevant_direct_contacts_unique": 284,
   "target_reached": false,
   "contacts_missing_to_target": 716,
-  "new_records": 7,
-  "changed_records": 23,
+  "new_records": 0,
+  "changed_records": 0,
   "merged_records": 0,
-  "errors": 16,
+  "errors": 13,
   "error_categories": {
-    "javascript_required": 1,
-    "blocked": 2,
     "unreachable": 13
   },
-  "candidates_available": 50,
+  "candidates_available": 13,
   "no_progress_batches": 0,
-  "finished_at": "2026-10-13T12:00:50+00:00",
-  "http_requests": 140
+  "finished_at": "2026-10-13T12:02:22+00:00",
+  "http_requests": 29
 }
