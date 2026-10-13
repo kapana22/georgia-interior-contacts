@@ -2,7 +2,7 @@
   "target_contacts": 1000,
   "started_at": "2026-10-13T11:56:20+00:00",
   "status": "running",
-  "sites_processed": 28,
+  "sites_processed": 44,
   "events": [
     {
       "url": "http://www.artexclusive.ge/",
@@ -203,6 +203,246 @@
       "url": "https://www.treedesign.ge//",
       "status": "ok",
       "reason": "business_page"
+    },
+    {
+      "url": "https://ttg.ge/",
+      "status": "blocked",
+      "reason": "robots_cross_domain_redirect"
+    },
+    {
+      "url": "https://designbureau.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/studio/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://designbureau.ge/services/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.ad-project.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.arthouse.ge/",
+      "status": "unreachable",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.jokhastudio.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/projects",
+      "status": "unreachable",
+      "reason": "response_too_large"
+    },
+    {
+      "url": "https://www.jokhastudio.com/video-galley",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/services",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.jokhastudio.com/blog",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.dmark.ge/",
+      "status": "unreachable",
+      "reason": "no_readable_content"
+    },
+    {
+      "url": "http://www.asa-group.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.tds.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.inexdesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://www.inexdesign.ge/index.php?run=information/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://inexdesign.ge/index.php?run=information/information&information_id=1",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "http://inexdesign.ge/index.php?run=information/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/studio",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://nsstudio.ge/projects/3",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.unig.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.unig.ge/index/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://unig.ge/index/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://www.unig.ge/index/index/contact/lang/geo/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/chven-shesakheb/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/kontaqti/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://hdesign.ge/servisebi",
+      "status": "ok",
+      "reason": "business_page_limit_reached"
+    },
+    {
+      "url": "https://renovare.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/contacts/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/about/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://renovare.ge/renovation/",
+      "status": "ok",
+      "reason": "business_page_limit_reached"
+    },
+    {
+      "url": "https://spectrum.ge/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/ar/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://spectrum.ge/en/contact",
+      "status": "ok",
+      "reason": "business_page_limit_reached"
+    },
+    {
+      "url": "https://arcdigits.com/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://arcdigits.com/contact/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://arcdigits.com/about-us/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://arcdigits.com/creative-and-branding/",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://arcdigits.com/contacts/",
+      "status": "unreachable",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://buildline.ge/",
+      "status": "unreachable",
+      "reason": "network_error"
     }
   ],
   "continuous": true,
@@ -210,27 +450,28 @@
   "batch_limit": 50,
   "github_run_id": "38393648488",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 22,
+  "remaining_businesses": 13,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 92,
-  "checkpoint_at": "2026-10-13T11:58:26+00:00",
+  "checkpoint_at": "2026-10-13T12:00:31+00:00",
   "records_total": 268,
-  "contacts_total": 940,
+  "contacts_total": 943,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 659,
+  "direct_contacts_unique": 661,
   "relevant_direct_contacts_unique": 284,
   "target_reached": false,
   "contacts_missing_to_target": 716,
   "new_records": 7,
-  "changed_records": 11,
+  "changed_records": 23,
   "merged_records": 0,
-  "errors": 2,
+  "errors": 10,
   "error_categories": {
     "javascript_required": 1,
-    "blocked": 1
+    "blocked": 2,
+    "unreachable": 7
   },
   "candidates_available": 50
 }

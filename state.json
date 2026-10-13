@@ -2500,115 +2500,150 @@
       ],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@nsstudio.ge",
           "source_url": "https://nsstudio.ge/contact",
           "first_seen": "2026-10-12T19:39:07+00:00",
-          "last_seen": "2026-10-12T19:39:07+00:00"
+          "last_seen": "2026-10-13T11:59:15+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@nsstudio.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "email",
           "value": "press@nsstudio.ge",
           "source_url": "https://nsstudio.ge/contact",
           "first_seen": "2026-10-12T19:39:07+00:00",
-          "last_seen": "2026-10-12T19:39:07+00:00"
+          "last_seen": "2026-10-13T11:59:15+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/nsstudio34",
           "source_url": "https://nsstudio.ge/contact",
           "first_seen": "2026-10-12T19:39:07+00:00",
-          "last_seen": "2026-10-12T19:39:07+00:00"
+          "last_seen": "2026-10-13T11:59:15+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/nsstudio34",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/ns_studio_",
           "source_url": "https://nsstudio.ge/contact",
           "first_seen": "2026-10-12T19:39:07+00:00",
-          "last_seen": "2026-10-12T19:39:07+00:00"
+          "last_seen": "2026-10-13T11:59:15+00:00"
         },
         {
           "kind": "name",
           "value": "NS STUDIO",
           "source_url": "https://nsstudio.ge/",
           "first_seen": "2026-10-12T19:39:09+00:00",
-          "last_seen": "2026-10-12T19:39:09+00:00"
+          "last_seen": "2026-10-13T11:59:17+00:00"
         },
         {
           "kind": "name",
           "value": "NS STUDIO",
           "source_url": "https://nsstudio.ge/contact",
           "first_seen": "2026-10-12T19:39:07+00:00",
-          "last_seen": "2026-10-12T19:39:07+00:00"
+          "last_seen": "2026-10-13T11:59:15+00:00"
         },
         {
           "kind": "name",
           "value": "NS STUDIO",
           "source_url": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
           "first_seen": "2026-10-12T19:39:05+00:00",
-          "last_seen": "2026-10-12T19:39:05+00:00"
+          "last_seen": "2026-10-13T11:59:13+00:00"
         },
         {
           "kind": "name",
           "value": "NS STUDIO",
           "source_url": "https://nsstudio.ge/projects/3",
           "first_seen": "2026-10-12T19:39:13+00:00",
-          "last_seen": "2026-10-12T19:39:13+00:00"
+          "last_seen": "2026-10-13T11:59:21+00:00"
         },
         {
           "kind": "name",
           "value": "NS STUDIO",
           "source_url": "https://nsstudio.ge/studio",
           "first_seen": "2026-10-12T19:39:12+00:00",
-          "last_seen": "2026-10-12T19:39:12+00:00"
+          "last_seen": "2026-10-13T11:59:19+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "NS STUDIO",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "phone",
           "value": "+995322644244",
           "source_url": "https://nsstudio.ge/contact",
           "first_seen": "2026-10-12T19:39:07+00:00",
-          "last_seen": "2026-10-12T19:39:07+00:00"
+          "last_seen": "2026-10-13T11:59:15+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://nsstudio.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
           "value": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
           "source_url": "https://nsstudio.ge/",
           "first_seen": "2026-10-12T19:39:09+00:00",
-          "last_seen": "2026-10-12T19:39:09+00:00"
+          "last_seen": "2026-10-13T11:59:17+00:00"
         },
         {
           "kind": "website",
           "value": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
           "source_url": "https://nsstudio.ge/contact",
           "first_seen": "2026-10-12T19:39:07+00:00",
-          "last_seen": "2026-10-12T19:39:07+00:00"
+          "last_seen": "2026-10-13T11:59:15+00:00"
         },
         {
           "kind": "website",
           "value": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
           "source_url": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
           "first_seen": "2026-10-12T19:39:05+00:00",
-          "last_seen": "2026-10-12T19:39:05+00:00"
+          "last_seen": "2026-10-13T11:59:13+00:00"
         },
         {
           "kind": "website",
           "value": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
           "source_url": "https://nsstudio.ge/projects/3",
           "first_seen": "2026-10-12T19:39:13+00:00",
-          "last_seen": "2026-10-12T19:39:13+00:00"
+          "last_seen": "2026-10-13T11:59:21+00:00"
         },
         {
           "kind": "website",
           "value": "https://nsstudio.ge/project/4601358-The-Residential-Complex-at-Ertso-street",
           "source_url": "https://nsstudio.ge/studio",
           "first_seen": "2026-10-12T19:39:12+00:00",
-          "last_seen": "2026-10-12T19:39:12+00:00"
+          "last_seen": "2026-10-13T11:59:19+00:00"
         }
       ],
       "business_key": "",
       "suggested_websites": [],
       "first_seen": "2026-10-12T19:39:05+00:00",
-      "last_seen": "2026-10-12T19:39:13+00:00",
+      "last_seen": "2026-10-13T11:59:21+00:00",
       "status": "candidate",
       "review_reasons": []
     },
@@ -4269,28 +4304,28 @@
           "value": "თბილისი",
           "source_url": "https://arcdigits.com/",
           "first_seen": "2026-10-13T11:52:14+00:00",
-          "last_seen": "2026-10-13T11:52:14+00:00"
+          "last_seen": "2026-10-13T12:00:14+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://arcdigits.com/about-us/",
           "first_seen": "2026-10-13T11:52:18+00:00",
-          "last_seen": "2026-10-13T11:52:18+00:00"
+          "last_seen": "2026-10-13T12:00:18+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://arcdigits.com/contact/",
           "first_seen": "2026-10-13T11:52:16+00:00",
-          "last_seen": "2026-10-13T11:52:16+00:00"
+          "last_seen": "2026-10-13T12:00:16+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://arcdigits.com/creative-and-branding/",
           "first_seen": "2026-10-13T11:52:20+00:00",
-          "last_seen": "2026-10-13T11:52:20+00:00"
+          "last_seen": "2026-10-13T12:00:20+00:00"
         },
         {
           "kind": "city",
@@ -4311,56 +4346,56 @@
           "value": "info@arcdigits.com",
           "source_url": "https://arcdigits.com/",
           "first_seen": "2026-10-13T11:52:14+00:00",
-          "last_seen": "2026-10-13T11:52:14+00:00"
+          "last_seen": "2026-10-13T12:00:14+00:00"
         },
         {
           "kind": "email",
           "value": "info@arcdigits.com",
           "source_url": "https://arcdigits.com/about-us/",
           "first_seen": "2026-10-13T11:52:18+00:00",
-          "last_seen": "2026-10-13T11:52:18+00:00"
+          "last_seen": "2026-10-13T12:00:18+00:00"
         },
         {
           "kind": "email",
           "value": "info@arcdigits.com",
           "source_url": "https://arcdigits.com/contact/",
           "first_seen": "2026-10-13T11:52:16+00:00",
-          "last_seen": "2026-10-13T11:52:16+00:00"
+          "last_seen": "2026-10-13T12:00:16+00:00"
         },
         {
           "kind": "email",
           "value": "info@arcdigits.com",
           "source_url": "https://arcdigits.com/creative-and-branding/",
           "first_seen": "2026-10-13T11:52:20+00:00",
-          "last_seen": "2026-10-13T11:52:20+00:00"
+          "last_seen": "2026-10-13T12:00:20+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/arcdigits",
           "source_url": "https://arcdigits.com/",
           "first_seen": "2026-10-13T11:52:14+00:00",
-          "last_seen": "2026-10-13T11:52:14+00:00"
+          "last_seen": "2026-10-13T12:00:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/arcdigits",
           "source_url": "https://arcdigits.com/about-us/",
           "first_seen": "2026-10-13T11:52:18+00:00",
-          "last_seen": "2026-10-13T11:52:18+00:00"
+          "last_seen": "2026-10-13T12:00:18+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/arcdigits",
           "source_url": "https://arcdigits.com/contact/",
           "first_seen": "2026-10-13T11:52:16+00:00",
-          "last_seen": "2026-10-13T11:52:16+00:00"
+          "last_seen": "2026-10-13T12:00:16+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/arcdigits",
           "source_url": "https://arcdigits.com/creative-and-branding/",
           "first_seen": "2026-10-13T11:52:20+00:00",
-          "last_seen": "2026-10-13T11:52:20+00:00"
+          "last_seen": "2026-10-13T12:00:20+00:00"
         },
         {
           "kind": "facebook",
@@ -4381,56 +4416,56 @@
           "value": "ARC Digits",
           "source_url": "https://arcdigits.com/",
           "first_seen": "2026-10-13T11:52:14+00:00",
-          "last_seen": "2026-10-13T11:52:14+00:00"
+          "last_seen": "2026-10-13T12:00:14+00:00"
         },
         {
           "kind": "name",
           "value": "ARC Digits",
           "source_url": "https://arcdigits.com/about-us/",
           "first_seen": "2026-10-13T11:52:18+00:00",
-          "last_seen": "2026-10-13T11:52:18+00:00"
+          "last_seen": "2026-10-13T12:00:18+00:00"
         },
         {
           "kind": "name",
           "value": "ARC Digits",
           "source_url": "https://arcdigits.com/contact/",
           "first_seen": "2026-10-13T11:52:16+00:00",
-          "last_seen": "2026-10-13T11:52:16+00:00"
+          "last_seen": "2026-10-13T12:00:16+00:00"
         },
         {
           "kind": "name",
           "value": "ARC Digits",
           "source_url": "https://arcdigits.com/creative-and-branding/",
           "first_seen": "2026-10-13T11:52:20+00:00",
-          "last_seen": "2026-10-13T11:52:20+00:00"
+          "last_seen": "2026-10-13T12:00:20+00:00"
         },
         {
           "kind": "phone",
           "value": "+995595411850",
           "source_url": "https://arcdigits.com/",
           "first_seen": "2026-10-13T11:52:14+00:00",
-          "last_seen": "2026-10-13T11:52:14+00:00"
+          "last_seen": "2026-10-13T12:00:14+00:00"
         },
         {
           "kind": "phone",
           "value": "+995595411850",
           "source_url": "https://arcdigits.com/about-us/",
           "first_seen": "2026-10-13T11:52:18+00:00",
-          "last_seen": "2026-10-13T11:52:18+00:00"
+          "last_seen": "2026-10-13T12:00:18+00:00"
         },
         {
           "kind": "phone",
           "value": "+995595411850",
           "source_url": "https://arcdigits.com/contact/",
           "first_seen": "2026-10-13T11:52:16+00:00",
-          "last_seen": "2026-10-13T11:52:16+00:00"
+          "last_seen": "2026-10-13T12:00:16+00:00"
         },
         {
           "kind": "phone",
           "value": "+995595411850",
           "source_url": "https://arcdigits.com/creative-and-branding/",
           "first_seen": "2026-10-13T11:52:20+00:00",
-          "last_seen": "2026-10-13T11:52:20+00:00"
+          "last_seen": "2026-10-13T12:00:20+00:00"
         },
         {
           "kind": "phone",
@@ -4444,28 +4479,28 @@
           "value": "https://arcdigits.com/",
           "source_url": "https://arcdigits.com/",
           "first_seen": "2026-10-13T11:52:14+00:00",
-          "last_seen": "2026-10-13T11:52:14+00:00"
+          "last_seen": "2026-10-13T12:00:14+00:00"
         },
         {
           "kind": "website",
           "value": "https://arcdigits.com/",
           "source_url": "https://arcdigits.com/about-us/",
           "first_seen": "2026-10-13T11:52:18+00:00",
-          "last_seen": "2026-10-13T11:52:18+00:00"
+          "last_seen": "2026-10-13T12:00:18+00:00"
         },
         {
           "kind": "website",
           "value": "https://arcdigits.com/",
           "source_url": "https://arcdigits.com/contact/",
           "first_seen": "2026-10-13T11:52:16+00:00",
-          "last_seen": "2026-10-13T11:52:16+00:00"
+          "last_seen": "2026-10-13T12:00:16+00:00"
         },
         {
           "kind": "website",
           "value": "https://arcdigits.com/",
           "source_url": "https://arcdigits.com/creative-and-branding/",
           "first_seen": "2026-10-13T11:52:20+00:00",
-          "last_seen": "2026-10-13T11:52:20+00:00"
+          "last_seen": "2026-10-13T12:00:20+00:00"
         },
         {
           "kind": "website",
@@ -4478,7 +4513,7 @@
       "business_key": "yell:142457",
       "suggested_websites": [],
       "first_seen": "2026-10-13T11:51:29+00:00",
-      "last_seen": "2026-10-13T11:52:20+00:00",
+      "last_seen": "2026-10-13T12:00:20+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -5998,7 +6033,7 @@
     },
     {
       "id": "3ef0bcaf4f2993dc",
-      "name": "Инэкс Дизайны",
+      "name": "INEX DESIGN",
       "domains": [
         "inexdesign.ge"
       ],
@@ -6011,18 +6046,25 @@
           "last_seen": "2026-10-12T18:55:28+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@inexdesign.ge",
           "source_url": "http://inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:42+00:00",
-          "last_seen": "2026-10-12T18:58:42+00:00"
+          "last_seen": "2026-10-13T11:59:10+00:00"
         },
         {
           "kind": "email",
           "value": "info@inexdesign.ge",
           "source_url": "http://www.inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:36+00:00",
-          "last_seen": "2026-10-12T18:58:36+00:00"
+          "last_seen": "2026-10-13T11:59:04+00:00"
         },
         {
           "kind": "email",
@@ -6032,32 +6074,81 @@
           "last_seen": "2026-10-12T18:55:28+00:00"
         },
         {
+          "kind": "email",
+          "value": "info@inexdesign.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/inexdesignge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/pages/inex-design/579214728763511",
           "source_url": "http://inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:42+00:00",
-          "last_seen": "2026-10-12T18:58:42+00:00"
+          "last_seen": "2026-10-13T11:59:10+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/pages/inex-design/579214728763511",
           "source_url": "http://inexdesign.ge/index.php?run=information/information&information_id=1",
           "first_seen": "2026-10-12T18:58:40+00:00",
-          "last_seen": "2026-10-12T18:58:40+00:00"
+          "last_seen": "2026-10-13T11:59:08+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/pages/inex-design/579214728763511",
           "source_url": "http://www.inexdesign.ge/",
           "first_seen": "2026-10-12T18:58:34+00:00",
-          "last_seen": "2026-10-12T18:58:34+00:00"
+          "last_seen": "2026-10-13T11:59:02+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/pages/inex-design/579214728763511",
           "source_url": "http://www.inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:36+00:00",
-          "last_seen": "2026-10-12T18:58:36+00:00"
+          "last_seen": "2026-10-13T11:59:04+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "INEX DESIGN",
+          "source_url": "http://inexdesign.ge/index.php?run=information/contact",
+          "first_seen": "2026-10-13T11:59:10+00:00",
+          "last_seen": "2026-10-13T11:59:10+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "INEX DESIGN",
+          "source_url": "http://inexdesign.ge/index.php?run=information/information&information_id=1",
+          "first_seen": "2026-10-13T11:59:08+00:00",
+          "last_seen": "2026-10-13T11:59:08+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "INEX DESIGN",
+          "source_url": "http://www.inexdesign.ge/",
+          "first_seen": "2026-10-13T11:59:02+00:00",
+          "last_seen": "2026-10-13T11:59:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "INEX DESIGN",
+          "source_url": "http://www.inexdesign.ge/index.php?run=information/contact",
+          "first_seen": "2026-10-13T11:59:04+00:00",
+          "last_seen": "2026-10-13T11:59:04+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "INEX DESIGN",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
@@ -6099,14 +6190,14 @@
           "value": "+995322955209",
           "source_url": "http://inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:42+00:00",
-          "last_seen": "2026-10-12T18:58:42+00:00"
+          "last_seen": "2026-10-13T11:59:10+00:00"
         },
         {
           "kind": "phone",
           "value": "+995322955209",
           "source_url": "http://www.inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:36+00:00",
-          "last_seen": "2026-10-12T18:58:36+00:00"
+          "last_seen": "2026-10-13T11:59:04+00:00"
         },
         {
           "kind": "phone",
@@ -6120,42 +6211,49 @@
           "value": "+995599270388",
           "source_url": "http://inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:42+00:00",
-          "last_seen": "2026-10-12T18:58:42+00:00"
+          "last_seen": "2026-10-13T11:59:10+00:00"
         },
         {
           "kind": "phone",
           "value": "+995599270388",
           "source_url": "http://www.inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:36+00:00",
-          "last_seen": "2026-10-12T18:58:36+00:00"
+          "last_seen": "2026-10-13T11:59:04+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599270388",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.inexdesign.ge/",
           "source_url": "http://inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:42+00:00",
-          "last_seen": "2026-10-12T18:58:42+00:00"
+          "last_seen": "2026-10-13T11:59:10+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.inexdesign.ge/",
           "source_url": "http://inexdesign.ge/index.php?run=information/information&information_id=1",
           "first_seen": "2026-10-12T18:58:40+00:00",
-          "last_seen": "2026-10-12T18:58:40+00:00"
+          "last_seen": "2026-10-13T11:59:08+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.inexdesign.ge/",
           "source_url": "http://www.inexdesign.ge/",
           "first_seen": "2026-10-12T18:58:34+00:00",
-          "last_seen": "2026-10-12T18:58:34+00:00"
+          "last_seen": "2026-10-13T11:59:02+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.inexdesign.ge/",
           "source_url": "http://www.inexdesign.ge/index.php?run=information/contact",
           "first_seen": "2026-10-12T18:58:36+00:00",
-          "last_seen": "2026-10-12T18:58:36+00:00"
+          "last_seen": "2026-10-13T11:59:04+00:00"
         },
         {
           "kind": "website",
@@ -6163,6 +6261,13 @@
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14732/inex-design/",
           "first_seen": "2026-10-12T18:55:28+00:00",
           "last_seen": "2026-10-12T18:55:28+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.inexdesign.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "city24:14732",
@@ -6170,7 +6275,7 @@
         "http://www.inexdesign.ge/"
       ],
       "first_seen": "2026-10-12T18:55:28+00:00",
-      "last_seen": "2026-10-12T18:58:42+00:00",
+      "last_seen": "2026-10-13T11:59:10+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -12104,7 +12209,7 @@
     },
     {
       "id": "6ce0fefcbd5ce620",
-      "name": "Арт-Хаузы",
+      "name": "ART HOUSE",
       "domains": [
         "arthouse.ge"
       ],
@@ -12117,11 +12222,32 @@
           "last_seen": "2026-10-12T19:57:48+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "contact@arthouse.ge",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house/",
           "first_seen": "2026-10-12T14:11:33+00:00",
           "last_seen": "2026-10-12T19:57:48+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "contact@arthouse.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ART HOUSE",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
@@ -12152,11 +12278,25 @@
           "last_seen": "2026-10-12T19:57:48+00:00"
         },
         {
+          "kind": "phone",
+          "value": "+995599260059",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "website",
           "value": "http://www.arthouse.ge/",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14722/art-house/",
           "first_seen": "2026-10-12T14:11:33+00:00",
           "last_seen": "2026-10-12T19:57:48+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.arthouse.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "city24:14722",
@@ -12164,11 +12304,12 @@
         "http://www.arthouse.ge/"
       ],
       "first_seen": "2026-10-12T14:11:33+00:00",
-      "last_seen": "2026-10-12T19:57:48+00:00",
+      "last_seen": "2026-10-13T11:51:29+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
-        "interior_service_not_confirmed"
+        "interior_service_not_confirmed",
+        "page_http_404"
       ]
     },
     {
@@ -12365,11 +12506,25 @@
           "last_seen": "2026-10-12T18:05:21+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "ttg.ge@yahoo.com",
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "ttg.ge@yahoo.com",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "facebook",
@@ -12379,11 +12534,25 @@
           "last_seen": "2026-10-12T18:05:21+00:00"
         },
         {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/მშენებლობა-დიზაინი-რემონტი-tt-group-1695464417348801",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "name",
           "value": "T & T GROUP",
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "T & T GROUP",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "phone",
@@ -12393,17 +12562,31 @@
           "last_seen": "2026-10-12T18:05:21+00:00"
         },
         {
+          "kind": "phone",
+          "value": "+995571672299",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "website",
           "value": "https://ttg.ge/",
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://ttg.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "yell:106859",
       "suggested_websites": [],
       "first_seen": "2026-10-12T12:19:09+00:00",
-      "last_seen": "2026-10-12T18:05:21+00:00",
+      "last_seen": "2026-10-13T11:51:29+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -14682,21 +14865,21 @@
           "value": "თბილისი",
           "source_url": "https://renovare.ge/",
           "first_seen": "2026-10-12T11:48:24+00:00",
-          "last_seen": "2026-10-13T11:09:31+00:00"
+          "last_seen": "2026-10-13T11:59:54+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://renovare.ge/about/",
           "first_seen": "2026-10-12T11:48:30+00:00",
-          "last_seen": "2026-10-13T11:09:37+00:00"
+          "last_seen": "2026-10-13T12:00:00+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://renovare.ge/contacts/",
           "first_seen": "2026-10-12T11:48:26+00:00",
-          "last_seen": "2026-10-13T11:09:33+00:00"
+          "last_seen": "2026-10-13T11:59:56+00:00"
         },
         {
           "kind": "city",
@@ -14704,27 +14887,34 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "email",
           "value": "info@renovare.ge",
           "source_url": "https://renovare.ge/",
           "first_seen": "2026-10-12T11:48:24+00:00",
-          "last_seen": "2026-10-13T11:09:31+00:00"
+          "last_seen": "2026-10-13T11:59:54+00:00"
         },
         {
           "kind": "email",
           "value": "info@renovare.ge",
           "source_url": "https://renovare.ge/about/",
           "first_seen": "2026-10-12T11:48:30+00:00",
-          "last_seen": "2026-10-13T11:09:37+00:00"
+          "last_seen": "2026-10-13T12:00:00+00:00"
         },
         {
           "kind": "email",
           "value": "info@renovare.ge",
           "source_url": "https://renovare.ge/contacts/",
           "first_seen": "2026-10-12T11:48:26+00:00",
-          "last_seen": "2026-10-13T11:09:33+00:00"
+          "last_seen": "2026-10-13T11:59:56+00:00"
         },
         {
           "kind": "email",
@@ -14732,27 +14922,34 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@renovare.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/renovare.ge",
           "source_url": "https://renovare.ge/",
           "first_seen": "2026-10-12T11:48:24+00:00",
-          "last_seen": "2026-10-13T11:09:31+00:00"
+          "last_seen": "2026-10-13T11:59:54+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/renovare.ge",
           "source_url": "https://renovare.ge/about/",
           "first_seen": "2026-10-12T11:48:30+00:00",
-          "last_seen": "2026-10-13T11:09:37+00:00"
+          "last_seen": "2026-10-13T12:00:00+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/renovare.ge",
           "source_url": "https://renovare.ge/contacts/",
           "first_seen": "2026-10-12T11:48:26+00:00",
-          "last_seen": "2026-10-13T11:09:33+00:00"
+          "last_seen": "2026-10-13T11:59:56+00:00"
         },
         {
           "kind": "facebook",
@@ -14760,27 +14957,34 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/renovare.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
           "value": "RENOVARE",
           "source_url": "https://renovare.ge/",
           "first_seen": "2026-10-12T12:18:26+00:00",
-          "last_seen": "2026-10-13T11:09:31+00:00"
+          "last_seen": "2026-10-13T11:59:54+00:00"
         },
         {
           "kind": "name",
           "value": "RENOVARE",
           "source_url": "https://renovare.ge/about/",
           "first_seen": "2026-10-12T12:18:32+00:00",
-          "last_seen": "2026-10-13T11:09:37+00:00"
+          "last_seen": "2026-10-13T12:00:00+00:00"
         },
         {
           "kind": "name",
           "value": "RENOVARE",
           "source_url": "https://renovare.ge/contacts/",
           "first_seen": "2026-10-12T12:18:27+00:00",
-          "last_seen": "2026-10-13T11:09:33+00:00"
+          "last_seen": "2026-10-13T11:59:56+00:00"
         },
         {
           "kind": "name",
@@ -14788,6 +14992,13 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "RENOVARE",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
@@ -14815,21 +15026,21 @@
           "value": "+995599881106",
           "source_url": "https://renovare.ge/",
           "first_seen": "2026-10-12T11:48:24+00:00",
-          "last_seen": "2026-10-13T11:09:31+00:00"
+          "last_seen": "2026-10-13T11:59:54+00:00"
         },
         {
           "kind": "phone",
           "value": "+995599881106",
           "source_url": "https://renovare.ge/about/",
           "first_seen": "2026-10-12T11:48:30+00:00",
-          "last_seen": "2026-10-13T11:09:37+00:00"
+          "last_seen": "2026-10-13T12:00:00+00:00"
         },
         {
           "kind": "phone",
           "value": "+995599881106",
           "source_url": "https://renovare.ge/contacts/",
           "first_seen": "2026-10-12T11:48:26+00:00",
-          "last_seen": "2026-10-13T11:09:33+00:00"
+          "last_seen": "2026-10-13T11:59:56+00:00"
         },
         {
           "kind": "phone",
@@ -14837,27 +15048,34 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599881106",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
           "value": "https://renovare.ge/",
           "source_url": "https://renovare.ge/",
           "first_seen": "2026-10-12T11:48:24+00:00",
-          "last_seen": "2026-10-13T11:09:31+00:00"
+          "last_seen": "2026-10-13T11:59:54+00:00"
         },
         {
           "kind": "website",
           "value": "https://renovare.ge/",
           "source_url": "https://renovare.ge/about/",
           "first_seen": "2026-10-12T11:48:30+00:00",
-          "last_seen": "2026-10-13T11:09:37+00:00"
+          "last_seen": "2026-10-13T12:00:00+00:00"
         },
         {
           "kind": "website",
           "value": "https://renovare.ge/",
           "source_url": "https://renovare.ge/contacts/",
           "first_seen": "2026-10-12T11:48:26+00:00",
-          "last_seen": "2026-10-13T11:09:33+00:00"
+          "last_seen": "2026-10-13T11:59:56+00:00"
         },
         {
           "kind": "website",
@@ -14865,10 +15083,17 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://renovare.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "first_seen": "2026-10-12T11:48:32+00:00",
-      "last_seen": "2026-10-13T11:09:37+00:00",
+      "last_seen": "2026-10-13T12:00:00+00:00",
       "status": "review",
       "review_reasons": [
         "page_page_limit"
@@ -15189,7 +15414,7 @@
     },
     {
       "id": "91cb63a3ef83fc26",
-      "name": "Арк-Дизайн Проект",
+      "name": "ARCH-DESIGN PROJECT",
       "domains": [
         "ad-project.ge"
       ],
@@ -15202,11 +15427,32 @@
           "last_seen": "2026-10-12T19:57:51+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@ad-project.ge",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project/",
           "first_seen": "2026-10-12T17:36:24+00:00",
           "last_seen": "2026-10-12T19:57:51+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "mishabachi@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ARCH-DESIGN PROJECT",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
@@ -15231,10 +15477,24 @@
         },
         {
           "kind": "phone",
+          "value": "+995558929841",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
+          "kind": "phone",
           "value": "+995577474293",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project/",
           "first_seen": "2026-10-12T17:36:24+00:00",
           "last_seen": "2026-10-12T19:57:51+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577474293",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
@@ -15242,6 +15502,13 @@
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14733/arch-design-project/",
           "first_seen": "2026-10-12T17:36:24+00:00",
           "last_seen": "2026-10-12T19:57:51+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.ad-project.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "city24:14733",
@@ -15249,11 +15516,12 @@
         "http://www.ad-project.ge/"
       ],
       "first_seen": "2026-10-12T17:36:24+00:00",
-      "last_seen": "2026-10-12T19:57:51+00:00",
+      "last_seen": "2026-10-13T11:51:29+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
-        "interior_service_not_confirmed"
+        "interior_service_not_confirmed",
+        "page_unsafe_or_unresolved_url"
       ]
     },
     {
@@ -16179,7 +16447,7 @@
     },
     {
       "id": "98bd7abe2f482ecd",
-      "name": "Дизайн Бюро",
+      "name": "DesignBureau",
       "domains": [
         "designbureau.ge"
       ],
@@ -16189,28 +16457,28 @@
           "value": "თბილისი",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
         },
         {
           "kind": "city",
@@ -16220,32 +16488,39 @@
           "last_seen": "2026-10-12T18:39:06+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@designbureau.ge",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "email",
           "value": "info@designbureau.ge",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "email",
           "value": "info@designbureau.ge",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "email",
           "value": "info@designbureau.ge",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
         },
         {
           "kind": "email",
@@ -16255,88 +16530,109 @@
           "last_seen": "2026-10-12T18:39:06+00:00"
         },
         {
+          "kind": "email",
+          "value": "info@designbureau.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/designbureau.studio",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/designbureau.studio",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/designbureau.studio",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/designbureau.studio",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/designbureau.studio",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/designbureau_studio",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/designbureau_studio",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/designbureau_studio",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/designbureau_studio",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DESIGN BUREAU",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
           "value": "DesignBureau",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "name",
           "value": "DesignBureau",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "name",
           "value": "DesignBureau",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "name",
           "value": "DesignBureau",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
         },
         {
           "kind": "name",
@@ -16357,56 +16653,63 @@
           "value": "+995577406099",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577406099",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577406099",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577406099",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577406099",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577417741",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577417741",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577417741",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577417741",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
         },
         {
           "kind": "phone",
@@ -16414,6 +16717,13 @@
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14766/design-bureau/",
           "first_seen": "2026-10-12T18:39:06+00:00",
           "last_seen": "2026-10-12T18:39:06+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577417741",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
@@ -16424,37 +16734,44 @@
         },
         {
           "kind": "website",
+          "value": "http://www.designbureau.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
+          "kind": "website",
           "value": "https://designbureau.ge/",
           "source_url": "https://designbureau.ge/",
           "first_seen": "2026-10-12T12:45:02+00:00",
-          "last_seen": "2026-10-12T18:19:48+00:00"
+          "last_seen": "2026-10-13T11:58:30+00:00"
         },
         {
           "kind": "website",
           "value": "https://designbureau.ge/",
           "source_url": "https://designbureau.ge/contact/",
           "first_seen": "2026-10-12T12:45:04+00:00",
-          "last_seen": "2026-10-12T18:19:50+00:00"
+          "last_seen": "2026-10-13T11:58:32+00:00"
         },
         {
           "kind": "website",
           "value": "https://designbureau.ge/",
           "source_url": "https://designbureau.ge/services/",
           "first_seen": "2026-10-12T12:45:09+00:00",
-          "last_seen": "2026-10-12T18:19:54+00:00"
+          "last_seen": "2026-10-13T11:58:36+00:00"
         },
         {
           "kind": "website",
           "value": "https://designbureau.ge/",
           "source_url": "https://designbureau.ge/studio/",
           "first_seen": "2026-10-12T12:45:07+00:00",
-          "last_seen": "2026-10-12T18:19:52+00:00"
+          "last_seen": "2026-10-13T11:58:34+00:00"
         }
       ],
       "business_key": "",
       "suggested_websites": [],
       "first_seen": "2026-10-12T12:45:02+00:00",
-      "last_seen": "2026-10-12T18:39:06+00:00",
+      "last_seen": "2026-10-13T11:58:36+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -16589,186 +16906,221 @@
           "value": "თბილისი",
           "source_url": "https://hdesign.ge/",
           "first_seen": "2026-10-12T11:45:52+00:00",
-          "last_seen": "2026-10-13T11:08:56+00:00"
+          "last_seen": "2026-10-13T11:59:41+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://hdesign.ge/chven-shesakheb/",
           "first_seen": "2026-10-12T11:45:56+00:00",
-          "last_seen": "2026-10-13T11:09:00+00:00"
+          "last_seen": "2026-10-13T11:59:45+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://hdesign.ge/kontaqti/",
           "first_seen": "2026-10-12T11:45:58+00:00",
-          "last_seen": "2026-10-13T11:09:02+00:00"
+          "last_seen": "2026-10-13T11:59:47+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://hdesign.ge/servisebi/",
           "first_seen": "2026-10-12T11:45:54+00:00",
-          "last_seen": "2026-10-13T11:08:58+00:00"
+          "last_seen": "2026-10-13T11:59:43+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/hdesign.ge",
           "source_url": "https://hdesign.ge/",
           "first_seen": "2026-10-12T11:45:52+00:00",
-          "last_seen": "2026-10-13T11:08:56+00:00"
+          "last_seen": "2026-10-13T11:59:41+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/hdesign.ge",
           "source_url": "https://hdesign.ge/chven-shesakheb/",
           "first_seen": "2026-10-12T11:45:56+00:00",
-          "last_seen": "2026-10-13T11:09:00+00:00"
+          "last_seen": "2026-10-13T11:59:45+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/hdesign.ge",
           "source_url": "https://hdesign.ge/kontaqti/",
           "first_seen": "2026-10-12T11:45:58+00:00",
-          "last_seen": "2026-10-13T11:09:02+00:00"
+          "last_seen": "2026-10-13T11:59:47+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/hdesign.ge",
           "source_url": "https://hdesign.ge/servisebi/",
           "first_seen": "2026-10-12T11:45:54+00:00",
-          "last_seen": "2026-10-13T11:08:58+00:00"
+          "last_seen": "2026-10-13T11:59:43+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/",
           "first_seen": "2026-10-12T11:45:52+00:00",
-          "last_seen": "2026-10-13T11:08:56+00:00"
+          "last_seen": "2026-10-13T11:59:41+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/chven-shesakheb/",
           "first_seen": "2026-10-12T11:45:56+00:00",
-          "last_seen": "2026-10-13T11:09:00+00:00"
+          "last_seen": "2026-10-13T11:59:45+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/kontaqti/",
           "first_seen": "2026-10-12T11:45:58+00:00",
-          "last_seen": "2026-10-13T11:09:02+00:00"
+          "last_seen": "2026-10-13T11:59:47+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/servisebi/",
           "first_seen": "2026-10-12T11:45:54+00:00",
-          "last_seen": "2026-10-13T11:08:58+00:00"
+          "last_seen": "2026-10-13T11:59:43+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/sakhlidadizaini",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/",
           "first_seen": "2026-10-12T11:45:52+00:00",
-          "last_seen": "2026-10-13T11:08:56+00:00"
+          "last_seen": "2026-10-13T11:59:41+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/chven-shesakheb/",
           "first_seen": "2026-10-12T11:45:56+00:00",
-          "last_seen": "2026-10-13T11:09:00+00:00"
+          "last_seen": "2026-10-13T11:59:45+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/kontaqti/",
           "first_seen": "2026-10-12T11:45:58+00:00",
-          "last_seen": "2026-10-13T11:09:02+00:00"
+          "last_seen": "2026-10-13T11:59:47+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/sakhlidadizaini",
           "source_url": "https://hdesign.ge/servisebi/",
           "first_seen": "2026-10-12T11:45:54+00:00",
-          "last_seen": "2026-10-13T11:08:58+00:00"
+          "last_seen": "2026-10-13T11:59:43+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "HOUSE AND DESIGN",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
           "value": "hdesigne.ge",
           "source_url": "https://hdesign.ge/",
           "first_seen": "2026-10-12T11:45:52+00:00",
-          "last_seen": "2026-10-13T11:08:56+00:00"
+          "last_seen": "2026-10-13T11:59:41+00:00"
         },
         {
           "kind": "name",
           "value": "hdesigne.ge",
           "source_url": "https://hdesign.ge/chven-shesakheb/",
           "first_seen": "2026-10-12T11:45:56+00:00",
-          "last_seen": "2026-10-13T11:09:00+00:00"
+          "last_seen": "2026-10-13T11:59:45+00:00"
         },
         {
           "kind": "name",
           "value": "hdesigne.ge",
           "source_url": "https://hdesign.ge/kontaqti/",
           "first_seen": "2026-10-12T11:45:58+00:00",
-          "last_seen": "2026-10-13T11:09:02+00:00"
+          "last_seen": "2026-10-13T11:59:47+00:00"
         },
         {
           "kind": "name",
           "value": "hdesigne.ge",
           "source_url": "https://hdesign.ge/servisebi/",
           "first_seen": "2026-10-12T11:45:54+00:00",
-          "last_seen": "2026-10-13T11:08:58+00:00"
+          "last_seen": "2026-10-13T11:59:43+00:00"
         },
         {
           "kind": "phone",
           "value": "+995598870589",
           "source_url": "https://hdesign.ge/",
           "first_seen": "2026-10-12T11:45:52+00:00",
-          "last_seen": "2026-10-13T11:08:56+00:00"
+          "last_seen": "2026-10-13T11:59:41+00:00"
         },
         {
           "kind": "phone",
           "value": "+995598870589",
           "source_url": "https://hdesign.ge/kontaqti/",
           "first_seen": "2026-10-12T11:45:58+00:00",
-          "last_seen": "2026-10-13T11:09:02+00:00"
+          "last_seen": "2026-10-13T11:59:47+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995598870589",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
           "value": "https://hdesign.ge/",
           "source_url": "https://hdesign.ge/",
           "first_seen": "2026-10-12T11:45:52+00:00",
-          "last_seen": "2026-10-13T11:08:56+00:00"
+          "last_seen": "2026-10-13T11:59:41+00:00"
         },
         {
           "kind": "website",
           "value": "https://hdesign.ge/",
           "source_url": "https://hdesign.ge/chven-shesakheb/",
           "first_seen": "2026-10-12T11:45:56+00:00",
-          "last_seen": "2026-10-13T11:09:00+00:00"
+          "last_seen": "2026-10-13T11:59:45+00:00"
         },
         {
           "kind": "website",
           "value": "https://hdesign.ge/",
           "source_url": "https://hdesign.ge/kontaqti/",
           "first_seen": "2026-10-12T11:45:58+00:00",
-          "last_seen": "2026-10-13T11:09:02+00:00"
+          "last_seen": "2026-10-13T11:59:47+00:00"
         },
         {
           "kind": "website",
           "value": "https://hdesign.ge/",
           "source_url": "https://hdesign.ge/servisebi/",
           "first_seen": "2026-10-12T11:45:54+00:00",
-          "last_seen": "2026-10-13T11:08:58+00:00"
+          "last_seen": "2026-10-13T11:59:43+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://hdesign.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "first_seen": "2026-10-12T11:46:00+00:00",
-      "last_seen": "2026-10-13T11:09:02+00:00",
+      "last_seen": "2026-10-13T11:59:47+00:00",
       "status": "review",
       "review_reasons": [
         "page_page_limit"
@@ -21905,7 +22257,7 @@
     },
     {
       "id": "bc52e9907d7ee144",
-      "name": "Аса Группа",
+      "name": "ASA GROUP",
       "domains": [
         "asa-group.ge"
       ],
@@ -21918,11 +22270,32 @@
           "last_seen": "2026-10-12T18:23:13+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info.asagroup@yahoo.com",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@asa-group.ge",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
           "first_seen": "2026-10-12T18:23:13+00:00",
           "last_seen": "2026-10-12T18:23:13+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ASA GROUP",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
@@ -21953,11 +22326,25 @@
           "last_seen": "2026-10-12T18:23:13+00:00"
         },
         {
+          "kind": "phone",
+          "value": "+995599793731",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "website",
           "value": "http://www.asa-group.ge/",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14754/asa-group/",
           "first_seen": "2026-10-12T18:23:13+00:00",
           "last_seen": "2026-10-12T18:23:13+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.asa-group.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "city24:14754",
@@ -21965,11 +22352,12 @@
         "http://www.asa-group.ge/"
       ],
       "first_seen": "2026-10-12T18:23:13+00:00",
-      "last_seen": "2026-10-12T18:23:13+00:00",
+      "last_seen": "2026-10-13T11:51:29+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
-        "interior_service_not_confirmed"
+        "interior_service_not_confirmed",
+        "page_unsafe_or_unresolved_url"
       ]
     },
     {
@@ -23699,158 +24087,200 @@
           "value": "თბილისი",
           "source_url": "https://www.jokhastudio.com/",
           "first_seen": "2026-10-12T11:46:02+00:00",
-          "last_seen": "2026-10-12T18:30:28+00:00"
+          "last_seen": "2026-10-13T11:58:43+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://www.jokhastudio.com/blog",
           "first_seen": "2026-10-12T11:46:15+00:00",
-          "last_seen": "2026-10-12T18:30:36+00:00"
+          "last_seen": "2026-10-13T11:58:51+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://www.jokhastudio.com/services",
           "first_seen": "2026-10-12T11:46:13+00:00",
-          "last_seen": "2026-10-12T18:30:34+00:00"
+          "last_seen": "2026-10-13T11:58:49+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://www.jokhastudio.com/video-galley",
           "first_seen": "2026-10-12T11:46:11+00:00",
-          "last_seen": "2026-10-12T18:30:32+00:00"
+          "last_seen": "2026-10-13T11:58:47+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "email",
           "value": "jokhadze.irakli@gmail.com",
           "source_url": "https://www.jokhastudio.com/",
           "first_seen": "2026-10-12T11:46:02+00:00",
-          "last_seen": "2026-10-12T18:30:28+00:00"
+          "last_seen": "2026-10-13T11:58:43+00:00"
         },
         {
           "kind": "email",
           "value": "jokhadze.irakli@gmail.com",
           "source_url": "https://www.jokhastudio.com/blog",
           "first_seen": "2026-10-12T11:46:15+00:00",
-          "last_seen": "2026-10-12T18:30:36+00:00"
+          "last_seen": "2026-10-13T11:58:51+00:00"
         },
         {
           "kind": "email",
           "value": "jokhadze.irakli@gmail.com",
           "source_url": "https://www.jokhastudio.com/services",
           "first_seen": "2026-10-12T11:46:13+00:00",
-          "last_seen": "2026-10-12T18:30:34+00:00"
+          "last_seen": "2026-10-13T11:58:49+00:00"
         },
         {
           "kind": "email",
           "value": "jokhadze.irakli@gmail.com",
           "source_url": "https://www.jokhastudio.com/video-galley",
           "first_seen": "2026-10-12T11:46:11+00:00",
-          "last_seen": "2026-10-12T18:30:32+00:00"
+          "last_seen": "2026-10-13T11:58:47+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "jokhadze.irakli@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/jokhadzeinteriordesignstudio",
           "source_url": "https://www.jokhastudio.com/",
           "first_seen": "2026-10-12T11:46:02+00:00",
-          "last_seen": "2026-10-12T18:30:28+00:00"
+          "last_seen": "2026-10-13T11:58:43+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/jokhadzeinteriordesignstudio",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/irakli_jokhadze_design_studio",
           "source_url": "https://www.jokhastudio.com/",
           "first_seen": "2026-10-12T11:46:02+00:00",
-          "last_seen": "2026-10-12T18:30:28+00:00"
+          "last_seen": "2026-10-13T11:58:43+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "IRAKLI JOKHADZE DESIGN STUDIO",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
           "value": "Jokhastudio",
           "source_url": "https://www.jokhastudio.com/blog",
           "first_seen": "2026-10-12T11:46:15+00:00",
-          "last_seen": "2026-10-12T18:30:36+00:00"
+          "last_seen": "2026-10-13T11:58:51+00:00"
         },
         {
           "kind": "name",
           "value": "Jokhastudio",
           "source_url": "https://www.jokhastudio.com/services",
           "first_seen": "2026-10-12T11:46:13+00:00",
-          "last_seen": "2026-10-12T18:30:34+00:00"
+          "last_seen": "2026-10-13T11:58:49+00:00"
         },
         {
           "kind": "name",
           "value": "Jokhastudio",
           "source_url": "https://www.jokhastudio.com/video-galley",
           "first_seen": "2026-10-12T11:46:11+00:00",
-          "last_seen": "2026-10-12T18:30:32+00:00"
+          "last_seen": "2026-10-13T11:58:47+00:00"
         },
         {
           "kind": "name",
           "value": "My Site",
           "source_url": "https://www.jokhastudio.com/",
           "first_seen": "2026-10-12T11:46:02+00:00",
-          "last_seen": "2026-10-12T18:30:28+00:00"
+          "last_seen": "2026-10-13T11:58:43+00:00"
         },
         {
           "kind": "phone",
           "value": "+995598619291",
           "source_url": "https://www.jokhastudio.com/",
           "first_seen": "2026-10-12T11:46:02+00:00",
-          "last_seen": "2026-10-12T18:30:28+00:00"
+          "last_seen": "2026-10-13T11:58:43+00:00"
         },
         {
           "kind": "phone",
           "value": "+995598619291",
           "source_url": "https://www.jokhastudio.com/blog",
           "first_seen": "2026-10-12T11:46:15+00:00",
-          "last_seen": "2026-10-12T18:30:36+00:00"
+          "last_seen": "2026-10-13T11:58:51+00:00"
         },
         {
           "kind": "phone",
           "value": "+995598619291",
           "source_url": "https://www.jokhastudio.com/services",
           "first_seen": "2026-10-12T11:46:13+00:00",
-          "last_seen": "2026-10-12T18:30:34+00:00"
+          "last_seen": "2026-10-13T11:58:49+00:00"
         },
         {
           "kind": "phone",
           "value": "+995598619291",
           "source_url": "https://www.jokhastudio.com/video-galley",
           "first_seen": "2026-10-12T11:46:11+00:00",
-          "last_seen": "2026-10-12T18:30:32+00:00"
+          "last_seen": "2026-10-13T11:58:47+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995598619291",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.jokhastudio.com/",
           "source_url": "https://www.jokhastudio.com/",
           "first_seen": "2026-10-12T11:46:02+00:00",
-          "last_seen": "2026-10-12T18:30:28+00:00"
+          "last_seen": "2026-10-13T11:58:43+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.jokhastudio.com/",
           "source_url": "https://www.jokhastudio.com/blog",
           "first_seen": "2026-10-12T11:46:15+00:00",
-          "last_seen": "2026-10-12T18:30:36+00:00"
+          "last_seen": "2026-10-13T11:58:51+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.jokhastudio.com/",
           "source_url": "https://www.jokhastudio.com/services",
           "first_seen": "2026-10-12T11:46:13+00:00",
-          "last_seen": "2026-10-12T18:30:34+00:00"
+          "last_seen": "2026-10-13T11:58:49+00:00"
         },
         {
           "kind": "website",
           "value": "https://www.jokhastudio.com/",
           "source_url": "https://www.jokhastudio.com/video-galley",
           "first_seen": "2026-10-12T11:46:11+00:00",
-          "last_seen": "2026-10-12T18:30:32+00:00"
+          "last_seen": "2026-10-13T11:58:47+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.jokhastudio.com/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "first_seen": "2026-10-12T11:46:15+00:00",
-      "last_seen": "2026-10-12T18:30:36+00:00",
+      "last_seen": "2026-10-13T11:58:51+00:00",
       "status": "review",
       "review_reasons": [
         "page_no_readable_content",
@@ -26439,7 +26869,7 @@
     },
     {
       "id": "e9c4eb09368c5047",
-      "name": "Spectrum • სპექტრუმი",
+      "name": "SPECTRUM",
       "domains": [
         "spectrum.ge"
       ],
@@ -26449,42 +26879,42 @@
           "value": "Tbilisi",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "city",
           "value": "Tbilisi",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "city",
           "value": "تبليسي",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://spectrum.ge/",
           "first_seen": "2026-10-12T11:48:38+00:00",
-          "last_seen": "2026-10-13T11:09:41+00:00"
+          "last_seen": "2026-10-13T12:00:04+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "city",
@@ -26492,27 +26922,34 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "email",
           "value": "info@spectrum.ge",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "email",
           "value": "info@spectrum.ge",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "email",
           "value": "info@spectrum.ge",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "email",
@@ -26520,34 +26957,41 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@spectrum.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/spectrumarch",
           "source_url": "https://spectrum.ge/",
           "first_seen": "2026-10-12T11:48:38+00:00",
-          "last_seen": "2026-10-13T11:09:41+00:00"
+          "last_seen": "2026-10-13T12:00:04+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/spectrumarch",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/spectrumarch",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/spectrumarch",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "facebook",
@@ -26555,76 +26999,83 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/spectrumarch",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/spectrum__architecture",
           "source_url": "https://spectrum.ge/",
           "first_seen": "2026-10-12T11:48:38+00:00",
-          "last_seen": "2026-10-13T11:09:41+00:00"
+          "last_seen": "2026-10-13T12:00:04+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/spectrum__architecture",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/spectrum__architecture",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/spectrum__architecture",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/spectrum_architects",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/spectrum_architects",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "instagram",
           "value": "https://www.instagram.com/spectrum_architects",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "name",
           "value": "SPECTRUM",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "name",
           "value": "SPECTRUM",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "name",
           "value": "SPECTRUM",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "name",
@@ -26632,13 +27083,20 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SPECTRUM",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
           "value": "Spectrum Architecture",
           "source_url": "https://spectrum.ge/",
           "first_seen": "2026-10-12T11:48:38+00:00",
-          "last_seen": "2026-10-13T11:09:41+00:00"
+          "last_seen": "2026-10-13T12:00:04+00:00"
         },
         {
           "kind": "name",
@@ -26690,28 +27148,28 @@
           "value": "+995555603200",
           "source_url": "https://spectrum.ge/",
           "first_seen": "2026-10-12T11:48:38+00:00",
-          "last_seen": "2026-10-13T11:09:41+00:00"
+          "last_seen": "2026-10-13T12:00:04+00:00"
         },
         {
           "kind": "phone",
           "value": "+995555603200",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "phone",
           "value": "+995555603200",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "phone",
           "value": "+995555603200",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "phone",
@@ -26719,6 +27177,13 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995555603200",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "website",
@@ -26746,28 +27211,28 @@
           "value": "https://spectrum.ge/",
           "source_url": "https://spectrum.ge/",
           "first_seen": "2026-10-12T11:48:38+00:00",
-          "last_seen": "2026-10-13T11:09:41+00:00"
+          "last_seen": "2026-10-13T12:00:04+00:00"
         },
         {
           "kind": "website",
           "value": "https://spectrum.ge/",
           "source_url": "https://spectrum.ge/ar/contact",
           "first_seen": "2026-10-12T11:48:43+00:00",
-          "last_seen": "2026-10-13T11:09:47+00:00"
+          "last_seen": "2026-10-13T12:00:09+00:00"
         },
         {
           "kind": "website",
           "value": "https://spectrum.ge/",
           "source_url": "https://spectrum.ge/contact",
           "first_seen": "2026-10-12T11:48:39+00:00",
-          "last_seen": "2026-10-13T11:09:43+00:00"
+          "last_seen": "2026-10-13T12:00:05+00:00"
         },
         {
           "kind": "website",
           "value": "https://spectrum.ge/",
           "source_url": "https://spectrum.ge/contact?scroll=mod-vweb-contact-form",
           "first_seen": "2026-10-12T11:48:41+00:00",
-          "last_seen": "2026-10-13T11:09:45+00:00"
+          "last_seen": "2026-10-13T12:00:07+00:00"
         },
         {
           "kind": "website",
@@ -26775,10 +27240,17 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://spectrum.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "first_seen": "2026-10-12T11:48:45+00:00",
-      "last_seen": "2026-10-13T11:09:47+00:00",
+      "last_seen": "2026-10-13T12:00:09+00:00",
       "status": "review",
       "review_reasons": [
         "multiple_cities",
@@ -27060,7 +27532,7 @@
     },
     {
       "id": "ee1921e49fc77545",
-      "name": "TDS",
+      "name": "TECHNICAL DESIGN STUDIO",
       "domains": [
         "tds.ge"
       ],
@@ -27087,6 +27559,13 @@
           "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@tds.ge",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14701/t-d-s/",
@@ -27094,9 +27573,30 @@
           "last_seen": "2026-10-12T18:52:22+00:00"
         },
         {
+          "kind": "email",
+          "value": "info@tds.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "name",
           "value": "TDS",
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "TECHNICAL DESIGN STUDIO",
+          "source_url": "http://www.tds.ge/",
+          "first_seen": "2026-10-13T11:59:00+00:00",
+          "last_seen": "2026-10-13T11:59:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "TECHNICAL DESIGN STUDIO",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
           "first_seen": "2026-10-13T11:51:29+00:00",
           "last_seen": "2026-10-13T11:51:29+00:00"
         },
@@ -27164,11 +27664,18 @@
           "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
+          "kind": "phone",
+          "value": "+995571004575",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "website",
           "value": "http://www.tds.ge/",
           "source_url": "http://www.tds.ge/",
           "first_seen": "2026-10-12T18:55:33+00:00",
-          "last_seen": "2026-10-12T18:55:33+00:00"
+          "last_seen": "2026-10-13T11:59:00+00:00"
         },
         {
           "kind": "website",
@@ -27176,6 +27683,13 @@
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14701/t-d-s/",
           "first_seen": "2026-10-12T18:52:22+00:00",
           "last_seen": "2026-10-12T18:52:22+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.tds.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "city24:14701",
@@ -27183,7 +27697,7 @@
         "http://www.tds.ge/"
       ],
       "first_seen": "2026-10-12T18:52:22+00:00",
-      "last_seen": "2026-10-13T11:51:29+00:00",
+      "last_seen": "2026-10-13T11:59:00+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -28020,7 +28534,7 @@
     },
     {
       "id": "f52a1b62718ea381",
-      "name": "Уни Группa",
+      "name": "UNI-GROUP - PROPERTY MANAGEMENT COMPANY",
       "domains": [
         "unig.ge"
       ],
@@ -28030,7 +28544,7 @@
           "value": "თბილისი",
           "source_url": "https://unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:52+00:00",
-          "last_seen": "2026-10-12T19:42:52+00:00"
+          "last_seen": "2026-10-13T11:59:35+00:00"
         },
         {
           "kind": "city",
@@ -28044,28 +28558,35 @@
           "value": "თბილისი",
           "source_url": "https://www.unig.ge/",
           "first_seen": "2026-10-12T19:42:46+00:00",
-          "last_seen": "2026-10-12T19:42:46+00:00"
+          "last_seen": "2026-10-13T11:59:30+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://www.unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:48+00:00",
-          "last_seen": "2026-10-12T19:42:48+00:00"
+          "last_seen": "2026-10-13T11:59:31+00:00"
         },
         {
           "kind": "city",
           "value": "თბილისი",
           "source_url": "https://www.unig.ge/index/index/contact/lang/geo/",
           "first_seen": "2026-10-12T19:42:55+00:00",
-          "last_seen": "2026-10-12T19:42:55+00:00"
+          "last_seen": "2026-10-13T11:59:38+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "email",
           "value": "info@unig.ge",
           "source_url": "https://unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:52+00:00",
-          "last_seen": "2026-10-12T19:42:52+00:00"
+          "last_seen": "2026-10-13T11:59:35+00:00"
         },
         {
           "kind": "email",
@@ -28079,49 +28600,91 @@
           "value": "info@unig.ge",
           "source_url": "https://www.unig.ge/",
           "first_seen": "2026-10-12T19:42:46+00:00",
-          "last_seen": "2026-10-12T19:42:46+00:00"
+          "last_seen": "2026-10-13T11:59:30+00:00"
         },
         {
           "kind": "email",
           "value": "info@unig.ge",
           "source_url": "https://www.unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:48+00:00",
-          "last_seen": "2026-10-12T19:42:48+00:00"
+          "last_seen": "2026-10-13T11:59:31+00:00"
         },
         {
           "kind": "email",
           "value": "info@unig.ge",
           "source_url": "https://www.unig.ge/index/index/contact/lang/geo/",
           "first_seen": "2026-10-12T19:42:55+00:00",
-          "last_seen": "2026-10-12T19:42:55+00:00"
+          "last_seen": "2026-10-13T11:59:38+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@unig.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/unigr0up",
           "source_url": "https://unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:52+00:00",
-          "last_seen": "2026-10-12T19:42:52+00:00"
+          "last_seen": "2026-10-13T11:59:35+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/unigr0up",
           "source_url": "https://www.unig.ge/",
           "first_seen": "2026-10-12T19:42:46+00:00",
-          "last_seen": "2026-10-12T19:42:46+00:00"
+          "last_seen": "2026-10-13T11:59:30+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/unigr0up",
           "source_url": "https://www.unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:48+00:00",
-          "last_seen": "2026-10-12T19:42:48+00:00"
+          "last_seen": "2026-10-13T11:59:31+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/unigr0up",
           "source_url": "https://www.unig.ge/index/index/contact/lang/geo/",
           "first_seen": "2026-10-12T19:42:55+00:00",
-          "last_seen": "2026-10-12T19:42:55+00:00"
+          "last_seen": "2026-10-13T11:59:38+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "UNI-GROUP - PROPERTY MANAGEMENT COMPANY",
+          "source_url": "https://unig.ge/index/contact",
+          "first_seen": "2026-10-13T11:59:35+00:00",
+          "last_seen": "2026-10-13T11:59:35+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "UNI-GROUP - PROPERTY MANAGEMENT COMPANY",
+          "source_url": "https://www.unig.ge/",
+          "first_seen": "2026-10-13T11:59:30+00:00",
+          "last_seen": "2026-10-13T11:59:30+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "UNI-GROUP - PROPERTY MANAGEMENT COMPANY",
+          "source_url": "https://www.unig.ge/index/contact",
+          "first_seen": "2026-10-13T11:59:31+00:00",
+          "last_seen": "2026-10-13T11:59:31+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "UNI-GROUP - PROPERTY MANAGEMENT COMPANY",
+          "source_url": "https://www.unig.ge/index/index/contact/lang/geo/",
+          "first_seen": "2026-10-13T11:59:38+00:00",
+          "last_seen": "2026-10-13T11:59:38+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "UNI-GROUP - PROPERTY MANAGEMENT COMPANY",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
@@ -28170,28 +28733,35 @@
           "value": "+995577435373",
           "source_url": "https://unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:52+00:00",
-          "last_seen": "2026-10-12T19:42:52+00:00"
+          "last_seen": "2026-10-13T11:59:35+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577435373",
           "source_url": "https://www.unig.ge/",
           "first_seen": "2026-10-12T19:42:46+00:00",
-          "last_seen": "2026-10-12T19:42:46+00:00"
+          "last_seen": "2026-10-13T11:59:30+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577435373",
           "source_url": "https://www.unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:48+00:00",
-          "last_seen": "2026-10-12T19:42:48+00:00"
+          "last_seen": "2026-10-13T11:59:31+00:00"
         },
         {
           "kind": "phone",
           "value": "+995577435373",
           "source_url": "https://www.unig.ge/index/index/contact/lang/geo/",
           "first_seen": "2026-10-12T19:42:55+00:00",
-          "last_seen": "2026-10-12T19:42:55+00:00"
+          "last_seen": "2026-10-13T11:59:38+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577435373",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "phone",
@@ -28212,49 +28782,49 @@
           "value": "tel:2 374742",
           "source_url": "https://unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:52+00:00",
-          "last_seen": "2026-10-12T19:42:52+00:00"
+          "last_seen": "2026-10-13T11:59:35+00:00"
         },
         {
           "kind": "phone_unverified",
           "value": "tel:2 374742",
           "source_url": "https://www.unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:48+00:00",
-          "last_seen": "2026-10-12T19:42:48+00:00"
+          "last_seen": "2026-10-13T11:59:31+00:00"
         },
         {
           "kind": "phone_unverified",
           "value": "tel:info@unig.ge",
           "source_url": "https://unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:52+00:00",
-          "last_seen": "2026-10-12T19:42:52+00:00"
+          "last_seen": "2026-10-13T11:59:35+00:00"
         },
         {
           "kind": "phone_unverified",
           "value": "tel:info@unig.ge",
           "source_url": "https://www.unig.ge/",
           "first_seen": "2026-10-12T19:42:46+00:00",
-          "last_seen": "2026-10-12T19:42:46+00:00"
+          "last_seen": "2026-10-13T11:59:30+00:00"
         },
         {
           "kind": "phone_unverified",
           "value": "tel:info@unig.ge",
           "source_url": "https://www.unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:48+00:00",
-          "last_seen": "2026-10-12T19:42:48+00:00"
+          "last_seen": "2026-10-13T11:59:31+00:00"
         },
         {
           "kind": "phone_unverified",
           "value": "tel:info@unig.ge",
           "source_url": "https://www.unig.ge/index/index/contact/lang/geo/",
           "first_seen": "2026-10-12T19:42:55+00:00",
-          "last_seen": "2026-10-12T19:42:55+00:00"
+          "last_seen": "2026-10-13T11:59:38+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.unig.ge/",
           "source_url": "https://unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:52+00:00",
-          "last_seen": "2026-10-12T19:42:52+00:00"
+          "last_seen": "2026-10-13T11:59:35+00:00"
         },
         {
           "kind": "website",
@@ -28268,21 +28838,28 @@
           "value": "http://www.unig.ge/",
           "source_url": "https://www.unig.ge/",
           "first_seen": "2026-10-12T19:42:46+00:00",
-          "last_seen": "2026-10-12T19:42:46+00:00"
+          "last_seen": "2026-10-13T11:59:30+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.unig.ge/",
           "source_url": "https://www.unig.ge/index/contact",
           "first_seen": "2026-10-12T19:42:48+00:00",
-          "last_seen": "2026-10-12T19:42:48+00:00"
+          "last_seen": "2026-10-13T11:59:31+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.unig.ge/",
           "source_url": "https://www.unig.ge/index/index/contact/lang/geo/",
           "first_seen": "2026-10-12T19:42:55+00:00",
-          "last_seen": "2026-10-12T19:42:55+00:00"
+          "last_seen": "2026-10-13T11:59:38+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.unig.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "city24:14740",
@@ -28290,7 +28867,7 @@
         "http://www.unig.ge/"
       ],
       "first_seen": "2026-10-12T19:38:20+00:00",
-      "last_seen": "2026-10-12T19:42:55+00:00",
+      "last_seen": "2026-10-13T11:59:38+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -29480,7 +30057,7 @@
     },
     {
       "id": "fd8d3dea32e3249f",
-      "name": "Демарки",
+      "name": "DMARK",
       "domains": [
         "dmark.ge"
       ],
@@ -29500,6 +30077,13 @@
           "last_seen": "2026-10-12T18:05:21+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@dmark.ge",
           "source_url": "https://www.city24.ge/ge/tbilisi/organizations/14696/demark/",
@@ -29514,11 +30098,25 @@
           "last_seen": "2026-10-12T18:05:21+00:00"
         },
         {
+          "kind": "email",
+          "value": "info@dmark.ge",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
+        },
+        {
           "kind": "name",
           "value": "DMARK",
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DMARK",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         },
         {
           "kind": "name",
@@ -29547,12 +30145,19 @@
           "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
           "first_seen": "2026-10-12T12:12:08+00:00",
           "last_seen": "2026-10-12T18:05:21+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.dmark.ge/",
+          "source_url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
+          "first_seen": "2026-10-13T11:51:29+00:00",
+          "last_seen": "2026-10-13T11:51:29+00:00"
         }
       ],
       "business_key": "yell:109421",
       "suggested_websites": [],
       "first_seen": "2026-10-12T12:17:40+00:00",
-      "last_seen": "2026-10-12T18:39:05+00:00",
+      "last_seen": "2026-10-13T11:51:29+00:00",
       "status": "review",
       "review_reasons": [
         "directory_only_service_claim",
@@ -38337,8 +38942,8 @@
     "artlinegroup.ge": "2026-10-12T18:19:43+00:00",
     "boadesign.ge": "2026-10-13T11:57:04+00:00",
     "designcity.ge": "2026-10-12T18:30:07+00:00",
-    "hdesign.ge": "2026-10-13T11:09:04+00:00",
-    "jokhastudio.com": "2026-10-12T18:30:36+00:00",
+    "hdesign.ge": "2026-10-13T11:59:49+00:00",
+    "jokhastudio.com": "2026-10-13T11:58:52+00:00",
     "keri.ge": "2026-10-12T18:16:45+00:00",
     "marchidesignstudio.com": "2026-10-12T18:16:47+00:00",
     "roomdesignstudio.ge": "2026-10-13T11:09:23+00:00",
@@ -38348,17 +38953,17 @@
     "architech.ge": "2026-10-12T18:17:36+00:00",
     "designespas.ge": "2026-10-12T18:30:52+00:00",
     "designsector.ge": "2026-10-13T11:57:42+00:00",
-    "dmark.ge": "2026-10-12T18:30:57+00:00",
+    "dmark.ge": "2026-10-13T11:58:56+00:00",
     "dynasty.ge": "2026-10-13T11:57:56+00:00",
     "evospace.ge": "2026-10-12T18:18:21+00:00",
     "expertmshen.ge": "2026-10-13T11:58:06+00:00",
     "hcg.ge": "2026-10-13T11:58:17+00:00",
-    "renovare.ge": "2026-10-13T11:09:38+00:00",
+    "renovare.ge": "2026-10-13T12:00:01+00:00",
     "showroom.com.ge": "2026-10-12T18:19:01+00:00",
-    "spectrum.ge": "2026-10-13T11:09:49+00:00",
+    "spectrum.ge": "2026-10-13T12:00:11+00:00",
     "stipfold.ge": "2026-10-12T18:19:15+00:00",
     "treedesign.ge": "2026-10-13T11:58:26+00:00",
-    "ttg.ge": "2026-10-12T18:19:24+00:00",
+    "ttg.ge": "2026-10-13T11:58:28+00:00",
     "architeria.ge": "2026-10-12T18:20:25+00:00",
     "archpoint.ge": "2026-10-12T18:31:40+00:00",
     "belvedere.ge": "2026-10-12T18:20:32+00:00",
@@ -38391,7 +38996,7 @@
     "yell:109563": "2026-10-13T11:56:57+00:00",
     "yell:106621": "2026-10-13T11:56:57+00:00",
     "designbatumi.ge": "2026-10-12T18:19:46+00:00",
-    "designbureau.ge": "2026-10-12T18:19:54+00:00",
+    "designbureau.ge": "2026-10-13T11:58:36+00:00",
     "ei.ge": "2026-10-12T18:19:55+00:00",
     "filletstudio.com": "2026-10-12T18:20:06+00:00",
     "city24:14697": "2026-10-12T19:46:01+00:00",
@@ -38438,10 +39043,10 @@
     "artexclusive.ge": "2026-10-13T11:56:24+00:00",
     "atarchitect.ge": "2026-10-12T18:10:15+00:00",
     "city24:14722": "2026-10-12T19:57:48+00:00",
-    "arthouse.ge": "2026-10-12T18:28:40+00:00",
+    "arthouse.ge": "2026-10-13T11:58:41+00:00",
     "city24:14733": "2026-10-12T19:57:52+00:00",
     "mua.ge": "2026-10-12T19:10:45+00:00",
-    "ad-project.ge": "2026-10-12T18:26:41+00:00",
+    "ad-project.ge": "2026-10-13T11:58:36+00:00",
     "architectonics.ge": "2026-10-12T18:26:43+00:00",
     "city24:14755": "2026-10-12T18:09:36+00:00",
     "dizaini:65": "2026-10-12T18:23:15+00:00",
@@ -38451,7 +39056,7 @@
     "ao.ge": "2026-10-12T18:23:04+00:00",
     "city24:14717": "2026-10-12T18:23:09+00:00",
     "city24:14754": "2026-10-12T18:23:13+00:00",
-    "asa-group.ge": "2026-10-12T18:36:05+00:00",
+    "asa-group.ge": "2026-10-13T11:58:56+00:00",
     "city24:15032": "2026-10-12T18:27:48+00:00",
     "city24:14730": "2026-10-12T18:27:52+00:00",
     "ingo-maurer.com": "2026-10-12T18:28:05+00:00",
@@ -38505,14 +39110,14 @@
     "city24:14769": "2026-10-12T18:55:26+00:00",
     "city24:14732": "2026-10-12T18:55:28+00:00",
     "city24:14712": "2026-10-12T18:55:30+00:00",
-    "tds.ge": "2026-10-12T18:55:33+00:00",
+    "tds.ge": "2026-10-13T11:59:00+00:00",
     "city24:14767": "2026-10-12T18:58:23+00:00",
     "city24:15041": "2026-10-12T18:58:25+00:00",
     "city24:15040": "2026-10-12T18:58:27+00:00",
     "city24:15033": "2026-10-12T18:58:29+00:00",
     "city24:14753": "2026-10-12T18:58:31+00:00",
     "indproject.itnovations.ge": "2026-10-12T19:04:23+00:00",
-    "inexdesign.ge": "2026-10-12T18:58:42+00:00",
+    "inexdesign.ge": "2026-10-13T11:59:10+00:00",
     "intco.ge": "2026-10-12T19:04:23+00:00",
     "city24:15035": "2026-10-12T19:01:31+00:00",
     "city24:14706": "2026-10-12T19:01:33+00:00",
@@ -38609,7 +39214,7 @@
     "city24:16851": "2026-10-12T19:38:28+00:00",
     "dearchitetti.it": "2026-10-12T19:38:56+00:00",
     "designstudionao.com": "2026-10-12T19:39:03+00:00",
-    "nsstudio.ge": "2026-10-12T19:39:14+00:00",
+    "nsstudio.ge": "2026-10-13T11:59:21+00:00",
     "space.ge": "2026-10-12T19:46:09+00:00",
     "techo.com": "2026-10-12T19:39:17+00:00",
     "tenttown.ge": "2026-10-12T19:46:09+00:00",
@@ -38621,7 +39226,7 @@
     "housedecor.ge": "2026-10-12T19:48:59+00:00",
     "khararka.com": "2026-10-12T19:48:59+00:00",
     "pharaon.ge": "2026-10-12T19:42:37+00:00",
-    "unig.ge": "2026-10-12T19:42:55+00:00",
+    "unig.ge": "2026-10-13T11:59:38+00:00",
     "homestudio.ge": "2026-10-12T19:51:56+00:00",
     "dezeen.com": "2026-10-12T21:21:43+00:00",
     "archilabmilano.com": "2026-10-12T19:57:42+00:00",
@@ -38653,12 +39258,12 @@
     "arcus.ge": "2026-10-13T11:51:52+00:00",
     "meinraum.ge": "2026-10-13T11:52:03+00:00",
     "am.com.ge": "2026-10-13T11:52:11+00:00",
-    "arcdigits.com": "2026-10-13T11:52:22+00:00",
+    "arcdigits.com": "2026-10-13T12:00:24+00:00",
     "archenome.ge": "2026-10-13T11:52:33+00:00",
     "archicon.ge": "2026-10-13T11:52:44+00:00",
     "archtrade.ge": "2026-10-13T11:52:59+00:00",
     "bestremont.ge": "2026-10-13T11:53:12+00:00",
-    "buildline.ge": "2026-10-13T11:53:20+00:00",
+    "buildline.ge": "2026-10-13T12:00:31+00:00",
     "citadeli.com": "2026-10-13T11:53:36+00:00",
     "dizaineri.ge": "2026-10-13T11:53:53+00:00",
     "excity.ge": "2026-10-13T11:54:06+00:00",
@@ -39691,7 +40296,7 @@
         "outcome": "done"
       },
       "ttg.ge": {
-        "signature": "b0529033ad9b7cb905e37e7dc4adbf7c04a820ce99a638331e60336d0317d439",
+        "signature": "dab0ec7a5ebd5fb2c9dfbb4586912d823cf9bf872e0cac3cdf7bd85ffa2ad796",
         "outcome": "unavailable"
       },
       "dizainer.ge": {
@@ -39715,7 +40320,7 @@
         "outcome": "done"
       },
       "designbureau.ge": {
-        "signature": "0ef21a1d86cccb4733343b8404bf6ce63e41f534d0f472b2da8f03dd01fefe63",
+        "signature": "311faeb8ba523daa58521b59f5eeb2a403e398d296b08d0c31f2c755d72ee735",
         "outcome": "done"
       },
       "ei.ge": {
@@ -40071,7 +40676,7 @@
         "outcome": "done"
       },
       "tds.ge": {
-        "signature": "dd646327fe69ae14604c31091328e2c398d4389d8d76bbd02455ccc820c3dc39",
+        "signature": "7ab92009f38705be1f008ba193db015a72c6d48a3c8d86872c5206cff09b8a9d",
         "outcome": "done"
       },
       "city24:14767": {
@@ -40095,7 +40700,7 @@
         "outcome": "done"
       },
       "inexdesign.ge": {
-        "signature": "2391937257fe6690688d83923ed662793cf3a547601ea4cff3853ae5d9cd1950",
+        "signature": "95695de5a9c03b1f15feca629eb2e243580829a94e3fa679b77415c2f541766c",
         "outcome": "done"
       },
       "essence.ge": {
@@ -40471,7 +41076,7 @@
         "outcome": "done"
       },
       "nsstudio.ge": {
-        "signature": "a61a0e0d44727c5e01446d226f3d36422d9746e51895979a85b8cb962ba1ddfd",
+        "signature": "f716db719a11604a901c04ee0beba3713c6895c53e5a991fcb91c5314c8000e9",
         "outcome": "done"
       },
       "techo.com": {
@@ -40507,7 +41112,7 @@
         "outcome": "done"
       },
       "unig.ge": {
-        "signature": "e39f31b7113d1aee768e14c1363fe87c09e8e23c87ecbc374357c9391fbd4648",
+        "signature": "e1af3170a2fc70f05a04603c62d9c01c68a2628131bdc452a863fd78f5805c19",
         "outcome": "done"
       },
       "city24:14135": {
@@ -40719,7 +41324,7 @@
         "outcome": "done"
       },
       "hdesign.ge": {
-        "signature": "e6fa5a395a304de78135ea3dfd2b8225248b170f89e11716dd90182e7d3d1944",
+        "signature": "7df9fcde15fff8cf474b2c4e6c6999c38544a386d5f3e2b00c9796c539617191",
         "outcome": "done"
       },
       "roomdesignstudio.ge": {
@@ -40727,11 +41332,11 @@
         "outcome": "done"
       },
       "renovare.ge": {
-        "signature": "09279abe1b43dea5b0c4e5a281d61901b607d724e5aeb00fd1fe0d2e2f1d8e79",
+        "signature": "3142b8b0e93b3cab30ebb9a8e21fa98d821316a75421ce0326ac7ad3cdcedd9c",
         "outcome": "done"
       },
       "spectrum.ge": {
-        "signature": "2e85ec523d183831e6f58a75ab54da1e784e9c974267c7adb125b1cf4807a4ef",
+        "signature": "935120a10ec23f2dffcdd5bb40ffbfb85d214f5584c57c7c31e0cb7ac91385ff",
         "outcome": "done"
       },
       "arcus.ge": {
@@ -40999,14 +41604,19 @@
       "aaschool.ac.uk:f3a19a8ba10ca0c1a490e710b037e7b77cc5fef9ac7d6f4dbf0b1b8ce375dedf": 3,
       "studioplusminus.ge:946d19680e8959d0b5cee96f613b8d1db29a304d5ab8ee8ef59db69c24d0a5c1": 3,
       "hdesign.ge:e6fa5a395a304de78135ea3dfd2b8225248b170f89e11716dd90182e7d3d1944": 1,
-      "arcdigits.com:986dc96c02206574eb7d0b1bb125aebf1b629bff6647b875abecea52e21d0e50": 1,
-      "buildline.ge:28cfc2220b3e910a705943fd91488b49fdc72e7373337dc85b404eb0129bcf85": 1,
+      "arcdigits.com:986dc96c02206574eb7d0b1bb125aebf1b629bff6647b875abecea52e21d0e50": 2,
+      "buildline.ge:28cfc2220b3e910a705943fd91488b49fdc72e7373337dc85b404eb0129bcf85": 2,
       "citadeli.com:4cb6d234c78fe008935e0e67593b96097e2e47e06d25047328223610b5c322e9": 1,
       "ggroup-000.com:88486d6e042b0eb099c450aa22dfe5ea736ebe30bc3295e78e9114816d7344e5": 1,
       "mshenberi.com:bad51da1a71e872f5ae6102011f71723174d290d6818a2e70fadd7dfcc1f9da3": 1,
       "sndesign.ge:e6ba10d4eb8bbd2595f4b960b181caff96fe668c34a3e5d5b7db9ee7dfdb073f": 1,
       "studiaarea.ge:41c4e975a0e08708a51af87b8281c81792eedb68c6e29b19b966bc739e8c7e48": 1,
-      "universum.ge:c4be012dc51ff6df4267a8818e09f6057f05affda688bda0c97cf0cf9d8df85b": 1
+      "universum.ge:c4be012dc51ff6df4267a8818e09f6057f05affda688bda0c97cf0cf9d8df85b": 1,
+      "ad-project.ge:73c98932a9c87d15b86983a35d76f9db9c251d2154df7ceb7992a22d05bfcbdf": 1,
+      "arthouse.ge:d0ff0d82eb8d10608e9090464b1d468ba68eb7ccc02786fcd22260cda2b77807": 1,
+      "jokhastudio.com:3f3e8d1e51df3bbc674d7cae003a1d690af77b0ccf0ca752c5cff4db5370a197": 1,
+      "dmark.ge:bb82b8a236a6327f3aaa3f88fea8122ec6f0abb05314b628357097f1b18155a2": 1,
+      "asa-group.ge:4434007bd46f83ce71eb23de705c8ad0ee4999b52df98dddc726ccea7511ad9e": 1
     },
     "status": "active",
     "no_progress_batches": 0
