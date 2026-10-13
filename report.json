@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-12T21:42:36+00:00",
+  "started_at": "2026-10-13T11:07:57+00:00",
   "status": "completed",
-  "sites_processed": 8,
+  "sites_processed": 9,
   "events": [
     {
       "url": "https://www.facebook.com/Dio.Ltd/timeline",
@@ -21,13 +21,8 @@
     },
     {
       "url": "https://www.eglo.com/uk/contact_us",
-      "status": "skipped",
-      "reason": "page_limit"
-    },
-    {
-      "url": "https://www.eglo.com/gr/contact_us",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page_limit_reached"
     },
     {
       "url": "https://verona.ge/ka",
@@ -46,8 +41,8 @@
     },
     {
       "url": "https://verona.ge/ru/contact",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page_limit_reached"
     },
     {
       "url": "https://cityproject.ge/ka/",
@@ -66,8 +61,8 @@
     },
     {
       "url": "https://cityproject.ge/ka/about",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page_limit_reached"
     },
     {
       "url": "https://timmarchitecture.com/",
@@ -80,14 +75,9 @@
       "reason": "business_page"
     },
     {
-      "url": "http://timmarchitecture.com/wp-content/uploads/2014/12/contact_sketch_2.jpg",
-      "status": "unreachable",
-      "reason": "not_html"
-    },
-    {
       "url": "https://timmarchitecture.com/team/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page"
     },
     {
       "url": "https://hdesign.ge/",
@@ -111,8 +101,8 @@
     },
     {
       "url": "https://hdesign.ge/servisebi",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page_limit_reached"
     },
     {
       "url": "https://roomdesignstudio.ge/",
@@ -136,8 +126,8 @@
     },
     {
       "url": "https://roomdesignstudio.ge/servisebi/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page_limit_reached"
     },
     {
       "url": "https://renovare.ge/",
@@ -156,8 +146,8 @@
     },
     {
       "url": "https://renovare.ge/renovation/",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page_limit_reached"
     },
     {
       "url": "https://spectrum.ge/",
@@ -181,22 +171,22 @@
     },
     {
       "url": "https://spectrum.ge/en/contact",
-      "status": "skipped",
-      "reason": "page_limit"
+      "status": "ok",
+      "reason": "business_page_limit_reached"
     }
   ],
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 1000,
-  "github_run_id": "38312272371",
+  "github_run_id": "38388063188",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 9,
+  "remaining_businesses": 0,
   "work_remaining": false,
-  "collection_status": "paused",
-  "collection_stop_reason": "no_progress_requires_review",
+  "collection_status": "exhausted",
+  "collection_stop_reason": "available_sources_exhausted",
   "resume_after": 0,
   "unavailable_sources_total": 89,
-  "checkpoint_at": "2026-10-12T21:44:28+00:00",
+  "checkpoint_at": "2026-10-13T11:09:49+00:00",
   "records_total": 217,
   "contacts_total": 737,
   "historical_direct_contacts_unique": 13,
@@ -205,15 +195,12 @@
   "target_reached": false,
   "contacts_missing_to_target": 852,
   "new_records": 0,
-  "changed_records": 0,
+  "changed_records": 1,
   "merged_records": 0,
-  "errors": 1,
-  "error_categories": {
-    "unreachable": 1
-  },
+  "errors": 0,
+  "error_categories": {},
   "candidates_available": 9,
-  "businesses_deferred_by_page_budget": 1,
-  "no_progress_batches": 3,
-  "finished_at": "2026-10-12T21:44:28+00:00",
-  "http_requests": 58
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-13T11:09:49+00:00",
+  "http_requests": 55
 }
