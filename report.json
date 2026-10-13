@@ -1,451 +1,206 @@
 {
   "target_contacts": 1000,
-  "started_at": "2026-10-13T11:51:29+00:00",
-  "status": "completed",
-  "sites_processed": 50,
+  "started_at": "2026-10-13T11:56:20+00:00",
+  "status": "running",
+  "sites_processed": 28,
   "events": [
     {
-      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 25
+      "url": "http://www.artexclusive.ge/",
+      "status": "javascript_required",
+      "reason": "javascript_shell_suspected"
     },
     {
-      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=2",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 25
-    },
-    {
-      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=3",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 25
-    },
-    {
-      "url": "https://www.yell.ge/companies.php?rub=151&lan=eng&SR_pg=4",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 19
-    },
-    {
-      "url": "https://www.yell.ge/companies.php?SI_1=Batumi&SR_pg=1&lan=eng&rub=151",
-      "status": "ok",
-      "reason": "directory",
-      "discovered": 6
-    },
-    {
-      "url": "https://arcus.ge/contact-us.html",
+      "url": "https://fortis.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://arcus.ge/about-us.html",
+      "url": "https://fortis.ge/servisebi/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://arcus.ge/services-pricing.html",
+      "url": "https://fortis.ge/chven-shesakheb/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://meinraum.ge/en/contacts/",
+      "url": "https://fortis.ge/en/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://meinraum.ge/contacts/",
+      "url": "https://fortis.ge/en/contact/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://meinraum.ge/en/about-us/",
+      "url": "https://iotagroup.ge/en",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://meinraum.ge/about-us/",
+      "url": "https://iotagroup.ge/en/contact-us",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://meinraum.ge/en/our-services/interieris-dizaini/",
+      "url": "https://iotagroup.ge/ge/contact-us",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.am.com.ge/",
+      "url": "https://iotagroup.ge/ru/contact-us",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.am.com.ge/contact",
+      "url": "https://studio9.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.am.com.ge/blog/%F0%9D%97%A9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%94-%E1%83%A8%E1%83%98-%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%95%E1%83%90%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%93%E1%83%98-%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0-%E1%83%9B%E1%83%90%E1%83%AE%E1%83%90%E1%83%A1%E1%83%98%E1%83%90%E1%83%97%E1%83%94%E1%83%91%E1%83%9A%E1%83%94%E1%83%91%E1%83%A1-%E1%83%92%E1%83%90%E1%83%9B%E1%83%AB%E1%83%9A%E1%83%94%E1%83%9D%E1%83%91%E1%83%90%E1%83%A1-%E1%83%93%E1%83%90-%E1%83%AE%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%AE%E1%83%A1-%E1%83%90%E1%83%A5-%E1%83%95%E1%83%AE%E1%83%95%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%97-%E1%83%A4%E1%83%90%E1%83%A0%E1%83%97%E1%83%9D-%E1%83%90%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A1-%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98%E1%83%AA-%E1%83%9B%E1%83%9D%E1%83%94%E1%83%A0%E1%83%92%E1%83%94%E1%83%91%E1%83%90-%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0-%E1%83%97%E1%83%A5%E1%83%95%E1%83%94%E1%83%9C%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%98-%E1%83%9B%E1%83%90%E1%83%AD%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1-%E1%83%93%E1%83%98%E1%83%96%E1%83%90%E1%83%98%E1%83%9C%E1%83%94%E1%83%A0%E1%83%98-am-interior-studio",
+      "url": "https://studio9.ge/contact/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://arcdigits.com/",
+      "url": "https://studio9.ge/ka/contact/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://arcdigits.com/contact/",
+      "url": "https://studio9.ge/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://arcdigits.com/about-us/",
+      "url": "https://studio9.ge/ka/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://arcdigits.com/creative-and-branding/",
+      "url": "https://boadesign.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://arcdigits.com/contacts/",
-      "status": "unreachable",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://archenome.ge/",
+      "url": "https://boadesign.ge/momsakhurebebi/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://archenome.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://archenome.ge/services",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://archenome.ge/portfolio",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://archenome.ge/services?Section=2",
+      "url": "https://boadesign.ge/brifi/?area=80&service=interieris-dizaini",
       "status": "blocked",
       "reason": "meta_robots_opt_out"
     },
     {
-      "url": "http://archicon.ge/ka",
+      "url": "https://anstudio.design/ka/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "http://archicon.ge/ka/contact",
+      "url": "https://anstudio.design/ka/contact/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "http://archicon.ge/ka/about",
+      "url": "https://anstudio.design/contact/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "http://archicon.ge/ka/services",
+      "url": "https://anstudio.design/ka/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.archtrade.ge/",
+      "url": "https://anstudio.design/about-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.archtrade.ge/contact.html",
+      "url": "https://www.archideagroup.com/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.archtrade.ge/about-us.html",
+      "url": "https://designsector.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.archtrade.ge/construction-services.html",
+      "url": "https://designsector.ge/contact-us/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.bestremont.ge/",
+      "url": "https://designsector.ge/contact-us.php?lang=geo",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.bestremont.ge/contact",
+      "url": "https://designsector.ge/contact-us.php?lang=eng",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.bestremont.ge/contact/agents",
+      "url": "https://www.dynasty.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://buildline.ge/",
-      "status": "unreachable",
-      "reason": "network_error"
-    },
-    {
-      "url": "https://www.citadeli.com/ka",
+      "url": "https://www.dynasty.ge/contact",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://citadeli.com/ka/contact",
+      "url": "https://www.dynasty.ge/about-1",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://citadeli.com/en/contact",
-      "status": "unreachable",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://citadeli.com/ru/contact",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://dizaineri.ge/",
+      "url": "https://www.dynasty.ge/our-team",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://dizaineri.ge/contacts/",
+      "url": "https://expertmshen.ge/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://dizaineri.ge/contacts/",
+      "url": "https://expertmshen.ge/contact/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://dizaineri.ge/en/contacts/",
-      "status": "ok",
-      "reason": "business_page_limit_reached"
-    },
-    {
-      "url": "https://www.excity.ge/ka",
+      "url": "https://expertmshen.ge/about-us-2/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.excity.ge/ka/contact",
+      "url": "https://expertmshen.ge/service/",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.excity.ge/en/contact",
+      "url": "https://www.hcg.ge/ka",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.excity.ge/ka/about",
+      "url": "https://www.hcg.ge/ka/contact",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://ggroup-000.com/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.gsr.ge/",
-      "status": "blocked",
-      "reason": "cross_domain_redirect_requires_review"
-    },
-    {
-      "url": "https://www.luni.com.ge/",
+      "url": "https://www.hcg.ge/en/contact",
       "status": "ok",
       "reason": "business_page"
     },
     {
-      "url": "https://www.luni.com.ge/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.luni.com.ge/about",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://www.luni.com.ge/renovation",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://mosulishvili.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://mosulishvili.ge/contact-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://mosulishvili.ge/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.mshenberi.com/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://patioart.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://patioart.ge/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://patioart.ge/en/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://patioart.ge/en/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.planner.ge/",
-      "status": "blocked",
-      "reason": "cross_domain_redirect_requires_review"
-    },
-    {
-      "url": "https://scalaholding.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://scalaholding.ge/contacts",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://sndesign.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "http://www.studiaarea.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://surgula.com/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://surgula.com/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://surgula.com/studio",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://tetrix.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://tetrix.ge/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://tetrix.ge/contact-en/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://tetrix.ge/about/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://tetrix.ge/about-en/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "http://www.universum.ge/",
-      "status": "unreachable",
-      "reason": "unsafe_or_unresolved_url"
-    },
-    {
-      "url": "https://urbanshop.ge/ka",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanshop.ge/ka/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanshop.ge/en/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanshop.ge/ru/contact",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanshop.ge/ka/products/detail/shushis-karis-sakhelurebi-studio-rondo-lever-handle-pair",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanx.ge/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanx.ge/contact-2/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanx.ge/en/contact/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanx.ge/en/about-us/",
-      "status": "ok",
-      "reason": "business_page"
-    },
-    {
-      "url": "https://urbanx.ge/urbanx-%e1%83%98%e1%83%a1-%e1%83%a8%e1%83%94%e1%83%a1%e1%83%90%e1%83%ae%e1%83%94%e1%83%91/",
+      "url": "https://www.treedesign.ge//",
       "status": "ok",
       "reason": "business_page"
     }
@@ -453,32 +208,29 @@
   "continuous": true,
   "sources_file": "config/sources.json",
   "batch_limit": 50,
-  "github_run_id": "38393080572",
+  "github_run_id": "38393648488",
   "remaining_directory_pages": 0,
-  "remaining_businesses": 50,
+  "remaining_businesses": 22,
   "work_remaining": true,
   "collection_status": "active",
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 92,
-  "checkpoint_at": "2026-10-13T11:55:55+00:00",
-  "records_total": 261,
-  "contacts_total": 912,
+  "checkpoint_at": "2026-10-13T11:58:26+00:00",
+  "records_total": 268,
+  "contacts_total": 940,
   "historical_direct_contacts_unique": 13,
-  "direct_contacts_unique": 639,
-  "relevant_direct_contacts_unique": 266,
+  "direct_contacts_unique": 659,
+  "relevant_direct_contacts_unique": 284,
   "target_reached": false,
-  "contacts_missing_to_target": 734,
-  "new_records": 44,
-  "changed_records": 6,
+  "contacts_missing_to_target": 716,
+  "new_records": 7,
+  "changed_records": 11,
   "merged_records": 0,
-  "errors": 11,
+  "errors": 2,
   "error_categories": {
-    "unreachable": 8,
-    "blocked": 3
+    "javascript_required": 1,
+    "blocked": 1
   },
-  "candidates_available": 92,
-  "no_progress_batches": 0,
-  "finished_at": "2026-10-13T11:55:55+00:00",
-  "http_requests": 135
+  "candidates_available": 50
 }
