@@ -1,8 +1,8 @@
 {
   "target_contacts": 1000,
   "started_at": "2026-10-13T11:56:20+00:00",
-  "status": "running",
-  "sites_processed": 44,
+  "status": "completed",
+  "sites_processed": 50,
   "events": [
     {
       "url": "http://www.artexclusive.ge/",
@@ -443,6 +443,51 @@
       "url": "https://buildline.ge/",
       "status": "unreachable",
       "reason": "network_error"
+    },
+    {
+      "url": "https://www.citadeli.com/ka",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://citadeli.com/ka/contact",
+      "status": "ok",
+      "reason": "business_page"
+    },
+    {
+      "url": "https://citadeli.com/en/contact",
+      "status": "unreachable",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://citadeli.com/ru/contact",
+      "status": "ok",
+      "reason": "business_page_limit_reached"
+    },
+    {
+      "url": "https://ggroup-000.com/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.mshenberi.com/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://sndesign.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.studiaarea.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
+    },
+    {
+      "url": "http://www.universum.ge/",
+      "status": "unreachable",
+      "reason": "unsafe_or_unresolved_url"
     }
   ],
   "continuous": true,
@@ -456,7 +501,7 @@
   "collection_stop_reason": "",
   "resume_after": 0,
   "unavailable_sources_total": 92,
-  "checkpoint_at": "2026-10-13T12:00:31+00:00",
+  "checkpoint_at": "2026-10-13T12:00:50+00:00",
   "records_total": 268,
   "contacts_total": 943,
   "historical_direct_contacts_unique": 13,
@@ -467,11 +512,14 @@
   "new_records": 7,
   "changed_records": 23,
   "merged_records": 0,
-  "errors": 10,
+  "errors": 16,
   "error_categories": {
     "javascript_required": 1,
     "blocked": 2,
-    "unreachable": 7
+    "unreachable": 13
   },
-  "candidates_available": 50
+  "candidates_available": 50,
+  "no_progress_batches": 0,
+  "finished_at": "2026-10-13T12:00:50+00:00",
+  "http_requests": 140
 }
