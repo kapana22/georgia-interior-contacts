@@ -34,18 +34,26 @@ export function classify(record) {
   for (const [category,pattern] of rules) if (pattern.test(name)) return {category,status:'candidate',reason:'სახელის მიხედვით; საქმიანობა გადასამოწმებელია'};
   return {category:'unknown',status:'unknown',reason:'წყაროში საქმიანობა მითითებული არ არის'};
 }
+export const registrationYear=r=>String(r.registered_at||'').match(/(?:^|[^0-9])((?:19|20)[0-9]{2})(?:[^0-9]|$)/)?.[1]||'unknown';
 export function filterRecords(records, filters={}) {
   const tokens=norm(filters.query).split(/\s+/).filter(Boolean);
   const choices=key=>Array.isArray(filters[key])?filters[key].filter(Boolean):filters[key]?[filters[key]]:[];
-  const groups=Object.fromEntries(['category','status','city','source','legal','contact','audience'].map(k=>[k,choices(k)]));
+  const groups=Object.fromEntries(['category','status','city','source','legal','contact','audience','country','role','year','tender','person','site','social'].map(k=>[k,choices(k)]));
   const matches=(key,predicate)=>!groups[key].length||groups[key].some(predicate);
   return records.filter(r=>{
     const c=classify(r);
     return matches('category',v=>categoryIds(r).includes(v)) && matches('status',v=>c.status===v)
-      && matches('city',v=>cityKey(r.city)===v) && matches('source',v=>r.source===v)
+      && matches('city',v=>v==='unknown'?!r.city?.trim():cityKey(r.city)===v) && matches('source',v=>r.source===v)
       && matches('legal',v=>v==='unknown' ? !r.legal_status?.trim() : r.legal_status?.trim()===v)
       && matches('audience',v=>v==='interior' ? r.audiences?.includes('interior') || c.category==='interior' : !r.website?.trim() && !!(r.phone?.trim() || r.email?.trim()))
       && matches('contact',v=>v==='both' ? r.phone?.trim() && r.email?.trim() : r[v]?.trim())
+      && matches('country',v=>v==='unknown'?!r.country?.trim():r.country?.trim()===v)
+      && matches('role',v=>v==='unknown'?!r.role?.trim():r.role?.trim()===v)
+      && matches('year',v=>registrationYear(r)===v)
+      && matches('person',v=>v==='yes'?!!r.contact_people?.trim():!r.contact_people?.trim())
+      && matches('site',v=>v==='yes'?!!r.website?.trim():!r.website?.trim())
+      && matches('social',v=>v==='none'?!['facebook','instagram','linkedin','youtube','tiktok','social_links'].some(k=>r[k]?.trim()):v==='any'?['facebook','instagram','linkedin','youtube','tiktok','social_links'].some(k=>r[k]?.trim()):!!r[v]?.trim())
+      && matches('tender',v=>v==='unknown'?!r.active_tender?.trim():v==='yes'?Number(r.active_tender)>0:r.active_tender?.trim()==='0')
       && tokens.every(t=>norm(fields.map(f=>r[f]).join(' ')).includes(t));
   });
 }

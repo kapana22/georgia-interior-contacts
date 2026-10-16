@@ -73,6 +73,13 @@ def published_pages(html, current):
                 target = canonical_url(item.get('url', '') if isinstance(item.get('url'), str) else '')
                 if item.get('@type') == 'ItemList' and target and same_category(target) and 'SR_pg' in parse_qs(urlsplit(target).query):
                     templates.append(target)
+    # The portal sometimes publishes the wrong category in JSON-LD. Its
+    # visible pagination uses these form fields; retain the requested category.
+    form = soup.select_one('form#search_form')
+    if form and form.select_one('input[name="SR_pg"]'):
+        values = {n.get('name'): n.get('value') for n in form.select('input[name]')}
+        if all([values.get(k)] == query.get(k) for k in ('rub', 'lan')):
+            templates.append(current)
     numbers = {int(m.group(1)) for node in soup.select('[onclick]') if (m := re.fullmatch(r'\s*F_change_SR_pg\((\d+)\)\s*;?\s*', node['onclick'])) and 1 <= int(m.group(1)) <= 500}
     for template in templates:
         p = urlsplit(template)

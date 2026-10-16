@@ -1,17 +1,18 @@
-import {categories,categoryIds,publicLinks,fields,labels,classify,cityKey,filterRecords,normalizeImport,mergeRecords,csv,sortRecords,exportRows} from './core.js';
+import {categories,categoryIds,publicLinks,fields,labels,classify,cityKey,registrationYear,filterRecords,normalizeImport,mergeRecords,csv,sortRecords,exportRows} from './core.js';
 import {safeURL} from '../leads/core.js';
 const $=id=>document.getElementById(id);
 let pageSize=30;const selected=new Set();let detailRecord=null;
 let records=[],filtered=[],page=1,editing=null,db;
 function el(tag,text){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;}
 function options(id, entries,first){const select=$(id),previous=select.value;select.replaceChildren();if(first){const o=el('option',first);o.value='';select.append(o);}for(const [value,label] of entries){const o=el('option',label);o.value=value;select.append(o);}if([...select.options].some(o=>o.value===previous))select.value=previous;}
-const filterNames={category:'მიმართულება',city:'ქალაქი',contact:'კონტაქტი',audience:'აუდიტორია',legal:'იურიდიული ფორმა'};
+const filterNames={category:'მიმართულება',city:'ქალაქი',contact:'კონტაქტი',audience:'აუდიტორია',legal:'იურიდიული ფორმა',country:'ქვეყანა',role:'როლი',year:'რეგისტრაციის წელი',tender:'აქტიური ტენდერი',person:'საკონტაქტო პირი',site:'ვებსაიტი',social:'სოციალური პროფილები'};
 const chosen=Object.fromEntries(Object.keys(filterNames).map(k=>[k,new Set()]));
-const filterOptions={category:Object.entries(categories),city:[],contact:[['phone','ტელეფონით'],['email','ელფოსტით'],['both','ტელეფონი და ელფოსტა'],['website','ვებსაიტით']],audience:[['interior','ინტერიერის კონტაქტები'],['website','ვებსაიტის კლიენტები']],legal:[]};
+const filterOptions={category:Object.entries(categories),city:[],contact:[['phone','ტელეფონით'],['email','ელფოსტით'],['both','ტელეფონი და ელფოსტა'],['website','ვებსაიტით']],audience:[['interior','ინტერიერის კონტაქტები'],['website','ვებსაიტის კლიენტები']],legal:[],country:[],role:[],year:[],tender:[['yes','აქვს'],['no','არ აქვს'],['unknown','არ არის მითითებული']],person:[['yes','მითითებულია'],['no','არ არის მითითებული']],site:[['yes','მითითებულია'],['no','არ არის მითითებული']],social:[['any','აქვს სოციალური ბმული'],['none','არ არის მითითებული'],['facebook','Facebook'],['instagram','Instagram'],['linkedin','LinkedIn'],['youtube','YouTube'],['tiktok','TikTok']]};
+let optionCounts={};
 function toggleChoice(key,value,checked){checked?chosen[key].add(value):chosen[key].delete(value);page=1;syncFilters();render();}
 function buildFilter(key){
  const panel=$(key),list=panel.querySelector('.filter-options');list.replaceChildren();
- for(const [value,name] of filterOptions[key]){const label=el('label');label.className='filter-option';const input=el('input');input.type='checkbox';input.value=value;input.checked=chosen[key].has(value);input.onchange=()=>toggleChoice(key,value,input.checked);label.append(input,el('span',name));list.append(label);}
+ for(const [value,name] of filterOptions[key]){const label=el('label');label.className='filter-option';const input=el('input');input.type='checkbox';input.value=value;input.checked=chosen[key].has(value);input.onchange=()=>toggleChoice(key,value,input.checked);const count=el('small',(optionCounts[key]?.[value]||0).toLocaleString());count.className='option-count';label.append(input,el('span',name),count);list.append(label);}
  const search=panel.querySelector('.option-search');search.value='';search.hidden=filterOptions[key].length<6;search.oninput=()=>{let found=0;for(const label of list.children){label.hidden=!label.textContent.toLocaleLowerCase('ka').includes(search.value.toLocaleLowerCase('ka').trim());if(!label.hidden)found++;}panel.querySelector('.no-options').hidden=!!found;};
  panel.querySelector('.group-clear').onclick=()=>{chosen[key].clear();page=1;syncFilters();render();};
 }
@@ -30,6 +31,15 @@ function syncFilters(){
 function facets(){
  filterOptions.city=[...new Set(records.map(r=>cityKey(r.city)).filter(Boolean))].sort().map(v=>[v,v]);
  filterOptions.legal=[...new Set(records.map(r=>r.legal_status?.trim()).filter(Boolean))].sort().map(v=>[v,v]);filterOptions.legal.push(['unknown','არ არის მითითებული']);
+ filterOptions.city.push(['unknown','არ არის მითითებული']);
+ for(const key of ['country','role'])filterOptions[key]=[...[...new Set(records.map(r=>r[key]?.trim()).filter(Boolean))].sort().map(v=>[v,v]),['unknown','არ არის მითითებული']];
+ filterOptions.year=[...new Set(records.map(registrationYear).filter(v=>v!=='unknown'))].sort().reverse().map(v=>[v,v]);filterOptions.year.push(['unknown','არ არის მითითებული']);
+ optionCounts=Object.fromEntries(Object.keys(filterNames).map(k=>[k,{}]));
+ for(const r of records){
+  const social=['facebook','instagram','linkedin','youtube','tiktok','social_links'].filter(k=>r[k]?.trim());
+  const values={category:categoryIds(r),city:[cityKey(r.city)||'unknown'],legal:[r.legal_status?.trim()||'unknown'],country:[r.country?.trim()||'unknown'],role:[r.role?.trim()||'unknown'],year:[registrationYear(r)],tender:[!r.active_tender?.trim()?'unknown':Number(r.active_tender)>0?'yes':r.active_tender.trim()==='0'?'no':''],person:[r.contact_people?.trim()?'yes':'no'],site:[r.website?.trim()?'yes':'no'],social:[...social,social.length?'any':'none'],contact:[...['phone','email','website'].filter(k=>r[k]?.trim()),...(r.phone?.trim()&&r.email?.trim()?['both']:[])],audience:[...(r.audiences?.includes('interior')||classify(r).category==='interior'?['interior']:[]),...(!r.website?.trim()&&(r.phone?.trim()||r.email?.trim())?['website']:[])]};
+  for(const [key,list] of Object.entries(values))for(const value of list)optionCounts[key][value]=(optionCounts[key][value]||0)+1;
+ }
  for(const key of Object.keys(filterNames))buildFilter(key);audiences();syncFilters();
 }
 function audiences(){

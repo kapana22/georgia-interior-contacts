@@ -76,7 +76,7 @@ def export(output, state, before, report, config):
     report['source_statuses'] = {c['id']: state['cursors'][c['id']].get('last_error') for c in config['categories']}
     report['page_caps_reached'] = [c['id'] for c in config['categories'] if state['cursors'][c['id']].get('capped')]
     report['remaining_directory_pages'] = sum(len(c['queue']) for c in active)
-    report['remaining_businesses'] = len(state['pending']) + len(state['site_queue'])
+    report['remaining_businesses'] = len(state['pending']) + (0 if report.get('directory_only') else len(state['site_queue']))
     report['work_remaining'] = bool(report['remaining_directory_pages'] or report['remaining_businesses'])
     report['collection_status'] = 'active' if report['work_remaining'] else 'exhausted'
     pending_hosts = {domain(u) for c in active for u in c['queue']} | {domain(u) for u in state['site_queue']}
@@ -103,7 +103,7 @@ def export(output, state, before, report, config):
     atomic_text(output/'report.txt', f"B2B ვებსაიტის კლიენტები — {report['collection_status']}\nბიზნესები: {len(records)}; პოტენციური: {report['prospects_total']}; ტელეფონი/ელფოსტა: {report['direct_contacts_unique']}\nახალი: {report['new_records']}; შეცვლილი: {report['changed_records']}; შეცდომები/ბლოკირება/JS: {report['errors']}\nდამუშავებული კატალოგის გვერდები: {report['pages_processed']}; ვებსაიტის შემოწმებები: {report['sites_processed']}\nსაიტის საჭიროება გადასამოწმებელია. ინტერიერის მონაცემები ცალკეა.\n")
 
 
-def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=None):
+def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=None, directory_only=False):
     report = report if report is not None else {'events': [], 'pages_processed':0, 'sites_processed':0}
     count = 0
     enabled = [c for c in config['categories'] if c.get('enabled', True)]
@@ -151,6 +151,8 @@ def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=
             checkpoint()
             # Visit each category before consuming pending business records.
         if not made_progress: break
+    if directory_only:
+        return count
     # Reachability checks are a review signal, never a claim that a business needs a site.
     for url in list(state['site_queue']):
         if client.cooldowns.get(domain(url), 0) > time.time(): continue
@@ -183,6 +185,7 @@ def main(argv=None):
     parser.add_argument('--state', default='.leads-state/state.json')
     parser.add_argument('--output', default='output/leads')
     parser.add_argument('--restart', action='store_true')
+    parser.add_argument('--directory-only', action='store_true', help='Collect listings and preserve links without visiting company websites')
     parser.add_argument('--continuous', action='store_true')
     parser.add_argument('--publish-interval', type=int, default=0)
     args = parser.parse_args(argv)
@@ -193,7 +196,7 @@ def main(argv=None):
     config = read_config(args.sources); state = load_leads(args.state); before = copy.deepcopy(state['records'])
     prepare(state, config, args.restart)
     report = {'pipeline':PIPELINE,'started_at':now(),'status':'running','events':[],'pages_processed':0,'sites_processed':0,
-              'continuous':args.continuous,'batch_limit':args.limit,'sources_file':args.sources,'github_run_id':os.environ.get('GITHUB_RUN_ID','')}
+              'continuous':args.continuous,'directory_only':args.directory_only,'batch_limit':args.limit,'sources_file':args.sources,'github_run_id':os.environ.get('GITHUB_RUN_ID','')}
     client = Client(time.monotonic()+args.max_minutes*60, cooldowns=state['cooldowns'])
     published = time.monotonic()
     def checkpoint():
@@ -205,7 +208,7 @@ def main(argv=None):
             published = time.monotonic()
     checkpoint()
     try:
-        collect(state, config, client, limit=args.limit, checkpoint=checkpoint, report=report)
+        collect(state, config, client, limit=args.limit, checkpoint=checkpoint, report=report, directory_only=args.directory_only)
         report['status'] = 'completed'
     except Deadline:
         report['status'] = 'partial_deadline'
