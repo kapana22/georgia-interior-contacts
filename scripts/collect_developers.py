@@ -82,8 +82,13 @@ def main():
         p.error('max-minutes must be 0–60 and profiles 0–2000')
     path = Path(args.state)
     state = json.loads(path.read_text()) if path.exists() else {'queue':[ROOT], 'seen':[], 'records':{}, 'errors':[]}
-    client = Client(time.monotonic()+args.max_minutes*60, delay=2)
+    state.setdefault('cooldowns', {})
+    if state.get('resume_after', 0) > time.time():
+        print('Source cooldown active'); return
+    state.pop('resume_after', None)
+    client = Client(time.monotonic()+args.max_minutes*60, delay=2, cooldowns=state['cooldowns'])
     def save():
+        state['errors']=state['errors'][-100:]
         atomic_text(path,json.dumps(state,ensure_ascii=False))
         atomic_text(args.output,json.dumps({'records':list(state['records'].values()),'updated_at':now(),'remaining_listing_pages':len(state['queue']),'remaining_profiles':sum(not r.get('profile_collected_at') for r in state['records'].values())},ensure_ascii=False))
     try:
@@ -98,18 +103,21 @@ def main():
             save();print(json.dumps({'pages':len(state['seen']),'developers':len(state['records'])}),flush=True)
         done=0
         for r in state['records'].values():
-            if r.get('profile_collected_at') or done>=args.profiles:continue
+            if r.get('profile_collected_at') or r.get('retry_after',0)>time.time() or done>=args.profiles:continue
             try:
                 final,body=client.fetch(r['directory_profile'],page_limit=2000)
-                profile(body,r);done+=1
+                profile(body,r);r.pop('retry_after',None);r.pop('failures',None);done+=1
             except FetchError as e:
                 state['errors'].append({'url':r['directory_profile'],'reason':str(e),'at':now()})
+                r['failures']=r.get('failures',0)+1
+                r['retry_after']=time.time()+min(86400,300*2**min(r['failures'],8))
                 if e.status=='blocked':raise
                 done+=1
             save()
             if done%10==0:print(json.dumps({'profiles_processed':done}),flush=True)
     except (Deadline,FetchError) as e:
         state['errors'].append({'reason':type(e).__name__+':'+str(e),'at':now()})
+        if isinstance(e,FetchError):state['resume_after']=max(time.time()+3600,max(state['cooldowns'].values(),default=0))
         print(str(e),flush=True)
     finally:
         save()

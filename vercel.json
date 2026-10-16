@@ -43,7 +43,8 @@
   "git": {
     "deploymentEnabled": {
       "data": false,
-      "leads-data": false
+      "leads-data": false,
+      "companies-data": false
     }
   }
 }
