@@ -1,13 +1,17 @@
 import {safeCell} from '../leads/core.js';
-export const categories = {development:'უძრავი ქონების დეველოპმენტი',construction:'მშენებლობა',architecture:'არქიტექტურა',interior:'ინტერიერის დიზაინი',technology:'ტექნოლოგიები',other:'სხვა',unknown:'მიმართულება დაუზუსტებელია'};
+export const categories = {development:'უძრავი ქონების დეველოპმენტი',construction:'მშენებლობა',architecture:'არქიტექტურა',interior:'ინტერიერის დიზაინი',technology:'ტექნოლოგიები',beauty:'სილამაზე',auto:'ავტოსერვისი',food:'კვების ობიექტები',other:'სხვა',unknown:'მიმართულება დაუზუსტებელია'};
+export function categoryIds(record){return [...new Set([classify(record).category,...(record.industries||[]).filter(c=>categories[c])])];}
 export const fields = ['source_id','name','legal_status','legal_status_full','tax_id','country','city','address','phone','fax','email','website','role','registered_at','contact_people','active_tender'];
 export const labels = ['ID','სრული სახელი','იურ. სტატუსი','სრული იურ. სტატუსი','ID კოდი','ქვეყანა','ქალაქი','მისამართი','ტელეფონი','ფაქსი','ელ-ფოსტა','ვებგვერდი','როლი','რეგისტრაცია','საკონტ. პირები','აქტიური ტენდერი'];
 const norm = value => String(value ?? '').normalize('NFKC').toLocaleLowerCase('ka').trim();
 export function cityKey(value) {
-  const text=norm(value).replace(/^[\s!.,\d]+/u,'').replace(/^საქართველო[\s,./-]*/u,'').replace(/^(?:ქალაქი|ქალაქ|ქლაქი|ქ(?=[\s,./-]|თბილისი))[\s,./-]*/u,'');
+  const text=norm(value).split(';')[0].replace(/^[\s!.,\d]+/u,'').replace(/^საქართველო[\s,./-]*/u,'').replace(/^(?:ქალაქი|ქალაქ|ქლაქი|ქ(?=[\s,./-]|თბილისი))[\s,./-]*/u,'');
+  if(/^t'?bilisi/u.test(text))return 'თბილისი';
+  if(/^batumi/u.test(text))return 'ბათუმი';
+  if(/^kutaisi/u.test(text))return 'ქუთაისი';
   if (/^(?:თბილის(?:ი|ის)|თთბილისი)/u.test(text)) return 'თბილისი';
   for(const city of ['ბათუმი','ქუთაისი','რუსთავი','გორი','ზუგდიდი','ფოთი','მცხეთა','ჭიათურა','თელეთი']) if(text.startsWith(city)) return city;
-  return String(value??'').trim();
+  return String(value??'').split(';')[0].trim();
 }
 export function classify(record) {
   if (record.category && categories[record.category]) return {category:record.category,status:record.category === 'unknown' ? 'unknown' : record.classification_status === 'confirmed' ? 'confirmed' : 'candidate',reason:record.category_evidence || 'დამატებული მიმართულება'};
@@ -26,11 +30,22 @@ export function filterRecords(records, filters={}) {
   const tokens=norm(filters.query).split(/\s+/).filter(Boolean);
   return records.filter(r=>{
     const c=classify(r);
-    return (!filters.category || c.category===filters.category) && (!filters.status || c.status===filters.status)
+    return (!filters.category || categoryIds(r).includes(filters.category)) && (!filters.status || c.status===filters.status)
       && (!filters.city || cityKey(r.city)===filters.city) && (!filters.source || r.source===filters.source)
+      && (!filters.legal || (filters.legal==='unknown' ? !r.legal_status?.trim() : r.legal_status?.trim()===filters.legal))
+      && (!filters.audience || (filters.audience==='interior' ? r.audiences?.includes('interior') || c.category==='interior' : !r.website?.trim() && !!(r.phone?.trim() || r.email?.trim())))
       && (!filters.contact || (filters.contact==='both' ? r.phone?.trim() && r.email?.trim() : r[filters.contact]?.trim()))
       && tokens.every(t=>norm(fields.map(f=>r[f]).join(' ')).includes(t));
   });
+}
+export function exportRows(records, filtered, selected, scope) {
+  if(scope==='all')return records;
+  if(scope==='selected')return records.filter(r=>selected.has(r.id));
+  return filtered;
+}
+export function sortRecords(records, order) {
+  if(!order || order==='original')return records;
+  return [...records].sort((a,b)=>String(a[order==='city'?'city':'name']||'').localeCompare(String(b[order==='city'?'city':'name']||''),'ka')*(order==='name-desc'?-1:1));
 }
 export function normalizeImport(data, source='JSON იმპორტი') {
   const rows=Array.isArray(data)?data:data.records;
@@ -47,6 +62,8 @@ export function normalizeImport(data, source='JSON იმპორტი') {
     out.id=String(r.id||(out.source_id?`source:${out.source}:${out.source_id}`:`tax:${out.tax_id.trim()}`));
     if(Number.isInteger(r.source_row)) out.source_row=r.source_row;
     if(Array.isArray(r.history)) out.history=r.history;
+    if(Array.isArray(r.audiences)) out.audiences=r.audiences.filter(a=>typeof a==='string');
+    if(Array.isArray(r.industries)) out.industries=r.industries.filter(c=>categories[c]);
     for(const key of ['category','classification_status','category_evidence']) if(typeof r[key]==='string') out[key]=r[key];
     if(out.category && !categories[out.category]) throw new Error(`უცნობი მიმართულება: ${out.category}`);
     if(out.classification_status==='confirmed' && !out.category_evidence?.trim()) throw new Error('დადასტურებულ მიმართულებას სჭირდება წყარო ან შენიშვნა.');
@@ -81,5 +98,5 @@ export function mergeRecords(base, incoming) {
 export function csv(records, {compact=false, delimiter=','}={}) {
   const quote=v=>'"'+safeCell(v).replaceAll('"','""')+'"';
   const chosen=compact?['name','tax_id','city','phone','email','website']:fields;
-  return '\uFEFF'+[ [...chosen.map(f=>labels[fields.indexOf(f)]),'მიმართულება'], ...records.map(r=>[...chosen.map(f=>r[f]??''),categories[classify(r).category]]) ].map(row=>row.map(quote).join(delimiter)).join('\r\n');
+  return '\uFEFF'+[ [...chosen.map(f=>labels[fields.indexOf(f)]),'მიმართულება'], ...records.map(r=>[...chosen.map(f=>r[f]??''),categoryIds(r).map(c=>categories[c]).join('; ')] ) ].map(row=>row.map(quote).join(delimiter)).join('\r\n');
 }

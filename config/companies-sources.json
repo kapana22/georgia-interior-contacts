@@ -1,0 +1,19 @@
+{
+  "pipeline": "b2b-leads",
+  "categories": [
+    {
+      "id": "development",
+      "name": "დეველოპერული კომპანიები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=534",
+      "max_pages": 50,
+      "enabled": true
+    },
+    {
+      "id": "construction",
+      "name": "სამშენებლო კომპანიები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=339",
+      "max_pages": 50,
+      "enabled": true
+    }
+  ]
+}

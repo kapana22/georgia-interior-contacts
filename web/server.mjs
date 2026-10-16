@@ -6,7 +6,7 @@ const types = { html: 'text/html', css: 'text/css', js: 'text/javascript', svg: 
 const port = Number(process.env.PORT || 4173);
 createServer(async (req, res) => {
   const path = new URL(req.url, 'http://localhost').pathname;
-  const name = path === '/companies' || path === '/companies/' ? 'companies/index.html' : path === '/leads' || path === '/leads/' ? 'leads/index.html' : path.slice(1) || 'index.html';
+  const name = path === '/' || path === '/companies' || path === '/companies/' ? 'companies/index.html' : path === '/leads' || path === '/leads/' ? 'leads/index.html' : path.slice(1) || 'index.html';
   if (name === 'api/collector') { await collector(req, res); return; }
   if (!allowed.has(name)) { res.writeHead(404); res.end('Not found'); return; }
   try {

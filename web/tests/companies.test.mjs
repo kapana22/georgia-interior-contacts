@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {classify,cityKey,filterRecords,normalizeImport,mergeRecords,csv} from '../companies/core.js';
+import {classify,cityKey,filterRecords,normalizeImport,mergeRecords,csv,exportRows,categoryIds} from '../companies/core.js';
+import {integrate} from '../../scripts/merge_companies.mjs';
 
 test('development suggestions are explicitly unconfirmed and software is separate',()=>{
   assert.equal(classify({name:'ABC დეველოპმენტი'}).category,'development');
@@ -47,4 +48,26 @@ test('imports require stable identity and backups retain provenance',()=>{
   assert.equal(r.source_row,5);assert.equal(r.history[0].source,'old');assert.equal(r.evidence.length,1);
   const twice=mergeRecords(mergeRecords([], [r]),[r]);
   assert.equal(mergeRecords(twice,[r])[0].history.length,twice[0].history.length);
+});
+test('export uses exactly combined filters, selection remains explicit',()=>{
+  const rows=[{id:'a',name:'A',category:'construction',city:'თბილისი',phone:'123',legal_status:'შპს'},{id:'b',name:'B',category:'construction',city:'ბათუმი',phone:'123'},{id:'c',name:'C',category:'development',city:'თბილისი'}];
+  const filtered=filterRecords(rows,{category:'construction',city:'თბილისი',contact:'phone',legal:'შპს'});
+  assert.deepEqual(exportRows(rows,filtered,new Set(['b']),'filtered').map(r=>r.id),['a']);
+  assert.deepEqual(exportRows(rows,filtered,new Set(['b']),'selected').map(r=>r.id),['b']);
+  assert.equal(exportRows(rows,filtered,new Set(),'all').length,3);
+  const out=csv(filtered,{compact:true});assert.ok(out.includes('"A"'));assert.ok(!out.includes('"B"'));assert.ok(!out.includes('შემოწმება'));assert.ok(!out.includes('წყარო'));
+});
+test('unified audiences and companies with multiple directions filter together',()=>{
+  const r={name:'A',category:'development',industries:['construction'],audiences:['interior'],phone:'123'};
+  assert.deepEqual(categoryIds(r),['development','construction']);
+  assert.equal(filterRecords([r],{category:'construction',audience:'interior'}).length,1);
+  assert.equal(filterRecords([r],{audience:'website'}).length,1);
+  assert.equal(filterRecords([{...r,website:'https://example.org'}],{audience:'website'}).length,0);
+});
+test('growth joins matching name and contact, retains legal data, repeat imports add nothing',()=>{
+  const base=[{id:'excel:1',name:'შპს კომპანია',tax_id:'001',legal_status:'შპს',phone:'+995555123456'}];
+  const incoming=[{id:'yell:1',name:'კომპანია',phone:'555123456',category:'construction',email:'new@example.org'}];
+  const first=integrate(base,incoming);assert.equal(first.added,0);assert.equal(first.updated,1);assert.equal(first.records[0].tax_id,'001');
+  assert.equal(integrate(first.records,incoming).added,0);
+  assert.equal(integrate(base,[{...incoming[0],name:'სხვა კომპანია'}]).added,1);
 });
