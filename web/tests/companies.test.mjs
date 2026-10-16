@@ -79,3 +79,17 @@ test('social links and original scraper metadata survive imports and exports',()
  assert.ok(csv([r]).includes('https://instagram.com/example'));
  const merged=mergeRecords([r],normalizeImport([{id:'social:1',name:'A',phone:'123'}]));assert.equal(merged[0].source_records.length,2);assert.equal(merged[0].instagram,r.instagram);
 });
+test('all filters support multiple values: OR within a filter, AND across filters',()=>{
+ const rows=[
+  {id:'a',name:'A',category:'development',city:'თბილისი',phone:'123',legal_status:'შპს'},
+  {id:'b',name:'B',category:'construction',city:'ბათუმი',email:'b@example.org',legal_status:'სს'},
+  {id:'c',name:'C',category:'architecture',city:'თბილისი',phone:'123',legal_status:'შპს'},
+  {id:'d',name:'D',category:'construction',city:'ქუთაისი',phone:'123',legal_status:'შპს'},
+  {id:'e',name:'E',category:'construction',city:'ბათუმი',legal_status:'შპს'},
+ ];
+ const filters={category:['development','construction'],city:['თბილისი','ბათუმი'],contact:['phone','email'],legal:['შპს','სს']};
+ const result=filterRecords(rows,filters);assert.deepEqual(result.map(r=>r.id),['a','b']);
+ assert.equal(filterRecords(rows,{category:[],city:[],contact:[],legal:[],audience:[]}).length,5);
+ assert.deepEqual(exportRows(rows,result,new Set(),'filtered').map(r=>r.id),['a','b']);
+ assert.equal(filterRecords([{...rows[0],audiences:['interior'],website:'https://example.org'},rows[1]],{audience:['interior','website']}).length,2);
+});

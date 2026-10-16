@@ -36,13 +36,16 @@ export function classify(record) {
 }
 export function filterRecords(records, filters={}) {
   const tokens=norm(filters.query).split(/\s+/).filter(Boolean);
+  const choices=key=>Array.isArray(filters[key])?filters[key].filter(Boolean):filters[key]?[filters[key]]:[];
+  const groups=Object.fromEntries(['category','status','city','source','legal','contact','audience'].map(k=>[k,choices(k)]));
+  const matches=(key,predicate)=>!groups[key].length||groups[key].some(predicate);
   return records.filter(r=>{
     const c=classify(r);
-    return (!filters.category || categoryIds(r).includes(filters.category)) && (!filters.status || c.status===filters.status)
-      && (!filters.city || cityKey(r.city)===filters.city) && (!filters.source || r.source===filters.source)
-      && (!filters.legal || (filters.legal==='unknown' ? !r.legal_status?.trim() : r.legal_status?.trim()===filters.legal))
-      && (!filters.audience || (filters.audience==='interior' ? r.audiences?.includes('interior') || c.category==='interior' : !r.website?.trim() && !!(r.phone?.trim() || r.email?.trim())))
-      && (!filters.contact || (filters.contact==='both' ? r.phone?.trim() && r.email?.trim() : r[filters.contact]?.trim()))
+    return matches('category',v=>categoryIds(r).includes(v)) && matches('status',v=>c.status===v)
+      && matches('city',v=>cityKey(r.city)===v) && matches('source',v=>r.source===v)
+      && matches('legal',v=>v==='unknown' ? !r.legal_status?.trim() : r.legal_status?.trim()===v)
+      && matches('audience',v=>v==='interior' ? r.audiences?.includes('interior') || c.category==='interior' : !r.website?.trim() && !!(r.phone?.trim() || r.email?.trim()))
+      && matches('contact',v=>v==='both' ? r.phone?.trim() && r.email?.trim() : r[v]?.trim())
       && tokens.every(t=>norm(fields.map(f=>r[f]).join(' ')).includes(t));
   });
 }
