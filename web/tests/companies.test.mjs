@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {classify,cityKey,filterRecords,normalizeImport,mergeRecords,csv,exportRows,categoryIds} from '../companies/core.js';
+import {classify,cityKey,filterRecords,normalizeImport,mergeRecords,csv,exportRows,categoryIds,publicLinks} from '../companies/core.js';
 import {integrate} from '../../scripts/merge_companies.mjs';
 
 test('development suggestions are explicitly unconfirmed and software is separate',()=>{
@@ -70,4 +70,12 @@ test('growth joins matching name and contact, retains legal data, repeat imports
   const first=integrate(base,incoming);assert.equal(first.added,0);assert.equal(first.updated,1);assert.equal(first.records[0].tax_id,'001');
   assert.equal(integrate(first.records,incoming).added,0);
   assert.equal(integrate(base,[{...incoming[0],name:'სხვა კომპანია'}]).added,1);
+});
+test('social links and original scraper metadata survive imports and exports',()=>{
+ const original={id:'social:1',name:'A',website:'facebook.com/example',facts:[{kind:'instagram',value:'https://instagram.com/example',source_url:'https://example.org'}],checks:[{outcome:'listed'}]};
+ const [r]=normalizeImport([original]);assert.equal(r.instagram,'https://instagram.com/example');assert.deepEqual(r.source_records[0].checks,original.checks);
+ assert.deepEqual(publicLinks(r).map(l=>l.kind).sort(),['facebook','instagram']);
+ assert.equal(publicLinks({website:'javascript:alert(1)'}).length,0);
+ assert.ok(csv([r]).includes('https://instagram.com/example'));
+ const merged=mergeRecords([r],normalizeImport([{id:'social:1',name:'A',phone:'123'}]));assert.equal(merged[0].source_records.length,2);assert.equal(merged[0].instagram,r.instagram);
 });

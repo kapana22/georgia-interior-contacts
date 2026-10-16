@@ -1,8 +1,16 @@
-import {safeCell} from '../leads/core.js';
+import {safeCell,safeURL} from '../leads/core.js';
 export const categories = {development:'უძრავი ქონების დეველოპმენტი',construction:'მშენებლობა',architecture:'არქიტექტურა',interior:'ინტერიერის დიზაინი',technology:'ტექნოლოგიები',beauty:'სილამაზე',auto:'ავტოსერვისი',food:'კვების ობიექტები',other:'სხვა',unknown:'მიმართულება დაუზუსტებელია'};
 export function categoryIds(record){return [...new Set([classify(record).category,...(record.industries||[]).filter(c=>categories[c])])];}
-export const fields = ['source_id','name','legal_status','legal_status_full','tax_id','country','city','address','phone','fax','email','website','role','registered_at','contact_people','active_tender'];
-export const labels = ['ID','სრული სახელი','იურ. სტატუსი','სრული იურ. სტატუსი','ID კოდი','ქვეყანა','ქალაქი','მისამართი','ტელეფონი','ფაქსი','ელ-ფოსტა','ვებგვერდი','როლი','რეგისტრაცია','საკონტ. პირები','აქტიური ტენდერი'];
+export const fields = ['source_id','name','legal_status','legal_status_full','tax_id','country','city','address','phone','fax','email','website','role','registered_at','contact_people','active_tender','facebook','instagram','linkedin','youtube','tiktok','social_links'];
+export const labels = ['ID','სრული სახელი','იურ. სტატუსი','სრული იურ. სტატუსი','ID კოდი','ქვეყანა','ქალაქი','მისამართი','ტელეფონი','ფაქსი','ელ-ფოსტა','ვებგვერდი','როლი','რეგისტრაცია','საკონტ. პირები','აქტიური ტენდერი','Facebook','Instagram','LinkedIn','YouTube','TikTok','სხვა სოციალური ბმულები'];
+export function publicLinks(record){
+  const kinds=['website','facebook','instagram','linkedin','youtube','tiktok','social_links'];
+  const inputs=kinds.flatMap(kind=>String(record[kind]||'').split(/[;\n]/).map(value=>({kind,value:value.trim()})));
+  for(const f of [...(record.facts||[]),...(record.evidence||[])])if(kinds.includes(f.kind))inputs.push(f);
+  const links=new Map();
+  for(const item of inputs){if(!item.value)continue;const url=safeURL(/^[a-z][a-z0-9+.-]*:/i.test(item.value)?item.value:'https://'+item.value);if(!url)continue;const host=new URL(url).hostname.replace(/^www\./,'');const kind=[['facebook','facebook.com'],['instagram','instagram.com'],['linkedin','linkedin.com'],['youtube','youtube.com'],['tiktok','tiktok.com']].find(([,domain])=>host===domain||host.endsWith('.'+domain))?.[0]||item.kind;links.set(url,{kind,url});}
+  return [...links.values()];
+}
 const norm = value => String(value ?? '').normalize('NFKC').toLocaleLowerCase('ka').trim();
 export function cityKey(value) {
   const text=norm(value).split(';')[0].replace(/^[\s!.,\d]+/u,'').replace(/^საქართველო[\s,./-]*/u,'').replace(/^(?:ქალაქი|ქალაქ|ქლაქი|ქ(?=[\s,./-]|თბილისი))[\s,./-]*/u,'');
@@ -54,7 +62,7 @@ export function normalizeImport(data, source='JSON იმპორტი') {
     if (!r || typeof r.name!=='string' || !r.name.trim()) throw new Error(`ჩანაწერი ${i+1}: კომპანიის სახელი აკლია.`);
     const out=Object.fromEntries(fields.map(f=>[f,String(r[f]??'')]));
     // The existing scrapers expose contacts as source-backed facts.
-    for(const [field,kind] of [['phone','phone'],['email','email'],['website','website'],['city','city'],['address','address']]) {
+    for(const [field,kind] of [['phone','phone'],['email','email'],['website','website'],['city','city'],['address','address'],...['facebook','instagram','linkedin','youtube','tiktok','social_links'].map(k=>[k,k])]) {
       if (!out[field] && Array.isArray(r.facts)) out[field]=[...new Set(r.facts.filter(f=>f.kind===kind&&typeof f.value==='string').map(f=>f.value))].join('; ');
     }
     out.source=String(r.source||source);
@@ -68,6 +76,8 @@ export function normalizeImport(data, source='JSON იმპორტი') {
     if(out.category && !categories[out.category]) throw new Error(`უცნობი მიმართულება: ${out.category}`);
     if(out.classification_status==='confirmed' && !out.category_evidence?.trim()) throw new Error('დადასტურებულ მიმართულებას სჭირდება წყარო ან შენიშვნა.');
     out.evidence=Array.isArray(r.facts)?r.facts:Array.isArray(r.evidence)?r.evidence:[];
+    out.source_records=Array.isArray(r.source_records)?r.source_records:[r];
+    for(const link of publicLinks(out))if(link.kind!=='website')out[link.kind]=[...new Set([...(out[link.kind]||'').split(/;\s*/).filter(Boolean),link.url])].join('; ');
     return out;
   });
 }
@@ -87,6 +97,7 @@ export function mergeRecords(base, incoming) {
       if(old.tax_id && tax && old.tax_id.trim()!==tax) throw new Error('ჩანაწერის ID და საიდენტიფიკაციო კოდი ერთმანეთს არ შეესაბამება.');
       const evidence=[...(old.evidence||[]),...(row.evidence||[])];
       records[index]={...old,...Object.fromEntries(Object.entries(row).filter(([,v])=>v!==''&&v!==undefined)),id:old.id,
+        source_records:[...new Map([...(old.source_records||[]),...(row.source_records||[])].map(r=>[JSON.stringify(r),r])).values()],
         evidence:[...new Map(evidence.map(e=>[JSON.stringify(e),e])).values()],
         history:[...new Map([...(old.history||[]),...(row.history||[]),Object.fromEntries(Object.entries(row).filter(([key])=>key!=='history'))].map(h=>[JSON.stringify(h),h])).values()],source:old.source};
       byId.set(row.id,index);
