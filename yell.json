@@ -558,32 +558,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "giorgibarkava2023@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995511223694",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "SALON SVETA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995511223694",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -598,14 +598,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=163568",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "01ad9983079a6fdd"
     },
     {
@@ -2048,32 +2048,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/gravity-beauty-salon-794819920556124",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995593106993",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "GRAVITY BEAUTY SALON",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995593106993",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -2088,14 +2088,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152793",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "052fd0ed01c764a6"
     },
     {
@@ -3985,39 +3985,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "madonakereselidze@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "295 10 29",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "295 67 82",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "LEONTIA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "295 10 29",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "295 67 82",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -4032,14 +4032,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=108336",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "0903fa0e28e59d29"
     },
     {
@@ -4488,39 +4488,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "2015arthouse@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/arthousegeorgia",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995597363838",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "ART HOUSE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995597363838",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -4535,14 +4535,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=132497",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "09ab4149e875c511"
     },
     {
@@ -5175,32 +5175,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/beautysalonsaduni",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995599024646",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON SANDUNY 1181",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599024646",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -5215,14 +5215,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=78838",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "0b1eb14c6b5db23e"
     },
     {
@@ -11012,39 +11012,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/4usaloon",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "243 03 20",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "232 05 66",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "SALON 4U",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "232 05 66",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "243 03 20",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -11059,14 +11059,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=123080",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "18128b2febc175ff"
     },
     {
@@ -12171,32 +12171,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "shakosajaia@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995592345105",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON SHAKO SAJAIA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995592345105",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -12211,14 +12211,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=135424",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "1a0a96248377d530"
     },
     {
@@ -13270,32 +13270,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/styleesthetic",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995593955919",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "FIT LINE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995593955919",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -13310,14 +13310,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=135991",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "1c5e0c660a57d716"
     },
     {
@@ -14362,25 +14362,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995599174678",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON SOFIA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599174678",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -14395,14 +14395,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=73673",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "1e10e48203c9c17a"
     },
     {
@@ -16110,32 +16110,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/salon21beauty",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995591272121",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON 21",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995591272121",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -16150,14 +16150,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152823",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "21477e38a4ac3c36"
     },
     {
@@ -25240,39 +25240,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "silamazisstudialile@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/profile.php?id=100011418087781",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995577444226",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY STUDIO LILE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577444226",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -25287,14 +25287,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=138124",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "3386a9b6f7b079a7"
     },
     {
@@ -27133,32 +27133,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/bc.machabelze",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "298 90 67",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY CENTRE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "298 90 67",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -27173,14 +27173,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=106915",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "36cc47a7187b74eb"
     },
     {
@@ -31685,39 +31685,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/neoneo.saloni",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995579188744",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "214 67 05",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "NEO-NEO BEAUTY SALON",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995579188744",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "214 67 05",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -31732,14 +31732,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=103292",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "40e179bec6ac85a1"
     },
     {
@@ -33051,32 +33051,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/feorrekeratinsalon",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995595350505",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "FEORRE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995595350505",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -33091,14 +33091,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=131314",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "449baa950fcd2615"
     },
     {
@@ -48642,46 +48642,46 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "salon@celebrity.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/celebritytbilisi",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995557726151",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "243 16 14",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "CELEBRITY",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995557726151",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "243 16 14",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -48696,7 +48696,7 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=75665",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
@@ -48705,7 +48705,7 @@
         "celebrity.ge"
       ],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "5f5de7fbfccfd102"
     },
     {
@@ -49607,60 +49607,60 @@
       "domains": [],
       "facts": [
         {
-          "kind": "facebook",
-          "value": "https://www.facebook.com/ergolinetbilisi",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "email",
           "value": "ergoline.tbilisi@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/ergolinetbilisi",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/pages/ergoline-tbilisi/175616855831905",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995599220457",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995599220437",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "222 04 14",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "ERGOLINE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599220437",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599220457",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "222 04 14",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -49675,14 +49675,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=106396",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "60b50805725fd8c8"
     },
     {
@@ -53625,39 +53625,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "astudio.beautysalon@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/tstudio.tbilisi",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995558895858",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "T STUDIO",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995558895858",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -53672,14 +53672,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=160508",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "66990047d17a5391"
     },
     {
@@ -56474,46 +56474,46 @@
       ],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@qaltabedniereba.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/qaltabedniereba",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "295 98 87",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "WOMENS HAPPINESS",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "295 98 87",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "website",
           "value": "https://qaltabedniereba.ge/",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -56528,7 +56528,7 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=70034",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "listed"
         }
       ],
@@ -56537,7 +56537,7 @@
         "qaltabedniereba.ge"
       ],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "6c01fe3a6591537a"
     },
     {
@@ -57672,25 +57672,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995599548890",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BELLEZA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599548890",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -57705,14 +57705,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152869",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "6f527d8fe3f11344"
     },
     {
@@ -64172,46 +64172,46 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "jalabadzenona@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/profile.php?id=100089124336501",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995597380031",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995599947460",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "ANANDA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995597380031",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599947460",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -64226,14 +64226,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=157172",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "7d2030bf71982b2f"
     },
     {
@@ -67391,46 +67391,46 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "crystal.beautycentre@mail.ru",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/beautycentre.crystal",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995577601919",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "214 19 19",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "CRYSTAL",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577601919",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "214 19 19",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -67445,14 +67445,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=102430",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "8453162bc54815f8"
     },
     {
@@ -69490,32 +69490,32 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995593104062",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995577455224",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "MOULIN ROUGE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577455224",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995593104062",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -69530,14 +69530,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=74918",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "8988c4239d2657da"
     },
     {
@@ -70963,32 +70963,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/სილამაზის-სალონი-art-style-257056667779908",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995593337793",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "ART-STYLE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995593337793",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -71003,14 +71003,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=116282",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "8c4780fd9596a5da"
     },
     {
@@ -77255,39 +77255,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/lolionriga",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995593757579",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "229 22 49",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON LOLI",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995593757579",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "229 22 49",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -77302,14 +77302,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=115147",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "9c5a0be6eb5b7b92"
     },
     {
@@ -81504,32 +81504,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/modernstudiotbilisi",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995593484224",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "MODERN STUDIO",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995593484224",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -81544,14 +81544,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152786",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "a39b5546b49bdec1"
     },
     {
@@ -82207,25 +82207,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995557780221",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995557780221",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -82240,14 +82240,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152814",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "a4ca68df98000459"
     },
     {
@@ -82872,53 +82872,53 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@knowhow.com.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/knowhow.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995596242244",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995514112244",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "224 14 44",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "KNOWHOW BEAUTY CENTRE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995514112244",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995596242244",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "224 14 44",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -82933,7 +82933,7 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=137473",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
@@ -82942,7 +82942,7 @@
         "knowhow.com.ge"
       ],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "a68b9239af3449f1"
     },
     {
@@ -86606,25 +86606,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone_unverified",
-          "value": "218 19 76",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "IKO",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "218 19 76",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -86639,14 +86639,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=138091",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "affadb6c9c19fc4c"
     },
     {
@@ -88995,39 +88995,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "beautyinofficial@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/profile.php?id=100039587233170",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995558133000",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY IN",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995558133000",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -89042,14 +89042,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=160770",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "b4d79bba4d4d8636"
     },
     {
@@ -90497,53 +90497,53 @@
       ],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@sakurami.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/sakurami.tbilisii",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "222 77 44",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "222 66 65",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "SAKURAMI",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "222 66 65",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "222 77 44",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.sakurami.ge/",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -90558,7 +90558,7 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=104197",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "listed"
         }
       ],
@@ -90567,7 +90567,7 @@
         "sakurami.ge"
       ],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "b73212981115d7d6"
     },
     {
@@ -92571,25 +92571,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone_unverified",
-          "value": "218 19 42",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "MARI",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "218 19 42",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -92604,14 +92604,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=70094",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "bbce129e79202bde"
     },
     {
@@ -93535,32 +93535,32 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/goodlooktbilisi",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995555414000",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "GOOD LOOK",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995555414000",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -93575,14 +93575,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=146199",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "be0117ddf494bb8c"
     },
     {
@@ -94959,25 +94959,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995599254447",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599254447",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -94992,14 +94992,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=70144",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "c080fb2da7bea35d"
     },
     {
@@ -95422,39 +95422,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "natifi.nails@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/@motivebeautysalon",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995599815858",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "MOTIVE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599815858",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -95469,14 +95469,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=160217",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "c19cbe5ae3ae0159"
     },
     {
@@ -97270,32 +97270,32 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995599922495",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "294 24 08",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "LOLA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599922495",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "294 24 08",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -97310,14 +97310,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=71257",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "c6d2761a35f8ffd9"
     },
     {
@@ -97519,46 +97519,46 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/silamaziscentripolina",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995571017333",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995599194288",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "221 40 37",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "POLINA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995571017333",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599194288",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "221 40 37",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -97573,14 +97573,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=121279",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "c73aed4126aea0c3"
     },
     {
@@ -98138,46 +98138,46 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "beautystudiomoncare@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/moncarebeautysaloon",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995595331350",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "238 02 80",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "MONCARE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995595331350",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "238 02 80",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -98192,14 +98192,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=113422",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "c7dba8fe7e01603e"
     },
     {
@@ -98401,39 +98401,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "inga.dzigoshvili@mail.ru",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/359656197399871",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "295 41 23",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "L'ETOILE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "295 41 23",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -98448,14 +98448,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=75704",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "ca0984153354c82f"
     },
     {
@@ -102034,39 +102034,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/lesoleilbeautyhouse",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995577444061",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "224 24 84",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "LE SOLEIL",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577444061",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "224 24 84",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -102081,14 +102081,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=125653",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "cffcda1896daa78f"
     },
     {
@@ -110179,32 +110179,32 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995593341188",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995577748388",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "EUROPE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577748388",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995593341188",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -110219,14 +110219,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=106316",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "ddec7dd4c3bad9cb"
     },
     {
@@ -112335,39 +112335,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/wabisabispace33a",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995595509442",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995599932239",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "WABISABISPACE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995595509442",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599932239",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -112382,14 +112382,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=131311",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "e273a3be886088d3"
     },
     {
@@ -113256,39 +113256,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/beautycenterannia",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995551250050",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995577793888",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY CENTRE ANNIA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995551250050",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577793888",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -113303,14 +113303,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=159541",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "e3ce3b2d96c5a532"
     },
     {
@@ -114062,25 +114062,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995558585388",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON KESO",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995558585388",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -114095,14 +114095,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152839",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "e5abb68d0e170a55"
     },
     {
@@ -116239,32 +116239,32 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995599138379",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "296 49 83",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "EDEMI",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995599138379",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "296 49 83",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -116279,14 +116279,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=109385",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "ea7c1c84d523921c"
     },
     {
@@ -119005,53 +119005,53 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/b.s.gvirila",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995579454507",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995577454507",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "295 31 52",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "294 31 06",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON GVIRILA",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577454507",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995579454507",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "294 31 06",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "295 31 52",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -119066,14 +119066,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152824",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "f0e8762c7e03b342"
     },
     {
@@ -120492,46 +120492,46 @@
       ],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "lamuseaesthetic@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/lamuseaesthetic",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995511233399",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "LA MUSE",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995511233399",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "website",
           "value": "https://lamuse.ge/",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -120546,14 +120546,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=162279",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "f46923603a24fe2f"
     },
     {
@@ -121683,39 +121683,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "luxstyle_2013@yahoo.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/luxstyle",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone_unverified",
-          "value": "243 00 02",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BEAUTY SALON LUX",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone_unverified",
+          "value": "243 00 02",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -121730,14 +121730,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=152807",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "f66ebc52ef5c046b"
     },
     {
@@ -122198,39 +122198,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+          "first_seen": "2026-10-19T08:57:38+00:00",
+          "last_seen": "2026-10-19T09:08:14+00:00"
+        },
+        {
           "kind": "email",
           "value": "avakyankim@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/kimavakyan1987",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995598194748",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
-          "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
           "kind": "name",
           "value": "THE MOB BEAUTY STUDIO",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995598194748",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "first_seen": "2026-10-19T08:57:38+00:00",
-          "last_seen": "2026-10-19T08:57:38+00:00"
+          "last_seen": "2026-10-19T09:08:14+00:00"
         }
       ],
       "status": "review",
@@ -122245,14 +122245,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=74922",
-          "checked_at": "2026-10-19T08:57:38+00:00",
+          "checked_at": "2026-10-19T09:08:14+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:38+00:00",
-      "last_seen": "2026-10-19T08:57:38+00:00",
+      "last_seen": "2026-10-19T09:08:14+00:00",
       "id": "f73e274f26ff5009"
     },
     {
@@ -124144,39 +124144,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+          "first_seen": "2026-10-19T08:57:07+00:00",
+          "last_seen": "2026-10-19T09:07:58+00:00"
+        },
+        {
           "kind": "email",
           "value": "beautystudiobonvivant@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "facebook",
           "value": "https://www.facebook.com/beautystudiobonvivant",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995514109070",
-          "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-          "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
           "kind": "name",
           "value": "BON VIVANT",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995514109070",
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "first_seen": "2026-10-19T08:57:07+00:00",
-          "last_seen": "2026-10-19T08:57:07+00:00"
+          "last_seen": "2026-10-19T09:07:58+00:00"
         }
       ],
       "status": "review",
@@ -124191,14 +124191,14 @@
         {
           "source_url": "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
           "profile_url": "https://www.yell.ge/company.php?lan=eng&id=157253",
-          "checked_at": "2026-10-19T08:57:07+00:00",
+          "checked_at": "2026-10-19T09:07:58+00:00",
           "outcome": "social_only"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:57:07+00:00",
-      "last_seen": "2026-10-19T08:57:07+00:00",
+      "last_seen": "2026-10-19T09:07:58+00:00",
       "id": "fc402b14dc8f4e9e"
     },
     {
@@ -127092,10 +127092,7 @@
       "start": "https://www.yell.ge/companies.php?rub=398&lan=eng",
       "adapter": null,
       "page_limit": 100,
-      "queue": [
-        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
-        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12"
-      ],
+      "queue": [],
       "seen": [
         "https://www.yell.ge/companies.php?rub=398&lan=eng",
         "https://www.yell.ge/companies.php?rub=398&lan=eng",
@@ -127116,10 +127113,14 @@
         "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=9",
         "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=9",
         "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=10",
-        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=10"
+        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=10",
+        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=11",
+        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12",
+        "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=12"
       ],
       "failures": {},
-      "pages": 10
+      "pages": 12
     }
   },
   "pending": [],
