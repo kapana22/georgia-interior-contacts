@@ -154,3 +154,22 @@ def test_retry_after_survives_a_new_client_and_does_not_hit_network_early():
     assert not session.calls
     third=Client(1000,session=session,clock=lambda:0,wall_clock=lambda:1121,validator=lambda u:True,cooldowns=cooldowns)
     assert third.raw('https://studio.test/')[0]==200
+
+
+def test_public_restaurant_post_keeps_robots_and_page_budget():
+    url='https://www.yell.ge/SR_.php'
+    c,s,_=client([robots(),Response(body=b'<table>business</table>')])
+    s.post=s.get
+    assert c.fetch(url,page_limit=1,form={'n':'fad','i':'1','x':'1'})[1]==b'<table>business</table>'
+    assert s.calls[-1][1]['data']['x']=='1'
+    with pytest.raises(FetchError,match='page_limit'):c.fetch(url,page_limit=1,form={'x':'2'})
+    c,s,_=client([robots(b'User-agent: *\nDisallow: /SR_.php\n')]);s.post=s.get
+    with pytest.raises(FetchError,match='robots_disallowed'):c.fetch(url,form={'x':'1'})
+    assert len(s.calls)==1
+
+
+def test_restaurant_post_never_follows_redirect():
+    c,s,_=client([robots(),Response(302,headers={'Location':'/other.php'})]);s.post=s.get
+    with pytest.raises(FetchError,match='directory_post_redirect'):
+        c.fetch('https://www.yell.ge/SR_.php',form={'x':'1'})
+    assert len(s.calls)==2
