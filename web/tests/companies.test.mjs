@@ -10,6 +10,14 @@ test('development suggestions are explicitly unconfirmed and software is separat
   assert.equal(classify({name:'ABC'}).category,'unknown');
   assert.equal(classify({name:'ABC',category:'development',classification_status:'confirmed'}).status,'confirmed');
 });
+test('high-confidence business keywords classify as unconfirmed suggestions',()=>{
+  for(const [name,category] of [['ვგ ქონსთრაქშენ','construction'],['ამბიენს არქიტექტს','architecture'],['ავტოსერვისი 2022','auto'],['სილქესთეტიკი','beauty'],['ევროპული საცხობი','food']]){
+    assert.equal(classify({name}).category,category,name);
+    assert.equal(classify({name}).status,'candidate',name);
+  }
+  assert.equal(classify({name:'ამირბარი და მეტი'}).category,'unknown');
+  assert.equal(classify({name:'ფარდის სალონი'}).category,'unknown');
+});
 test('audience filters combine category, contact, city, status and search',()=>{
   const rows=[{name:'ABC Development',phone:'123',city:'თბილისი'},{name:'ABC',category:'development',classification_status:'confirmed',city:'ბათუმი',email:'a@b.ge'}];
   assert.equal(filterRecords(rows,{category:'development'}).length,2);

@@ -27,9 +27,12 @@ export function classify(record) {
   const rules = [
     ['technology', /software|სოფტვეარ|სოფტვერ|პროგრამულ|ვებ დეველოპ|web develop/],
     ['development', /დეველოპ|დეველაფ|\bdevelop(?:ment|er|ers|ments)?\b/],
-    ['construction', /მშენებლ|სამშენებლ|კონსტრაქ|\bconstruction\b/],
+    ['construction', /მშენებლ|სამშენებლ|კონსტრაქ|ქონსთრაქ|\bconstruction\b/],
     ['architecture', /არქიტექტ|\barchitect/],
     ['interior', /ინტერიერ|\binterior/],
+    ['auto', /საავტომობილ|ავტომობილ|ავტოსერვის|ავტოცენტრ|ავტოდილერ|ავტოიმპორტ|ავტომოტორს|ავტონაწილ|ავტოაქსესუარ|ავტოშხაპ|ავტორაიდერ|ავტოგზა|(?:^|\s)ავტო(?:\s|$)|\bauto(?:\s|$|-)|\bcar dealer\b/],
+    ['beauty', /სილამაზ|კოსმეტოლოგ|ესთეტიკ|\bbeauty\b|\bhair salon\b|\bnail salon\b|\bbarbershop\b/],
+    ['food', /რესტორ|კაფე|საცხობ|პიცერი|კონდიტერ|კულინარ|(?:^|[\s-])ბარი(?:$|[\s-])|\brestaurant\b|\bcafe\b|\bbakery\b|\bpizzeria\b|\bcatering\b/],
   ];
   for (const [category,pattern] of rules) if (pattern.test(name)) return {category,status:'candidate',reason:'სახელის მიხედვით; საქმიანობა გადასამოწმებელია'};
   return {category:'unknown',status:'unknown',reason:'წყაროში საქმიანობა მითითებული არ არის'};
