@@ -1,4 +1,4 @@
-import {fetchCompanySnapshot,overlaySavedRows} from './sync.js';
+import {fetchCompanySnapshot,overlaySavedRows,createLiveLoader} from './sync.js';
 import {categories,categoryIds,publicLinks,fields,labels,classify,cityKey,registrationYear,filterRecords,normalizeImport,mergeRecords,csv,sortRecords,exportRows} from './core.js';
 import {safeURL} from '../leads/core.js';
 const $=id=>document.getElementById(id);
@@ -97,9 +97,9 @@ $('export-form').onsubmit=event=>{event.preventDefault();const scope=$('export-s
 $('add').disabled=true;
 $('sort').onchange=()=>{page=1;render();};$('view').onchange=render;$('page-size').onchange=()=>{pageSize=Number($('page-size').value);page=1;render();};
 let refreshing=false,lastSnapshot='';
-const liveBase='https://raw.githubusercontent.com/kapana22/georgia-interior-contacts/companies-data/';
+const loadLiveSnapshot=createLiveLoader();
 async function loadCompanyData(fallback=false){
- try{return await fetchCompanySnapshot(liveBase+'data.json?refresh='+Math.floor(Date.now()/90000));}
+ try{return await loadLiveSnapshot();}
  catch(error){if(!fallback)throw error;return fetchCompanySnapshot('/companies/data.json');}
 }
 async function refreshCompanies(initial=false){

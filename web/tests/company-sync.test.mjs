@@ -17,3 +17,15 @@ test('refresh bypasses browser cache and rejects invalid snapshots',async()=>{
   await assert.rejects(fetchCompanySnapshot('test',async()=>({ok:true,json:async()=>({version:1,records:[]})})));
   await assert.rejects(fetchCompanySnapshot('test',async()=>({ok:false})));
 });
+
+test('live loader uses immutable commits and downloads only changed snapshots',async()=>{
+ const {createLiveLoader}=await import('../companies/sync.js');
+ let sha='a'.repeat(40),downloads=0;
+ const load=createLiveLoader(async(url)=>{
+  if(url.includes('api.github.com'))return {ok:true,json:async()=>({object:{sha}})};
+  downloads++;assert.ok(url.includes('/'+sha+'/data.json'));
+  return {ok:true,json:async()=>({version:1,records:[{id:sha}]})};
+ });
+ assert.equal((await load()).records[0].id,sha);await load();assert.equal(downloads,1);
+ sha='b'.repeat(40);assert.equal((await load()).records[0].id,sha);assert.equal(downloads,2);
+});
