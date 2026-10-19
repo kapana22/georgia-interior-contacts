@@ -72,3 +72,20 @@ def test_new_categories_start_without_waiting_for_daily_refresh(tmp_path, monkey
     monkeypatch.setattr(leads,'read_config',lambda path:{'categories':[{'id':'beauty','url':'https://www.yell.ge/companies.php?rub=398'}]})
     pipeline.collect()
     assert pipeline.read('.leads-state/companies.json')['cursors']['beauty']['queue']
+
+
+def test_targeted_category_retry_does_not_restart_other_catalogues(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {'catalog_refresh_at': 199999})
+    import georgia_leads.cli as leads
+    config={'categories':[{'id':'beauty','url':'https://www.yell.ge/companies.php?rub=398'},
+                          {'id':'auto','url':'https://www.yell.ge/companies.php?rub=3487'}]}
+    monkeypatch.setattr(leads, 'read_config', lambda path: config)
+    state=pipeline.read('.leads-state/companies.json')
+    state['cursors']={'beauty':{'start':config['categories'][0]['url'],'queue':[],'failed_pages':{'old':'403'},'pages':12},
+                      'auto':{'start':config['categories'][1]['url'],'queue':[],'pages':2,'sentinel':'keep'}}
+    pipeline.write('.leads-state/companies.json',state)
+    monkeypatch.setenv('RESTART_CATEGORIES','beauty')
+    pipeline.collect()
+    cursors=pipeline.read('.leads-state/companies.json')['cursors']
+    assert cursors['beauty']['queue']==[config['categories'][0]['url']]
+    assert cursors['auto']['sentinel']=='keep'

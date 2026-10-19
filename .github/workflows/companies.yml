@@ -10,6 +10,10 @@ on:
         description: Profiles per batch
         type: number
         default: 150
+      restart_categories:
+        description: Restart only selected catalogue IDs after a parser/source fix
+        type: string
+        default: ''
   schedule:
     - cron: '17,47 * * * *'
 permissions:
@@ -45,6 +49,7 @@ jobs:
         env:
           REFRESH_CATALOG: ${{ inputs.refresh && 'true' || 'false' }}
           PROFILE_BATCH: ${{ inputs.profiles || '150' }}
+          RESTART_CATEGORIES: ${{ inputs.restart_categories || '' }}
         run: python scripts/companies_pipeline.py collect
       - name: Publish partial progress and company data
         id: save

@@ -65,6 +65,11 @@ def test_only_observed_pagination_and_same_category():
     assert page_key(URL)==page_key(URL+'&SR_pg=1')
 
 
+def test_malformed_second_language_query_keeps_only_published_page_number():
+    html='<a href="?rub=398&lan=eng&SR_pg=2?lan=geo">next</a><a href="?rub=398&lan=eng&SR_pg=next?lan=geo">bad</a>'
+    assert published_pages(html, URL)==['https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=2']
+
+
 def test_wrong_pipeline_state_rejected(tmp_path):
     path=tmp_path/'state.json';save_state(path,{'schema_version':1,'records':[]})
     with pytest.raises(ValueError): load_leads(path)

@@ -61,11 +61,28 @@ def published_pages(html, current):
     def same_category(target):
         p = urlsplit(target); q = parse_qs(p.query)
         return domain(target) == domain(current) and p.path == base.path and set(q) <= allowed and all(q.get(k) == query.get(k) for k in ('rub', 'lan'))
+    def normalized_page(target):
+        """Recover a published page number from Yell's malformed double-query links."""
+        p = urlsplit(target); q = parse_qs(p.query)
+        if not same_category(target):
+            return None
+        raw_page = q.get('SR_pg', [''])[0]
+        # Some Yell pagination links append a second language query after the
+        # page number (for example SR_pg=2?lan=geo). Keep only the observed
+        # numeric page and the configured category/language parameters.
+        match = re.fullmatch(r'(\d+)(?:\?.*)?', raw_page)
+        if not match or not 1 <= int(match.group(1)) <= 500:
+            return None
+        normalized = parse_qs(base.query)
+        normalized['SR_pg'] = [match.group(1)]
+        return urlunsplit((base.scheme, base.netloc, base.path, urlencode(normalized, doseq=True), ''))
     urls = []
     for a in soup.select('a[href]'):
         target = canonical_url(urljoin(current, a['href']))
-        if target and same_category(target) and 'SR_pg' in parse_qs(urlsplit(target).query):
-            urls.append(target)
+        if target:
+            page = normalized_page(target)
+            if page:
+                urls.append(page)
     templates = []
     for script in soup.select('script[type="application/ld+json"]'):
         try:

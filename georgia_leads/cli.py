@@ -55,9 +55,13 @@ def load_leads(path):
     return state
 
 
-def prepare(state, config, restart=False):
+def prepare(state, config, restart=False, restart_categories=None):
     if restart:
         state['cursors'] = {}; state['pending'] = []; state['site_queue'] = []; state['site_done'] = []
+    for key in restart_categories or []:
+        category = next((c for c in config['categories'] if c['id'] == key), None)
+        if category:
+            state.setdefault('cursors', {}).pop(key, None)
     for cat in config['categories']:
         key = cat['id']
         previous = state['cursors'].get(key)

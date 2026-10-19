@@ -60,17 +60,19 @@ def collect():
     stamp=time.time();previous=read(TREE/'report.json',{})
     from georgia_leads.cli import prepare,read_config
     yell=read('.leads-state/companies.json')
-    prepare(yell,read_config('config/companies-sources.json'))
+    config=read_config('config/companies-sources.json')
+    retry_categories=[key.strip() for key in os.environ.get('RESTART_CATEGORIES','').split(',') if key.strip()]
+    prepare(yell,config,restart_categories=retry_categories)
     write('.leads-state/companies.json',yell)
-    refresh_due=os.environ.get('REFRESH_CATALOG')=='true' or stamp-previous.get('catalog_refresh_at',0)>86400
-    if not report()['work_ready'] and not refresh_due:
+    catalog_refresh_due=os.environ.get('REFRESH_CATALOG')=='true' or stamp-previous.get('catalog_refresh_at',0)>86400
+    if not report()['work_ready'] and not catalog_refresh_due and not retry_categories:
         print('No work due; waiting for retry or next catalogue refresh');return
     if os.environ.get('GITHUB_OUTPUT'):
         with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('did_work=true\n')
     dev=read('.leads-state/developers-saxlebi.json')
     yell=read('.leads-state/companies.json')
     # Refresh completed catalogues daily; never discard existing contacts.
-    if not dev['queue'] and not yell.get('pending') and not any(c.get('queue') for c in yell.get('cursors',{}).values()) and refresh_due:
+    if not retry_categories and not dev['queue'] and not yell.get('pending') and not any(c.get('queue') for c in yell.get('cursors',{}).values()) and catalog_refresh_due:
         dev['queue']=['https://saxlebi.com/developers'];dev['seen']=[]
         from georgia_leads.cli import prepare,read_config
         prepare(yell,read_config('config/companies-sources.json'),restart=True)
