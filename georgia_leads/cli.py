@@ -74,11 +74,13 @@ def export(output, state, before, report, config):
     report['error_categories'] = dict(Counter(e['status'] for e in report['events'] if e['status'] != 'ok'))
     active = [state['cursors'][c['id']] for c in config['categories'] if c.get('enabled', True)]
     report['source_statuses'] = {c['id']: state['cursors'][c['id']].get('last_error') for c in config['categories']}
+    report['failed_pages'] = {c['id']: state['cursors'][c['id']].get('failed_pages', {}) for c in config['categories']}
     report['page_caps_reached'] = [c['id'] for c in config['categories'] if state['cursors'][c['id']].get('capped')]
     report['remaining_directory_pages'] = sum(len(c['queue']) for c in active)
     report['remaining_businesses'] = len(state['pending']) + (0 if report.get('directory_only') else len(state['site_queue']))
     report['work_remaining'] = bool(report['remaining_directory_pages'] or report['remaining_businesses'])
-    report['collection_status'] = 'active' if report['work_remaining'] else 'exhausted'
+    incomplete = bool(report['page_caps_reached'] or any(c.get('last_error') or c.get('failed_pages') for c in active))
+    report['collection_status'] = 'active' if report['work_remaining'] else 'partial' if incomplete else 'exhausted'
     pending_hosts = {domain(u) for c in active for u in c['queue']} | {domain(u) for u in state['site_queue']}
     waits = [state['cooldowns'].get(h, 0) for h in pending_hosts]
     if report['work_remaining'] and not state['pending'] and waits and all(w > time.time() for w in waits):
@@ -132,8 +134,11 @@ def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=
                 cursor['queue'].pop(0); cursor['seen'].extend([url, final])
                 seen = {page_key(x) for x in cursor['queue'] + cursor['seen']}
                 for target in published_pages(body, final):
-                    if page_key(target) not in seen and cursor['pages'] + len(cursor['queue']) < cat['max_pages']:
-                        cursor['queue'].append(target); seen.add(page_key(target))
+                    if page_key(target) not in seen:
+                        if cursor['pages'] + len(cursor['queue']) < cat['max_pages']:
+                            cursor['queue'].append(target); seen.add(page_key(target))
+                        else:
+                            cursor['capped'] = True
                 state['pending'].extend(records)
                 report['events'].append({'source_url':url,'category':cat['id'],'status':'ok','records':len(records)})
                 made_progress = True
@@ -146,6 +151,7 @@ def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=
                 cursor['failures'][url] = cursor['failures'].get(url, 0) + 1
                 report['events'].append({'source_url':url,'category':cat['id'],'status':exc.status,'reason':exc.reason})
                 if exc.status in {'blocked','javascript_only'} or cursor['failures'][url] >= 3:
+                    cursor.setdefault('failed_pages', {})[url] = {'status':exc.status, 'reason':exc.reason}
                     cursor['queue'].pop(0); cursor['seen'].append(url)
                 made_progress = True
             checkpoint()

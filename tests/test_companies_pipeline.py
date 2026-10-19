@@ -41,3 +41,24 @@ def test_manual_refresh_restarts_completed_catalogues_before_daily_deadline(tmp_
     monkeypatch.setenv('REFRESH_CATALOG', 'true')
     pipeline.collect()
     assert pipeline.read('.leads-state/developers-saxlebi.json')['queue'] == ['https://saxlebi.com/developers']
+
+
+def test_pending_records_resume_even_without_pages_or_with_cooldown(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {'catalog_refresh_at': 199999})
+    pipeline.write('.leads-state/companies.json', {'pending':[{'name':'Buffered'}], 'cursors':{}, 'cooldowns':{'yell.ge':300000}})
+    assert pipeline.report()['work_ready']
+    assert pipeline.report()['remaining_buffered_records'] == 1
+    pipeline.collect()
+    assert pipeline.read('.leads-state/companies.json')['pending']
+
+
+def test_transient_error_resumes_when_cooldown_expires(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {})
+    cursor={'queue':['https://www.yell.ge/companies.php'], 'last_error':{'reason':'rate_limited'}}
+    state={'cursors':{'construction':cursor}, 'cooldowns':{'yell.ge':300000}}
+    pipeline.write('.leads-state/companies.json',state)
+    assert not pipeline.report()['work_ready']
+    state['cooldowns']={}
+    pipeline.write('.leads-state/companies.json',state)
+    assert pipeline.report()['work_ready']
+    assert pipeline.report()['source_statuses']['construction']['status']=='retry_pending'

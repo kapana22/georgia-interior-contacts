@@ -41,12 +41,18 @@ def report():
     pending=[r for r in dev.get('records',{}).values() if not r.get('profile_collected_at')]
     dev_ready=dev.get('resume_after',0)<=stamp and max(dev.get('cooldowns',{}).values(),default=0)<=stamp
     dev_work=dev_ready and (bool(dev.get('queue')) or any(r.get('retry_after',0)<=stamp for r in pending))
-    yell_work=any(c.get('queue') and not c.get('last_error') for c in yell.get('cursors',{}).values()) and max(yell.get('cooldowns',{}).values(),default=0)<=stamp
+    # An earlier transient error must not prevent the collector's bounded retry.
+    # Parsed records can remain buffered even after the final page was fetched.
+    yell_work=bool(yell.get('pending')) or (any(c.get('queue') for c in yell.get('cursors',{}).values()) and max(yell.get('cooldowns',{}).values(),default=0)<=stamp)
     old=read(TREE/'report.json',{})
     return {**old,'updated_at':datetime.now(timezone.utc).isoformat(),'automatic':True,
         'remaining_profiles':len(pending),'developer_profiles_collected':len(dev.get('records',{}))-len(pending),
         'remaining_listing_pages':len(dev.get('queue',[]))+sum(len(c.get('queue',[])) for c in yell.get('cursors',{}).values()),
         'work_ready':bool(dev_work or yell_work),'run_id':os.environ.get('GITHUB_RUN_ID',''),
+        'remaining_buffered_records':len(yell.get('pending',[])),
+        'source_statuses':{key:{'pages':c.get('pages',0),'remaining_pages':len(c.get('queue',[])),
+            'status':'capped' if c.get('capped') else 'retry_pending' if c.get('queue') and c.get('last_error') else 'active' if c.get('queue') else 'error' if c.get('last_error') or c.get('failed_pages') else 'exhausted',
+            'last_error':c.get('last_error'),'failed_pages':c.get('failed_pages',{})} for key,c in yell.get('cursors',{}).items()},
         'recent_errors':dev.get('errors',[])[-5:]}
 
 def collect():
@@ -60,7 +66,7 @@ def collect():
     dev=read('.leads-state/developers-saxlebi.json')
     yell=read('.leads-state/companies.json')
     # Refresh completed catalogues daily; never discard existing contacts.
-    if not dev['queue'] and refresh_due:
+    if not dev['queue'] and not yell.get('pending') and not any(c.get('queue') for c in yell.get('cursors',{}).values()) and refresh_due:
         dev['queue']=['https://saxlebi.com/developers'];dev['seen']=[]
         from georgia_leads.cli import prepare,read_config
         prepare(yell,read_config('config/companies-sources.json'),restart=True)

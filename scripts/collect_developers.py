@@ -71,7 +71,19 @@ def profile(body, record):
                 host = urlsplit(value).hostname or ''
                 kind = next((k for k in ['facebook', 'instagram', 'linkedin', 'youtube', 'tiktok'] if host == k+'.com' or host.endswith('.'+k+'.com')), 'website')
                 facts.append({'kind': kind, 'value': value, 'source_url': record['directory_profile'], 'first_seen': now(), 'last_seen': now()})
-        record['facts'] = [f for f in facts if f['kind'] != 'name' and not (f['kind'] == 'website' and f.get('value') == record['directory_profile'])]
+        facts = [f for f in facts if f['kind'] != 'name' and not (f['kind'] == 'website' and f.get('value') == record['directory_profile'])]
+        # A successful but sparse page must not erase earlier public contacts.
+        merged = {(f['kind'], f['value'], f['source_url']): f for f in record.get('facts', []) if f['kind'] != 'name'}
+        for fact in facts:
+            key = (fact['kind'], fact['value'], fact['source_url'])
+            prior = merged.get(key)
+            if prior:
+                fact['first_seen'] = prior['first_seen']
+            merged[key] = fact
+        record['facts'] = list(merged.values())
+        record['profile_contact_status'] = 'contacts_found' if facts else 'no_contacts_published'
+    else:
+        record['profile_contact_status'] = 'contact_section_absent'
     record['profile_collected_at'] = now()
 
 def main():

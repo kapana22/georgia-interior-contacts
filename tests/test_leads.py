@@ -123,3 +123,44 @@ def test_dns_failure_is_not_a_website_absence_signal():
     assert opportunity(record) == 'website_listed'
     record['website_checks'][0]['reason'] = 'http_404'
     assert opportunity(record) == 'website_unreachable'
+
+
+def test_pagination_cap_is_reported_as_partial_not_exhausted(tmp_path):
+    state=load_leads(tmp_path/'state.json');cfg=config();cfg['categories'][0]['max_pages']=1;prepare(state,cfg)
+    class Fixture:
+        cooldowns={}
+        def fetch(self,url):return url,(HTML+'<a href="?rub=398&lan=eng&SR_pg=2">Next</a>').encode()
+    report={'started_at':'now','events':[],'pages_processed':0,'sites_processed':0,'directory_only':True}
+    collect(state,cfg,Fixture(),report=report,directory_only=True)
+    export(tmp_path,state,[],report,cfg)
+    assert report['page_caps_reached']==['beauty']
+    assert report['collection_status']=='partial'
+    assert not report['work_remaining']
+
+
+def test_empty_or_changed_layout_is_not_successful_exhaustion(tmp_path):
+    state=load_leads(tmp_path/'state.json');prepare(state,config())
+    class Fixture:
+        cooldowns={}
+        def fetch(self,url):return url,b'<html><h1>Restaurants</h1><div>Results:</div></html>'
+    report={'started_at':'now','events':[],'pages_processed':0,'sites_processed':0,'directory_only':True}
+    collect(state,config(),Fixture(),report=report,directory_only=True)
+    export(tmp_path,state,[],report,config())
+    assert report['collection_status']=='partial'
+    assert report['source_statuses']['beauty']['status']=='javascript_only'
+
+
+def test_successful_later_page_does_not_hide_failed_page(tmp_path):
+    state=load_leads(tmp_path/'state.json');cfg=config();prepare(state,cfg)
+    state['cursors']['beauty']['queue'].append(URL+'&SR_pg=2')
+    class Fixture:
+        cooldowns={}
+        def fetch(self,url):
+            if 'SR_pg=2' not in url:raise FetchError('blocked','robots_disallowed')
+            return url,HTML.encode()
+    report={'started_at':'now','events':[],'pages_processed':0,'sites_processed':0,'directory_only':True}
+    collect(state,cfg,Fixture(),report=report,directory_only=True)
+    export(tmp_path,state,[],report,cfg)
+    assert not state['cursors']['beauty'].get('last_error')
+    assert report['failed_pages']['beauty'][URL]['reason']=='robots_disallowed'
+    assert report['collection_status']=='partial'
