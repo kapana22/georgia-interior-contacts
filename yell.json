@@ -504,7 +504,7 @@
       "id": "017a9574abc8a71c"
     },
     {
-      "name": "MACHAKHELA",
+      "name": "FIORINO",
       "business_key": "yell:143109",
       "domains": [
         "vdcapital.ge"
@@ -515,7 +515,21 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@vdcapital.ge",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "FIORINO",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "name",
@@ -540,6 +554,13 @@
         },
         {
           "kind": "phone",
+          "value": "+995577527766",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
           "value": "+995577659944",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
@@ -551,6 +572,13 @@
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
           "last_seen": "2026-10-19T08:48:57+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.vdcapital.ge/",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "website",
@@ -578,15 +606,17 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=143108",
-          "checked_at": "2026-10-19T08:49:09+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=109545",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "listed"
         }
       ],
       "website_checks": [],
-      "email_domain_hints": [],
+      "email_domain_hints": [
+        "vdcapital.ge"
+      ],
       "first_seen": "2026-10-19T08:48:57+00:00",
-      "last_seen": "2026-10-19T08:49:09+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "01800ea37e1524ab"
     },
     {
@@ -874,25 +904,25 @@
       "domains": [],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995568105142",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:03+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "name",
           "value": "THE CONE CULTURE",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:03+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995568105142",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:03+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         }
       ],
       "status": "review",
@@ -906,15 +936,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=143215",
-          "checked_at": "2026-10-19T08:48:03+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=162125",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:48:03+00:00",
-      "last_seen": "2026-10-19T08:48:03+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "0472e97007a9b352"
     },
     {
@@ -1565,28 +1595,28 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "name",
           "value": "LUCA POLARE",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "phone_unverified",
           "value": "238 08 02",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.lucapolare.com/",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         }
       ],
       "status": "review",
@@ -1600,15 +1630,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=127559",
-          "checked_at": "2026-10-19T08:48:03+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=76185",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:43:53+00:00",
-      "last_seen": "2026-10-19T08:48:03+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "06330f96905de988"
     },
     {
@@ -2638,6 +2668,69 @@
       "first_seen": "2026-10-19T08:45:09+00:00",
       "last_seen": "2026-10-19T08:46:26+00:00",
       "id": "091f7b104fb3a21b"
+    },
+    {
+      "name": "LE GATEAU",
+      "business_key": "yell:160975",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "legateau.ge@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "247 15 15",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "247 00 08",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "LE GATEAU",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=160975",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "0930d97af41a5e6f"
     },
     {
       "name": "KIKLIKO",
@@ -7073,6 +7166,55 @@
       "id": "15a1b76e306f5471"
     },
     {
+      "name": "SOFIKO",
+      "business_key": "yell:141848",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995558311133",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SOFIKO",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=141848",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "15f17a57250502ed"
+    },
+    {
       "name": "TSERETLIS MEKSIKURI",
       "business_key": "yell:143940",
       "domains": [],
@@ -8047,6 +8189,62 @@
       "id": "189e176083296d9f"
     },
     {
+      "name": "BACHATA",
+      "business_key": "yell:156549",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "bachatacommunity@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995555551855",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "BACHATA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=156549",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "18abcbd538c57fdf"
+    },
+    {
       "name": "ფინა",
       "business_key": "yell:141306",
       "domains": [],
@@ -8956,6 +9154,62 @@
       "id": "1acb66c82d6d9c9c"
     },
     {
+      "name": "VERIKO",
+      "business_key": "yell:142121",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "verikorest@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591332277",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "VERIKO",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=142121",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "1ad870496fdb7ece"
+    },
+    {
       "name": "ბანი 2007",
       "business_key": "yell:163424",
       "domains": [
@@ -9722,35 +9976,35 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:03+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "email",
           "value": "info@shaurmaclub.ge",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:03+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "name",
           "value": "SHAURMA CLUB",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:03+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "phone_unverified",
           "value": "*9090",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "website",
           "value": "https://shaurmaclub.ge/",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:03+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         }
       ],
       "status": "review",
@@ -9764,8 +10018,8 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=131794",
-          "checked_at": "2026-10-19T08:48:57+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=131010",
+          "checked_at": "2026-10-19T08:50:00+00:00",
           "outcome": "listed"
         }
       ],
@@ -9774,7 +10028,7 @@
         "shaurmaclub.ge"
       ],
       "first_seen": "2026-10-19T08:48:03+00:00",
-      "last_seen": "2026-10-19T08:48:57+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
       "id": "1d7a3b9d157bcf2b"
     },
     {
@@ -13024,6 +13278,62 @@
       "id": "243eabd2ee8e0678"
     },
     {
+      "name": "MADLENA",
+      "business_key": "yell:109154",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995555118500",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "222 22 59",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "MADLENA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=109154",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "24cdefe2098adc87"
+    },
+    {
       "name": "არტ ნუვო",
       "business_key": "yell:133338",
       "domains": [],
@@ -13623,6 +13933,62 @@
       "first_seen": "2026-10-19T08:46:26+00:00",
       "last_seen": "2026-10-19T08:49:09+00:00",
       "id": "263e1f5b40e2c36a"
+    },
+    {
+      "name": "HONORE",
+      "business_key": "yell:161485",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "honore.tbilisi@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995514100069",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "HONORE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=161485",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "264e41931a754021"
     },
     {
       "name": "ალიანს ჯგუფი",
@@ -18553,6 +18919,62 @@
       "id": "33e82ddd4e9f6a3e"
     },
     {
+      "name": "SMA",
+      "business_key": "yell:142194",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "smatbilisi@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595850554",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SMA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=142194",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "342befca5d7c98a5"
+    },
+    {
       "name": "KALINA",
       "business_key": "yell:121015",
       "domains": [],
@@ -18813,6 +19235,64 @@
       "first_seen": "2026-10-19T08:48:57+00:00",
       "last_seen": "2026-10-19T08:48:57+00:00",
       "id": "34a8f00638a1538e"
+    },
+    {
+      "name": "AUGUST",
+      "business_key": "yell:147557",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@augustbakery.ge",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577110205",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "AUGUST",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=147557",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "augustbakery.ge"
+      ],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "34f0b390ec566f72"
     },
     {
       "name": "PAULANER FAN CLUB",
@@ -20065,6 +20545,62 @@
       "id": "37f9a8b8d92e8b05"
     },
     {
+      "name": "CULTURA RESTAURANT",
+      "business_key": "yell:163137",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "restaurantcultura@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995511202277",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "CULTURA RESTAURANT",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=163137",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "387e4fa96d0184fd"
+    },
+    {
       "name": "CANAPE",
       "business_key": "yell:120732",
       "domains": [
@@ -21098,6 +21634,62 @@
       "first_seen": "2026-10-16T11:53:57+00:00",
       "last_seen": "2026-10-19T07:52:04+00:00",
       "id": "3c79c3a03632ef87"
+    },
+    {
+      "name": "KHANUMA",
+      "business_key": "yell:163465",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "khanuma2020@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995598699990",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "KHANUMA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=163465",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "3d240ec351e154b2"
     },
     {
       "name": "პორშე ცენტრი თბილისი",
@@ -25300,7 +25892,7 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "email",
@@ -25314,7 +25906,7 @@
           "value": "DUNKIN DONUTS",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "name",
@@ -25336,6 +25928,13 @@
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:47:42+00:00",
           "last_seen": "2026-10-19T08:47:42+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577313875",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "phone",
@@ -25401,18 +26000,25 @@
           "last_seen": "2026-10-19T08:45:09+00:00"
         },
         {
+          "kind": "phone",
+          "value": "+995577538087",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
           "kind": "phone_unverified",
           "value": "2 557 557",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "website",
           "value": "http://www.dd.ge/",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "website",
@@ -25441,8 +26047,8 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=132997",
-          "checked_at": "2026-10-19T08:49:09+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=131619",
+          "checked_at": "2026-10-19T08:50:00+00:00",
           "outcome": "listed"
         }
       ],
@@ -25451,7 +26057,7 @@
         "wendys.ge"
       ],
       "first_seen": "2026-10-19T08:42:43+00:00",
-      "last_seen": "2026-10-19T08:49:09+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
       "id": "4a8829913708d006"
     },
     {
@@ -26745,6 +27351,62 @@
       "id": "4d6f619e7b7e838c"
     },
     {
+      "name": "TASTE OF INDIA",
+      "business_key": "yell:156556",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "tasteofindia.ge@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591061010",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "TASTE OF INDIA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=156556",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "4d7295dbcaba12df"
+    },
+    {
       "name": "ჯეოინჟინირინგი",
       "business_key": "yell:71654",
       "domains": [
@@ -27755,6 +28417,71 @@
       "first_seen": "2026-10-19T08:46:57+00:00",
       "last_seen": "2026-10-19T08:46:57+00:00",
       "id": "4f9374cdc4abbc62"
+    },
+    {
+      "name": "RADIOCAFE",
+      "business_key": "yell:136758",
+      "domains": [
+        "en.radiocafe.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "radiocafe1047@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995575757333",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "RADIOCAFE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://en.radiocafe.ge/",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=136758",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "4fe3dfd651cd77e3"
     },
     {
       "name": "BURGER HOUSE",
@@ -29109,21 +29836,21 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "name",
           "value": "GOCHITS BURGER",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "phone",
           "value": "+995558284357",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         }
       ],
       "status": "review",
@@ -29137,15 +29864,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=154177",
-          "checked_at": "2026-10-19T08:49:09+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=146897",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:42:43+00:00",
-      "last_seen": "2026-10-19T08:49:09+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "52b2f2fb0e9001e9"
     },
     {
@@ -30307,6 +31034,71 @@
       "id": "5468b8ae68c548af"
     },
     {
+      "name": "GHUMELI",
+      "business_key": "yell:140056",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@ghumeli.ge",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995598844444",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "240 30 10",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "GHUMELI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=140056",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "ghumeli.ge"
+      ],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "546ae0b552c6bbc0"
+    },
+    {
       "name": "როიალ გრუპი",
       "business_key": "yell:132489",
       "domains": [
@@ -31152,6 +31944,69 @@
       "first_seen": "2026-10-19T08:45:05+00:00",
       "last_seen": "2026-10-19T08:45:05+00:00",
       "id": "55e900b9d883eef4"
+    },
+    {
+      "name": "KERIA",
+      "business_key": "yell:76763",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "keriarestaurant@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995574437373",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "254 06 82",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "KERIA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=76763",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "566e4806b86a71de"
     },
     {
       "name": "DELICATO",
@@ -32826,22 +33681,29 @@
       ],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995577043767",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:45:09+00:00",
-          "last_seen": "2026-10-19T08:45:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "name",
           "value": "KFC",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:45:09+00:00",
-          "last_seen": "2026-10-19T08:45:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577043710",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577043767",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:45:09+00:00",
           "last_seen": "2026-10-19T08:45:09+00:00"
@@ -32851,7 +33713,7 @@
           "value": "https://www.kfc.com.ge/",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:45:09+00:00",
-          "last_seen": "2026-10-19T08:45:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         }
       ],
       "status": "review",
@@ -32865,15 +33727,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=136136",
-          "checked_at": "2026-10-19T08:45:09+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=142139",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:45:09+00:00",
-      "last_seen": "2026-10-19T08:45:09+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "5c3c9c2fb72a034c"
     },
     {
@@ -35438,6 +36300,69 @@
       "id": "615d514443cb4f93"
     },
     {
+      "name": "RESTAURANT KRTSANISI",
+      "business_key": "yell:71987",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "krtsanisi1@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995555996969",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "272 47 88",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "RESTAURANT KRTSANISI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=71987",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "618c6c44a38d1848"
+    },
+    {
       "name": "არქი პარკი",
       "business_key": "yell:150775",
       "domains": [],
@@ -37975,6 +38900,62 @@
       "id": "66779e04b6f746e7"
     },
     {
+      "name": "PASANAURI",
+      "business_key": "yell:79000",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "pasanauri@yahoo.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "298 87 15",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "PASANAURI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=79000",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "66e065a452dfb32b"
+    },
+    {
       "name": "დოქტრა",
       "business_key": "yell:162765",
       "domains": [
@@ -39248,6 +40229,55 @@
       "id": "68c37d6f47a8e169"
     },
     {
+      "name": "CAFE VANILLA HOUSE",
+      "business_key": "yell:161881",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995599474854",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "CAFE VANILLA HOUSE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=161881",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "69ce22241669c833"
+    },
+    {
       "name": "ას ჯორჯია",
       "business_key": "yell:130620",
       "domains": [
@@ -39558,6 +40588,48 @@
       "first_seen": "2026-10-19T08:45:08+00:00",
       "last_seen": "2026-10-19T08:45:08+00:00",
       "id": "6b2a5fb7b8b868de"
+    },
+    {
+      "name": "DEGUSTO",
+      "business_key": "yell:143682",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "name",
+          "value": "DEGUSTO",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=143682",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "6b4e3a4ad4667bc0"
     },
     {
       "name": "დან დიურ ინტერნეიშენალი",
@@ -41095,6 +42167,57 @@
       "id": "7277115b87f994e6"
     },
     {
+      "name": "DEGUSTO",
+      "business_key": "yell:160381",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "gagarini@degusto.ge",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DEGUSTO",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=160381",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "degusto.ge"
+      ],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "72b988ddee2217d4"
+    },
+    {
       "name": "სოფთმასტერი",
       "business_key": "yell:106772",
       "domains": [
@@ -41435,18 +42558,32 @@
       "id": "74246f9cd0fd058e"
     },
     {
-      "name": "MASPINDZELO",
+      "name": "MASPINDZELO EXPRESS",
       "business_key": "yell:76473",
       "domains": [
         "mgroup.ge"
       ],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:43:53+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@mgroup.ge",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
           "last_seen": "2026-10-19T08:43:53+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "maspindzeli@mgroup.ge",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "name",
@@ -41456,11 +42593,18 @@
           "last_seen": "2026-10-19T08:43:53+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "name",
+          "value": "MASPINDZELO EXPRESS",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:43:53+00:00"
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577350209",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "website",
@@ -41468,6 +42612,13 @@
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
           "last_seen": "2026-10-19T08:43:53+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://mgroup.ge/client/maspindzelo-express",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
         }
       ],
       "status": "review",
@@ -41481,8 +42632,8 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=76473",
-          "checked_at": "2026-10-19T08:43:53+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=158481",
+          "checked_at": "2026-10-19T08:50:00+00:00",
           "outcome": "listed"
         }
       ],
@@ -41491,7 +42642,7 @@
         "mgroup.ge"
       ],
       "first_seen": "2026-10-19T08:43:53+00:00",
-      "last_seen": "2026-10-19T08:43:53+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
       "id": "743bbc13c9e17a15"
     },
     {
@@ -41672,6 +42823,62 @@
       "first_seen": "2026-10-19T08:43:47+00:00",
       "last_seen": "2026-10-19T08:43:47+00:00",
       "id": "74ce245dba9e8bed"
+    },
+    {
+      "name": "BRAKE TIME",
+      "business_key": "yell:134469",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "breaktime25a@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995574723223",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "BRAKE TIME",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=134469",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "75037d9d0913ae7a"
     },
     {
       "name": "LADY DIOR",
@@ -42089,6 +43296,69 @@
       "first_seen": "2026-10-19T08:43:47+00:00",
       "last_seen": "2026-10-19T08:43:47+00:00",
       "id": "755b228915e9ee89"
+    },
+    {
+      "name": "OLD YEREVAN",
+      "business_key": "yell:132443",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "edikechik@mail.ru",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995558215474",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995574172729",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "OLD YEREVAN",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=132443",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "7564d705936d25cc"
     },
     {
       "name": "თ ენდ თ ჯგუფი",
@@ -42873,32 +44143,39 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:47:42+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@gurme.ge",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:47:42+00:00",
-          "last_seen": "2026-10-19T08:47:42+00:00"
-        },
-        {
-          "kind": "phone",
-          "value": "+995511223238",
-          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "first_seen": "2026-10-19T08:47:42+00:00",
-          "last_seen": "2026-10-19T08:47:42+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "name",
           "value": "GOURMET - LA CAFETERIA",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:47:42+00:00",
-          "last_seen": "2026-10-19T08:47:42+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995511223238",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:47:42+00:00",
-          "last_seen": "2026-10-19T08:47:42+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "2 444 004",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
         }
       ],
       "status": "review",
@@ -42912,8 +44189,8 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=108926",
-          "checked_at": "2026-10-19T08:47:42+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=145379",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "not_listed"
         }
       ],
@@ -42922,7 +44199,7 @@
         "gurme.ge"
       ],
       "first_seen": "2026-10-19T08:47:42+00:00",
-      "last_seen": "2026-10-19T08:47:42+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "7876dd68332836b1"
     },
     {
@@ -43464,6 +44741,62 @@
       "id": "797499a9fdbb3633"
     },
     {
+      "name": "NEW ASIA",
+      "business_key": "yell:107471",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995595922107",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "292 21 07",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "NEW ASIA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=107471",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "79a3c6ab248e8138"
+    },
+    {
       "name": "შირმა სტუდიო",
       "business_key": "yell:158394",
       "domains": [],
@@ -43898,6 +45231,73 @@
       "first_seen": "2026-10-19T08:46:57+00:00",
       "last_seen": "2026-10-19T08:46:57+00:00",
       "id": "7afd9a6b59bb04cd"
+    },
+    {
+      "name": "INEBE",
+      "business_key": "yell:136224",
+      "domains": [
+        "inebe.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@inebe.ge",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995598331114",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "INEBE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.inebe.ge/",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=136224",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "inebe.ge"
+      ],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "7b2bf244786150df"
     },
     {
       "name": "აერ არქიტექტურა",
@@ -47185,6 +48585,62 @@
       "id": "84c179a19370dd0a"
     },
     {
+      "name": "PROLOGUE • 1709",
+      "business_key": "yell:155990",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "prologue1709@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599170974",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "PROLOGUE • 1709",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=155990",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "856d1e2b4f0eafc2"
+    },
+    {
       "name": "დიღომი 2000",
       "business_key": "yell:68579",
       "domains": [],
@@ -48319,6 +49775,62 @@
       "first_seen": "2026-10-16T11:53:57+00:00",
       "last_seen": "2026-10-19T08:43:56+00:00",
       "id": "87ce505a4619c126"
+    },
+    {
+      "name": "GEBELE SEBETI",
+      "business_key": "yell:145329",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "gebelesebeti@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995593977277",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "GEBELE SEBETI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=145329",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "88860e6509e1db84"
     },
     {
       "name": "BEAUTY SALON MIKA",
@@ -49475,6 +50987,55 @@
       "first_seen": "2026-10-19T08:45:09+00:00",
       "last_seen": "2026-10-19T08:45:09+00:00",
       "id": "8c96a42b7a022fc1"
+    },
+    {
+      "name": "SUSHI ROLLS",
+      "business_key": "yell:162124",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995591449994",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SUSHI ROLLS",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=162124",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "8cbb5f6f8966069e"
     },
     {
       "name": "ჩემი სახლი",
@@ -51483,6 +53044,55 @@
       "id": "923c864d4c7dd2ec"
     },
     {
+      "name": "PYANSE",
+      "business_key": "yell:144946",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995579991100",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "PYANSE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=144946",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "933890c7e72d53ef"
+    },
+    {
       "name": "არქენომი",
       "business_key": "yell:155409",
       "domains": [
@@ -52171,6 +53781,55 @@
       "id": "9645072ee8fc7c26"
     },
     {
+      "name": "ANDAZI RESTAURANT",
+      "business_key": "yell:153790",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone_unverified",
+          "value": "225 20 20",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ANDAZI RESTAURANT",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=153790",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "96a171f76663f6df"
+    },
+    {
       "name": "COFFEESTA",
       "business_key": "yell:132667",
       "domains": [
@@ -52182,7 +53841,7 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "email",
@@ -52196,7 +53855,7 @@
           "value": "COFFEESTA",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "phone",
@@ -52217,7 +53876,7 @@
           "value": "https://www.coffeesta.com/",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         }
       ],
       "status": "review",
@@ -52231,15 +53890,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=150132",
-          "checked_at": "2026-10-19T08:48:57+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=140535",
+          "checked_at": "2026-10-19T08:50:00+00:00",
           "outcome": "listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:43:53+00:00",
-      "last_seen": "2026-10-19T08:48:57+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
       "id": "96c28117270d469a"
     },
     {
@@ -52248,11 +53907,25 @@
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:49:09+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
           "kind": "email",
           "value": "de_gusti@yahoo.com",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:49:09+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DE GUSTI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:49:09+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "phone",
@@ -52262,18 +53935,11 @@
           "last_seen": "2026-10-19T08:49:09+00:00"
         },
         {
-          "kind": "name",
-          "value": "DE GUSTI",
+          "kind": "phone_unverified",
+          "value": "290 53 64",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "first_seen": "2026-10-19T08:49:09+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
-        },
-        {
-          "kind": "city",
-          "value": "თბილისი",
-          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "first_seen": "2026-10-19T08:49:09+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
         }
       ],
       "status": "review",
@@ -52287,15 +53953,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=158498",
-          "checked_at": "2026-10-19T08:49:09+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=140601",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:49:09+00:00",
-      "last_seen": "2026-10-19T08:49:09+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "96c651735aa982b9"
     },
     {
@@ -55109,6 +56775,55 @@
       "id": "9efb23de49e7dd4f"
     },
     {
+      "name": "PIZZALANDIA",
+      "business_key": "yell:141907",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995558633396",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "PIZZALANDIA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=141907",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "9f0412432491d751"
+    },
+    {
       "name": "GEBI",
       "business_key": "yell:113568",
       "domains": [],
@@ -57670,6 +59385,85 @@
       "id": "a6669be264011208"
     },
     {
+      "name": "PELAGONI",
+      "business_key": "yell:108628",
+      "domains": [
+        "pelagoni.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "restaurantpelagoni@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995597037711",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995514714714",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "256 03 04",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "PELAGONI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.pelagoni.ge/",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=108628",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "a684a12748ec2354"
+    },
+    {
       "name": "ჯორჯიან ენერჯი გრუპ",
       "business_key": "yell:138724",
       "domains": [],
@@ -58212,6 +60006,48 @@
       "first_seen": "2026-10-16T11:34:03+00:00",
       "last_seen": "2026-10-19T07:49:54+00:00",
       "id": "a7f834fce2bc67e8"
+    },
+    {
+      "name": "TATUZA JAZZ CLUB",
+      "business_key": "yell:161985",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "name",
+          "value": "TATUZA JAZZ CLUB",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=161985",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "a825c772c14b4428"
     },
     {
       "name": "DING SHENG",
@@ -58956,6 +60792,55 @@
       "id": "a9b963b93e052f77"
     },
     {
+      "name": "THE KHACHAPURI",
+      "business_key": "yell:159686",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995595784488",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "THE KHACHAPURI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=159686",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "a9cbf1446ae86462"
+    },
+    {
       "name": "ჰაი-ტექ სოლუშენს",
       "business_key": "yell:121101",
       "domains": [
@@ -59459,6 +61344,71 @@
       "first_seen": "2026-10-19T08:41:39+00:00",
       "last_seen": "2026-10-19T08:41:39+00:00",
       "id": "aa4b1222dba9f6ea"
+    },
+    {
+      "name": "GOOD CHOICE BBQ",
+      "business_key": "yell:151648",
+      "domains": [
+        "goodchoice.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "welcomegoodchoice@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995323222000",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "GOOD CHOICE BBQ",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://goodchoice.ge/bbq/",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=151648",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "abca4f17406e9ac4"
     },
     {
       "name": "გია და არჩილ ქურდიანების სტუდია დინასტია",
@@ -62025,6 +63975,55 @@
       "id": "b4b5ba4d7e449360"
     },
     {
+      "name": "PIATTO",
+      "business_key": "yell:127514",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995577012948",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "PIATTO",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=127514",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "b4bd267ab56edfd9"
+    },
+    {
       "name": "MARGALITI COLLECTION",
       "business_key": "yell:160873",
       "domains": [],
@@ -62643,6 +64642,62 @@
       "first_seen": "2026-10-19T08:43:56+00:00",
       "last_seen": "2026-10-19T08:43:56+00:00",
       "id": "b5c1ca3734a922bf"
+    },
+    {
+      "name": "DZVELI UBANI",
+      "business_key": "yell:106969",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995557722115",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "272 22 10",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DZVELI UBANI",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=106969",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "b63e4e0af503a96f"
     },
     {
       "name": "ნდს მშენებლობა",
@@ -66680,21 +68735,21 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:47:42+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "name",
           "value": "SKA JUICE BAR",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:47:42+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "phone",
           "value": "+995322040428",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:43:53+00:00",
-          "last_seen": "2026-10-19T08:47:42+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         }
       ],
       "status": "review",
@@ -66708,15 +68763,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=156984",
-          "checked_at": "2026-10-19T08:47:42+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=156983",
+          "checked_at": "2026-10-19T08:50:00+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:43:53+00:00",
-      "last_seen": "2026-10-19T08:47:42+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
       "id": "c262a39bffa4a0f8"
     },
     {
@@ -67885,6 +69940,71 @@
       "first_seen": "2026-10-16T11:53:22+00:00",
       "last_seen": "2026-10-19T07:50:14+00:00",
       "id": "c76c41aa63e6efe3"
+    },
+    {
+      "name": "SILVIO D'ITALIA",
+      "business_key": "yell:143516",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "silvio-tbilisi@lkafa-group.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995568862913",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "200 28 24",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SILVIO D'ITALIA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=143516",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "lkafa-group.com"
+      ],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "c7d11116f01c0971"
     },
     {
       "name": "ნიკოლო & ვაჟები",
@@ -71968,6 +74088,55 @@
       "id": "d2d3691745920c84"
     },
     {
+      "name": "LAGIDZE WATER",
+      "business_key": "yell:160972",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995574911821",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "LAGIDZE WATER",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=160972",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "d2ec4bc2cc6598ef"
+    },
+    {
       "name": "ENIGMA",
       "business_key": "yell:109494",
       "domains": [],
@@ -73248,7 +75417,7 @@
       "id": "d4de1d28c48b1d46"
     },
     {
-      "name": "WINE YARD",
+      "name": "BEER SQUARE",
       "business_key": "yell:109208",
       "domains": [],
       "facts": [
@@ -73257,14 +75426,14 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "email",
           "value": "reservation@tsiskvili.ge",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "facebook",
@@ -73272,6 +75441,13 @@
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:49:09+00:00",
           "last_seen": "2026-10-19T08:49:09+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "BEER SQUARE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
         },
         {
           "kind": "name",
@@ -73292,7 +75468,14 @@
           "value": "+995322005555",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
-          "last_seen": "2026-10-19T08:49:09+00:00"
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577503305",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
         }
       ],
       "status": "review",
@@ -73306,9 +75489,9 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=143326",
-          "checked_at": "2026-10-19T08:49:09+00:00",
-          "outcome": "social_only"
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=112060",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
         }
       ],
       "website_checks": [],
@@ -73316,7 +75499,7 @@
         "tsiskvili.ge"
       ],
       "first_seen": "2026-10-19T08:48:57+00:00",
-      "last_seen": "2026-10-19T08:49:09+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
       "id": "d4ec4e58ec1d58b8"
     },
     {
@@ -75893,6 +78076,55 @@
       "id": "da67e634daf88767"
     },
     {
+      "name": "HINKALI FACTORY",
+      "business_key": "yell:163205",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995577363010",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "HINKALI FACTORY",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=163205",
+          "checked_at": "2026-10-19T08:50:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:00+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
+      "id": "db1c13c240b3bf4a"
+    },
+    {
       "name": "AESTHETIC MEDICAL CENTRE SHINE",
       "business_key": "yell:70597",
       "domains": [
@@ -77492,21 +79724,28 @@
           "value": "თბილისი",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "email",
           "value": "keria.inbox@gmail.com",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "name",
           "value": "KERIA",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:42:43+00:00",
-          "last_seen": "2026-10-19T08:48:03+00:00"
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591757272",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
         },
         {
           "kind": "phone",
@@ -77541,15 +79780,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=110621",
-          "checked_at": "2026-10-19T08:48:03+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=140970",
+          "checked_at": "2026-10-19T08:50:12+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:42:43+00:00",
-      "last_seen": "2026-10-19T08:48:03+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
       "id": "dfe73b617f57be88"
     },
     {
@@ -77989,6 +80228,55 @@
       "first_seen": "2026-10-16T11:53:26+00:00",
       "last_seen": "2026-10-19T07:51:04+00:00",
       "id": "e091a88accf4d9eb"
+    },
+    {
+      "name": "TASHIR PIZZA",
+      "business_key": "yell:132314",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone_unverified",
+          "value": "297 11 11",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "TASHIR PIZZA",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=132314",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "e0b05e39b4c7fa6a"
     },
     {
       "name": "არქიტექტურული კომპანია Architech",
@@ -81072,6 +83360,62 @@
       "id": "e958f5f32ab8652f"
     },
     {
+      "name": "DRUNK OWL",
+      "business_key": "yell:126201",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "drunkowlbar@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595078798",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "DRUNK OWL",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=126201",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "e9807313813b3033"
+    },
+    {
       "name": "სპექტრუმი",
       "business_key": "yell:145656",
       "domains": [
@@ -81529,6 +83873,55 @@
       "first_seen": "2026-10-16T11:54:00+00:00",
       "last_seen": "2026-10-19T07:49:53+00:00",
       "id": "eb94915b76e80621"
+    },
+    {
+      "name": "MARGE",
+      "business_key": "yell:145790",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone_unverified",
+          "value": "2 207 207",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "MARGE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=145790",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "ec11edec022ae11c"
     },
     {
       "name": "მოსულიშვილი & პარტნიორები",
@@ -84598,6 +86991,62 @@
       "id": "f5c71881d9052235"
     },
     {
+      "name": "RESTAURANT MEINAKHE",
+      "business_key": "yell:160630",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995574709090",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995592709090",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "RESTAURANT MEINAKHE",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=160630",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "f5dc9a260bc2af7b"
+    },
+    {
       "name": "მედმშენი",
       "business_key": "yell:142128",
       "domains": [
@@ -86137,6 +88586,62 @@
       "id": "fab5fbb376fdb9c8"
     },
     {
+      "name": "SAIKOU SUSHI BAR",
+      "business_key": "yell:147821",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "saikoutbilisi@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591149955",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "SAIKOU SUSHI BAR",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=147821",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "fc00a52f6c3c3c4c"
+    },
+    {
       "name": "ენ ჯი თი ჯგუფი",
       "business_key": "yell:78239",
       "domains": [
@@ -86457,13 +88962,34 @@
       "id": "fc945e2779d102d9"
     },
     {
-      "name": "CAFE LEILA - VEGETARIAN CAFE",
+      "name": "BLACK LION",
       "business_key": "yell:127126",
       "domains": [],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:48:57+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
           "kind": "email",
           "value": "shavilomi@gmail.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:48:57+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "BLACK LION",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "CAFE LEILA - VEGETARIAN CAFE",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
           "first_seen": "2026-10-19T08:48:57+00:00",
           "last_seen": "2026-10-19T08:48:57+00:00"
@@ -86483,18 +89009,11 @@
           "last_seen": "2026-10-19T08:48:57+00:00"
         },
         {
-          "kind": "name",
-          "value": "CAFE LEILA - VEGETARIAN CAFE",
+          "kind": "phone_unverified",
+          "value": "296 09 56",
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "first_seen": "2026-10-19T08:48:57+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
-        },
-        {
-          "kind": "city",
-          "value": "თბილისი",
-          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "first_seen": "2026-10-19T08:48:57+00:00",
-          "last_seen": "2026-10-19T08:48:57+00:00"
+          "first_seen": "2026-10-19T08:50:00+00:00",
+          "last_seen": "2026-10-19T08:50:00+00:00"
         }
       ],
       "status": "review",
@@ -86508,15 +89027,15 @@
       "checks": [
         {
           "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
-          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=127126",
-          "checked_at": "2026-10-19T08:48:57+00:00",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=104313",
+          "checked_at": "2026-10-19T08:50:00+00:00",
           "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-19T08:48:57+00:00",
-      "last_seen": "2026-10-19T08:48:57+00:00",
+      "last_seen": "2026-10-19T08:50:00+00:00",
       "id": "fcb346ed2a9915f3"
     },
     {
@@ -88565,6 +91084,55 @@
       "first_seen": "2026-10-19T08:45:09+00:00",
       "last_seen": "2026-10-19T08:45:09+00:00",
       "id": "ff57108ce76868b5"
+    },
+    {
+      "name": "NOZOMI BAR",
+      "business_key": "yell:145564",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "nonkichism@icloud.com",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "NOZOMI BAR",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "first_seen": "2026-10-19T08:50:12+00:00",
+          "last_seen": "2026-10-19T08:50:12+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "food"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/restaurants.php?lan=eng",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/restaurants.php?lan=eng",
+          "profile_url": "https://www.yell.ge/company.php?lan=eng&id=145564",
+          "checked_at": "2026-10-19T08:50:12+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-19T08:50:12+00:00",
+      "last_seen": "2026-10-19T08:50:12+00:00",
+      "id": "fff516a57182c031"
     }
   ],
   "candidates": [],
@@ -88676,9 +91244,6 @@
       "adapter": null,
       "page_limit": 100,
       "queue": [
-        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=eng",
-        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=rus",
-        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=4?lan=geo",
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=4?lan=eng",
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=4?lan=rus",
         "https://www.yell.ge/companies.php?lan=eng&rub=398&SR_pg=6",
@@ -88701,13 +91266,19 @@
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=2?lan=geo",
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=2?lan=eng",
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=2?lan=rus",
-        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=geo"
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=geo",
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=eng",
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=rus",
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=4?lan=geo"
       ],
       "failures": {
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=2?lan=geo": 1,
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=2?lan=eng": 1,
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=2?lan=rus": 1,
-        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=geo": 1
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=geo": 1,
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=eng": 1,
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=rus": 1,
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=4?lan=geo": 1
       },
       "pages": 5,
       "last_error": {
@@ -88728,6 +91299,18 @@
           "reason": "http_403"
         },
         "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=geo": {
+          "status": "blocked",
+          "reason": "http_403"
+        },
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=eng": {
+          "status": "blocked",
+          "reason": "http_403"
+        },
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=3?lan=rus": {
+          "status": "blocked",
+          "reason": "http_403"
+        },
+        "https://www.yell.ge/companies.php?rub=398&lan=eng&SR_pg=4?lan=geo": {
           "status": "blocked",
           "reason": "http_403"
         }
@@ -88752,8 +91335,6 @@
       "adapter": "yell-restaurants",
       "page_limit": 100,
       "queue": [
-        "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=9",
-        "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=10",
         "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=11",
         "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=12",
         "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=13",
@@ -88795,10 +91376,14 @@
         "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=7",
         "https://www.yell.ge/restaurants.php?lan=eng",
         "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=8",
+        "https://www.yell.ge/restaurants.php?lan=eng",
+        "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=9",
+        "https://www.yell.ge/restaurants.php?lan=eng",
+        "https://www.yell.ge/restaurants.php?lan=eng&SR_pg=10",
         "https://www.yell.ge/restaurants.php?lan=eng"
       ],
       "failures": {},
-      "pages": 8,
+      "pages": 10,
       "restaurant_version": "1790938793",
       "restaurant_batches": [
         "1,2,3,5,7,8,9,11,12,13,15,16,18,20,21,22,23,24,25,26,27,29,30,32,33,34,35,37,38,39",
@@ -89226,7 +91811,13 @@
     "http://www.breadandwine.ge/",
     "https://gemography.org/",
     "https://firewok.ge/",
-    "https://filini.ge/"
+    "https://filini.ge/",
+    "https://goodchoice.ge/bbq/",
+    "https://www.pelagoni.ge/",
+    "https://mgroup.ge/client/maspindzelo-express",
+    "https://en.radiocafe.ge/",
+    "http://www.inebe.ge/",
+    "http://www.vdcapital.ge/"
   ],
   "site_done": [],
   "cooldowns": {},
