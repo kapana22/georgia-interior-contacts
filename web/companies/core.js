@@ -1,8 +1,8 @@
 import {safeCell,safeURL} from '../leads/core.js';
 export const categories = {development:'უძრავი ქონების დეველოპმენტი',construction:'მშენებლობა',architecture:'არქიტექტურა',interior:'ინტერიერის დიზაინი',technology:'ტექნოლოგიები',beauty:'სილამაზე',auto:'ავტობიზნესი',food:'კვების ობიექტები',other:'სხვა',unknown:'მიმართულება დაუზუსტებელია'};
 export function categoryIds(record){return [...new Set([classify(record).category,...(record.industries||[]).filter(c=>categories[c])])];}
-export const fields = ['source_id','name','legal_status','legal_status_full','tax_id','country','city','address','phone','fax','email','website','role','registered_at','contact_people','active_tender','facebook','instagram','linkedin','youtube','tiktok','social_links'];
-export const labels = ['ID','სრული სახელი','იურ. სტატუსი','სრული იურ. სტატუსი','ID კოდი','ქვეყანა','ქალაქი','მისამართი','ტელეფონი','ფაქსი','ელ-ფოსტა','ვებგვერდი','როლი','რეგისტრაცია','საკონტ. პირები','აქტიური ტენდერი','Facebook','Instagram','LinkedIn','YouTube','TikTok','სხვა სოციალური ბმულები'];
+export const fields = ['source_id','name','legal_status','legal_status_full','tax_id','country','city','address','phone','fax','email','website','role','registered_at','contact_people','active_tender','facebook','instagram','linkedin','youtube','tiktok','social_links','phone_unverified','quality_notes'];
+export const labels = ['ID','სრული სახელი','იურ. სტატუსი','სრული იურ. სტატუსი','ID კოდი','ქვეყანა','ქალაქი','მისამართი','ტელეფონი','ფაქსი','ელ-ფოსტა','ვებგვერდი','როლი','რეგისტრაცია','საკონტ. პირები','აქტიური ტენდერი','Facebook','Instagram','LinkedIn','YouTube','TikTok','სხვა სოციალური ბმულები','გადასამოწმებელი ნომერი','მონაცემების შენიშვნა'];
 export function publicLinks(record){
   const kinds=['website','facebook','instagram','linkedin','youtube','tiktok','social_links'];
   const inputs=kinds.flatMap(kind=>String(record[kind]||'').split(/[;\n]/).map(value=>({kind,value:value.trim()})));
@@ -73,7 +73,7 @@ export function normalizeImport(data, source='JSON იმპორტი') {
     if (!r || typeof r.name!=='string' || !r.name.trim()) throw new Error(`ჩანაწერი ${i+1}: კომპანიის სახელი აკლია.`);
     const out=Object.fromEntries(fields.map(f=>[f,String(r[f]??'')]));
     // The existing scrapers expose contacts as source-backed facts.
-    for(const [field,kind] of [['phone','phone'],['email','email'],['website','website'],['city','city'],['address','address'],...['facebook','instagram','linkedin','youtube','tiktok','social_links'].map(k=>[k,k])]) {
+    for(const [field,kind] of [['phone_unverified','phone_unverified'],['phone','phone'],['email','email'],['website','website'],['city','city'],['address','address'],...['facebook','instagram','linkedin','youtube','tiktok','social_links'].map(k=>[k,k])]) {
       if (!out[field] && Array.isArray(r.facts)) out[field]=[...new Set(r.facts.filter(f=>f.kind===kind&&typeof f.value==='string').map(f=>f.value))].join('; ');
     }
     out.source=String(r.source||source);

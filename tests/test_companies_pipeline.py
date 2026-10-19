@@ -14,6 +14,8 @@ def setup_state(tmp_path, monkeypatch, report):
     monkeypatch.setattr(pipeline.time, 'time', lambda: 200000)
     monkeypatch.setattr(pipeline, 'run', lambda *args, **kwargs: None)
     monkeypatch.delenv('REFRESH_CATALOG', raising=False)
+    import georgia_leads.cli as leads
+    monkeypatch.setattr(leads, 'read_config', lambda path: {'categories': []})
     pipeline.write('.leads-state/developers-saxlebi.json', {'queue': [], 'seen': ['old'], 'records': {}})
     pipeline.write('.leads-state/companies.json', {'records': [], 'cursors': {}})
     (tmp_path / '.leads-state/companies-restored').touch()
@@ -62,3 +64,11 @@ def test_transient_error_resumes_when_cooldown_expires(tmp_path, monkeypatch):
     pipeline.write('.leads-state/companies.json',state)
     assert pipeline.report()['work_ready']
     assert pipeline.report()['source_statuses']['construction']['status']=='retry_pending'
+
+
+def test_new_categories_start_without_waiting_for_daily_refresh(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {'catalog_refresh_at':199999})
+    import georgia_leads.cli as leads
+    monkeypatch.setattr(leads,'read_config',lambda path:{'categories':[{'id':'beauty','url':'https://www.yell.ge/companies.php?rub=398'}]})
+    pipeline.collect()
+    assert pipeline.read('.leads-state/companies.json')['cursors']['beauty']['queue']

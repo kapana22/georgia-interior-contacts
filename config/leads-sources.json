@@ -19,8 +19,9 @@
       "id": "food",
       "name": "კვების ობიექტები",
       "url": "https://www.yell.ge/restaurants.php?lan=eng",
-      "max_pages": 50,
-      "enabled": true
+      "max_pages": 100,
+      "enabled": true,
+      "adapter": "yell-restaurants"
     }
   ],
   "reviewed_at": "2026-10-12",

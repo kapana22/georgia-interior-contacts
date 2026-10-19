@@ -17,7 +17,7 @@ export function integrate(base, incoming, {deferNameOnly=false}={}){
     if(target===undefined||target===null){index(r,result.length);result.push(r);added++;continue;}
     const old=result[target];if(old.tax_id&&r.tax_id&&old.tax_id!==r.tax_id)throw new Error('Conflicting tax IDs: '+r.id);
     const merged=mergeRecords([old],[{...r,id:old.id}])[0];
-    for(const field of ['phone','email','website','facebook','instagram','linkedin','youtube','tiktok','social_links'])merged[field]=[...new Set([old[field],r[field]].filter(Boolean).flatMap(v=>v.split(/;\s*/)))].join('; ');
+    for(const field of ['phone','phone_unverified','email','website','facebook','instagram','linkedin','youtube','tiktok','social_links'])merged[field]=[...new Set([old[field],r[field]].filter(Boolean).flatMap(v=>v.split(/;\s*/)))].join('; ');
     for(const field of ['name','tax_id','legal_status','legal_status_full','registered_at','source_id'])merged[field]=old[field]||r[field]||'';
     merged.audiences=[...new Set([...(old.audiences||[]),...(r.audiences||[])])];
     merged.industries=[...new Set([...(old.industries||[]),...(r.industries||[]),old.category,r.category].filter(c=>categories[c]&&c!=='unknown'))];

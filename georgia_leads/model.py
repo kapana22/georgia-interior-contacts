@@ -19,6 +19,12 @@ def social(url):
 
 def listing_records(html, url, timestamp, category):
     soup = BeautifulSoup(html, 'html.parser')
+    # Restaurant cards use a different layout and a map index, not a company ID.
+    for card in soup.select('table.SR_[id^="SR__"]'):
+        name = card.select_one('a.SR_name_[href]')
+        identity = parse_qs(urlsplit(name['href']).query).get('id',[''])[0] if name else ''
+        if identity.isdigit():
+            card['id'] = 'SR_div_' + identity
     # Reviews/user comments and portal support are not business contacts.
     for node in soup.select('.review, .reviews, [id^="review"], [id^="Review"], .comment, .comments'):
         node.decompose()
@@ -40,7 +46,7 @@ def listing_records(html, url, timestamp, category):
         hints = sorted({f['value'].split('@')[-1].lower() for f in facts if f['kind'] == 'email' and f['value'].split('@')[-1].lower() not in FREE_EMAIL})
         records.append({'name': candidate['name'], 'business_key': candidate['business_key'], 'domains': sorted({domain(x) for x in own}),
                         'facts': facts, 'status': 'review', 'review_reasons': ['website_need_requires_manual_confirmation'],
-                        'categories': [category], 'checks': [{'source_url': url, 'profile_url': candidate['directory_profile'],
+                        'categories': [category], 'category_evidence': 'კატალოგის კატეგორია: ' + url, 'checks': [{'source_url': url, 'profile_url': candidate['directory_profile'],
                         'checked_at': timestamp, 'outcome': status}], 'website_checks': [], 'email_domain_hints': hints,
                         'first_seen': timestamp, 'last_seen': timestamp})
     return records

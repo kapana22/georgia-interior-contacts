@@ -164,3 +164,28 @@ def test_successful_later_page_does_not_hide_failed_page(tmp_path):
     assert not state['cursors']['beauty'].get('last_error')
     assert report['failed_pages']['beauty'][URL]['reason']=='robots_disallowed'
     assert report['collection_status']=='partial'
+
+
+def test_category_rotation_does_not_starve_later_categories(tmp_path):
+    state=load_leads(tmp_path/'state.json')
+    cfg={'categories':[{'id':str(i),'url':URL+'&SR_pg='+str(i+1),'max_pages':10} for i in range(8)]}
+    prepare(state,cfg)
+    visited=[]
+    class Budget:
+        cooldowns={}
+        def __init__(self):self.n=0
+        def fetch(self,url):
+            if self.n==5:raise FetchError('skipped','page_limit')
+            self.n+=1;visited.append(url);return url,HTML.encode()
+    collect(state,cfg,Budget(),directory_only=True)
+    assert state['category_offset']==5
+    collect(state,cfg,Budget(),directory_only=True)
+    assert all(c['url'] in visited for c in cfg['categories'])
+
+
+def test_new_restaurant_adapter_reopens_old_failed_cursor(tmp_path):
+    state=load_leads(tmp_path/'state.json');cfg=config();prepare(state,cfg)
+    state['cursors']['beauty']['queue']=[]
+    cfg['categories'][0]['adapter']='yell-restaurants'
+    prepare(state,cfg)
+    assert state['cursors']['beauty']['queue']==[URL]

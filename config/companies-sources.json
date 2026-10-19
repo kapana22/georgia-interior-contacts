@@ -14,6 +14,50 @@
       "url": "https://www.yell.ge/companies.php?lan=geo&rub=339",
       "max_pages": 50,
       "enabled": true
+    },
+    {
+      "id": "architecture",
+      "name": "არქიტექტურა",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=41",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "interior",
+      "name": "ინტერიერის დიზაინი",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=151",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "technology",
+      "name": "კომპიუტერული პროგრამების რეალიზაცია და მომსახურება",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=182",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "beauty",
+      "name": "სილამაზის სალონები",
+      "url": "https://www.yell.ge/companies.php?rub=398&lan=eng",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "auto",
+      "name": "ავტოსალონები და დილერები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3487",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "food",
+      "name": "კვების ობიექტები",
+      "url": "https://www.yell.ge/restaurants.php?lan=eng",
+      "adapter": "yell-restaurants",
+      "max_pages": 100,
+      "enabled": true
     }
-  ]
+  ],
+  "reviewed_at": "2026-10-19"
 }

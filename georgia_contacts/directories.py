@@ -2,7 +2,7 @@
 import re
 from urllib.parse import urljoin, urlsplit, parse_qs
 from bs4 import BeautifulSoup
-from .extract import extract, CITIES, RELEVANT
+from .extract import extract, normalize_phone, CITIES, RELEVANT
 from .urls import canonical_url, domain, SOCIAL_HOSTS
 from .network import FetchError
 
@@ -41,6 +41,12 @@ def yell_candidates(html, url, timestamp):
             website = ''
         parsed = extract(str(card), url, timestamp, name)
         facts = [f for f in parsed['facts'] if f['kind'] not in {'website', 'name'}]
+        for node in card.select('.tel_font_companies, .SR_tel_'):
+            raw = re.sub(r'^(?:ტელ:|Tel:|Hot Line:)\s*', '', node.get_text(' ', strip=True), flags=re.I)
+            for part in re.split(r'[,;]', raw):
+                part = part.strip()
+                if re.search(r'\d',part) and not normalize_phone(part):
+                    facts.append({'kind':'phone_unverified','value':part,'source_url':url,'first_seen':timestamp,'last_seen':timestamp})
         facts.append({'kind': 'name', 'value': name, 'source_url': url,
                       'first_seen': timestamp, 'last_seen': timestamp})
         if website:

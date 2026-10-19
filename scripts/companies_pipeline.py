@@ -58,6 +58,10 @@ def report():
 def collect():
     if not (ROOT/'.leads-state/companies-restored').exists():raise RuntimeError('Restore first')
     stamp=time.time();previous=read(TREE/'report.json',{})
+    from georgia_leads.cli import prepare,read_config
+    yell=read('.leads-state/companies.json')
+    prepare(yell,read_config('config/companies-sources.json'))
+    write('.leads-state/companies.json',yell)
     refresh_due=os.environ.get('REFRESH_CATALOG')=='true' or stamp-previous.get('catalog_refresh_at',0)>86400
     if not report()['work_ready'] and not refresh_due:
         print('No work due; waiting for retry or next catalogue refresh');return
@@ -92,6 +96,7 @@ def save():
     run('node','scripts/merge_companies.mjs','output/companies-growth/snapshot.json','general',str(TREE/'data.json'))
     for source,target in STATES.items():shutil.copyfile(target,TREE/source)
     shutil.copyfile('output/companies-growth/developers-saxlebi.json.deferred.json',TREE/'deferred.json')
+    run('node','scripts/reconcile_companies.mjs',str(TREE/'data.json'))
     current=report();current['records_total']=len(read(TREE/'data.json')['records']);write(TREE/'report.json',current)
     run('git','add','--','data.json','developers.json','yell.json','report.json','deferred.json',cwd=TREE)
     if run('git','status','--porcelain',cwd=TREE,capture=True).strip():

@@ -39,6 +39,8 @@ def read_config(path):
         from urllib.parse import urlsplit, parse_qs
         if urlsplit(p).path not in {'/companies.php', '/restaurants.php'} or not set(parse_qs(urlsplit(p).query)) <= {'rub', 'lan', 'SR_pg'}:
             raise ValueError('Unsupported directory URL')
+        if cat.get('adapter') not in {None,'yell-restaurants'} or (cat.get('adapter')=='yell-restaurants' and urlsplit(p).path!='/restaurants.php'):
+            raise ValueError('Unsupported directory adapter')
         cat['url'] = p; ids.add(cat['id'])
     return data
 
@@ -59,8 +61,8 @@ def prepare(state, config, restart=False):
     for cat in config['categories']:
         key = cat['id']
         previous = state['cursors'].get(key)
-        if not previous or previous.get('start') != cat['url']:
-            state['cursors'][key] = {'start': cat['url'], 'queue': [cat['url']], 'seen': [], 'failures': {}, 'pages': 0}
+        if not previous or previous.get('start') != cat['url'] or previous.get('adapter') != cat.get('adapter') or (previous.get('capped') and previous.get('page_limit') != cat.get('max_pages')):
+            state['cursors'][key] = {'start': cat['url'], 'adapter':cat.get('adapter'), 'page_limit':cat.get('max_pages'), 'queue': [cat['url']], 'seen': [], 'failures': {}, 'pages': 0}
 
 
 def export(output, state, before, report, config):
@@ -109,6 +111,12 @@ def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=
     report = report if report is not None else {'events': [], 'pages_processed':0, 'sites_processed':0}
     count = 0
     enabled = [c for c in config['categories'] if c.get('enabled', True)]
+    # Start the next batch with the next category so one shared host budget
+    # cannot starve newly enabled directions behind large earlier catalogues.
+    enabled_ids = [c['id'] for c in enabled]
+    if enabled:
+        offset = state.get('category_offset',0) % len(enabled)
+        enabled = enabled[offset:] + enabled[:offset]
     # Round-robin categories; domain page budget remains at most five per run.
     while count < limit:
         if state['pending']:
@@ -126,14 +134,19 @@ def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=
                 cursor['queue'] = []; cursor['capped'] = True; continue
             url = cursor['queue'][0]
             try:
-                final, body = client.fetch(url)
+                if cat.get('adapter') == 'yell-restaurants':
+                    from .restaurants import fetch_page
+                    final, body, pages = fetch_page(client,url,cursor)
+                else:
+                    final, body = client.fetch(url)
+                    pages = published_pages(body,final)
                 records = listing_records(body, final, now(), cat['id'])
                 if not records:
                     raise FetchError('javascript_only', 'no_business_cards_js_or_layout_requires_review')
                 report['pages_processed'] += 1; cursor['pages'] += 1; cursor.pop('last_error', None)
                 cursor['queue'].pop(0); cursor['seen'].extend([url, final])
                 seen = {page_key(x) for x in cursor['queue'] + cursor['seen']}
-                for target in published_pages(body, final):
+                for target in pages:
                     if page_key(target) not in seen:
                         if cursor['pages'] + len(cursor['queue']) < cat['max_pages']:
                             cursor['queue'].append(target); seen.add(page_key(target))
@@ -142,6 +155,7 @@ def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=
                 state['pending'].extend(records)
                 report['events'].append({'source_url':url,'category':cat['id'],'status':'ok','records':len(records)})
                 made_progress = True
+                state['category_offset'] = (enabled_ids.index(cat['id'])+1) % len(enabled_ids)
             except FetchError as exc:
                 if exc.reason in {'page_limit', 'retry_after_cooldown', 'rate_limited'}:
                     if exc.reason != 'page_limit':

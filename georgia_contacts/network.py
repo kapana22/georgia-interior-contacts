@@ -73,7 +73,7 @@ class Client:
         if seconds > 0:
             self.sleep(seconds)
 
-    def raw(self, url, max_bytes=2_000_000):
+    def raw(self, url, max_bytes=2_000_000, form=None):
         max_bytes = max(1, min(20_000_000, int(max_bytes)))
         for attempt in range(3):
             self.check()
@@ -90,7 +90,8 @@ class Client:
             self.requests += 1
             try:
                 self.session.cookies.clear()
-                with self.session.get(url, timeout=(5, 15), allow_redirects=False, stream=True) as r:
+                request = self.session.get if form is None else self.session.post
+                with request(url, **({'data':form} if form is not None else {}), timeout=(5, 15), allow_redirects=False, stream=True) as r:
                     code, headers = r.status_code, r.headers.copy()
                     body = bytearray()
                     for chunk in r.iter_content(32768):
@@ -153,7 +154,10 @@ class Client:
             raise rules
         return rules
 
-    def fetch(self, url, page_limit=5, *, pdf=False):
+    def fetch(self, url, page_limit=5, *, pdf=False, form=None):
+        # Only the reviewed, read-only restaurant directory endpoints use POST.
+        if form is not None and (domain(url) != 'yell.ge' or urlsplit(url).path not in {'/load_fad_.php','/SR_.php'} or not set(form) <= {'n','i','mt','l','x'}):
+            raise FetchError('blocked', 'unsupported_directory_request')
         original = domain(url)
         for _ in range(5):
             url = canonical_url(url)
@@ -169,8 +173,10 @@ class Client:
             if self.counts.get(original, 0) >= page_limit:
                 raise FetchError("skipped", "page_limit")
             self.counts[original] = self.counts.get(original, 0) + 1
-            code, headers, body = self.raw(url, max_bytes=20_000_000 if pdf else 2_000_000)
+            code, headers, body = self.raw(url, max_bytes=20_000_000 if pdf else 2_000_000, **({'form':form} if form is not None else {}))
             if code in {301, 302, 303, 307, 308}:
+                if form is not None:
+                    raise FetchError('blocked', 'directory_post_redirect')
                 target = headers.get("Location")
                 if not target:
                     raise FetchError("unreachable", "redirect_without_location")
