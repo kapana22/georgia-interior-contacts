@@ -99,7 +99,7 @@ $('sort').onchange=()=>{page=1;render();};$('view').onchange=render;$('page-size
 let refreshing=false,lastSnapshot='';
 const liveBase='https://raw.githubusercontent.com/kapana22/georgia-interior-contacts/companies-data/';
 async function loadCompanyData(fallback=false){
- try{return await fetchCompanySnapshot(liveBase+'data.json');}
+ try{return await fetchCompanySnapshot(liveBase+'data.json?refresh='+Math.floor(Date.now()/90000));}
  catch(error){if(!fallback)throw error;return fetchCompanySnapshot('/companies/data.json');}
 }
 async function refreshCompanies(initial=false){
