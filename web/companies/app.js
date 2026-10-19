@@ -1,3 +1,4 @@
+import {fetchCompanySnapshot,overlaySavedRows} from './sync.js';
 import {categories,categoryIds,publicLinks,fields,labels,classify,cityKey,registrationYear,filterRecords,normalizeImport,mergeRecords,csv,sortRecords,exportRows} from './core.js';
 import {safeURL} from '../leads/core.js';
 const $=id=>document.getElementById(id);
@@ -95,8 +96,30 @@ $('export-form').onsubmit=event=>{event.preventDefault();const scope=$('export-s
 
 $('add').disabled=true;
 $('sort').onchange=()=>{page=1;render();};$('view').onchange=render;$('page-size').onchange=()=>{pageSize=Number($('page-size').value);page=1;render();};
-async function loadCompanyData(){
- const live='https://raw.githubusercontent.com/kapana22/georgia-interior-contacts/companies-data/data.json';
- try{const response=await fetch(live,{signal:AbortSignal.timeout(20000)});if(!response.ok)throw new Error('Live data unavailable');const data=await response.json();if(data.version!==1||!Array.isArray(data.records)||!data.records.length)throw new Error('Invalid live snapshot');return data;}catch{const response=await fetch('/companies/data.json');if(!response.ok)throw new Error('კომპანიების ბაზა ვერ ჩაიტვირთა.');return response.json();}
+let refreshing=false,lastSnapshot='';
+const liveBase='https://raw.githubusercontent.com/kapana22/georgia-interior-contacts/companies-data/';
+async function loadCompanyData(fallback=false){
+ try{return await fetchCompanySnapshot(liveBase+'data.json');}
+ catch(error){if(!fallback)throw error;return fetchCompanySnapshot('/companies/data.json');}
 }
-try{const data=await loadCompanyData();if(data.version!==1||!Array.isArray(data.records))throw new Error('ბაზის ფორმატი არასწორია.');records=data.records;try{db=await openDB();const saved=await savedRows(),map=new Map(records.map(r=>[r.id,r]));for(const r of saved){const base=map.get(r.id)||{};map.set(r.id,{...base,...r,evidence:[...new Map([...(base.evidence||[]),...(r.evidence||[])].map(e=>[JSON.stringify(e),e])).values()],source_records:[...new Map([...(base.source_records||[]),...(r.source_records||[])].map(e=>[JSON.stringify(e),e])).values()]});}records=[...map.values()];$('import').disabled=false;$('add').disabled=false;}catch{$('message').textContent='ბრაუზერში შენახვა მიუწვდომელია; ბაზის დათვალიერება და ჩამოტვირთვა შესაძლებელია.';}facets();render();}catch(e){$('error').hidden=false;$('error').textContent=e.message;$('count').textContent='ბაზა ვერ ჩაიტვირთა';}finally{$('results').setAttribute('aria-busy','false');}
+async function refreshCompanies(initial=false){
+ if(refreshing||(!initial&&(document.hidden||document.querySelector('dialog[open]'))))return;
+ refreshing=true;
+ try{
+  const data=await loadCompanyData(initial),signature=JSON.stringify(data);
+  if(initial){try{db=await openDB();$('import').disabled=false;$('add').disabled=false;}catch{$('message').textContent='ბრაუზერში შენახვა მიუწვდომელია; ბაზის დათვალიერება და ჩამოტვირთვა შესაძლებელია.';}}
+  if(signature!==lastSnapshot){
+   records=overlaySavedRows(data.records,db?await savedRows():[]);
+   lastSnapshot=signature;facets();render();
+  }
+  $('error').hidden=true;
+  const stamp=new Date(data.updated_at);
+  $('sync-status').textContent=`ბაზა მოწმდება ყოველ 90 წამში · ბოლო მონაცემები: ${Number.isNaN(stamp.valueOf())?'თარიღი უცნობია':stamp.toLocaleString('ka-GE')}`;
+ }catch(error){
+  if(initial){$('error').hidden=false;$('error').textContent=error.message;$('count').textContent='ბაზა ვერ ჩაიტვირთა';}
+  else $('sync-status').textContent='განახლება დროებით ვერ მოხერხდა; არსებული სია შენარჩუნებულია. ავტომატურად ვცდით ხელახლა.';
+ }finally{refreshing=false;$('results').setAttribute('aria-busy','false');}
+}
+await refreshCompanies(true);
+setInterval(()=>refreshCompanies(),90000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCompanies();});

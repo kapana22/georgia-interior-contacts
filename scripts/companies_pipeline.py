@@ -52,7 +52,7 @@ def report():
 def collect():
     if not (ROOT/'.leads-state/companies-restored').exists():raise RuntimeError('Restore first')
     stamp=time.time();previous=read(TREE/'report.json',{})
-    refresh_due=stamp-previous.get('catalog_refresh_at',stamp)>86400
+    refresh_due=os.environ.get('REFRESH_CATALOG')=='true' or stamp-previous.get('catalog_refresh_at',0)>86400
     if not report()['work_ready'] and not refresh_due:
         print('No work due; waiting for retry or next catalogue refresh');return
     if os.environ.get('GITHUB_OUTPUT'):
@@ -60,7 +60,7 @@ def collect():
     dev=read('.leads-state/developers-saxlebi.json')
     yell=read('.leads-state/companies.json')
     # Refresh completed catalogues daily; never discard existing contacts.
-    if not dev['queue'] and stamp-previous.get('catalog_refresh_at',stamp)>86400:
+    if not dev['queue'] and refresh_due:
         dev['queue']=['https://saxlebi.com/developers'];dev['seen']=[]
         from georgia_leads.cli import prepare,read_config
         prepare(yell,read_config('config/companies-sources.json'),restart=True)

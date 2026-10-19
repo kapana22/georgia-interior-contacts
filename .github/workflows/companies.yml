@@ -2,6 +2,10 @@ name: Grow company directory
 on:
   workflow_dispatch:
     inputs:
+      refresh:
+        description: Recheck completed catalogues now without deleting contacts
+        type: boolean
+        default: false
       profiles:
         description: Profiles per batch
         type: number
@@ -39,6 +43,7 @@ jobs:
       - name: Collect next batch
         id: collect
         env:
+          REFRESH_CATALOG: ${{ inputs.refresh && 'true' || 'false' }}
           PROFILE_BATCH: ${{ inputs.profiles || '150' }}
         run: python scripts/companies_pipeline.py collect
       - name: Publish partial progress and company data
