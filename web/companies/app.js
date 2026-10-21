@@ -1,5 +1,5 @@
 import {fetchCompanySnapshot,overlaySavedRows,createLiveLoader} from './sync.js';
-import {categories,categoryIds,publicLinks,fields,labels,classify,cityKey,registrationYear,filterRecords,normalizeImport,mergeRecords,csv,sortRecords,exportRows} from './core.js';
+import {categories,categoryIds,publicLinks,formatLinkLabel,formatPhoneDisplay,uniquePhones,uniqueEmails,cleanFax,parseContactPeople,fields,labels,classify,cityKey,registrationYear,filterRecords,normalizeImport,mergeRecords,csv,sortRecords,exportRows} from './core.js';
 import {safeURL} from '../leads/core.js';
 const $=id=>document.getElementById(id);
 let pageSize=30;const selected=new Set();let detailRecord=null;
@@ -49,21 +49,168 @@ function audiences(){
  for(const [key,name] of Object.entries(categories)){const label=el('label');label.className='audience-choice';const input=el('input');input.type='checkbox';input.value=key;input.checked=chosen.category.has(key);input.setAttribute('aria-label',name+' — მიმართულება');input.onchange=()=>toggleChoice('category',key,input.checked);label.append(input,el('span',name),el('strong',counts[key].toLocaleString()));$('audiences').append(label);}
 }
 
+function contactRow(tag,content){
+  const row=el('div');row.className='c-row';
+  const label=el('span',tag);label.className='c-tag';
+  const vals=el('div');vals.className='c-vals';
+  if(typeof content==='string'){
+    const text=content.trim();
+    if(!text||text==='—'){const empty=el('span','—');empty.className='empty-val';vals.append(empty);}
+    else vals.textContent=text;
+  }else if(Array.isArray(content)){
+    if(!content.length){const empty=el('span','—');empty.className='empty-val';vals.append(empty);}
+    else vals.append(...content);
+  }else if(content)vals.append(content);
+  row.append(label,vals);return row;
+}
+function reqChip(label,value){
+  const chip=el('span');chip.className='req-chip';
+  const b=el('b',label+': ');
+  chip.append(b,document.createTextNode(value||'—'));
+  return chip;
+}
+function statusLine(label,value){
+  const row=el('div');row.className='st-row';
+  const k=el('span',label+':');k.className='st-k';
+  const v=el('span',value||'—');v.className='st-v';
+  row.append(k,v);return row;
+}
+function phoneItems(value){
+  return uniquePhones(value).map(p=>{
+    if(!p.href)return el('span',p.text);
+    const a=el('a',p.text);a.href=p.href;a.className='contact-link';return a;
+  });
+}
+function emailItems(value){
+  return uniqueEmails(value).map(e=>{
+    if(!e.href)return el('span',e.text);
+    const a=el('a',e.text);a.href=e.href;a.className='contact-link';return a;
+  });
+}
+function websiteItems(r){
+  return publicLinks(r).filter(l=>l.kind==='website').map(l=>{
+    const a=el('a',formatLinkLabel(l.url)+' ↗');a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';a.className='ext-link';return a;
+  });
+}
+function socialItems(r){
+  return publicLinks(r).filter(l=>l.kind!=='website').map(l=>{
+    const title=labels[fields.indexOf(l.kind)]||'ბმული';
+    const a=el('a',`${title}: ${formatLinkLabel(l.url)} ↗`);a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';a.className='ext-link social-pill';return a;
+  });
+}
+function peopleNode(value){
+  const people=parseContactPeople(value);
+  if(!people.length){const empty=el('span','არ არის მითითებული');empty.className='empty-val';return empty;}
+  const wrap=el('div');wrap.className='people-list';
+  for(const p of people){
+    const item=el('div');item.className='person-card';
+    const head=el('div');head.className='person-head';
+    head.append(el('strong',p.name));
+    if(p.role){const role=el('span',p.role);role.className='person-role';head.append(role);}
+    item.append(head);
+    const contacts=el('div');contacts.className='person-contacts';
+    for(const ph of p.phones){const a=el(ph.href?'a':'span',ph.text);if(ph.href)a.href=ph.href;a.className='contact-link';contacts.append(a);}
+    for(const em of p.emails){const a=el(em.href?'a':'span',em.text);if(em.href)a.href=em.href;a.className='contact-link';contacts.append(a);}
+    for(const ot of p.other)contacts.append(el('span',ot));
+    if(contacts.childElementCount)item.append(contacts);
+    wrap.append(item);
+  }
+  return wrap;
+}
+function tenderText(value){
+  const t=String(value??'').trim();
+  if(!t)return '—';
+  if(t==='0')return '0 (არ აქვს)';
+  return Number(t)>0?`${t} (აქტიური)`:t;
+}
+function categoryBadges(r){
+  const row=el('div');row.className='badge-row';
+  for(const cid of categoryIds(r)){
+    const b=el('span',categories[cid]);
+    b.className=cid==='unknown'?'badge badge-subtle':'badge';
+    row.append(b);
+  }
+  return row;
+}
+function contactsStack(r){
+  const stack=el('div');stack.className='c-stack';
+  stack.append(
+    contactRow('ტელ',phoneItems(r.phone)),
+    contactRow('ფოსტა',emailItems(r.email)),
+    contactRow('საიტი',websiteItems(r))
+  );
+  const fax=cleanFax(r.fax);if(fax)stack.append(contactRow("ფაქსი",formatPhoneDisplay(fax)));
+  if(r.phone_unverified)stack.append(contactRow('სხვა ტელ',r.phone_unverified));
+  const socials=socialItems(r);if(socials.length)stack.append(contactRow('სოც.',socials));
+  return stack;
+}
+function locationBlock(r){
+  const wrap=el('div');wrap.className='loc-block';
+  const main=el('div');main.className='loc-main';
+  main.append(el('strong',cityKey(r.city)||r.city||'—'));
+  if(r.country){const c=el('span',r.country);c.className='loc-country';main.append(c);}
+  const addr=el('div',r.address||'მისამართი არ არის მითითებული');
+  addr.className=r.address?'loc-addr':'loc-addr empty-val';
+  wrap.append(main,addr);
+  return wrap;
+}
+function renderCard(r){
+  const card=el('article');card.className='card';
+  const header=el('div');header.className='card-header';
+  const titleWrap=el('div');titleWrap.className='card-title-wrap';
+  const topLine=el('div');topLine.className='card-top-line';
+  topLine.append(selection(r),el('h2',r.name),categoryBadges(r));
+  titleWrap.append(topLine);
+  if(r.legal_status_full||r.legal_status){
+    const legal=el('p',r.legal_status_full||r.legal_status);
+    legal.className='card-legal-sub';
+    titleWrap.append(legal);
+  }
+
+  const headerMeta=el('div');headerMeta.className='card-header-meta';
+  const pills=el('div');pills.className='req-row';
+  pills.append(
+    reqChip('ს/კ',r.tax_id),
+    reqChip('ID',r.source_id),
+    reqChip('როლი',r.role),
+    reqChip('რეგისტრაცია',r.registered_at),
+    reqChip('ტენდერი',tenderText(r.active_tender))
+  );
+  const edit=el('button','რედაქტირება');edit.type='button';edit.className='edit-btn';edit.onclick=()=>openEditor(r);
+  headerMeta.append(pills,edit);
+  header.append(titleWrap,headerMeta);
+  card.append(header);
+
+  const grid=el('div');grid.className='card-grid';
+
+  const secContacts=el('section');secContacts.className='card-section';
+  secContacts.append(el('h3','კონტაქტები და ბმულები'),contactsStack(r));
+
+  const secLocation=el('section');secLocation.className='card-section';
+  secLocation.append(el('h3','მდებარეობა და მისამართი'),locationBlock(r));
+
+  const secPeople=el('section');secPeople.className='card-section';
+  secPeople.append(el('h3','საკონტაქტო პირები'),peopleNode(r.contact_people));
+
+  grid.append(secContacts,secLocation,secPeople);
+  card.append(grid);
+
+  if(r.quality_notes||r.category_evidence){
+    const notes=el('div');notes.className='card-notes';
+    if(r.quality_notes)notes.append(reqChip('შენიშვნა',r.quality_notes));
+    if(r.category_evidence)notes.append(reqChip('საფუძველი',r.category_evidence));
+    card.append(notes);
+  }
+  return card;
+}
 function render(){
   filtered=filterRecords(records,{query:$('query').value,...Object.fromEntries(Object.entries(chosen).map(([k,v])=>[k,[...v]]))});
   filtered=sortRecords(filtered,$('sort').value);
   const pages=Math.max(1,Math.ceil(filtered.length/pageSize));page=Math.min(page,pages);
   $('count').textContent=`${filtered.length.toLocaleString()} შედეგი / ${records.length.toLocaleString()} კომპანია`;
   $('export-open').disabled=!records.length;$('results').replaceChildren();
-  for(const r of filtered.slice((page-1)*pageSize,page*pageSize)){
-    const c=classify(r),card=el('article');card.className='card';card.append(selection(r),el('h2',r.name));
-    const badge=el('p',`${categoryIds(r).map(c=>categories[c]).join(' · ')}`);badge.className='badge';card.append(badge);
-    const dl=el('dl');dl.className='facts';
-    for(const key of ['tax_id','city','phone','phone_unverified','quality_notes','email','website','facebook','instagram','linkedin','youtube','tiktok','social_links']) if(r[key]){dl.append(el('dt',labels[fields.indexOf(key)]));const dd=el('dd',r[key]);if(['website','facebook','instagram','linkedin','youtube','tiktok','social_links'].includes(key)){const url=safeURL(/^https?:\/\//i.test(r[key])?r[key]:'https://'+r[key]);if(url){const a=el('a',r[key]);a.href=url;a.target='_blank';a.rel='noopener noreferrer';dd.replaceChildren(a);}}dl.append(dd);}card.append(dl);
-    const details=el('details');details.append(el('summary','ყველა მონაცემი'));const all=el('dl');all.className='facts';for(let i=0;i<fields.length;i++){all.append(el('dt',labels[i]),el('dd',r[fields[i]]||'—'));}details.append(all);if(r.category_evidence)details.append(el('p',r.category_evidence));card.append(details);
-    const edit=el('button','მონაცემების / მიმართულების შეცვლა');edit.onclick=()=>openEditor(r);card.append(edit);$('results').append(card);
-  }
   if($('view').value==='table')renderTable();
+  else for(const r of filtered.slice((page-1)*pageSize,page*pageSize))$('results').append(renderCard(r));
   $('results').classList.toggle('table-view',$('view').value==='table');
   updateSelection();
   if(!filtered.length)$('results').append(el('p','ამ ფილტრებით კომპანია ვერ მოიძებნა.'));
@@ -86,7 +233,55 @@ $('previous').onclick=()=>{page--;render();};$('next').onclick=()=>{page++;rende
 function selection(r){const input=el('input');input.type='checkbox';input.className='row-check';input.checked=selected.has(r.id);input.dataset.id=r.id;input.setAttribute('aria-label',r.name+' — მონიშვნა');input.onchange=()=>{input.checked?selected.add(r.id):selected.delete(r.id);updateSelection();};return input;}
 function updateSelection(){const visible=filtered.slice((page-1)*pageSize,page*pageSize),count=visible.filter(r=>selected.has(r.id)).length;$('select-page').checked=!!visible.length&&count===visible.length;$('select-page').indeterminate=count>0&&count<visible.length;$('select-page').disabled=!visible.length;$('select-filtered').disabled=!filtered.length;$('clear-selection').hidden=!selected.size;$('selected-count').textContent=selected.size?`მონიშნულია ${selected.size.toLocaleString()}`:'';}
 function showDetails(r){detailRecord=r;$('detail-title').textContent=r.name;const dl=el('dl');dl.className='facts';for(let i=0;i<fields.length;i++){const dd=el('dd',r[fields[i]]||'—');if(['website','facebook','instagram','linkedin','youtube','tiktok','social_links'].includes(fields[i])&&r[fields[i]]){dd.replaceChildren();for(const value of r[fields[i]].split(/;\s*/)){const a=el('a',value),url=safeURL(/^[a-z][a-z0-9+.-]*:/i.test(value)?value:'https://'+value);if(url){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}dd.append(a,el('br'));}}dl.append(el('dt',labels[i]),dd);}$('detail-body').replaceChildren(dl);$('detail-dialog').showModal();}
-function renderTable(){const table=el('table');table.className='companies-table';const head=el('thead'),tr=el('tr');for(const text of ['მონიშვნა','კომპანია','მიმართულება','ქალაქი','კონტაქტები','']){const th=el('th',text);th.scope='col';tr.append(th);}head.append(tr);table.append(head);const body=el('tbody');for(const r of filtered.slice((page-1)*pageSize,page*pageSize)){const row=el('tr'),check=el('td');check.append(selection(r));const company=el('td'),name=el('button',r.name);name.className='company-name';name.onclick=()=>showDetails(r);company.append(name,el('small',[r.legal_status,r.tax_id].filter(Boolean).join(' · ')||'ID კოდი არ არის მითითებული'));const category=el('td',categoryIds(r).map(c=>categories[c]).join(' · ')),city=el('td',cityKey(r.city)||'—'),contacts=el('td');for(const key of ['phone','email'])if(r[key])contacts.append(el('div',r[key]));if(r.phone_unverified)contacts.append(el('small','გადასამოწმებელი ნომერი: '+r.phone_unverified));if(r.quality_notes)contacts.append(el('small',r.quality_notes));if(!r.phone&&!r.email&&!r.phone_unverified)contacts.append(el('span','—'));const links=el('div');links.className='social-links';for(const link of publicLinks(r)){const a=el('a',labels[fields.indexOf(link.kind)]||'ბმული');a.href=link.url;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}contacts.append(links);const action=el('td'),button=el('button','ნახვა');button.onclick=()=>showDetails(r);action.append(button);row.append(check,company,category,city,contacts,action);body.append(row);}table.append(body);$('results').replaceChildren(table);}
+function renderTable(){
+  const table=el('table');table.className='companies-table';
+  const head=el('thead'),tr=el('tr');
+  for(const [i,text] of ['✓','კომპანია და რეკვიზიტები','მდებარეობა და მისამართი','კონტაქტები და ბმულები','საკონტაქტო პირები','სტატუსი და მართვა'].entries()){
+    const th=el('th',text);th.scope='col';if(i===0)th.setAttribute('aria-label','მონიშვნა');tr.append(th);
+  }
+  head.append(tr);table.append(head);
+  const body=el('tbody');
+  for(const r of filtered.slice((page-1)*pageSize,page*pageSize)){
+    const row=el('tr');
+    const check=el('td');check.append(selection(r));
+
+    const company=el('td');
+    const title=el('strong',r.name);title.className='company-title';
+    const reqs=el('div');reqs.className='req-row';
+    if(r.legal_status)reqs.append(reqChip('ფორმა',r.legal_status));
+    reqs.append(reqChip('ს/კ',r.tax_id),reqChip('ID',r.source_id));
+    company.append(title,categoryBadges(r),reqs);
+    if(r.legal_status_full&&r.legal_status_full!==r.legal_status){
+      const full=el('div',r.legal_status_full);full.className='legal-sub';company.append(full);
+    }
+
+    const location=el('td');
+    location.append(locationBlock(r));
+
+    const contacts=el('td');
+    contacts.append(contactsStack(r));
+
+    const people=el('td');
+    people.append(peopleNode(r.contact_people));
+
+    const status=el('td');
+    const stList=el('div');stList.className='st-list';
+    stList.append(
+      statusLine('როლი',r.role),
+      statusLine('რეგისტრაცია',r.registered_at),
+      statusLine('ტენდერი',tenderText(r.active_tender))
+    );
+    if(r.quality_notes)stList.append(statusLine('შენიშვნა',r.quality_notes));
+    if(r.category_evidence)stList.append(statusLine('საფუძველი',r.category_evidence));
+    const edit=el('button','რედაქტირება');edit.type='button';edit.className='edit-btn';edit.onclick=()=>openEditor(r);
+    status.append(stList,edit);
+
+    row.append(check,company,location,contacts,people,status);
+    body.append(row);
+  }
+  table.append(body);
+  $('results').replaceChildren(table);
+}
 $('select-page').onchange=()=>{for(const r of filtered.slice((page-1)*pageSize,page*pageSize))$('select-page').checked?selected.add(r.id):selected.delete(r.id);render();};
 $('select-filtered').onclick=()=>{for(const r of filtered)selected.add(r.id);render();};$('clear-selection').onclick=()=>{selected.clear();render();};
 $('detail-close').onclick=()=>$('detail-dialog').close();$('detail-edit').onclick=()=>{$('detail-dialog').close();openEditor(detailRecord);};

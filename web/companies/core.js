@@ -8,8 +8,61 @@ export function publicLinks(record){
   const inputs=kinds.flatMap(kind=>String(record[kind]||'').split(/[;\n]/).map(value=>({kind,value:value.trim()})));
   for(const f of [...(record.facts||[]),...(record.evidence||[])])if(kinds.includes(f.kind))inputs.push(f);
   const links=new Map();
-  for(const item of inputs){if(!item.value)continue;const url=safeURL(/^[a-z][a-z0-9+.-]*:/i.test(item.value)?item.value:'https://'+item.value);if(!url)continue;const host=new URL(url).hostname.replace(/^www\./,'');const kind=[['facebook','facebook.com'],['instagram','instagram.com'],['linkedin','linkedin.com'],['youtube','youtube.com'],['tiktok','tiktok.com']].find(([,domain])=>host===domain||host.endsWith('.'+domain))?.[0]||item.kind;links.set(url,{kind,url});}
+  for(const item of inputs){const clean=String(item.value||'').trim().replace(/^([a-z][a-z0-9+.-]*:\/\/)\s+/i,'$1');if(!clean)continue;const url=safeURL(/^[a-z][a-z0-9+.-]*:/i.test(clean)?clean:'https://'+clean);if(!url)continue;const parsed=new URL(url),host=parsed.hostname.replace(/^www\./,''),key=host+parsed.pathname.replace(/\/+$/,'').toLowerCase()+parsed.search;const kind=[['facebook','facebook.com'],['instagram','instagram.com'],['linkedin','linkedin.com'],['youtube','youtube.com'],['tiktok','tiktok.com']].find(([,domain])=>host===domain||host.endsWith('.'+domain))?.[0]||item.kind;const prev=links.get(key);if(!prev||(url.startsWith('https:')&&!prev.url.startsWith('https:')))links.set(key,{kind,url});}
   return [...links.values()];
+}
+export function formatLinkLabel(url){
+  try{const u=new URL(url),host=u.hostname.replace(/^www\./,''),path=decodeURIComponent(u.pathname).replace(/\/+$/,'');return path&&path!=='/'?`${host}${path}`:host;}
+  catch{return String(url||'');}
+}
+export function formatPhoneDisplay(raw){
+  const text=String(raw||'').trim();
+  const compact=text.replace(/[\s()-]/g,'');
+  const m12=compact.match(/^\+?995(\d{3})(\d{2})(\d{2})(\d{2})$/);
+  if(m12)return `+995 ${m12[1]} ${m12[2]} ${m12[3]} ${m12[4]}`;
+  const m9=compact.match(/^(5\d{2})(\d{2})(\d{2})(\d{2})$/);
+  if(m9)return `${m9[1]} ${m9[2]} ${m9[3]} ${m9[4]}`;
+  return text;
+}
+export function uniquePhones(value){
+  const seen=new Set(),out=[];
+  for(const raw of String(value||'').split(/[;\n]+/).map(s=>s.trim()).filter(Boolean)){
+    const digits=raw.replace(/\D/g,'').replace(/^995(?=\d{9}$)/,'');
+    const key=digits||raw;
+    if(seen.has(key))continue;
+    seen.add(key);
+    const dial=raw.replace(/[^\d+]/g,'');
+    out.push({text:formatPhoneDisplay(raw),raw,href:dial.length>=6?`tel:${dial.startsWith('+')||dial.startsWith('995')?(dial.startsWith('+')?dial:'+'+dial):dial}`:''});
+  }
+  return out;
+}
+export function uniqueEmails(value){
+  const seen=new Set(),out=[];
+  for(const raw of String(value||'').split(/[;\n,\s]+/).map(s=>s.trim()).filter(Boolean)){
+    const key=raw.toLowerCase();
+    if(seen.has(key))continue;
+    seen.add(key);
+    out.push({text:raw,href:/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(raw)?`mailto:${encodeURIComponent(raw).replace(/%40/g,'@')}`:''});
+  }
+  return out;
+}
+export function cleanFax(value){
+  const text=String(value||'').trim();
+  return !text||text==='+995'?'':text;
+}
+export function parseContactPeople(value){
+  return String(value||'').split(/\r?\n/).map(line=>line.trim()).filter(Boolean).map(line=>{
+    const parts=line.split(/\s*·\s*/).filter(Boolean);
+    const [head='',...rest]=parts;
+    const [name='',role='']=head.split(/\s*—\s*/);
+    const phones=[],emails=[],other=[];
+    for(const item of rest){
+      if(item.includes('@'))emails.push(...uniqueEmails(item));
+      else if(/\d{6,}/.test(item.replace(/\D/g,'')))phones.push(...uniquePhones(item));
+      else other.push(item);
+    }
+    return {name:name.trim()||head.trim(),role:role.trim(),phones,emails,other};
+  });
 }
 const norm = value => String(value ?? '').normalize('NFKC').toLocaleLowerCase('ka').trim();
 export function cityKey(value) {

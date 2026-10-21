@@ -120,11 +120,11 @@ function contactCard(record) {
   text.append(el('p', 'contact-city', values(record, 'city').join(' · ') || 'ქალაქი მითითებული არ არის'));
   title.append(text); heading.append(title, el('span', `contact-status ${record.status === 'review' ? 'review' : ''}`, record.status === 'review' ? 'გადასამოწმებელი' : 'კანდიდატი'));
   card.append(heading);
-  for (const [kind, label] of [['phone', 'ტელეფონი'], ['email', 'ელფოსტა'], ['website', 'ვებსაიტი']]) { const row = contactLine(record, kind, label); if (row) card.append(row); }
+  for (const [kind, label] of [['phone', 'ტელეფონი'], ['phone_unverified', 'გადასამოწმებელი'], ['email', 'ელფოსტა'], ['website', 'ვებსაიტი'], ['address', 'მისამართი']]) { const row = contactLine(record, kind, label); if (row) card.append(row); }
   const social = el('div', 'contact-social');
-  for (const [kind, label] of [['instagram', 'Instagram'], ['facebook', 'Facebook']]) for (const value of values(record, kind)) social.append(link(label + ' ↗', value));
+  for (const [kind, label] of [['instagram', 'Instagram'], ['facebook', 'Facebook'], ['linkedin', 'LinkedIn'], ['youtube', 'YouTube'], ['tiktok', 'TikTok']]) for (const value of values(record, kind)) social.append(link(label + ' ↗', value));
   if (social.childElementCount) card.append(social);
-  const detail = el('details', 'contact-detail'); detail.append(el('summary', '', 'წყაროები, თარიღები და შენიშვნები'));
+  const detail = el('details', 'contact-detail'); detail.open = true; detail.append(el('summary', '', 'წყაროები, თარიღები და შენიშვნები'));
   if (record.review_reasons.length) {
     const reasons = el('ul', 'reason-list'); for (const reason of record.review_reasons) reasons.append(el('li', '', reasonText(reason))); detail.append(reasons);
   }

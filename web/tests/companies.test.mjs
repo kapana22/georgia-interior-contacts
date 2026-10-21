@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {classify,cityKey,filterRecords,normalizeImport,mergeRecords,csv,exportRows,categoryIds,publicLinks} from '../companies/core.js';
+import {classify,cityKey,filterRecords,normalizeImport,mergeRecords,csv,exportRows,categoryIds,publicLinks,formatLinkLabel,uniquePhones,uniqueEmails,cleanFax,parseContactPeople} from '../companies/core.js';
 import {integrate} from '../../scripts/merge_companies.mjs';
 
 test('development suggestions are explicitly unconfirmed and software is separate',()=>{
@@ -100,4 +100,22 @@ test('all filters support multiple values: OR within a filter, AND across filter
  assert.equal(filterRecords(rows,{category:[],city:[],contact:[],legal:[],audience:[]}).length,5);
  assert.deepEqual(exportRows(rows,result,new Set(),'filtered').map(r=>r.id),['a','b']);
  assert.equal(filterRecords([{...rows[0],audiences:['interior'],website:'https://example.org'},rows[1]],{audience:['interior','website']}).length,2);
+});
+test('inline business formatting deduplicates contacts, parses contact people, and hides empty fax prefixes',()=>{
+ assert.deepEqual(uniquePhones('+995 558767401; +995558767401; 577344449'),[
+  {text:'+995 558 76 74 01',raw:'+995 558767401',href:'tel:+995558767401'},
+  {text:'577 34 44 49',raw:'577344449',href:'tel:577344449'},
+ ]);
+ assert.deepEqual(uniqueEmails('Info@Test.ge; info@test.ge'),[{text:'Info@Test.ge',href:'mailto:Info@Test.ge'}]);
+ assert.equal(cleanFax('+995'),'');
+ assert.equal(cleanFax('+995 32 218 66 42'),'+995 32 218 66 42');
+ assert.deepEqual(publicLinks({website:'www.glservice.ge; https://www.glservice.ge/'}),[{kind:'website',url:'https://www.glservice.ge/'}]);
+ assert.equal(formatLinkLabel('https://www.glservice.ge/'),'glservice.ge');
+ const people=parseContactPeople('ზაზა გაბიანი — კომერციული დირექტორი · +995591835835 · info@mepster.ge\nნიკოლოზ იმედაშვილი');
+ assert.equal(people.length,2);
+ assert.equal(people[0].name,'ზაზა გაბიანი');
+ assert.equal(people[0].role,'კომერციული დირექტორი');
+ assert.equal(people[0].phones[0].href,'tel:+995591835835');
+ assert.equal(people[0].emails[0].href,'mailto:info@mepster.ge');
+ assert.equal(people[1].name,'ნიკოლოზ იმედაშვილი');
 });
