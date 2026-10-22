@@ -301,7 +301,7 @@ async function refreshCompanies(initial=false){
  if(refreshing||(!initial&&(document.hidden||document.querySelector('dialog[open]'))))return;
  refreshing=true;
  try{
-  const data=await loadCompanyData(initial),signature=JSON.stringify(data);
+  const data=await loadCompanyData(initial&&!complete),signature=JSON.stringify(data);
   complete=true;
   if(!db){try{db=await openDB();}catch{$('message').textContent='ბრაუზერში შენახვა მიუწვდომელია; ბაზის დათვალიერება და ჩამოტვირთვა შესაძლებელია.';}}
   $('import').disabled=!db;$('add').disabled=!db;
