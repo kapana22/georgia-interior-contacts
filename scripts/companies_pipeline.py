@@ -16,11 +16,21 @@ STATES={'developers.json':'.leads-state/developers-saxlebi.json','yell.json':'.l
 
 def campaign_progress():
     campaign=read(TREE/'campaign.json')
-    if not campaign:return None
+    if not campaign or campaign.get('active') is False:return None
     from georgia_contacts.b2b_campaign import progress
     return progress(read(TREE/'data.json')['records'],campaign)
 
 def configure_campaign():
+    if os.environ.get('RESUME_COLLECTION')=='true':
+        campaign=read(TREE/'campaign.json')
+        if campaign:
+            campaign.update(active=False,resumed_at=datetime.now(timezone.utc).isoformat())
+            write(TREE/'campaign.json',campaign)
+        if not read(TREE/'growth-baseline.json'):
+            rows=read(TREE/'data.json')['records']
+            write(TREE/'growth-baseline.json',{'started_at':datetime.now(timezone.utc).isoformat(),'ids':[r['id'] for r in rows],'total':len(rows)})
+        if os.environ.get('GITHUB_OUTPUT'):
+            with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('did_work=true\n')
     target=int(os.environ.get('B2B_TARGET','0'))
     if target and not read(TREE/'campaign.json'):
         if not 1<=target<=100000:raise ValueError('Invalid B2B target')
@@ -64,6 +74,9 @@ def report():
     # Parsed records can remain buffered even after the final page was fetched.
     yell_work=bool(yell.get('pending')) or (any(c.get('queue') for c in yell.get('cursors',{}).values()) and max(yell.get('cooldowns',{}).values(),default=0)<=stamp)
     old=read(TREE/'report.json',{})
+    if read(TREE/'campaign.json',{}).get('active') is False:
+        old.pop('pause_reason',None)
+        if old.get('b2b_campaign'):old['b2b_campaign']['active']=False
     return {**old,'updated_at':datetime.now(timezone.utc).isoformat(),'automatic':True,
         'remaining_profiles':len(pending),'developer_profiles_collected':len(dev.get('records',{}))-len(pending),
         'remaining_listing_pages':len(dev.get('queue',[]))+sum(len(c.get('queue',[])) for c in yell.get('cursors',{}).values()),
@@ -127,6 +140,14 @@ def save():
     run('node','scripts/reconcile_companies.mjs',str(TREE/'data.json'))
     current=report();current['records_total']=len(read(TREE/'data.json')['records'])
     paths=['data.json','developers.json','yell.json','report.json','deferred.json']
+    if read(TREE/'campaign.json'):paths.append('campaign.json')
+    baseline=read(TREE/'growth-baseline.json')
+    if baseline:
+        from georgia_contacts.b2b_campaign import contactable
+        before=set(baseline['ids']);rows=read(TREE/'data.json')['records']
+        added=[r for r in rows if r['id'] not in before and not (set(r.get('merged_ids',[]))&before)]
+        current['growth']={'started_at':baseline['started_at'],'starting_total':baseline['total'],'new_companies':len(added),'new_with_contacts':sum(contactable(r) for r in added),'total_with_contacts':sum(contactable(r) for r in rows)}
+        paths.append('growth-baseline.json')
     goal=campaign_progress()
     if goal:
         from georgia_contacts.b2b_campaign import selection
@@ -149,7 +170,7 @@ def save():
 
 def resume():
     current=read(TREE/'report.json',{})
-    if current.get('b2b_campaign',{}).get('paused'):
+    if current.get('b2b_campaign',{}).get('paused') and current['b2b_campaign'].get('active') is not False:
         run('gh','workflow','disable','companies.yml')
         print('B2B target reached; scheduled collection disabled');return
     if not current.get('work_ready'):print('No ready work; daily refresh/watchdog remains enabled');return

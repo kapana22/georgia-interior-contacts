@@ -34,6 +34,20 @@ def test_paused_b2b_campaign_disables_schedule_instead_of_dispatching(tmp_path, 
     assert calls==[('gh','workflow','disable','companies.yml')]
 
 
+def test_explicit_resume_keeps_old_export_and_starts_growth_baseline(tmp_path, monkeypatch):
+    setup_state(tmp_path,monkeypatch,{'b2b_campaign':{'paused':True},'pause_reason':'b2b_target_reached'})
+    pipeline.write(tmp_path/'tree/campaign.json',{'target':1,'mode':'existing'})
+    pipeline.write(tmp_path/'tree/data.json',{'records':[{'id':'existing'}]})
+    pipeline.write(tmp_path/'tree/b2b-target.json',{'records':['old export']})
+    monkeypatch.setenv('RESUME_COLLECTION','true')
+    pipeline.configure_campaign()
+    assert pipeline.campaign_progress() is None
+    assert pipeline.read(tmp_path/'tree/growth-baseline.json')['ids']==['existing']
+    assert pipeline.read(tmp_path/'tree/b2b-target.json')['records']==['old export']
+    assert pipeline.report()['b2b_campaign']['active'] is False
+    assert 'pause_reason' not in pipeline.report()
+
+
 def setup_state(tmp_path, monkeypatch, report):
     monkeypatch.chdir(tmp_path)
     monkeypatch.setattr(pipeline, 'ROOT', tmp_path)

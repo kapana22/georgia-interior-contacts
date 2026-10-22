@@ -32,6 +32,16 @@ def test_public_business_contacts_only_and_no_site_inference():
     assert record['status'] == 'review'
 
 
+def test_directory_category_keeps_its_id_and_broad_industry(tmp_path):
+    cfg=config();cfg['categories'][0]['industry']='business-services'
+    state=load_leads(tmp_path/'state.json');prepare(state,cfg)
+    class Fixture:
+        cooldowns={}
+        def fetch(self,url):return url,HTML.encode()
+    collect(state,cfg,Fixture(),limit=1,directory_only=True)
+    assert state['records'][0]['categories']==['beauty','business-services']
+
+
 def test_website_reference_is_not_falsely_absent():
     record = listing(HTML.replace('</p>', '</p><a href="/link/site.php?id=1">Website</a>'))
     assert opportunity(record) == 'uncertain'

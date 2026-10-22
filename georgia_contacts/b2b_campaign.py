@@ -3,7 +3,7 @@ import re
 
 B2B_CATEGORIES = {'development','construction','architecture','interior','technology',
     'logistics','forwarding','warehousing','medical-supply','building-supply',
-    'packaging','metalwork','healthcare','laboratories'}
+    'packaging','metalwork','healthcare','laboratories','industry','energy','marketing','office-supply','food-production','business-services','agriculture'}
 
 
 def identity(row):

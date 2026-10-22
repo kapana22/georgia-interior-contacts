@@ -33,6 +33,8 @@ def read_config(path):
         p = canonical_url(cat.get('url', ''))
         if not re.fullmatch(r'[a-z0-9-]{1,40}', cat.get('id', '')) or cat['id'] in ids:
             raise ValueError('Invalid or duplicate category')
+        if cat.get('industry') and not re.fullmatch(r'[a-z0-9-]{1,40}',cat['industry']):
+            raise ValueError('Invalid industry group')
         if domain(p) != 'yell.ge' or not cat.get('name') or not isinstance(cat.get('max_pages'), int) or not 1 <= cat['max_pages'] <= 500:
             raise ValueError('Only reviewed Yell categories, 1–500 pages, are supported')
         # Reject forbidden query parameters before any request.
@@ -145,6 +147,9 @@ def collect(state, config, client, *, limit=50, checkpoint=lambda: None, report=
                     final, body = client.fetch(url)
                     pages = published_pages(body,final)
                 records = listing_records(body, final, now(), cat['id'])
+                if cat.get('industry'):
+                    for record in records:
+                        record['categories']=sorted(set(record['categories'])|{cat['industry']})
                 if not records:
                     raise FetchError('javascript_only', 'no_business_cards_js_or_layout_requires_review')
                 report['pages_processed'] += 1; cursor['pages'] += 1; cursor.pop('last_error', None)

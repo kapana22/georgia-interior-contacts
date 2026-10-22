@@ -2,6 +2,10 @@ name: Grow company directory
 on:
   workflow_dispatch:
     inputs:
+      resume_collection:
+        description: Resume growth after a completed B2B target, retaining its export
+        type: boolean
+        default: false
       b2b_target:
         description: Create a bounded B2B campaign (0 keeps current campaign)
         type: number
@@ -56,6 +60,7 @@ jobs:
       - name: Collect next batch
         id: collect
         env:
+          RESUME_COLLECTION: ${{ inputs.resume_collection && 'true' || 'false' }}
           B2B_TARGET: ${{ inputs.b2b_target || '0' }}
           B2B_MODE: ${{ inputs.b2b_mode || 'new' }}
           REFRESH_CATALOG: ${{ inputs.refresh && 'true' || 'false' }}
