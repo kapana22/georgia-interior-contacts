@@ -71,12 +71,13 @@ def collect():
         with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('did_work=true\n')
     dev=read('.leads-state/developers-saxlebi.json')
     yell=read('.leads-state/companies.json')
-    # Refresh completed catalogues daily; never discard existing contacts.
-    if not retry_categories and not dev['queue'] and not yell.get('pending') and not any(c.get('queue') for c in yell.get('cursors',{}).values()) and catalog_refresh_due:
-        dev['queue']=['https://saxlebi.com/developers'];dev['seen']=[]
-        from georgia_leads.cli import prepare,read_config
-        prepare(yell,read_config('config/companies-sources.json'),restart=True)
-        previous['catalog_refresh_at']=stamp
+    # One blocked source must not stop another source's daily refresh.
+    if not retry_categories and catalog_refresh_due:
+        if not dev['queue']:
+            dev['queue']=['https://saxlebi.com/developers'];dev['seen']=[]
+        if not yell.get('pending') and not any(c.get('queue') for c in yell.get('cursors',{}).values()):
+            prepare(yell,config,restart=True)
+            previous['catalog_refresh_at']=stamp
     previous.setdefault('catalog_refresh_at',stamp)
     # Revisit collected profiles weekly, keeping prior facts until new facts arrive.
     for r in dev['records'].values():

@@ -1,6 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {fetchCompanySnapshot,overlaySavedRows} from '../companies/sync.js';
+import {loadCompanyParts} from '../companies/sync.js';
+import {companyParts} from '../company-parts.mjs';
+
+test('progressive loading shows 50 records before requesting the rest, retaining all fields',async()=>{
+ const data={version:1,records:Array.from({length:2101},(_,i)=>({id:String(i),evidence:[{value:'source '+i}]}))};
+ const files=companyParts(data),progress=[];
+ const result=await loadCompanyParts((part,total)=>{progress.push(part.records.length);assert.equal(total,2101);},async(url)=>{
+  if(!url.endsWith('index.json'))assert.ok(progress.length>0);
+  return {ok:true,json:async()=>JSON.parse(files.get(url.split('/').at(-1)))};
+ });
+ assert.deepEqual(progress,[50,1050,2050,2101]);
+ assert.deepEqual(result.records,data.records);
+});
+
+test('a failed chunk preserves already displayed rows and rejects completion',async()=>{
+ const files=companyParts({records:Array.from({length:51},(_,i)=>({id:String(i)}))});
+ let shown=0;
+ await assert.rejects(loadCompanyParts(data=>{shown=data.records.length;},async(url)=>url.endsWith('index.json')?{ok:true,json:async()=>JSON.parse(files.get('index.json'))}:{ok:false}));
+ assert.equal(shown,50);
+});
 
 test('refresh adds remote companies and preserves local edits and evidence',()=>{
   const result=overlaySavedRows([{id:'a',name:'Remote',phone:'123',evidence:['new']},{id:'b',name:'New company'}],[{id:'a',name:'Edited',evidence:['old']},{id:'local',name:'Local company'}]);

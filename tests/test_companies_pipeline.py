@@ -45,6 +45,20 @@ def test_manual_refresh_restarts_completed_catalogues_before_daily_deadline(tmp_
     assert pipeline.read('.leads-state/developers-saxlebi.json')['queue'] == ['https://saxlebi.com/developers']
 
 
+def test_blocked_developer_listing_does_not_starve_daily_yell_refresh(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {'catalog_refresh_at': 1})
+    import georgia_leads.cli as leads
+    config={'categories':[{'id':'logistics','url':'https://www.yell.ge/companies.php?rub=28'}]}
+    monkeypatch.setattr(leads,'read_config',lambda path:config)
+    pipeline.write('.leads-state/developers-saxlebi.json',{'queue':['https://saxlebi.com/developers'],'seen':[], 'records':{},'resume_after':300000})
+    pipeline.write('.leads-state/companies.json',{'records':[{'id':'keep'}],'cursors':{'logistics':{'start':config['categories'][0]['url'],'queue':[]}}})
+    pipeline.collect()
+    assert pipeline.read('.leads-state/companies.json')['cursors']['logistics']['queue']
+    assert pipeline.read('.leads-state/companies.json')['records']==[{'id':'keep'}]
+    assert pipeline.read('.leads-state/developers-saxlebi.json')['resume_after']==300000
+    assert pipeline.read(tmp_path/'tree/report.json')['catalog_refresh_at']==200000
+
+
 def test_pending_records_resume_even_without_pages_or_with_cooldown(tmp_path, monkeypatch):
     setup_state(tmp_path, monkeypatch, {'catalog_refresh_at': 199999})
     pipeline.write('.leads-state/companies.json', {'pending':[{'name':'Buffered'}], 'cursors':{}, 'cooldowns':{'yell.ge':300000}})

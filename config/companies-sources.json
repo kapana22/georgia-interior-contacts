@@ -2,6 +2,69 @@
   "pipeline": "b2b-leads",
   "categories": [
     {
+      "id": "logistics",
+      "name": "საერთაშორისო საავტომობილო გადაზიდვები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=28",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "forwarding",
+      "name": "ტვირთების ექსპედირება",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=126",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "warehousing",
+      "name": "საბაჟო საწყობები და სატვირთო ტერმინალები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=302",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "medical_supply",
+      "name": "სამედიცინო აპარატურა და მასალები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=327",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "building_supply",
+      "name": "სამშენებლო მასალების მომწოდებლები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=340",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "packaging",
+      "name": "შესაფუთი მასალების საბითუმო ვაჭრობა",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3848",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "metalwork",
+      "name": "ლითონკონსტრუქციების წარმოება და მონტაჟი",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=199",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "healthcare",
+      "name": "კლინიკები და სამედიცინო ცენტრები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=174",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "laboratories",
+      "name": "სამედიცინო ლაბორატორიები",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=192",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
       "id": "development",
       "name": "დეველოპერული კომპანიები",
       "url": "https://www.yell.ge/companies.php?lan=geo&rub=534",
@@ -59,5 +122,5 @@
       "enabled": true
     }
   ],
-  "reviewed_at": "2026-10-19"
+  "reviewed_at": "2026-10-22"
 }

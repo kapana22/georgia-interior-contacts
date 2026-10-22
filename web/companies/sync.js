@@ -6,6 +6,22 @@ export async function fetchCompanySnapshot(url, fetcher=fetch) {
   return data;
 }
 
+export async function loadCompanyParts(onProgress,fetcher=fetch) {
+  const base='/companies/parts/';
+  const index=await fetchCompanySnapshot(base+'index.json',fetcher);
+  if(!Number.isInteger(index.total)||index.total<index.records.length||!Array.isArray(index.chunks)||index.chunks.some(name=>!/^part-[a-f0-9]{64}\.json$/.test(name)))throw new Error('ბაზის ნაწილების სია არასწორია.');
+  const data={version:1,updated_at:index.updated_at,records:[...index.records]};
+  await onProgress(data,index.total);
+  for(const name of index.chunks){
+    const part=await fetchCompanySnapshot(base+name,fetcher);
+    data.records.push(...part.records);
+    if(data.records.length>index.total)throw new Error('ბაზის ზომა არ ემთხვევა.');
+    await onProgress(data,index.total);
+  }
+  if(data.records.length!==index.total)throw new Error('ბაზა არასრულად ჩაიტვირთა.');
+  return data;
+}
+
 export function createLiveLoader(fetcher=fetch) {
   let sha, snapshot;
   return async()=>{
