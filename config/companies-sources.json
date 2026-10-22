@@ -23,14 +23,14 @@
       "enabled": true
     },
     {
-      "id": "medical_supply",
+      "id": "medical-supply",
       "name": "სამედიცინო აპარატურა და მასალები",
       "url": "https://www.yell.ge/companies.php?lan=geo&rub=327",
       "max_pages": 100,
       "enabled": true
     },
     {
-      "id": "building_supply",
+      "id": "building-supply",
       "name": "სამშენებლო მასალების მომწოდებლები",
       "url": "https://www.yell.ge/companies.php?lan=geo&rub=340",
       "max_pages": 100,

@@ -7,6 +7,13 @@ pipeline = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(pipeline)
 
 
+def test_production_company_sources_are_valid():
+    from georgia_leads.cli import read_config
+    config = read_config(SCRIPT.parents[1] / 'config/companies-sources.json')
+    ids = {category['id'] for category in config['categories']}
+    assert {'logistics', 'medical-supply', 'packaging', 'metalwork'} <= ids
+
+
 def setup_state(tmp_path, monkeypatch, report):
     monkeypatch.chdir(tmp_path)
     monkeypatch.setattr(pipeline, 'ROOT', tmp_path)
