@@ -2304,6 +2304,13 @@
           "last_seen": "2026-10-22T19:46:50+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@tecservice.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=182",
@@ -2325,11 +2332,25 @@
           "last_seen": "2026-10-22T19:46:50+00:00"
         },
         {
+          "kind": "email",
+          "value": "sales@mydepo.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/mydepo.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=92",
           "first_seen": "2026-10-22T19:46:50+00:00",
           "last_seen": "2026-10-22T19:46:50+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/mydepo.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "facebook",
@@ -2351,6 +2372,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=92",
           "first_seen": "2026-10-22T19:46:50+00:00",
           "last_seen": "2026-10-22T19:46:50+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "MYDEPO.GE - უსაფრთხოების სისტემების კომპანია",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "name",
@@ -2389,6 +2417,13 @@
         },
         {
           "kind": "phone",
+          "value": "+995577500610",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
           "value": "+995591472244",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=182",
           "first_seen": "2026-10-19T08:41:36+00:00",
@@ -2435,6 +2470,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=92",
           "first_seen": "2026-10-22T19:46:50+00:00",
           "last_seen": "2026-10-22T19:46:50+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591544455",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "website",
@@ -2442,6 +2484,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=92",
           "first_seen": "2026-10-22T19:46:50+00:00",
           "last_seen": "2026-10-22T19:46:50+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://mydepo.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "website",
@@ -2466,7 +2515,8 @@
       "categories": [
         "energy",
         "technology",
-        "yell-92"
+        "yell-92",
+        "yell-96"
       ],
       "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=182",
       "checks": [
@@ -2487,6 +2537,12 @@
           "profile_url": "https://www.yell.ge/company.php?lan=geo&id=162108",
           "checked_at": "2026-10-22T19:46:50+00:00",
           "outcome": "listed"
+        },
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=162108",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
         }
       ],
       "website_checks": [],
@@ -2495,7 +2551,7 @@
         "tecservice.ge"
       ],
       "first_seen": "2026-10-19T08:41:36+00:00",
-      "last_seen": "2026-10-22T19:46:50+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
       "id": "03199b794a68d9d8"
     },
     {
@@ -6000,6 +6056,156 @@
       "first_seen": "2026-10-22T10:52:05+00:00",
       "last_seen": "2026-10-22T10:52:05+00:00",
       "id": "07cf2b3a2086875e"
+    },
+    {
+      "name": "საქართველო ურბან ენერჯი (ფარავანჰესი)",
+      "business_key": "yell:79331",
+      "domains": [
+        "paravanihpp.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "ino@gue.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "225 11 83",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "225 11 82",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "საქართველო ურბან ენერჯი (ფარავანჰესი)",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.paravanihpp.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=79331",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "gue.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "07d5ea55f6013b20"
+    },
+    {
+      "name": "ელექტროენერგეტიკული სისტემის კომერციული ოპერატორი",
+      "business_key": "yell:68442",
+      "domains": [
+        "esco.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "office@esco.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/electricitysystemcommercialoperator",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "240 14 20",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ელექტროენერგეტიკული სისტემის კომერციული ოპერატორი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://esco.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=68442",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "esco.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "0813eee92e16f926"
     },
     {
       "name": "GASTROLOFT",
@@ -13653,6 +13859,63 @@
       "first_seen": "2026-10-16T11:34:01+00:00",
       "last_seen": "2026-10-22T13:26:34+00:00",
       "id": "0fb7544c4a130e7f"
+    },
+    {
+      "name": "ვლადიმერ სტურუა ი/მ – ბეჭდური დაფების (პლატების), მედლების დამზადება",
+      "business_key": "yell:118029",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "ladi_sturua@yahoo.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995571745152",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ვლადიმერ სტურუა ი/მ – ბეჭდური დაფების (პლატების), მედლების დამზადება",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-282"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=282",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=118029",
+          "checked_at": "2026-10-22T19:49:00+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:49:00+00:00",
+      "last_seen": "2026-10-22T19:49:00+00:00",
+      "id": "10139b6bc7de44b7"
     },
     {
       "name": "ქართულ-ავსტრიული კლინიკო-დიაგნოსტიკური ლაბორატორია - ბუკიას ლაბორატორია",
@@ -22844,6 +23107,88 @@
       "id": "19c4769929571b9f"
     },
     {
+      "name": "საქართველოს სახელმწიფო ელექტროსისტემა",
+      "business_key": "yell:76880",
+      "domains": [
+        "gse.com.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@gse.com.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/electrosystema",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "251 02 02",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "251 01 38",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "საქართველოს სახელმწიფო ელექტროსისტემა",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.gse.com.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=76880",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "gse.com.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "19de2051e262854a"
+    },
+    {
       "name": "GURIKO",
       "business_key": "yell:152811",
       "domains": [],
@@ -24051,6 +24396,88 @@
       "first_seen": "2026-10-22T10:41:56+00:00",
       "last_seen": "2026-10-22T13:13:02+00:00",
       "id": "1b2e190c7fcf4009"
+    },
+    {
+      "name": "ბასტიონი",
+      "business_key": "yell:141746",
+      "domains": [
+        "bastion.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@bastion.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/bastionltd.georgia",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995322053633",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599277759",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ბასტიონი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://bastion.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=141746",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "bastion.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "1b4dbb33660b5f03"
     },
     {
       "name": "ა.ს ლოგ საქართველო",
@@ -30700,6 +31127,79 @@
       "id": "2167fb1bf9ca0405"
     },
     {
+      "name": "სალი ელექტრონი",
+      "business_key": "yell:78061",
+      "domains": [
+        "salielektroni.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "salielektroni@mail.ru",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599970108",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599175629",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "სალი ელექტრონი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.salielektroni.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-3586"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3586",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=78061",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:49:02+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
+      "id": "219a9254ad915d63"
+    },
+    {
       "name": "მედი პრივე",
       "business_key": "yell:121137",
       "domains": [],
@@ -34079,6 +34579,88 @@
       "id": "2530d778f71f84dc"
     },
     {
+      "name": "ლუქსონ ფაუერი",
+      "business_key": "yell:146216",
+      "domains": [
+        "luxonpower.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@luxonpower.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/fb.luxonpower",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995510000961",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995598883740",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ლუქსონ ფაუერი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://luxonpower.ge/ka",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=146216",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "luxonpower.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "254493c54a8fdeb7"
+    },
+    {
       "name": "ვატექი",
       "business_key": "yell:151801",
       "domains": [],
@@ -36788,6 +37370,20 @@
       ],
       "facts": [
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
+          "first_seen": "2026-10-22T19:46:41+00:00",
+          "last_seen": "2026-10-22T19:46:41+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "email",
           "value": "globalelectronics.ge@gmail.com",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
@@ -36795,11 +37391,39 @@
           "last_seen": "2026-10-22T19:46:41+00:00"
         },
         {
+          "kind": "email",
+          "value": "globalelectronics.ge@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "facebook",
           "value": "https://www.facebook.com/globalelectronics.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
           "first_seen": "2026-10-22T19:46:41+00:00",
           "last_seen": "2026-10-22T19:46:41+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/globalelectronics.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "გლობალ ელექტრონიქსი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
+          "first_seen": "2026-10-22T19:46:41+00:00",
+          "last_seen": "2026-10-22T19:46:41+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "გლობალ ელექტრონიქსი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "phone",
@@ -36810,10 +37434,24 @@
         },
         {
           "kind": "phone",
+          "value": "+995551990050",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
           "value": "+995595771588",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
           "first_seen": "2026-10-22T19:46:41+00:00",
           "last_seen": "2026-10-22T19:46:41+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595771588",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "phone_unverified",
@@ -36823,18 +37461,11 @@
           "last_seen": "2026-10-22T19:46:41+00:00"
         },
         {
-          "kind": "name",
-          "value": "გლობალ ელექტრონიქსი",
-          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
-          "first_seen": "2026-10-22T19:46:41+00:00",
-          "last_seen": "2026-10-22T19:46:41+00:00"
-        },
-        {
-          "kind": "city",
-          "value": "თბილისი",
-          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
-          "first_seen": "2026-10-22T19:46:41+00:00",
-          "last_seen": "2026-10-22T19:46:41+00:00"
+          "kind": "phone_unverified",
+          "value": "229 55 06",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "website",
@@ -36842,6 +37473,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3647",
           "first_seen": "2026-10-22T19:46:41+00:00",
           "last_seen": "2026-10-22T19:46:41+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.globalelectronics.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         }
       ],
       "status": "review",
@@ -36850,7 +37488,8 @@
       ],
       "categories": [
         "energy",
-        "yell-3647"
+        "yell-3647",
+        "yell-96"
       ],
       "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3647",
       "checks": [
@@ -36859,12 +37498,18 @@
           "profile_url": "https://www.yell.ge/company.php?lan=geo&id=107840",
           "checked_at": "2026-10-22T19:46:41+00:00",
           "outcome": "listed"
+        },
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=107840",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-22T19:46:41+00:00",
-      "last_seen": "2026-10-22T19:46:41+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
       "id": "273959fed1767b03"
     },
     {
@@ -46904,6 +47549,56 @@
       "id": "3159f7cf467d9304"
     },
     {
+      "name": "ყაზბეგი ჰესი",
+      "business_key": "yell:129551",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995599965096",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ყაზბეგი ჰესი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=129551",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "31701fc80810d91f"
+    },
+    {
       "name": "ახალი სიცოცხლე",
       "business_key": "yell:114699",
       "domains": [
@@ -49892,6 +50587,63 @@
       "first_seen": "2026-10-22T10:52:03+00:00",
       "last_seen": "2026-10-22T10:52:03+00:00",
       "id": "35524085fd95f519"
+    },
+    {
+      "name": "ანალიზხელსაწყო",
+      "business_key": "yell:107281",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "izolda_okonova@hotmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "277 68 22",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ანალიზხელსაწყო",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-3586"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3586",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=107281",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:49:02+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
+      "id": "359a44137f583039"
     },
     {
       "name": "ი/მ გიორგი ბოჭორიშვილი (ტენების, საუნის ღუმელების და კალორიფერების წარმოება)",
@@ -56373,6 +57125,63 @@
       "first_seen": "2026-10-19T08:59:44+00:00",
       "last_seen": "2026-10-20T10:53:54+00:00",
       "id": "3c1f024cca9eb577"
+    },
+    {
+      "name": "კაბალჰესი-2006",
+      "business_key": "yell:129560",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "kabalhes@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995555987788",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "კაბალჰესი-2006",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=129560",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "3c3463d25c0179aa"
     },
     {
       "name": "მეგალაბი",
@@ -65401,6 +66210,88 @@
       "first_seen": "2026-10-22T19:24:38+00:00",
       "last_seen": "2026-10-22T19:24:38+00:00",
       "id": "45dec3a740f88224"
+    },
+    {
+      "name": "ჯეორენტი",
+      "business_key": "yell:102844",
+      "domains": [
+        "georent.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@georent.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "tbilisi@georent.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591111075",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591111077",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ჯეორენტი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.georent.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-3858"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3858",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=102844",
+          "checked_at": "2026-10-22T19:48:52+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "georent.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:52+00:00",
+      "last_seen": "2026-10-22T19:48:52+00:00",
+      "id": "45e16956e469ee8b"
     },
     {
       "name": "SHEMOMECHAMA",
@@ -75801,6 +76692,88 @@
       "id": "505256a21914389c"
     },
     {
+      "name": "ენგურჰესი",
+      "business_key": "yell:106439",
+      "domains": [
+        "engurhesi.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@engurhesi.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100057220969539",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "218 80 11",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "218 80 22",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ენგურჰესი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.engurhesi.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=106439",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "engurhesi.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "5087f91fecd0cb1a"
+    },
+    {
       "name": "BURGER HOUSE",
       "business_key": "yell:129392",
       "domains": [],
@@ -76587,6 +77560,79 @@
       "id": "512ff9e24042e55a"
     },
     {
+      "name": "აზია სერვისი",
+      "business_key": "yell:105188",
+      "domains": [
+        "asiaservice.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "ismailggmc@yahoo.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/asiaservice1",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577450345",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "აზია სერვისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.asiaservice.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=105188",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "5160daaa7670166c"
+    },
+    {
       "name": "KHUTAROK CITY",
       "business_key": "yell:102758",
       "domains": [],
@@ -77089,6 +78135,81 @@
       "first_seen": "2026-10-16T11:54:27+00:00",
       "last_seen": "2026-10-22T13:26:42+00:00",
       "id": "518e364eb9b09657"
+    },
+    {
+      "name": "ზერონ ელექტრიკს",
+      "business_key": "yell:154405",
+      "domains": [
+        "zerone.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@zerone.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100086609254387",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995511223300",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ზერონ ელექტრიკს",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.zerone.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=154405",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "zerone.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "518fb38353b520f3"
     },
     {
       "name": "მონოლით ჯგუფი",
@@ -86222,6 +87343,81 @@
       "id": "59c09267f0459ded"
     },
     {
+      "name": "ენერგო-პრო ჯორჯია",
+      "business_key": "yell:106432",
+      "domains": [
+        "energo-pro.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@energo-pro.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/ენერგო-პრო-ჯორჯიაenergo-pro-georgia-410786229031256",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "247 17 07",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ენერგო-პრო ჯორჯია",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.energo-pro.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=106432",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "energo-pro.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "59df22f34c81be1e"
+    },
+    {
       "name": "NITI",
       "business_key": "yell:75033",
       "domains": [],
@@ -87253,6 +88449,81 @@
       "first_seen": "2026-10-19T08:46:57+00:00",
       "last_seen": "2026-10-20T10:31:11+00:00",
       "id": "5b38019b1b1cb0e4"
+    },
+    {
+      "name": "ბორუსან კატ საქართველო",
+      "business_key": "yell:106683",
+      "domains": [
+        "borusancat.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info-ge@borusancat.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/borusancatgeorgia",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "2 222 522",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ბორუსან კატ საქართველო",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.borusancat.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=106683",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "borusancat.com"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "5b3e6bd69679a8f6"
     },
     {
       "name": "სერვისი 2023",
@@ -104230,6 +105501,86 @@
       "id": "687c7b62a2b6a393"
     },
     {
+      "name": "ხრამჰესი 2",
+      "business_key": "yell:78487",
+      "domains": [
+        "khramhesi.ge"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ხრამჰესი 1",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ხრამჰესი 2",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "221 29 69",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "233 08 29",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "233 09 54",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.khramhesi.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=129505",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "689b0fb70e60db2b"
+    },
+    {
       "name": "MCDONALD’S",
       "business_key": "yell:110760",
       "domains": [
@@ -109380,18 +110731,40 @@
       "id": "6e71ca32d400222d"
     },
     {
-      "name": "ელტექნიკა – ინდუსტრიული ჩილერების მაღაზია",
+      "name": "ელექტრონი",
       "business_key": "yell:160323",
       "domains": [
-        "chiller.ge"
+        "chiller.ge",
+        "generatori.com.ge"
       ],
       "facts": [
         {
-          "kind": "phone",
-          "value": "+995595594100",
+          "kind": "city",
+          "value": "თბილისი",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3817",
           "first_seen": "2026-10-22T19:41:01+00:00",
           "last_seen": "2026-10-22T19:41:01+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "giorgi.ezugbaia00@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ელექტრონი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "name",
@@ -109401,11 +110774,25 @@
           "last_seen": "2026-10-22T19:41:01+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995595594100",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3817",
           "first_seen": "2026-10-22T19:41:01+00:00",
           "last_seen": "2026-10-22T19:41:01+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595594100",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://generatori.com.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "website",
@@ -109417,11 +110804,14 @@
       ],
       "status": "review",
       "review_reasons": [
+        "shared_contact_across_domains",
         "website_need_requires_manual_confirmation"
       ],
       "categories": [
+        "energy",
         "industry",
-        "yell-3817"
+        "yell-3817",
+        "yell-96"
       ],
       "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3817",
       "checks": [
@@ -109430,12 +110820,18 @@
           "profile_url": "https://www.yell.ge/company.php?lan=geo&id=160323",
           "checked_at": "2026-10-22T19:41:01+00:00",
           "outcome": "listed"
+        },
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=154888",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-22T19:41:01+00:00",
-      "last_seen": "2026-10-22T19:41:01+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
       "id": "6e76f0d059bdac93"
     },
     {
@@ -110817,6 +112213,70 @@
       "first_seen": "2026-10-22T10:48:34+00:00",
       "last_seen": "2026-10-22T13:26:28+00:00",
       "id": "7093c95fe3b1913f"
+    },
+    {
+      "name": "კჯ პოვერ გეორგია სერვისი – გენერატორების ნაწილები, რემონტი, მონტაჟი, დემონტაჟი",
+      "business_key": "yell:143655",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "g.abesadze@live.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/generatorebi",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995596109000",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "კჯ პოვერ გეორგია სერვისი – გენერატორების ნაწილები, რემონტი, მონტაჟი, დემონტაჟი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=143655",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "social_only"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "70c7a1f1f155ea4a"
     },
     {
       "name": "BROW & LASH BAR",
@@ -112953,6 +114413,70 @@
       "first_seen": "2026-10-22T10:46:31+00:00",
       "last_seen": "2026-10-22T13:24:00+00:00",
       "id": "72e0ceb337e98904"
+    },
+    {
+      "name": "თ.ზ.დ. სამშენებლო-სარემონტო მასალები, ხელსაწყოები, საყოფაცხოვრებო ნივთები",
+      "business_key": "yell:160641",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "companytzd@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/tzd777",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599090733",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "თ.ზ.დ. სამშენებლო-სარემონტო მასალები, ხელსაწყოები, საყოფაცხოვრებო ნივთები",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=160641",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "social_only"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "7310e64c6c49511a"
     },
     {
       "name": "TAMTAKI",
@@ -120608,6 +122132,79 @@
       "id": "7a48eb6f5793027e"
     },
     {
+      "name": "ზელმანი",
+      "business_key": "yell:127927",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "sales@zelmani.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100094598499151",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995511776060",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "292 22 40",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ზელმანი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=127927",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "social_only"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "zelmani.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "7a5ffe5dea61a38b"
+    },
+    {
       "name": "RACHULI LOBIANI",
       "business_key": "yell:157780",
       "domains": [],
@@ -123361,6 +124958,72 @@
       "id": "7ce817b562b38b94"
     },
     {
+      "name": "მაგი ელექტრონიქსი",
+      "business_key": "yell:78258",
+      "domains": [
+        "magi.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "magielectronicsi@mail.ru",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577467353",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "მაგი ელექტრონიქსი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.magi.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=78258",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "7d0d6eaa65c334d5"
+    },
+    {
       "name": "ალისფერი აფრები",
       "business_key": "yell:148799",
       "domains": [
@@ -123958,6 +125621,63 @@
       "first_seen": "2026-10-22T10:59:01+00:00",
       "last_seen": "2026-10-22T10:59:01+00:00",
       "id": "7d25313a200befba"
+    },
+    {
+      "name": "ენერგო-პრო ჯორჯია (ორთაჭალჰესი)",
+      "business_key": "yell:106433",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone_unverified",
+          "value": "272 06 03",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "272 09 94",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ენერგო-პრო ჯორჯია (ორთაჭალჰესი)",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=106433",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "7d2ed3a200681731"
     },
     {
       "name": "SUBWAY",
@@ -128560,6 +130280,79 @@
       "first_seen": "2026-10-19T08:54:33+00:00",
       "last_seen": "2026-10-20T10:45:25+00:00",
       "id": "8320c1fca46ceb1f"
+    },
+    {
+      "name": "ფაუერ ით",
+      "business_key": "yell:137419",
+      "domains": [
+        "powerit.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "aleko.dzamashvili@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/innovativeelectricsolutions",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599567234",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ფაუერ ით",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.powerit.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=137419",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "8365e5a867f1c97f"
     },
     {
       "name": "ლექსუსის ოფიციალური დილერი საქართველოში - ლექსუს თბილისი",
@@ -133808,6 +135601,74 @@
       "first_seen": "2026-10-16T11:53:24+00:00",
       "last_seen": "2026-10-22T13:15:13+00:00",
       "id": "89ba8d6f2c30a414"
+    },
+    {
+      "name": "ტექნიკური სერვის ჯგუფი",
+      "business_key": "yell:109309",
+      "domains": [
+        "tsg.com.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "zura@tsg.com.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595920055",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ტექნიკური სერვის ჯგუფი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.tsg.com.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=109309",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "tsg.com.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "89bbbb9d57c0a4cc"
     },
     {
       "name": "OTIUM",
@@ -156501,6 +158362,13 @@
           "last_seen": "2026-10-22T19:46:50+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "email",
           "value": "info@montage.ge",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=340",
@@ -156527,6 +158395,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=92",
           "first_seen": "2026-10-22T19:46:50+00:00",
           "last_seen": "2026-10-22T19:46:50+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@montage.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "facebook",
@@ -156557,6 +158432,13 @@
           "last_seen": "2026-10-22T19:46:50+00:00"
         },
         {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/montagegeorgia",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "name",
           "value": "მონტაჟ ჯორჯია",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=340",
@@ -156583,6 +158465,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=92",
           "first_seen": "2026-10-22T19:46:50+00:00",
           "last_seen": "2026-10-22T19:46:50+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "მონტაჟ ჯორჯია",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         },
         {
           "kind": "phone",
@@ -156613,6 +158502,13 @@
           "last_seen": "2026-10-22T19:46:50+00:00"
         },
         {
+          "kind": "phone",
+          "value": "+995322007077",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "phone_unverified",
           "value": "250 50 20",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=340",
@@ -156641,6 +158537,13 @@
           "last_seen": "2026-10-22T19:46:50+00:00"
         },
         {
+          "kind": "phone_unverified",
+          "value": "250 50 20",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "website",
           "value": "http://www.montage.ge/",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=340",
@@ -156667,6 +158570,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=92",
           "first_seen": "2026-10-22T19:46:50+00:00",
           "last_seen": "2026-10-22T19:46:50+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.montage.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         }
       ],
       "status": "review",
@@ -156678,7 +158588,8 @@
         "energy",
         "yell-3647",
         "yell-3670",
-        "yell-92"
+        "yell-92",
+        "yell-96"
       ],
       "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=340",
       "checks": [
@@ -156705,6 +158616,12 @@
           "profile_url": "https://www.yell.ge/company.php?lan=geo&id=75027",
           "checked_at": "2026-10-22T19:46:50+00:00",
           "outcome": "listed"
+        },
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=75027",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
         }
       ],
       "website_checks": [],
@@ -156712,7 +158629,7 @@
         "montage.ge"
       ],
       "first_seen": "2026-10-22T10:41:56+00:00",
-      "last_seen": "2026-10-22T19:46:50+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
       "id": "a23e51e8f398826b"
     },
     {
@@ -163103,6 +165020,81 @@
       "id": "a85d90934b5605b0"
     },
     {
+      "name": "საქრუსენერგო",
+      "business_key": "yell:107049",
+      "domains": [
+        "sakrusenergo.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@sakrusenergo.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/sakrusenergo",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "220 33 88",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "საქრუსენერგო",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://sakrusenergo.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=107049",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "sakrusenergo.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "a877aea4a67b7985"
+    },
+    {
       "name": "BREADBAR",
       "business_key": "yell:121121",
       "domains": [],
@@ -165482,6 +167474,88 @@
       "id": "aa26ae55e582d323"
     },
     {
+      "name": "ჯი თი ეს ელექტრონიქსი",
+      "business_key": "yell:71245",
+      "domains": [
+        "gts-el.com"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "office@gts-el.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/gtselectronics.llc",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577504535",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "2 710 800",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ჯი თი ეს ელექტრონიქსი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://gts-el.com/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=71245",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "gts-el.com"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "aa389e517cf7cfb7"
+    },
+    {
       "name": "ჯეი1 - შენი სახლი ჯიქიაზე",
       "business_key": "yell:124922",
       "domains": [
@@ -167583,6 +169657,65 @@
       "id": "ad24d4b2791672c8"
     },
     {
+      "name": "ბახვი ჰაიდრო პაუერ (ბახვი ჰესი 3 )",
+      "business_key": "yell:129565",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "zviad.chubinidze@sre.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599885208",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ბახვი ჰაიდრო პაუერ (ბახვი ჰესი 3 )",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=129565",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "sre.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "ad5555ad17705197"
+    },
+    {
       "name": "ლოგიიმპორტი",
       "business_key": "yell:140368",
       "domains": [],
@@ -169553,6 +171686,63 @@
       "first_seen": "2026-10-22T19:29:07+00:00",
       "last_seen": "2026-10-22T19:29:07+00:00",
       "id": "af609d8720c7018a"
+    },
+    {
+      "name": "მაღაზია ჰენდთულს",
+      "business_key": "yell:145173",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/handtoolsabm",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995514770707",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "მაღაზია ჰენდთულს",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-3586"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3586",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=145173",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "social_only"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:49:02+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
+      "id": "aff8db554f96c1d5"
     },
     {
       "name": "IKO",
@@ -179382,6 +181572,81 @@
       "id": "b931b1830e784ffa"
     },
     {
+      "name": "ბაუმა",
+      "business_key": "yell:147586",
+      "domains": [
+        "bauma.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "sales@bauma.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/bauma.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995596803000",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ბაუმა",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.bauma.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=147586",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "bauma.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "b979b4096312ecce"
+    },
+    {
       "name": "ჯორბენაძე სანდრო",
       "business_key": "yell:71406",
       "domains": [],
@@ -181228,6 +183493,88 @@
       "first_seen": "2026-10-19T08:59:16+00:00",
       "last_seen": "2026-10-20T10:53:12+00:00",
       "id": "bb1771af75661e93"
+    },
+    {
+      "name": "ფერი",
+      "business_key": "yell:73177",
+      "domains": [
+        "peri.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "hpp@peri.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@peri.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "253 22 47",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "252 88 71",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ფერი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.peri.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=73177",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "peri.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "bb2e3445b333fcf2"
     },
     {
       "name": "RESTAURANT BATONI",
@@ -192027,6 +194374,74 @@
       "id": "c713dca5b7e74239"
     },
     {
+      "name": "ეპ ჯორჯია გენერაცია",
+      "business_key": "yell:144911",
+      "domains": [
+        "epggen.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "generation@energo-pro.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/ენერგო-პრო-ჯორჯიაenergo-pro-georgia-410786229031256",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ეპ ჯორჯია გენერაცია",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://epggen.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=144911",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "energo-pro.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "c71754f602000a7e"
+    },
+    {
       "name": "POLINA",
       "business_key": "yell:121279",
       "domains": [],
@@ -198138,6 +200553,63 @@
       "id": "ccc1af5166dd1e7e"
     },
     {
+      "name": "პეტროტეკი",
+      "business_key": "yell:139593",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "gegi.petrotech@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577330504",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "პეტროტეკი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=139593",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "ccdc2e05d2c6287d"
+    },
+    {
       "name": "გეონოვაცია ჰოლდინგი",
       "business_key": "yell:76770",
       "domains": [
@@ -199602,6 +202074,95 @@
       "first_seen": "2026-10-22T10:44:10+00:00",
       "last_seen": "2026-10-22T13:15:18+00:00",
       "id": "cec563ffa61dc0bd"
+    },
+    {
+      "name": "კემპი დევალტის ცენტრი",
+      "business_key": "yell:107232",
+      "domains": [
+        "kempi.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "dewalt@eth.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100069754266375",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995574508508",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995551508508",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "214 62 62",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "კემპი დევალტის ცენტრი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://kempi.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-3586"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3586",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=107232",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "eth.ge"
+      ],
+      "first_seen": "2026-10-22T19:49:02+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
+      "id": "ceca472f628e789e"
     },
     {
       "name": "KARAVELA",
@@ -201525,6 +204086,102 @@
       "first_seen": "2026-10-16T11:53:24+00:00",
       "last_seen": "2026-10-20T10:27:57+00:00",
       "id": "d0978e9529c68450"
+    },
+    {
+      "name": "ენსოლი",
+      "business_key": "yell:109534",
+      "domains": [
+        "ensol.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "irakli.mikava@ensol.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "erekle.parunashvili@ensol.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/ensol.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995322252399",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595228180",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595155474",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ენსოლი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://ensol.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=109534",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "ensol.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "d09cd4d735c23a1f"
     },
     {
       "name": "ევ ცენტრი",
@@ -204659,7 +207316,7 @@
       "id": "d3461b4d19133134"
     },
     {
-      "name": "არქიტრავი",
+      "name": "ტრანსკავკასიის ენერჯი",
       "business_key": "yell:108177",
       "domains": [],
       "facts": [
@@ -204727,6 +207384,13 @@
           "last_seen": "2026-10-20T10:35:18+00:00"
         },
         {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "email",
           "value": "ctranscaucasus@yahoo.com",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=339",
@@ -204790,6 +207454,13 @@
           "last_seen": "2026-10-20T10:35:18+00:00"
         },
         {
+          "kind": "email",
+          "value": "ctranscaucasus@yahoo.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "name",
           "value": "არქიტრავი",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=339",
@@ -204853,6 +207524,13 @@
           "last_seen": "2026-10-20T10:35:18+00:00"
         },
         {
+          "kind": "name",
+          "value": "ტრანსკავკასიის ენერჯი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
           "kind": "phone",
           "value": "+995593677058",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=339",
@@ -204914,6 +207592,13 @@
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=41&SR_pg=4",
           "first_seen": "2026-10-20T10:35:18+00:00",
           "last_seen": "2026-10-20T10:35:18+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995593677058",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
         }
       ],
       "status": "review",
@@ -204923,7 +207608,9 @@
       "categories": [
         "architecture",
         "building-supply",
-        "construction"
+        "construction",
+        "energy",
+        "yell-96"
       ],
       "checks": [
         {
@@ -204979,12 +207666,18 @@
           "profile_url": "https://www.yell.ge/company.php?lan=geo&id=108177",
           "checked_at": "2026-10-20T10:35:18+00:00",
           "outcome": "not_listed"
+        },
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=76556",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "not_listed"
         }
       ],
       "website_checks": [],
       "email_domain_hints": [],
       "first_seen": "2026-10-16T11:53:24+00:00",
-      "last_seen": "2026-10-22T13:18:38+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
       "id": "d38bde38b01f7a05"
     },
     {
@@ -205822,6 +208515,65 @@
       "first_seen": "2026-10-16T11:54:01+00:00",
       "last_seen": "2026-10-22T13:26:45+00:00",
       "id": "d41c72a5b97ae54a"
+    },
+    {
+      "name": "შპს ჰემ ჯორჯია",
+      "business_key": "yell:143832",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "marina.tersamvelyan@hemon.am",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995593965101",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "შპს ჰემ ჯორჯია",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=143832",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "hemon.am"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "d4206bf40d69b1d2"
     },
     {
       "name": "ევრო პაკი",
@@ -209900,6 +212652,74 @@
       "id": "d79570eb16a5c86d"
     },
     {
+      "name": "გმვ+",
+      "business_key": "yell:102847",
+      "domains": [
+        "tandemi.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@tandemi.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577309309",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "გმვ+",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.tandemi.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=102847",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "tandemi.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "d7dac9e98977321e"
+    },
+    {
       "name": "მალხაზ კაციაშვილის მრავალპროფილური გადაუდებელი დახმარების ცენტრი",
       "business_key": "yell:139986",
       "domains": [],
@@ -213378,6 +216198,81 @@
       "id": "db14a1149cffd547"
     },
     {
+      "name": "დევალტი სტენლი",
+      "business_key": "yell:119746",
+      "domains": [
+        "dewaltgeorgia.com"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "ksanisale@dewaltgeorgia.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/eagledewalt",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577955582",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "დევალტი სტენლი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.dewaltgeorgia.com/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-3586"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3586",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=119746",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "dewaltgeorgia.com"
+      ],
+      "first_seen": "2026-10-22T19:49:02+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
+      "id": "db150f81c1216d6e"
+    },
+    {
       "name": "HINKALI FACTORY",
       "business_key": "yell:163205",
       "domains": [],
@@ -215528,6 +218423,72 @@
       "first_seen": "2026-10-19T08:59:57+00:00",
       "last_seen": "2026-10-20T10:55:02+00:00",
       "id": "dd3fa4ce622a5657"
+    },
+    {
+      "name": "ფშაველა",
+      "business_key": "yell:138769",
+      "domains": [
+        "eastgategroup.ge"
+      ],
+      "facts": [
+        {
+          "kind": "phone_unverified",
+          "value": "295 07 95",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "295 02 02",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ფშაველა",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.eastgategroup.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=138769",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "dd53efe6eca95124"
     },
     {
       "name": "თბილისის რეფერალური ჰოსპიტალი (ყოფილი ივანე ბოკერიას სახელობის საუნივერსიტეტო ჰოსპიტალი)",
@@ -222003,6 +224964,56 @@
       "id": "e35cfe088c2fe70b"
     },
     {
+      "name": "რიცეულაჰესი",
+      "business_key": "yell:129534",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995599906517",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "რიცეულაჰესი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=129534",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "e36aa4b4dbc048a2"
+    },
+    {
       "name": "მგზავრები",
       "business_key": "yell:71213",
       "domains": [],
@@ -227624,12 +230635,34 @@
       "id": "e9b24ab3644e693f"
     },
     {
-      "name": "ეარსისტემს",
+      "name": "დაიკინის სახლი",
       "business_key": "yell:146056",
       "domains": [
-        "airsystems.ge"
+        "airsystems.ge",
+        "daikinhouse.ge"
       ],
       "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3817",
+          "first_seen": "2026-10-22T19:41:01+00:00",
+          "last_seen": "2026-10-22T19:41:01+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "daikinhouse@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
         {
           "kind": "email",
           "value": "info@airsystems.ge",
@@ -227645,11 +230678,18 @@
           "last_seen": "2026-10-22T19:41:01+00:00"
         },
         {
-          "kind": "phone",
-          "value": "+995577040028",
-          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3817",
-          "first_seen": "2026-10-22T19:41:01+00:00",
-          "last_seen": "2026-10-22T19:41:01+00:00"
+          "kind": "facebook",
+          "value": "https://www.facebook.com/daikinhouse",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "დაიკინის სახლი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
         },
         {
           "kind": "name",
@@ -227659,11 +230699,25 @@
           "last_seen": "2026-10-22T19:41:01+00:00"
         },
         {
-          "kind": "city",
-          "value": "თბილისი",
+          "kind": "phone",
+          "value": "+995577040028",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577040028",
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3817",
           "first_seen": "2026-10-22T19:41:01+00:00",
           "last_seen": "2026-10-22T19:41:01+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.daikinhouse.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
         },
         {
           "kind": "website",
@@ -227675,14 +230729,23 @@
       ],
       "status": "review",
       "review_reasons": [
+        "shared_contact_across_domains",
         "website_need_requires_manual_confirmation"
       ],
       "categories": [
+        "energy",
         "industry",
+        "yell-3586",
         "yell-3817"
       ],
       "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3817",
       "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=134136",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "listed"
+        },
         {
           "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3817",
           "profile_url": "https://www.yell.ge/company.php?lan=geo&id=146056",
@@ -227695,7 +230758,7 @@
         "airsystems.ge"
       ],
       "first_seen": "2026-10-22T19:41:01+00:00",
-      "last_seen": "2026-10-22T19:41:01+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
       "id": "e9bdde52715fe127"
     },
     {
@@ -228184,6 +231247,81 @@
       "first_seen": "2026-10-22T10:48:40+00:00",
       "last_seen": "2026-10-22T10:48:40+00:00",
       "id": "eac3fa84f2968882"
+    },
+    {
+      "name": "ენერგო არაგვი (არაგვი ჰესი)",
+      "business_key": "yell:126950",
+      "domains": [
+        "energo-aragvi.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@energo-aragvi.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995592171313",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "237 18 74",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ენერგო არაგვი (არაგვი ჰესი)",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.energo-aragvi.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=126950",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "energo-aragvi.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "eaca531c9ca5dc6a"
     },
     {
       "name": "ენდოპლუსი",
@@ -230336,6 +233474,144 @@
       "first_seen": "2026-10-22T10:48:28+00:00",
       "last_seen": "2026-10-22T13:24:13+00:00",
       "id": "ed16a4018b569693"
+    },
+    {
+      "name": "დი. ეი. სი.",
+      "business_key": "yell:69084",
+      "domains": [
+        "dac.ge"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@dac.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "info@dac.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/dac.components",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/dac.components",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "დი. ეი. სი.",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "დი. ეი. სი.",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595890929",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995595890929",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "299 09 29",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "299 09 29",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://dac.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://dac.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-282",
+        "yell-3586"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=282",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=69084",
+          "checked_at": "2026-10-22T19:49:00+00:00",
+          "outcome": "listed"
+        },
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=69084",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "dac.ge"
+      ],
+      "first_seen": "2026-10-22T19:49:00+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
+      "id": "ed3a16c2f96e0477"
     },
     {
       "name": "JAVAKHISHVILI COSMETIC CLINIC",
@@ -233809,6 +237085,72 @@
       "id": "f0bcbeac0c1848a3"
     },
     {
+      "name": "ჯორჯიან უოთერ ენდ ფაუერი (ჟინვალჰესი, თეთრიხევიჰესი, ბოდორნაჰესი)",
+      "business_key": "yell:129566",
+      "domains": [
+        "gwp.ge"
+      ],
+      "facts": [
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/georgianwaterandpower",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "293 11 11",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ჯორჯიან უოთერ ენდ ფაუერი (ჟინვალჰესი, თეთრიხევიჰესი, ბოდორნაჰესი)",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.gwp.ge/ka/energy",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=129566",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "f0beaf7faa7227a0"
+    },
+    {
       "name": "LAZHOLI",
       "business_key": "yell:73921",
       "domains": [],
@@ -235315,6 +238657,81 @@
       "first_seen": "2026-10-19T08:41:36+00:00",
       "last_seen": "2026-10-20T10:28:03+00:00",
       "id": "f1f6ebb2b72327c8"
+    },
+    {
+      "name": "ნიკ-ჯორჯია",
+      "business_key": "yell:75442",
+      "domains": [
+        "nikgenerator.com"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "sales@nikgeorgia.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599904490",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995599908890",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ნიკ-ჯორჯია",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "http://www.nikgenerator.com/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=75442",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "nikgeorgia.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "f1fbd243c379d9a8"
     },
     {
       "name": "JANET",
@@ -236888,6 +240305,128 @@
       "first_seen": "2026-10-22T19:41:03+00:00",
       "last_seen": "2026-10-22T19:41:03+00:00",
       "id": "f3a958ab9887bab0"
+    },
+    {
+      "name": "ედისონ სთორი – ელექტრონული კომპონენტები",
+      "business_key": "yell:143809",
+      "domains": [
+        "edisonstore.ge"
+      ],
+      "facts": [
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "storeedisonge@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "email",
+          "value": "storeedisonge@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/edisonmarketplace",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/edisonmarketplace",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ედისონ სთორი – ელექტრონული კომპონენტები",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ედისონ სთორი – ელექტრონული კომპონენტები",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995596313000",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995596313000",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://edisonstore.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "first_seen": "2026-10-22T19:49:00+00:00",
+          "last_seen": "2026-10-22T19:49:00+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://edisonstore.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "first_seen": "2026-10-22T19:49:02+00:00",
+          "last_seen": "2026-10-22T19:49:02+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-282",
+        "yell-3586"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=282",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=282",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=143809",
+          "checked_at": "2026-10-22T19:49:00+00:00",
+          "outcome": "listed"
+        },
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=143809",
+          "checked_at": "2026-10-22T19:49:02+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:49:00+00:00",
+      "last_seen": "2026-10-22T19:49:02+00:00",
+      "id": "f3b1db69c9337a95"
     },
     {
       "name": "იემჯი / EMG (Express Mail Georgia)",
@@ -240623,6 +244162,56 @@
       "id": "f70b7b5f43dbda8f"
     },
     {
+      "name": "გეოენერჯი (ახმეტაჰესი)",
+      "business_key": "yell:129552",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "phone",
+          "value": "+995591223555",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "გეოენერჯი (ახმეტაჰესი)",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "first_seen": "2026-10-22T19:48:58+00:00",
+          "last_seen": "2026-10-22T19:48:58+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-120"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=120",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=120",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=129552",
+          "checked_at": "2026-10-22T19:48:58+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:58+00:00",
+      "last_seen": "2026-10-22T19:48:58+00:00",
+      "id": "f720cae22d13d83e"
+    },
+    {
       "name": "SAAMO",
       "business_key": "yell:135862",
       "domains": [],
@@ -242320,6 +245909,145 @@
       "first_seen": "2026-10-19T08:49:09+00:00",
       "last_seen": "2026-10-20T10:42:59+00:00",
       "id": "f9cbdf076b788a94"
+    },
+    {
+      "name": "გლობალ რენტ",
+      "business_key": "yell:144340",
+      "domains": [],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "generatorebi@gmail.com",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995591080868",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "გლობალ რენტ",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "first_seen": "2026-10-22T19:48:52+00:00",
+          "last_seen": "2026-10-22T19:48:52+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-3858"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=3858",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=144340",
+          "checked_at": "2026-10-22T19:48:52+00:00",
+          "outcome": "not_listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [],
+      "first_seen": "2026-10-22T19:48:52+00:00",
+      "last_seen": "2026-10-22T19:48:52+00:00",
+      "id": "f9d74f49bb35df68"
+    },
+    {
+      "name": "პროპერი (იატო YATO)",
+      "business_key": "yell:138218",
+      "domains": [
+        "yato.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "info@yato.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "facebook",
+          "value": "https://www.facebook.com/propertoolsgeorgia",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577241112",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone_unverified",
+          "value": "242 18 81",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "პროპერი (იატო YATO)",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://yato.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=138218",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "yato.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "f9f66e7ecd430445"
     },
     {
       "name": "აი ემ ეს ეს საერთაშორისო სამედიცინო უზრუნველყოფის სამსახური",
@@ -248580,6 +252308,74 @@
       "id": "ffc286394792d6cf"
     },
     {
+      "name": "ჯენერაკ ჯორჯია",
+      "business_key": "yell:147055",
+      "domains": [
+        "generac.ge"
+      ],
+      "facts": [
+        {
+          "kind": "email",
+          "value": "contact@generac.ge",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "phone",
+          "value": "+995577503011",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "name",
+          "value": "ჯენერაკ ჯორჯია",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "city",
+          "value": "თბილისი",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        },
+        {
+          "kind": "website",
+          "value": "https://www.generac.ge/",
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "first_seen": "2026-10-22T19:48:49+00:00",
+          "last_seen": "2026-10-22T19:48:49+00:00"
+        }
+      ],
+      "status": "review",
+      "review_reasons": [
+        "website_need_requires_manual_confirmation"
+      ],
+      "categories": [
+        "energy",
+        "yell-96"
+      ],
+      "category_evidence": "კატალოგის კატეგორია: https://www.yell.ge/companies.php?lan=geo&rub=96",
+      "checks": [
+        {
+          "source_url": "https://www.yell.ge/companies.php?lan=geo&rub=96",
+          "profile_url": "https://www.yell.ge/company.php?lan=geo&id=147055",
+          "checked_at": "2026-10-22T19:48:49+00:00",
+          "outcome": "listed"
+        }
+      ],
+      "website_checks": [],
+      "email_domain_hints": [
+        "generac.ge"
+      ],
+      "first_seen": "2026-10-22T19:48:49+00:00",
+      "last_seen": "2026-10-22T19:48:49+00:00",
+      "id": "ffcfb50d202c480f"
+    },
+    {
       "name": "NOZOMI BAR",
       "business_key": "yell:145564",
       "domains": [],
@@ -249862,55 +253658,62 @@
       "adapter": null,
       "page_limit": 100,
       "queue": [
+        "https://www.yell.ge/companies.php?lan=geo&rub=96&SR_pg=2"
+      ],
+      "seen": [
+        "https://www.yell.ge/companies.php?lan=geo&rub=96",
         "https://www.yell.ge/companies.php?lan=geo&rub=96"
       ],
-      "seen": [],
       "failures": {},
-      "pages": 0
+      "pages": 1
     },
     "yell-3858": {
       "start": "https://www.yell.ge/companies.php?lan=geo&rub=3858",
       "adapter": null,
       "page_limit": 100,
-      "queue": [
+      "queue": [],
+      "seen": [
+        "https://www.yell.ge/companies.php?lan=geo&rub=3858",
         "https://www.yell.ge/companies.php?lan=geo&rub=3858"
       ],
-      "seen": [],
       "failures": {},
-      "pages": 0
+      "pages": 1
     },
     "yell-120": {
       "start": "https://www.yell.ge/companies.php?lan=geo&rub=120",
       "adapter": null,
       "page_limit": 100,
-      "queue": [
+      "queue": [],
+      "seen": [
+        "https://www.yell.ge/companies.php?lan=geo&rub=120",
         "https://www.yell.ge/companies.php?lan=geo&rub=120"
       ],
-      "seen": [],
       "failures": {},
-      "pages": 0
+      "pages": 1
     },
     "yell-282": {
       "start": "https://www.yell.ge/companies.php?lan=geo&rub=282",
       "adapter": null,
       "page_limit": 100,
-      "queue": [
+      "queue": [],
+      "seen": [
+        "https://www.yell.ge/companies.php?lan=geo&rub=282",
         "https://www.yell.ge/companies.php?lan=geo&rub=282"
       ],
-      "seen": [],
       "failures": {},
-      "pages": 0
+      "pages": 1
     },
     "yell-3586": {
       "start": "https://www.yell.ge/companies.php?lan=geo&rub=3586",
       "adapter": null,
       "page_limit": 100,
-      "queue": [
+      "queue": [],
+      "seen": [
+        "https://www.yell.ge/companies.php?lan=geo&rub=3586",
         "https://www.yell.ge/companies.php?lan=geo&rub=3586"
       ],
-      "seen": [],
       "failures": {},
-      "pages": 0
+      "pages": 1
     },
     "yell-116": {
       "start": "https://www.yell.ge/companies.php?lan=geo&rub=116",
@@ -252309,9 +256112,44 @@
     "http://www.designavenue.ge/",
     "https://www.domino.com.ge/",
     "http://www.bright.ge/",
-    "http://www.modus.com.ge/"
+    "http://www.modus.com.ge/",
+    "https://www.generac.ge/",
+    "https://luxonpower.ge/ka",
+    "https://www.zerone.ge/",
+    "http://www.tsg.com.ge/",
+    "https://ensol.ge/",
+    "http://www.powerit.ge/",
+    "http://www.magi.ge/",
+    "https://bastion.ge/",
+    "https://gts-el.com/",
+    "https://www.borusancat.ge/",
+    "http://www.tandemi.ge/",
+    "https://www.bauma.ge/",
+    "https://yato.ge/",
+    "https://generatori.com.ge/",
+    "http://www.nikgenerator.com/",
+    "http://www.asiaservice.ge/",
+    "http://www.georent.ge/",
+    "https://www.eastgategroup.ge/",
+    "https://sakrusenergo.ge/",
+    "https://www.engurhesi.ge/",
+    "http://www.khramhesi.ge/",
+    "https://esco.ge/",
+    "https://www.energo-pro.ge/",
+    "http://www.paravanihpp.ge/",
+    "https://www.gwp.ge/ka/energy",
+    "https://epggen.ge/",
+    "http://www.peri.ge/",
+    "http://www.energo-aragvi.ge/",
+    "https://www.gse.com.ge/",
+    "https://dac.ge/",
+    "https://edisonstore.ge/",
+    "https://kempi.ge/",
+    "http://www.dewaltgeorgia.com/",
+    "http://www.daikinhouse.ge/",
+    "http://www.salielektroni.ge/"
   ],
   "site_done": [],
   "cooldowns": {},
-  "category_offset": 73
+  "category_offset": 78
 }
