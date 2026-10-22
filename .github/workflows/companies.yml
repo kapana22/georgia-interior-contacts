@@ -2,6 +2,15 @@ name: Grow company directory
 on:
   workflow_dispatch:
     inputs:
+      b2b_target:
+        description: Create a bounded B2B campaign (0 keeps current campaign)
+        type: number
+        default: 0
+      b2b_mode:
+        description: Count only new companies or include existing suppliers
+        type: choice
+        options: [new, existing]
+        default: new
       refresh:
         description: Recheck completed catalogues now without deleting contacts
         type: boolean
@@ -47,6 +56,8 @@ jobs:
       - name: Collect next batch
         id: collect
         env:
+          B2B_TARGET: ${{ inputs.b2b_target || '0' }}
+          B2B_MODE: ${{ inputs.b2b_mode || 'new' }}
           REFRESH_CATALOG: ${{ inputs.refresh && 'true' || 'false' }}
           PROFILE_BATCH: ${{ inputs.profiles || '150' }}
           RESTART_CATEGORIES: ${{ inputs.restart_categories || '' }}

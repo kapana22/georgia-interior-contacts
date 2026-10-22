@@ -14,6 +14,25 @@ TREE=ROOT/'.companies-worktree'
 BRANCH='companies-data'
 STATES={'developers.json':'.leads-state/developers-saxlebi.json','yell.json':'.leads-state/companies.json'}
 
+def campaign_progress():
+    campaign=read(TREE/'campaign.json')
+    if not campaign:return None
+    from georgia_contacts.b2b_campaign import progress
+    return progress(read(TREE/'data.json')['records'],campaign)
+
+def configure_campaign():
+    target=int(os.environ.get('B2B_TARGET','0'))
+    if target and not read(TREE/'campaign.json'):
+        if not 1<=target<=100000:raise ValueError('Invalid B2B target')
+        mode=os.environ.get('B2B_MODE','new')
+        if mode not in {'new','existing'}:raise ValueError('Invalid B2B counting mode')
+        from georgia_contacts.b2b_campaign import identity
+        rows=read(TREE/'data.json')['records']
+        baseline=sorted({key for row in rows for key in (identity(row),'id:'+row['id'])}) if mode=='new' else []
+        write(TREE/'campaign.json',{'target':target,'mode':mode,'baseline':baseline,'started_at':datetime.now(timezone.utc).isoformat()})
+        if os.environ.get('GITHUB_OUTPUT'):
+            with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('did_work=true\n')
+
 def run(*args, cwd=ROOT, capture=False):
     return subprocess.run(args,cwd=cwd,check=True,text=True,stdout=subprocess.PIPE if capture else None).stdout
 
@@ -57,6 +76,12 @@ def report():
 
 def collect():
     if not (ROOT/'.leads-state/companies-restored').exists():raise RuntimeError('Restore first')
+    configure_campaign()
+    goal=campaign_progress()
+    if goal and goal['paused']:
+        if os.environ.get('GITHUB_OUTPUT'):
+            with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('did_work=true\n')
+        print('B2B target reached; saving selected contacts and pausing');return
     stamp=time.time();previous=read(TREE/'report.json',{})
     from georgia_leads.cli import prepare,read_config
     yell=read('.leads-state/companies.json')
@@ -100,8 +125,21 @@ def save():
     for source,target in STATES.items():shutil.copyfile(target,TREE/source)
     shutil.copyfile('output/companies-growth/developers-saxlebi.json.deferred.json',TREE/'deferred.json')
     run('node','scripts/reconcile_companies.mjs',str(TREE/'data.json'))
-    current=report();current['records_total']=len(read(TREE/'data.json')['records']);write(TREE/'report.json',current)
-    run('git','add','--','data.json','developers.json','yell.json','report.json','deferred.json',cwd=TREE)
+    current=report();current['records_total']=len(read(TREE/'data.json')['records'])
+    paths=['data.json','developers.json','yell.json','report.json','deferred.json']
+    goal=campaign_progress()
+    if goal:
+        from georgia_contacts.b2b_campaign import selection
+        from georgia_contacts.export import write_csv
+        selected=selection(read(TREE/'data.json')['records'],read(TREE/'campaign.json'))
+        write(TREE/'b2b-target.json',{'version':1,'updated_at':current['updated_at'],'campaign':goal,'records':selected})
+        fields=['id','name','tax_id','phone','email','website','city','role','category','category_evidence','source']
+        write_csv(TREE/'b2b-target.csv',fields,[{key:row.get(key,'') for key in fields} for row in selected])
+        current['b2b_campaign']=goal
+        if goal['paused']:current.update(automatic=False,work_ready=False,pause_reason='b2b_target_reached')
+        paths.extend(['campaign.json','b2b-target.json','b2b-target.csv'])
+    write(TREE/'report.json',current)
+    run('git','add','--',*paths,cwd=TREE)
     if run('git','status','--porcelain',cwd=TREE,capture=True).strip():
         run('git','-c','user.name=github-actions[bot]','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com','commit','-m','Update company directory [skip ci]',cwd=TREE)
         run('git','push','origin','HEAD:refs/heads/'+BRANCH,cwd=TREE)
@@ -111,6 +149,9 @@ def save():
 
 def resume():
     current=read(TREE/'report.json',{})
+    if current.get('b2b_campaign',{}).get('paused'):
+        run('gh','workflow','disable','companies.yml')
+        print('B2B target reached; scheduled collection disabled');return
     if not current.get('work_ready'):print('No ready work; daily refresh/watchdog remains enabled');return
     runs=json.loads(run('gh','api','repos/kapana22/georgia-interior-contacts/actions/workflows/companies.yml/runs?per_page=5',capture=True))['workflow_runs']
     if any(str(r['id'])!=os.environ.get('GITHUB_RUN_ID') and r['status']!='completed' for r in runs):

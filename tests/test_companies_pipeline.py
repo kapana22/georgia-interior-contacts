@@ -14,6 +14,26 @@ def test_production_company_sources_are_valid():
     assert {'logistics', 'medical-supply', 'packaging', 'metalwork'} <= ids
 
 
+def test_b2b_target_stops_before_any_collector_is_called(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {})
+    pipeline.write(tmp_path/'tree/data.json',{'records':[{'id':'a','role':'მიმწოდებელი','legal_status':'შპს','phone':'+995599123456'}]})
+    monkeypatch.setenv('B2B_TARGET','1')
+    monkeypatch.setenv('B2B_MODE','existing')
+    monkeypatch.setenv('GITHUB_OUTPUT',str(tmp_path/'outputs'))
+    monkeypatch.setattr(pipeline,'run',lambda *args,**kwargs: (_ for _ in ()).throw(AssertionError('Collector must not run')))
+    pipeline.collect()
+    assert pipeline.campaign_progress()['paused']
+    assert 'did_work=true' in (tmp_path/'outputs').read_text()
+
+
+def test_paused_b2b_campaign_disables_schedule_instead_of_dispatching(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {'b2b_campaign':{'paused':True},'work_ready':True})
+    calls=[]
+    monkeypatch.setattr(pipeline,'run',lambda *args,**kwargs:calls.append(args))
+    pipeline.resume()
+    assert calls==[('gh','workflow','disable','companies.yml')]
+
+
 def setup_state(tmp_path, monkeypatch, report):
     monkeypatch.chdir(tmp_path)
     monkeypatch.setattr(pipeline, 'ROOT', tmp_path)
