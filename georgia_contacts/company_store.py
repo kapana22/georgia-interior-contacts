@@ -70,7 +70,13 @@ class CompanyStore:
                 if response.ok:
                     return response.json() if response.content else None
                 if response.status_code not in (429, 502, 503, 504):
-                    raise RuntimeError(f'Supabase {method} {path}: HTTP {response.status_code}')
+                    try:
+                        error = response.json()
+                        detail = str(error.get('code', ''))+' '+str(error.get('message', ''))[:200]
+                    except ValueError:
+                        detail = 'Non-JSON response'
+                    detail = detail.replace(self.session.headers['apikey'], '[redacted]')
+                    raise RuntimeError(f'Supabase {method} {path}: HTTP {response.status_code} {detail}')
             except requests.RequestException:
                 pass
             if path.startswith('rpc/') or attempt == 3:
