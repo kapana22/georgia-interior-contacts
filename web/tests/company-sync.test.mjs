@@ -3,6 +3,42 @@ import assert from 'node:assert/strict';
 import {fetchCompanySnapshot,overlaySavedRows} from '../companies/sync.js';
 import {loadCompanyParts} from '../companies/sync.js';
 import {companyParts} from '../company-parts.mjs';
+import {createDatabaseLoader} from '../companies/sync.js';
+
+test('Supabase uses a publishable key, shows 50 first, pages by ID and caches the revision',async()=>{
+ const records=Array.from({length:1051},(_,i)=>({id:String(i).padStart(5,'0'),name:'Company'}));
+ let downloads=0;const progress=[];
+ const load=createDatabaseLoader({url:'https://example.supabase.co',key:'publishable'},async(url,opts)=>{
+  assert.equal(opts.headers.apikey,'publishable');assert.equal(opts.credentials,'omit');
+  const parsed=new URL(url);let value;
+  if(parsed.pathname.endsWith('/directory_meta'))value=[{status:'ready',revision:'one',total:records.length}];
+  else{
+   downloads++;const after=parsed.searchParams.get('id')?.slice(3);
+   const rows=after?records.filter(r=>r.id>after):records;
+   value=rows.slice(0,Number(parsed.searchParams.get('limit'))).map(record=>({id:record.id,record}));
+  }
+  return {ok:true,json:async()=>value};
+ });
+ const result=await load((data)=>progress.push(data.records.length));
+ assert.deepEqual(progress,[50,1050,1051]);assert.deepEqual(result.records,records);
+ await load();assert.equal(downloads,3);
+});
+
+test('Supabase refuses mixed revisions and retries the whole snapshot after a publishing failure',async()=>{
+ let metaCalls=0,stable=false;
+ const load=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},async(url)=>({ok:true,json:async()=>
+  url.includes('/directory_meta?')?[{status:'ready',revision:stable?'stable':String(++metaCalls),total:1}]:[{id:'a',record:{id:'a'}}]
+ }));
+ await assert.rejects(load(),/შეიცვალა/);
+ stable=true;assert.equal((await load()).records.length,1);
+});
+
+test('Supabase does not publish partial or duplicate directory results',async()=>{
+ const load=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},async(url)=>({ok:true,json:async()=>
+  url.includes('/directory_meta?')?[{status:'ready',revision:'one',total:2}]:[{id:'a',record:{id:'a'}}]
+ }));
+ await assert.rejects(load(),/ფორმატი/);
+});
 
 test('progressive loading shows 50 records before requesting the rest, retaining all fields',async()=>{
  const data={version:1,records:Array.from({length:2101},(_,i)=>({id:String(i),evidence:[{value:'source '+i}]}))};

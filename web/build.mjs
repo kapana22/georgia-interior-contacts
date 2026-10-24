@@ -1,6 +1,6 @@
 import { mkdir, copyFile, rm, readFile, writeFile } from 'node:fs/promises';
 import {companyParts} from './company-parts.mjs';
-const files = ['index.html', 'styles.css', 'app.js', 'core.js', 'favicon.svg', 'leads/index.html', 'leads/styles.css', 'leads/app.js', 'leads/core.js', 'companies/index.html', 'companies/app.js', 'companies/core.js', 'companies/sync.js', 'companies/styles.css', 'companies/data.json'];
+const files = ['index.html', 'styles.css', 'app.js', 'core.js', 'favicon.svg', 'leads/index.html', 'leads/styles.css', 'leads/app.js', 'leads/core.js', 'companies/index.html', 'companies/app.js', 'companies/core.js', 'companies/sync.js', 'companies/database.js', 'companies/styles.css', 'companies/data.json'];
 await rm(new URL('./dist/', import.meta.url), { recursive: true, force: true });
 await mkdir(new URL('./dist/', import.meta.url));
 for (const name of files) {

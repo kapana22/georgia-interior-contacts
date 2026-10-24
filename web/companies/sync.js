@@ -50,3 +50,42 @@ export function overlaySavedRows(records,saved) {
   }
   return [...map.values()];
 }
+
+export function createDatabaseLoader(config, fetcher=fetch) {
+  let revision, snapshot;
+  async function query(table,params) {
+    const response=await fetcher(`${config.url}/rest/v1/${table}?${new URLSearchParams(params)}`,{
+      headers:{apikey:config.key},credentials:'omit',cache:'no-store',redirect:'error',signal:AbortSignal.timeout(30000)
+    });
+    if(!response.ok)throw new Error('ბაზასთან კავშირი დროებით ვერ მოხერხდა.');
+    return response.json();
+  }
+  async function metadata(){
+    const rows=await query('directory_meta',{id:'eq.current',select:'status,revision,total,updated_at'});
+    const meta=rows[0];
+    if(!meta||meta.status!=='ready'||!Number.isInteger(meta.total)||meta.total<1)throw new Error('ბაზა ახლდება; ცოტა ხანში ხელახლა ვცდით.');
+    return meta;
+  }
+  return async(onProgress)=>{
+    const meta=await metadata();
+    if(revision===meta.revision&&snapshot)return snapshot;
+    const records=[],seen=new Set();let cursor;
+    while(records.length<meta.total){
+      const params={select:'id,record',active:'eq.true',order:'id.asc',limit:records.length?1000:50};
+      if(cursor!==undefined)params.id='gt.'+cursor;
+      const batch=await query('companies',params);
+      if(!Array.isArray(batch)||!batch.length)throw new Error('ბაზა არასრულად ჩაიტვირთა.');
+      for(const row of batch){
+        if(!row.id||row.record?.id!==row.id||seen.has(row.id))throw new Error('ბაზის ფორმატი არასწორია.');
+        seen.add(row.id);records.push(row.record);
+      }
+      if(records.length>meta.total)throw new Error('ბაზა ჩატვირთვისას შეიცვალა.');
+      cursor=batch.at(-1).id;
+      if(onProgress)await onProgress({version:1,updated_at:meta.updated_at,records:[...records]},meta.total);
+    }
+    const final=await metadata();
+    if(final.revision!==meta.revision||final.total!==meta.total)throw new Error('ბაზა ჩატვირთვისას შეიცვალა; ხელახლა ვცდით.');
+    snapshot={version:1,updated_at:meta.updated_at,records};revision=meta.revision;
+    return snapshot;
+  };
+}

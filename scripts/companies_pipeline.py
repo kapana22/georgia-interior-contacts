@@ -55,8 +55,12 @@ def write(path, data):
 
 def restore():
     if TREE.exists():raise RuntimeError('Worktree already exists')
-    run('git','fetch','--no-tags','origin','refs/heads/'+BRANCH)
-    run('git','worktree','add','--detach',str(TREE),'FETCH_HEAD')
+    if os.environ.get('COMPANY_STORE')=='supabase':
+        from georgia_contacts.company_store import CompanyStore
+        CompanyStore().restore(TREE)
+    else:
+        run('git','fetch','--no-tags','origin','refs/heads/'+BRANCH)
+        run('git','worktree','add','--detach',str(TREE),'FETCH_HEAD')
     for source,target in STATES.items():
         data=read(TREE/source)
         if not isinstance(data,dict):raise RuntimeError('Missing saved state: '+source)
@@ -160,10 +164,14 @@ def save():
         if goal['paused']:current.update(automatic=False,work_ready=False,pause_reason='b2b_target_reached')
         paths.extend(['campaign.json','b2b-target.json','b2b-target.csv'])
     write(TREE/'report.json',current)
-    run('git','add','--',*paths,cwd=TREE)
-    if run('git','status','--porcelain',cwd=TREE,capture=True).strip():
-        run('git','-c','user.name=github-actions[bot]','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com','commit','-m','Update company directory [skip ci]',cwd=TREE)
-        run('git','push','origin','HEAD:refs/heads/'+BRANCH,cwd=TREE)
+    if os.environ.get('COMPANY_STORE')=='supabase':
+        from georgia_contacts.company_store import CompanyStore
+        CompanyStore().save(TREE)
+    else:
+        run('git','add','--',*paths,cwd=TREE)
+        if run('git','status','--porcelain',cwd=TREE,capture=True).strip():
+            run('git','-c','user.name=github-actions[bot]','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com','commit','-m','Update company directory [skip ci]',cwd=TREE)
+            run('git','push','origin','HEAD:refs/heads/'+BRANCH,cwd=TREE)
     print(json.dumps(current,ensure_ascii=False))
     summary=os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:Path(summary).write_text(f"Companies: {current['records_total']}\n\nProfiles remaining: {current['remaining_profiles']}\n")

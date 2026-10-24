@@ -1,4 +1,5 @@
-import {fetchCompanySnapshot,overlaySavedRows,createLiveLoader,loadCompanyParts} from './sync.js';
+import {fetchCompanySnapshot,overlaySavedRows,createDatabaseLoader,loadCompanyParts} from './sync.js';
+import {companyDatabase} from './database.js';
 import {categories,categoryIds,publicLinks,formatLinkLabel,formatPhoneDisplay,uniquePhones,uniqueEmails,cleanFax,parseContactPeople,fields,labels,classify,cityKey,registrationYear,filterRecords,normalizeImport,mergeRecords,csv,sortRecords,exportRows} from './core.js';
 import {safeURL} from '../leads/core.js';
 const $=id=>document.getElementById(id);
@@ -292,7 +293,7 @@ $('export-form').onsubmit=event=>{event.preventDefault();const scope=$('export-s
 $('add').disabled=true;
 $('sort').onchange=()=>{page=1;render();};$('view').onchange=render;$('page-size').onchange=()=>{pageSize=Number($('page-size').value);page=1;render();};
 let refreshing=false,lastSnapshot='';
-const loadLiveSnapshot=createLiveLoader();
+const loadLiveSnapshot=createDatabaseLoader(companyDatabase);
 async function loadCompanyData(fallback=false){
  try{return await loadLiveSnapshot();}
  catch(error){if(!fallback)throw error;return fetchCompanySnapshot('/companies/data.json');}
@@ -318,12 +319,14 @@ async function refreshCompanies(initial=false){
  }finally{refreshing=false;$('results').setAttribute('aria-busy','false');}
 }
 try{
- await loadCompanyParts(async(data,total)=>{
+ const showProgress=async(data,total)=>{
   records=[...data.records];facets();render();
   $('results').setAttribute('aria-busy','false');
   $('sync-status').textContent=`იტვირთება ${records.length.toLocaleString()} / ${total.toLocaleString()} კომპანია · ძიება ამ ეტაპზე ჩატვირთულ ნაწილშია შესაძლებელი.`;
   await new Promise(resolve=>setTimeout(resolve,0));
- });
+ };
+ try{await loadLiveSnapshot(showProgress);}
+ catch{await loadCompanyParts(showProgress);}
  complete=true;
  try{db=await openDB();records=overlaySavedRows(records,await savedRows());}catch{}
  $('import').disabled=!db;$('add').disabled=!db;facets();render();

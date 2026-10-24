@@ -3,7 +3,7 @@ import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import {companyParts} from './company-parts.mjs';
 const parts=companyParts(JSON.parse(await readFile(new URL('./companies/data.json',import.meta.url),'utf8')));
-const allowed = new Set(['index.html', 'styles.css', 'app.js', 'core.js', 'favicon.svg', 'leads/index.html', 'leads/styles.css', 'leads/app.js', 'leads/core.js', 'companies/index.html', 'companies/app.js', 'companies/core.js', 'companies/sync.js', 'companies/styles.css', 'companies/data.json']);
+const allowed = new Set(['index.html', 'styles.css', 'app.js', 'core.js', 'favicon.svg', 'leads/index.html', 'leads/styles.css', 'leads/app.js', 'leads/core.js', 'companies/index.html', 'companies/app.js', 'companies/core.js', 'companies/sync.js', 'companies/database.js', 'companies/styles.css', 'companies/data.json']);
 const types = { html: 'text/html', css: 'text/css', js: 'text/javascript', svg: 'image/svg+xml', json: 'application/json' };
 const port = Number(process.env.PORT || 4173);
 createServer(async (req, res) => {
