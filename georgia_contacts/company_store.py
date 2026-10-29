@@ -30,7 +30,9 @@ def public_record(row):
 
 
 def pack(tree):
-    files = {name: (Path(tree)/name).read_text() for name in FILES if (Path(tree)/name).exists()}
+    # Text-mode reads normalize CRLF in CSV exports and break exact restoration.
+    files = {name: (Path(tree)/name).read_bytes().decode('utf-8')
+             for name in FILES if (Path(tree)/name).exists()}
     raw = encoded(files)
     return base64.b64encode(gzip.compress(raw, mtime=0)).decode(), hashlib.sha256(raw).hexdigest()
 
@@ -48,7 +50,7 @@ def unpack(checkpoint, tree):
         raise ValueError('Empty directory checkpoint')
     Path(tree).mkdir(parents=True, exist_ok=True)
     for name, body in files.items():
-        (Path(tree)/name).write_text(body)
+        (Path(tree)/name).write_bytes(body.encode('utf-8'))
 
 
 class CompanyStore:

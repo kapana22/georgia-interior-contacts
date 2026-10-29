@@ -25,6 +25,18 @@ def test_checkpoint_roundtrip_preserves_every_byte_and_checks_integrity(tmp_path
     assert not (tmp_path/'invalid').exists()
 
 
+@pytest.mark.parametrize('newline', ['\r\n', '\n', '\r'])
+def test_checkpoint_preserves_csv_bom_line_endings_and_quoted_newlines(tmp_path, newline):
+    source = tmp_path/'source'
+    checkpoint_tree(source)
+    csv = ('\ufeffid,name,notes' + newline +
+           'a,კომპანია,"first\r\nsecond\nthird\rfourth"' + newline).encode('utf-8')
+    (source/'b2b-target.csv').write_bytes(csv)
+    archive, checksum = pack(source)
+    unpack({'archive': archive, 'sha256': checksum}, tmp_path/'restored')
+    assert (tmp_path/'restored'/'b2b-target.csv').read_bytes() == csv
+
+
 def test_public_record_keeps_evidence_but_not_historical_copies(tmp_path):
     row = checkpoint_tree(tmp_path)
     result = public_record(row)
