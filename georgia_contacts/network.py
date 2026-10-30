@@ -56,7 +56,7 @@ class Client:
         self.clock, self.sleep, self.validator = clock, sleep, validator
         self.session = session or requests.Session()
         self.session.trust_env = False  # Do not inherit proxy credentials or .netrc.
-        self.session.headers.update({"User-Agent": USER_AGENT, "Accept": "text/html,text/plain"})
+        self.session.headers.update({"User-Agent": USER_AGENT, "Accept": "text/html,application/json,text/plain"})
         self.robots, self.last, self.delays, self.counts = {}, {}, {}, {}
         self.requests = 0
         self.cooldowns = cooldowns if cooldowns is not None else {}
@@ -154,7 +154,7 @@ class Client:
             raise rules
         return rules
 
-    def fetch(self, url, page_limit=5, *, pdf=False, form=None):
+    def fetch(self, url, page_limit=5, *, pdf=False, form=None, json_response=False):
         # Only the reviewed, read-only restaurant directory endpoints use POST.
         if form is not None and (domain(url) != 'yell.ge' or urlsplit(url).path not in {'/load_fad_.php','/SR_.php'} or not set(form) <= {'n','i','mt','l','x'}):
             raise FetchError('blocked', 'unsupported_directory_request')
@@ -188,8 +188,9 @@ class Client:
                 raise FetchError("unreachable", f"http_{code}")
             if not body.strip():
                 raise FetchError("unreachable", "empty_response")
-            if ("application/pdf" if pdf else "html") not in headers.get("Content-Type", "").lower():
-                raise FetchError("unreachable", "not_pdf" if pdf else "not_html")
+            expected = "application/pdf" if pdf else "application/json" if json_response else "html"
+            if expected not in headers.get("Content-Type", "").lower():
+                raise FetchError("unreachable", "not_pdf" if pdf else "not_json" if json_response else "not_html")
             low = body.lower()
             if any(marker in low for marker in (b"cf-chl-", b"verify you are human", b"attention required! | cloudflare")):
                 raise FetchError("blocked", "challenge")

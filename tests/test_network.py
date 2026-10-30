@@ -50,6 +50,20 @@ def test_robots_wildcards_disallow_no_request():
     assert len(s.calls) == 1
 
 
+def test_public_json_uses_same_robots_page_budget_and_content_type_checks():
+    c, s, _ = client([robots(), Response(body=b'{"data": []}', headers={'content-type': 'application/json'})])
+    assert c.fetch('https://studio.test/api', json_response=True, page_limit=1)[1] == b'{"data": []}'
+    with pytest.raises(FetchError, match='page_limit'):
+        c.fetch('https://studio.test/api?page=2', json_response=True, page_limit=1)
+    c, _, _ = client([robots(), Response()])
+    with pytest.raises(FetchError, match='not_json'):
+        c.fetch('https://studio.test/api', json_response=True)
+    c, s, _ = client([robots(b'User-agent: *\nDisallow: /api\n')])
+    with pytest.raises(FetchError, match='robots_disallowed'):
+        c.fetch('https://studio.test/api', json_response=True)
+    assert len(s.calls) == 1
+
+
 def test_robot_failure_closed_cached():
     c, s, _ = client([Response(403)])
     for _ in range(2):

@@ -2016,6 +2016,5790 @@
       "adapter": "yell-restaurants",
       "max_pages": 100,
       "enabled": true
+    },
+    {
+      "id": "yell-428",
+      "name": "ტაქსი",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=428",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-445",
+      "name": "ტურიზმი",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=445",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-367",
+      "name": "სასტუმროები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=367",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-51",
+      "name": "აფთიაქები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=51",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3452",
+      "name": "ალკოჰოლური სასმელები - მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3452",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3892",
+      "name": "არომატული სიროფები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3892",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3791",
+      "name": "დიაბეტური საკვები პროდუქტები – ვაჭრობა",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3791",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3578",
+      "name": "ელექტრო სიგარეტები, სითხეები - ვაჭრობა",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3578",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3550",
+      "name": "თამბაქოს მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3550",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3673",
+      "name": "თაფლის მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3673",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3826",
+      "name": "თევზის და ზღვის პროდუქტების მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3826",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3757",
+      "name": "თევზის და თევზის პროდუქტების გადამუშავება",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3757",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3616",
+      "name": "თევზსაშენი მეურნეობები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3616",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3758",
+      "name": "თევზჭერა - კომპანიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3758",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-165",
+      "name": "კეიტერინგი, ფურშეტების ორგანიზება, მომსახურება",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=165",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-168",
+      "name": "კვების მრეწველობა - კონცენტრატები, არომატიზატორები, დანამატები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=168",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3485",
+      "name": "კვების მრეწველობა - ლაბორატორიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3485",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-169",
+      "name": "კვების მრეწველობა - მოწყობილობები, დანადგარები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=169",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3554",
+      "name": "ლუდის მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3554",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-210",
+      "name": "მარკეტები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=210",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3565",
+      "name": "ნახევარფაბრიკატების მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3565",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-276",
+      "name": "პურ-ფუნთუშეულის და ცომეულის მაღაზია–საცხობები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=276",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3545",
+      "name": "პურ-ფუნთუშეულის საცხობი დანადგარები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3545",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3619",
+      "name": "პურის ქარხნები და საცხობები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3619",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3540",
+      "name": "რძის პროდუქტების მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3540",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3803",
+      "name": "სადისტრიბუციო მომსახურება",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3803",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3499",
+      "name": "საკვები ადგილზე მიტანით",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3499",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3572",
+      "name": "საკონდიტრო მასალები - ვაჭრობა",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3572",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3454",
+      "name": "საკონდიტრო საცხობები და მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3454",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3840",
+      "name": "სანელებლების (სუნელების) მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3840",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-422",
+      "name": "სასურსათო მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=422",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-383",
+      "name": "საღეჭი რეზინი",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=383",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3958",
+      "name": "სიბიდი (CBD) პროდუქტების მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3958",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3717",
+      "name": "სიგარების მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3717",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3736",
+      "name": "სოკოს მოყვანა, რეალიზაცია",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3736",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3933",
+      "name": "სურსათის უვნებლობის სისტემის, ჰასპის სტანდარტის დანერგვა",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3933",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3955",
+      "name": "ტკბილეულის მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3955",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3893",
+      "name": "ღვინის დამხმარე მასალები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3893",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3688",
+      "name": "ღვინის საწარმოო ინვენტარი და დანადგარები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3688",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3515",
+      "name": "ყავის მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3515",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3686",
+      "name": "შესაფუთი და დასაფასოებელი დანადგარები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3686",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3756",
+      "name": "ჩაის მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3756",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3950",
+      "name": "წყლის დისპენსერების გაქირავება",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3950",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-465",
+      "name": "წყლის ფილტრები - ვაჭრობა",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=465",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3489",
+      "name": "ხილ-ბოსტნეული - მოყვანა, რეალიზაცია",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3489",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-517",
+      "name": "ხორბალი - ვაჭრობა",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=517",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3541",
+      "name": "ხორცის და ხორცპროდუქტების მაღაზიები",
+      "industry": "food-production",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3541",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-46",
+      "name": "აუდიო-ვიდეო დისკები, თამაშები - მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=46",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-47",
+      "name": "აუდიო-ვიდეო ტექნიკა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=47",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3591",
+      "name": "გამათბობლები - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3591",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3482",
+      "name": "დახლ–მაცივრები და საყინულეები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3482",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3940",
+      "name": "დრონების მაღაზია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3940",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-115",
+      "name": "ეკრანები და პროექტორები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=115",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3845",
+      "name": "ვენდინგის აპარატები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3845",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3420",
+      "name": "კარტრიჯები, ტონერები, სახარჯი მასალები და აქსესუარები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3420",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-179",
+      "name": "კომპიუტერული ტექნიკის და აქსესუარების მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=179",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-184",
+      "name": "კონდიციონერები - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=184",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-215",
+      "name": "მაცივრები საყოფაცხოვრებო - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=215",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-227",
+      "name": "მობილური ტელეფონები და აქსესუარები - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=227",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3859",
+      "name": "ონლაინ–მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3859",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3938",
+      "name": "პროექტორების შეკეთება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3938",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3778",
+      "name": "სათამაშო კონსოლები (კომპიუტერები) – ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3778",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-320",
+      "name": "საკანცელარიო მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=320",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2580",
+      "name": "საკერავი, საქარგი, საქსოვი მანქანები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2580",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3562",
+      "name": "სატელევიზიო, სამაუწყებლო აპარატურა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3562",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-36",
+      "name": "სატელიტური ანტენები, მიმღებები, აქსესუარები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=36",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-385",
+      "name": "საყოფაცხოვრებო ტექნიკის მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=385",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3825",
+      "name": "საყოფაცხოვრებო ტექნიკის სათადარიგო ნაწილები – ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3825",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3786",
+      "name": "საყოფაცხოვრებო ტექნიკის წარმოება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3786",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2820",
+      "name": "სწრაფი გადახდის აპარატების დამზადება, რეალიზაცია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2820",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-432",
+      "name": "ტელევიზორები და აქსესუარები - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=432",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-434",
+      "name": "ტელეფონები - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=434",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-474",
+      "name": "ფოტოსაქონელი და ტექნიკა - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=474",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3514",
+      "name": "ყავის აპარატები, აქსესუარები - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3514",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-35",
+      "name": "ანსამბლები - საესტრადო, სიმღერის და ცეკვის",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=35",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3755",
+      "name": "არქეოლოგიური სამუშაოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3755",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-87",
+      "name": "გალერეები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=87",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-143",
+      "name": "თეატრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=143",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-190",
+      "name": "კულტურა და ხელოვნება - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=190",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3969",
+      "name": "ლიცენზირებული ფონური მუსიკა ბიზნესისთვის",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3969",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-236",
+      "name": "მუზეუმები და სახლ-მუზეუმები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=236",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-237",
+      "name": "მუსიკალური ინსტრუმენტების მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=237",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-247",
+      "name": "ორკესტრები და კაპელები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=247",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-249",
+      "name": "პანთეონები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=249",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-90",
+      "name": "საგამოფენო დარბაზები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=90",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3890",
+      "name": "საკონცერტო დარბაზები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3890",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-334",
+      "name": "სამოდელო სააგენტოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=334",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3495",
+      "name": "სამხატვრო მასალები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3495",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-344",
+      "name": "სამხატვრო სტუდიები და სალონები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=344",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-324",
+      "name": "სასცენო აპარატურა - განათების და ხმის სისტემები, ლედ ეკრანები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=324",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-323",
+      "name": "საღონისძიებო სივრცე",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=323",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-464",
+      "name": "ფილმების წარმოება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=464",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-488",
+      "name": "შოუბიზნესი - საპროდიუსერო და საკონცერტო კომპანიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=488",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-516",
+      "name": "ხმის ჩამწერი სტუდიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=516",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3703",
+      "name": "ალერგოლოგია – კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3703",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-33",
+      "name": "ალკოჰოლიზმი - მკურნალობა, რეაბილიტაცია",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=33",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-216",
+      "name": "ალტერნატიული მედიცინა - კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=216",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-52",
+      "name": "აფთიაქები - სადღეღამისო",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=52",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3497",
+      "name": "აფთიაქები - ფსიქოტროპული",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3497",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3779",
+      "name": "ბავშვთა და მოზარდთა აბილიტაციის ცენტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3779",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-59",
+      "name": "ბავშვთა კლინიკები და საავადმყოფოები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=59",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-62",
+      "name": "ბავშვთა სახლები, თავშესაფრები, ცენტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=62",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3708",
+      "name": "ბაქტერიოფაგებით მკურნალობა (ფაგოთერაპია)",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3708",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-333",
+      "name": "ბიოლოგიურად აქტიური საკვები დანამატები, ვიტამინები - ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=333",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3261",
+      "name": "გინეკოლოგიური კლინიკები, კაბინეტები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3261",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-100",
+      "name": "გლუკომეტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=100",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3531",
+      "name": "დერმატოლოგიური კლინიკები, კაბინეტები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3531",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3711",
+      "name": "დიალიზის ცენტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3711",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-111",
+      "name": "დისპანსერები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=111",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3702",
+      "name": "დისტანციური ლითოტრიპსია",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3702",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3498",
+      "name": "ენდოკრინოლოგიური კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3498",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3715",
+      "name": "ექთანი გამოძახებით",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3715",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3704",
+      "name": "ვაქცინაციის (აცრების) ცენტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3704",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-146",
+      "name": "თმის გადანერგვა და მკურნალობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=146",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-162",
+      "name": "კარდიოლოგიური კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=162",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3754",
+      "name": "კიდურების პროთეზები – დამზადება",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3754",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-439",
+      "name": "კომპიუტერული ტომოგრაფია",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=439",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3870",
+      "name": "კრიმინალისტიკური და საექსპერტო ხელსაწყოები, ტექნიკა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3870",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3766",
+      "name": "ლაბორატორიული სახარჯი მასალები – ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3766",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-203",
+      "name": "ლოგოპედური მომსახურება",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=203",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-574",
+      "name": "მასაჟი - მომსახურება",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=574",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2700",
+      "name": "მკურნალობა საზღვარგარეთ",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2700",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-234",
+      "name": "მოხუცებულთა პანსიონატები და სახლები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=234",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3807",
+      "name": "მცენარეული ვიტამინები და ფიტოპრეპარატები - ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3807",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-238",
+      "name": "მცენარეული სამკურნალო საშუალებები - დამზადება",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=238",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-242",
+      "name": "ნარკოლოგიური კლინიკები, ცენტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=242",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3594",
+      "name": "ნევროლოგიური კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3594",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3260",
+      "name": "ონკოლოგიური კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3260",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-246",
+      "name": "ოპტიკები, სათვალეების მაღაზიები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=246",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-273",
+      "name": "ორთოპედიული საშუალებები – ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=273",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-248",
+      "name": "ოფთალმოლოგიური კლინიკები, კაბინეტები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=248",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3911",
+      "name": "პალიატიური კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3911",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-256",
+      "name": "პლასტიკური ქირურგია",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=256",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3935",
+      "name": "პოდოლოგიური ცენტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3935",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-261",
+      "name": "პოლიკლინიკები - ბავშვთა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=261",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-262",
+      "name": "პოლიკლინიკები - მოზრდილთა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=262",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3262",
+      "name": "რეპროდუქციული მედიცინის კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3262",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-228",
+      "name": "საავადმყოფოები - მოზრდილთა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=228",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3809",
+      "name": "საექიმო ამბულატორიები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3809",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3753",
+      "name": "სამედიცინო ავეჯი – ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3753",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3884",
+      "name": "სამედიცინო აპარატურის შეკეთება, მონტაჟი",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3884",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3573",
+      "name": "სამედიცინო ეტლები - ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3573",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3762",
+      "name": "სამედიცინო სახარჯი მასალები – ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3762",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3737",
+      "name": "სამკურნალო მცენარეული ნედლეული – დამზადება, რეალიზაცია",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3737",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-342",
+      "name": "სამშობიარო სახლები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=342",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-355",
+      "name": "სარეაბილიტაციო ცენტრები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=355",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-372",
+      "name": "სასწრაფო-სამედიცინო დახმარება",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=372",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-397",
+      "name": "სექსოლოგია - დიაგნოსტიკა, მკურნალობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=397",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-399",
+      "name": "სისხლის ბანკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=399",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-404",
+      "name": "სმენის აპარატები – ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=404",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3700",
+      "name": "სპორტული საკვები დანამატები - ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3700",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-421",
+      "name": "სტომატოლოგიური აპარატურა, ინსტრუმენტები, მასალები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=421",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-420",
+      "name": "სტომატოლოგიური კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=420",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-63",
+      "name": "სტომატოლოგიური კლინიკები - ბავშვთა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=63",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3462",
+      "name": "სტომატოლოგიური კლინიკები - სადღეღამისო",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3462",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3810",
+      "name": "სტომატოლოგიური ლაბორატორიები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3810",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-124",
+      "name": "ულტრაბგერითი დიაგნოსტიკა (ექოსკოპია)",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=124",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3759",
+      "name": "ფარმაცევტული კომპანიების წარმომადგენლობები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3759",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-458",
+      "name": "ფარმაცევტული პროდუქტების იმპორტი, საბითუმო ვაჭრობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=458",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-459",
+      "name": "ფარმაცევტული წარმოება",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=459",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-469",
+      "name": "ფიტოთერაპია (მცენარეული საშუალებებით მკურნალობა)",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=469",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3663",
+      "name": "ფსიქიატრიული საავადმყოფოები და კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3663",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-475",
+      "name": "ფსიქოლოგიური სამსახურები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=475",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-476",
+      "name": "ქალთა კონსულტაციები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=476",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-487",
+      "name": "შიდსი - დიაგნოსტიკა, მკურნალობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=487",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3141",
+      "name": "წონის კორექცია",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3141",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3701",
+      "name": "ხერხემლის დაავადებების მკურნალობა",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3701",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-519",
+      "name": "ჯანმრთელობის დაცვა - ორგანიზაციები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=519",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3710",
+      "name": "ჰემატოლოგიური კლინიკები",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3710",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3716",
+      "name": "ჰირუდოთერაპია (წურბელებით მკურნალობა)",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3716",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-524",
+      "name": "ჰომეოპათია",
+      "industry": "healthcare",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=524",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3668",
+      "name": "ავეჯის რესტავრაცია",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3668",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3919",
+      "name": "ამწე კალათა გამოძახებით",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3919",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3947",
+      "name": "ამწე მანიპულატორით, ამწე კრანით მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3947",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3120",
+      "name": "ასტროლოგიური კონსულტაციები, მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3120",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3601",
+      "name": "გაზგამანაწილებელი კომპანიები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3601",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3941",
+      "name": "გასაღების დამზადება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3941",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-291",
+      "name": "დამკრძალავი ბიუროები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=291",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3844",
+      "name": "დრონით გადაღება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3844",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3687",
+      "name": "ელექტროენერგიის გამანაწილებელი კომპანიები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3687",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3944",
+      "name": "ვიდეოკასეტების გაციფრულება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3944",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-142",
+      "name": "თარჯიმნები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=142",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3449",
+      "name": "კომპიუტერების, ლეპტოპების შეკეთება, პროგრამული მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3449",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3590",
+      "name": "კონდიციონერის ხელოსანი – კონდიციონერის მონტაჟი, რემონტი",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3590",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2420",
+      "name": "მაკულატურის ჩაბარება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2420",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3450",
+      "name": "მობილური ტელეფონების, სმარტფონების შეკეთება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3450",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3918",
+      "name": "პირადი კონსიერჟის მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3918",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3951",
+      "name": "რბილი ავეჯის და ხალიჩების ქიმწმენდა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3951",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3679",
+      "name": "საათების შეკეთება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3679",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3764",
+      "name": "სადღესასწაულო ინვენტარის გაქირავება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3764",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3936",
+      "name": "სათამაშო კონსოლების (PlayStation, Xbox, Nintendo) დიაგნოსტიკა, შეკეთება, გაწმენდა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3936",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-564",
+      "name": "საინფორმაციო-საცნობარო მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=564",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3916",
+      "name": "საპანაშვიდე დარბაზები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3916",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3971",
+      "name": "სარეცხი მანქანების შეკეთება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3971",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3806",
+      "name": "სასაფლაოების მართვა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3806",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3952",
+      "name": "საყოფაცხოვრებო მომსახურება – ხელოსანი გამოძახებით",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3952",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-118",
+      "name": "საყოფაცხოვრებო ტექნიკის შეკეთება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=118",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-384",
+      "name": "საცხოვრებელი კორპუსების მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=384",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3534",
+      "name": "ტანსაცმლის ქიმწმენდა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3534",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3537",
+      "name": "ტანსაცმლის ღებვა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3537",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-429",
+      "name": "ტელევიზორების, მონიტორების, ინტერაქტიული დაფების შეკეთება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=429",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-468",
+      "name": "ფლორისტული მომსახურება, დიზაინი",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=468",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3959",
+      "name": "ფოტოატელიე – ფოტოს გადაღება საბუთებისთვის",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3959",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3479",
+      "name": "ფოტოგადაღება, ვიდეოგადაღება, ფოტოსტუდიები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3479",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-473",
+      "name": "ფოტომომსახურება - ფოტოების დამუშავება, ბეჭდვა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=473",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3728",
+      "name": "ქორწილების ორგანიზება, მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3728",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3957",
+      "name": "ყავის აპარატების შეკეთება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3957",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3970",
+      "name": "ჩაკეტილი კარების გაღება, საკეტების გახსნა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3970",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-502",
+      "name": "ძიძები და მომვლელები - მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=502",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-507",
+      "name": "წყალმომარაგების კომპანიები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=507",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3536",
+      "name": "ხალიჩების რეცხვა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3536",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-520",
+      "name": "ჯართის ჩაბარება, ჯართის მიმღები პუნქტი",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=520",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-40",
+      "name": "არქივები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=40",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-88",
+      "name": "გამგეობები, საუბნო განყოფილებები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=88",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3681",
+      "name": "დამოუკიდებელი ეროვნული მარეგულირებელი ორგანოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3681",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-267",
+      "name": "დაცვის პოლიცია",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=267",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-158",
+      "name": "იუსტიციის საბჭო",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=158",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-220",
+      "name": "მერია და საკრებულო",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=220",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-251",
+      "name": "პარლამენტი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=251",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-265",
+      "name": "პოლიტიკური ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=265",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-266",
+      "name": "პოლიცია",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=266",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-272",
+      "name": "პროკურატურები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=272",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-496",
+      "name": "საარჩევნო კომისიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=496",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3645",
+      "name": "საბაჟოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3645",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-306",
+      "name": "საგადასახადო სამსახურები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=306",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-307",
+      "name": "საგანგებო სიტუაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=307",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-380",
+      "name": "საელჩოები, საკონსულოები, დიპლომატიური ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=380",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-331",
+      "name": "სამინისტროები, დეპარტამენტები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=331",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-336",
+      "name": "სამოქალაქო რეესტრი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=336",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-345",
+      "name": "სამხედრო განყოფილებები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=345",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-362",
+      "name": "სასამართლოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=362",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-378",
+      "name": "საქართველოს პრეზიდენტის ადმინისტრაცია, სათათბირო ორგანოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=378",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-379",
+      "name": "საქართველოს სახალხო დამცველი, ბიზნეს-ომბუდსმენი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=379",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-394",
+      "name": "სახელმწიფო ორგანოები, საქვეუწყებო დაწესებულებები, სსიპ–ები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=394",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-407",
+      "name": "სოციალური სამსახურები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=407",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-419",
+      "name": "სტატისტიკის მწარმოებელი ორგანოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=419",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-640",
+      "name": "ქორწინების სახლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=640",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3676",
+      "name": "აგრარული ბაზრები",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3676",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-31",
+      "name": "აკვარიუმები - დამზადება, რეალიზაცია",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=31",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-91",
+      "name": "გამწვანება და ლანდშაფტის არქიტექტურა",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=91",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-484",
+      "name": "დეკორატიული მცენარეები, აქსესუარები - ვაჭრობა",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=484",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-136",
+      "name": "ვეტერინარული კლინიკები",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=136",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3568",
+      "name": "ვეტერინარული ლაბორატორიები",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3568",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-135",
+      "name": "ვეტერინარული პრეპარატები - ვაჭრობა",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=135",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-139",
+      "name": "ზოომაღაზიები",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=139",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-222",
+      "name": "მეფუტკრეობა",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=222",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3610",
+      "name": "სათესლე და სარგავი მასალა – რეალიზაცია",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3610",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3653",
+      "name": "შინაური ცხოველების რეგისტრაცია",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3653",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3577",
+      "name": "შინაური ცხოველების სილამაზის სალონები",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3577",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3654",
+      "name": "ცხოველთა თავშესაფრები",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3654",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3914",
+      "name": "ძაღლების სასტუმრო",
+      "industry": "agriculture",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3914",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3768",
+      "name": "აეროპორტები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3768",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-5",
+      "name": "ავეჯის და ტვირთის გადაზიდვა საქართველოში",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=5",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-6",
+      "name": "ავიაბილეთების დაჯავშნა, შეძენა",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=6",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-7",
+      "name": "ავიაკომპანიები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=7",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3813",
+      "name": "ავიატაქსი",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3813",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-8",
+      "name": "ავიაცია - ორგანიზაციები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=8",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3609",
+      "name": "ავტობუსების გაქირავება",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3609",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-17",
+      "name": "ავტოსადგურები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=17",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3500",
+      "name": "ამანათების ტრანსპორტირება საზღვარგარეთიდან",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3500",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-22",
+      "name": "ევაკუატორი გამოძახებით",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=22",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-128",
+      "name": "ექსპრეს ფოსტა",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=128",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-221",
+      "name": "მეტროპოლიტენი - ორგანიზაციები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=221",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3742",
+      "name": "მიკროავტობუსების გაქირავება",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3742",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3792",
+      "name": "მსუბუქი ავტომობილებით მომსახურება",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3792",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3963",
+      "name": "ოფისების, საწარმოების გადატანა",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3963",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-293",
+      "name": "რკინიგზის სადგურები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=293",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-294",
+      "name": "რკინიგზის ტრანსპორტი - ორგანიზაციები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=294",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3797",
+      "name": "საბაჟო–საბროკერო მომსახურება",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3797",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-308",
+      "name": "საგზაო ნიშნები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=308",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-315",
+      "name": "საზღვაო ტრანსპორტი - ორგანიზაციები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=315",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3765",
+      "name": "საზღვაო ტრანსპორტით მგზავრების გადაყვანა",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3765",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3871",
+      "name": "საკრუინგო კომპანიები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3871",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-325",
+      "name": "საკურიერო მომსახურება",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=325",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-26",
+      "name": "სამგზავრო გადაყვანები ავტოტრანსპორტით",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=26",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-436",
+      "name": "ტვირთების გადაზიდვა რკინიგზის ტრანსპორტით",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=436",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-438",
+      "name": "ტვირთების გადაზიდვა საზღვაო ტრანსპორტით",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=438",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-437",
+      "name": "ტვირთების გადაზიდვა საჰაერო ტრანსპორტით",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=437",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3865",
+      "name": "ტვირთების ინსპექტირება",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3865",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-441",
+      "name": "ტრანსპორტი - ორგანიზაციები",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=441",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-472",
+      "name": "ფოსტა",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=472",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3649",
+      "name": "წყლის ტრანსპორტი: კატერები, ნავები, იახტები – ვაჭრობა",
+      "industry": "logistics",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3649",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2522",
+      "name": "ანიმატორები (ზღაპრის და მულტფილმის გმირები) გამოძახებით",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2522",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3606",
+      "name": "ბავშვთა გასართობი და სათამაშო ცენტრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3606",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-60",
+      "name": "ბავშვთა და მოზარდთა დაბადების დღის ცენტრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=60",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2440",
+      "name": "ბოულინგი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2440",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-95",
+      "name": "გასართობი და სათამაშო ცენტრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=95",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3861",
+      "name": "გოლფ კლუბები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3861",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-107",
+      "name": "დასასვენებელი და გასართობი პარკები, ატრაქციონები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=107",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-389",
+      "name": "დახურული საცურაო აუზები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=389",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3466",
+      "name": "ველოსიპედები - ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3466",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3885",
+      "name": "ველოსიპედების შეკეთება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3885",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-140",
+      "name": "ზოოპარკი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=140",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-152",
+      "name": "ინტერნეტ-კაფეები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=152",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3040",
+      "name": "იოგა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3040",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-156",
+      "name": "იპოდრომი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=156",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-335",
+      "name": "კაზინოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=335",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-172",
+      "name": "კინოთეატრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=172",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-195",
+      "name": "ლატარიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=195",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3926",
+      "name": "მეთევზეთა მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3926",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-230",
+      "name": "მონადირეთა მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=230",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-75",
+      "name": "საბილიარდოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=75",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3946",
+      "name": "სადღესასწაულო ნივთების მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3946",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-316",
+      "name": "სათამაშო აპარატები - ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=316",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3877",
+      "name": "სათევზაო ტურიზმი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3877",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3927",
+      "name": "სალაშქრო და საკემპინგე აღჭურვილობის მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3927",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3948",
+      "name": "სამხედრო, ტაქტიკური ტანსაცმლის და აღჭურვილობის მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3948",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-104",
+      "name": "სანატორიუმები და კურორტები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=104",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3922",
+      "name": "საცურაო აუზები ბავშვებისთვის",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3922",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3812",
+      "name": "საცხენოსნო კლუბები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3812",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3735",
+      "name": "სლოტ კლუბები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3735",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-411",
+      "name": "სპორტი - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=411",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3465",
+      "name": "სპორტული ინვენტარი - ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3465",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-412",
+      "name": "სპორტული კლუბები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=412",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-413",
+      "name": "სპორტული კომპლექსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=413",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3636",
+      "name": "სპორტული სააგენტოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3636",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-416",
+      "name": "სტადიონები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=416",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-440",
+      "name": "ტოტალიზატორები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=440",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-125",
+      "name": "ტურები, ექსკურსიები საქართველოში",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=125",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-444",
+      "name": "ტურიზმი და კურორტები - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=444",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-467",
+      "name": "ფიტნეს კლუბები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=467",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-461",
+      "name": "ფოიერვერკებით მომსახურება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=461",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3608",
+      "name": "ღვინის მარნები – ღვინის ტურები, დეგუსტაცია",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3608",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3921",
+      "name": "ღია საცურაო აუზები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3921",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3920",
+      "name": "ყინულის მოედნები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3920",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-498",
+      "name": "ცირკი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=498",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3945",
+      "name": "ცურვის შემსწავლელი კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3945",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2680",
+      "name": "ჰოსტელები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2680",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-108",
+      "name": "დაცვის სამსახურები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=108",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-450",
+      "name": "დაცვის სისტემები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=450",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3604",
+      "name": "ვიდეო კამერების, სამეთვალყურეო სისტემების რეალიზაცია, მონტაჟი",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3604",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3506",
+      "name": "კერძო დეტექტივები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3506",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-207",
+      "name": "ლუქები და დასალუქი მოწყობილობები - ვაჭრობა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=207",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-512",
+      "name": "სახანძრო სისტემების რეალიზაცია, მონტაჟი",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=512",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3804",
+      "name": "სპეცტანსაცმელი, სპეცფეხსაცმელი, პერსონალური დამცავი აღჭურვილობა – ვაჭრობა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3804",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3842",
+      "name": "შრომის უსაფრთხოების საკონსულტაციო კომპანიები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3842",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-497",
+      "name": "ცეცხლსასროლი და თავდაცვითი იარაღები - მაღაზიები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=497",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3824",
+      "name": "ავტოგასამართი სადგურების პროექტირება, მშენებლობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3824",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3857",
+      "name": "ავტომატური კარები – რეალიზაცია, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3857",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-641",
+      "name": "ავტომატური ჭიშკრები და ავტოფარეხის კარები – რეალიზაცია, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=641",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3800",
+      "name": "აივნების, ღია სივრცეების შემინვა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3800",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2460",
+      "name": "ალუმინის კონსტრუქციები, კარ-ფანჯრები - დამზადება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2460",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3672",
+      "name": "ალუმინის პროფილები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3672",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3967",
+      "name": "ასაწყობი სახლები, კოტეჯები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3967",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3761",
+      "name": "ასფალტის წარმოება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3761",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-49",
+      "name": "აუზები - პროექტირება, მშენებლობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=49",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-50",
+      "name": "აფეთქებითი მასალები და სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=50",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3580",
+      "name": "ახალაშენებული და მშენებარე ბინები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3580",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2220",
+      "name": "ბეტონის და პოლიმერული იატაკები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2220",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3785",
+      "name": "ბეტონის დანამატები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3785",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-70",
+      "name": "ბეტონის წარმოება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=70",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-74",
+      "name": "ბიზნეს ცენტრები, საოფისე ფართების გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=74",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3888",
+      "name": "ბიო ტუალეტები – ვაჭრობა, გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3888",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-81",
+      "name": "ბუხრები - რეალიზაცია, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=81",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-82",
+      "name": "გადახურვის მასალები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=82",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3789",
+      "name": "გადახურვის სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3789",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3961",
+      "name": "გაზგაყვანილობის პროექტირება, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3961",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3460",
+      "name": "გაზმოწყობილობა და წყალმოწყობილობა - მარეგულირებლები, ჩამკეტები, მცველები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3460",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3475",
+      "name": "გათბობა, კონდიცირება - პროექტირება, პროდუქციის მიწოდება, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3475",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-86",
+      "name": "გათბობის სისტემები - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=86",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3592",
+      "name": "გათბობის სისტემების მონტაჟი, შეკეთება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3592",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3658",
+      "name": "გარე დამცავი ჟალუზები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3658",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3491",
+      "name": "გეოდეზიური ინსტრუმენტები და ხელსაწყოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3491",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-97",
+      "name": "გეოდეზიური სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=97",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-98",
+      "name": "გეოლოგიური კვლევები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=98",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-132",
+      "name": "ვენტილაციის სისტემები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=132",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3478",
+      "name": "ვინილის იატაკები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3478",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3894",
+      "name": "თაბაშირ–მუყაოს ფილები, პროფილები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3894",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3831",
+      "name": "თბოსაიზოლაციო და ბგერათსაიზოლაციო მასალები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3831",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2840",
+      "name": "ინერტული მასალები - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2840",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3508",
+      "name": "კარ-ფანჯრები - ფურნიტურა, აქსესუარები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3508",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-163",
+      "name": "კარტოგრაფიული სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=163",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3960",
+      "name": "კაფელის და მეტლახის დაგება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3960",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3547",
+      "name": "კერამიკული ფილები, კერამოგრანიტი - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3547",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-178",
+      "name": "კომერციული ფართების გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=178",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3684",
+      "name": "კონტეინერები (საოფისე და საცხოვრებელი) – დამზადება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3684",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3528",
+      "name": "ლამინირებული იატაკი - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3528",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3771",
+      "name": "ლითონის სამაგრი ნაკეთობები, ანკერები, დიუბელები, თვითმჭრელები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3771",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3532",
+      "name": "ლითონის სამშენებლო მასალები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3532",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3529",
+      "name": "ლინოლეუმი - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3529",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-200",
+      "name": "ლიფტები, ესკალატორები - იმპორტი, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=200",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3587",
+      "name": "მავთულბადეები, გაბიონები - დამზადება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3587",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3511",
+      "name": "მდფ კარები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3511",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3509",
+      "name": "მეტალოპლასტმასის კარ-ფანჯრები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3509",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3891",
+      "name": "მეტალოპლასტმასის პროფილები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3891",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-224",
+      "name": "მილები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=224",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-225",
+      "name": "მინა, მინაპაკეტები - დამზადება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=225",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3854",
+      "name": "მინაზე გასაკრავი ფირები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3854",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3656",
+      "name": "მინის კარები, ტიხრები, მოაჯირები, საშხაპე კაბინები – დამზადება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3656",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3788",
+      "name": "მიწის სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3788",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-213",
+      "name": "მოსაპირკეთებელი ბუნებრივი ქვები – ვაჭრობა, ნაკეთობების დამზადება, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=213",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3741",
+      "name": "მოსაპირკეთებელი დეკორატიული აგური – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3741",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-232",
+      "name": "მოსაპირკეთებელი სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=232",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-231",
+      "name": "მოსაპირკეთებელი ფილები, ქვები, პანელები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=231",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3712",
+      "name": "ნაპირსამაგრი სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3712",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3956",
+      "name": "პალეტები (პადონები) – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3956",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-250",
+      "name": "პარკეტი და ხის იატაკი - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=250",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3895",
+      "name": "პენოპლასტის წარმოება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3895",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3906",
+      "name": "პოლიკარბონატი – იმპორტი, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3906",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3530",
+      "name": "რბილი იატაკები - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3530",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-292",
+      "name": "რკინაბეტონის ნაწარმი და კონსტრუქციები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=292",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2500",
+      "name": "რკინიგზის პროექტირება, მშენებლობა, რეკონსტრუქცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2500",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3527",
+      "name": "რკინის კარები - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3527",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-295",
+      "name": "რკინის კარები, გისოსები, მოაჯირები, ნაკეთობები - დამზადება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=295",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-99",
+      "name": "საავტომობილო გზების პროექტირება, მშენებლობა, რეაბილიტაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=99",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3623",
+      "name": "საბურღი დანადგარები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3623",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3456",
+      "name": "საბურღი სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3456",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3080",
+      "name": "საგზაო-სამშენებლო ტექნიკა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3080",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3665",
+      "name": "საერთო სამუშაო სივრცე – ფართების გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3665",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-311",
+      "name": "სავაჭრო ცენტრები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=311",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3830",
+      "name": "საიზოლაციო სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3830",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3864",
+      "name": "საინჟინრო საკონსულტაციო მომსახურება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3864",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3901",
+      "name": "საინჟინრო სისტემების პროექტირება, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3901",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3899",
+      "name": "საკანალიზაციო და ჩამდინარე წყლების გამწმენდი სისტემები – რეალიზაცია, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3899",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-321",
+      "name": "საკეტები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=321",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-214",
+      "name": "სამაცივრე საწყობები – ფართების გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=214",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3280",
+      "name": "სამრეწველო ობიექტების მშენებლობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3280",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-526",
+      "name": "სამშენებლო აგური - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=526",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-39",
+      "name": "სამშენებლო არმატურა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=39",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2760",
+      "name": "სამშენებლო ბლოკი - წარმოება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2760",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3815",
+      "name": "სამშენებლო და დეკორატიული ქვების მოპოვება, დამუშავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3815",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-341",
+      "name": "სამშენებლო და სპეცტექნიკა - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=341",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3516",
+      "name": "სამშენებლო და სპეცტექნიკის გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3516",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3832",
+      "name": "სამშენებლო და სპეცტექნიკის შეკეთება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3832",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-119",
+      "name": "სამშენებლო ელექტროინსტრუმენტები და ხელსაწყოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=119",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3720",
+      "name": "სამშენებლო ინვენტარის გაყიდვა, გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3720",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3519",
+      "name": "სამშენებლო ინსპექტირება და ექსპერტიზა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3519",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3798",
+      "name": "სამშენებლო მძიმე ტექნიკის ნაწილები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3798",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3879",
+      "name": "სამშენებლო უსაფრთხოების ბადეები, სისტემები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3879",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2060",
+      "name": "სამშენებლო ქიმია – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2060",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3887",
+      "name": "სამშენებლო ხარაჩოები – ვაჭრობა, გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3887",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-349",
+      "name": "სანტექნიკა და აქსესუარები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=349",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-350",
+      "name": "სანტექნიკური სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=350",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-354",
+      "name": "საპროექტო ორგანიზაციები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=354",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-359",
+      "name": "სარემონტო-სამშენებლო სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=359",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3896",
+      "name": "სარემონტო–სამშენებლო მასალების მაღაზიები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3896",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3648",
+      "name": "საუნების პროექტირება, მშენებლობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3648",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-382",
+      "name": "საღებავები, ლაქები - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=382",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-391",
+      "name": "საწყობების, სასაწყობე ფართების გაქირავება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=391",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3683",
+      "name": "სენდვიჩ პანელები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3683",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2320",
+      "name": "სპორტული მოედნების და დარბაზების პროექტირება, მშენებლობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2320",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-435",
+      "name": "ტენტები, მარკიზები, პერგოლები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=435",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-454",
+      "name": "უძრავი ქონება - აზომვითი სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=454",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-455",
+      "name": "უძრავი ქონება - რეგისტრაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=455",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3843",
+      "name": "უძრავი ქონების მართვა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3843",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-456",
+      "name": "უძრავი ქონების სააგენტოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=456",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3614",
+      "name": "ფანერა – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3614",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3543",
+      "name": "ფასადის მოპირკეთება - მასალები, სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3543",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3932",
+      "name": "ღობეები და ღობის პანელები –  დამზადება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3932",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3492",
+      "name": "შედუღების აპარატები და მასალები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3492",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3852",
+      "name": "შენობა–ნაგებობების დემონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3852",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3733",
+      "name": "შენობების სარესტავრაციო სამუშაოები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3733",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3603",
+      "name": "შლაგბაუმები და ბარიერები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3603",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-489",
+      "name": "შპალერის მაღაზიები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=489",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-495",
+      "name": "ცემენტის წარმოება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=495",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3583",
+      "name": "წებოები - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3583",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3680",
+      "name": "წებო–ცემენტი – წარმოება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3680",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-508",
+      "name": "წყალსადენის, კანალიზაციის და სანიაღვრე ქსელები - პროექტირება, მშენებლობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=508",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-509",
+      "name": "წყლის გამაცხელებელი სისტემები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=509",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3523",
+      "name": "ჭერი გასაჭიმი - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3523",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3524",
+      "name": "ჭერი შეკიდული - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3524",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3943",
+      "name": "ჭკვიანი საკეტები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3943",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3751",
+      "name": "ხელოვნური ქვის მასალები – ვაჭრობა, ნაკეთობების დამზადება, მონტაჟი",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3751",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-513",
+      "name": "ხელსაწყოები და ინსტრუმენტები - ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=513",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-514",
+      "name": "ხიდების მშენებლობა, პროექტირება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=514",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3622",
+      "name": "ხის დასამუშავებელი დანადგარები და ინსტრუმენტები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3622",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3510",
+      "name": "ხის კარ-ფანჯრების დამზადება",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3510",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3805",
+      "name": "ხის კარები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3805",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3551",
+      "name": "ხის მასალა – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3551",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-515",
+      "name": "ხის ნაკეთობები - დამზადება, რეალიზაცია",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=515",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-189",
+      "name": "ხის სახლები და კოტეჯები  - პროექტირება, მშენებლობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=189",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3667",
+      "name": "ჰაერის კომპრესორები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3667",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3575",
+      "name": "ჰიდრავლიკური კომპონენტები, შლანგები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3575",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3721",
+      "name": "ჰიდროლოგიური კვლევები",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3721",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-317",
+      "name": "ჰიდროსაიზოლაციო მასალები – ვაჭრობა",
+      "industry": "construction",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=317",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3457",
+      "name": "აბაზანის ავეჯი - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3457",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3504",
+      "name": "ავეჯი საბავშვო",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3504",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3081",
+      "name": "ავეჯი სამზარეულოსთვის - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3081",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-4",
+      "name": "ავეჯის დამზადება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=4",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-531",
+      "name": "ავეჯის მასალები, ფურნიტურა, აქსესუარები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=531",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3",
+      "name": "ავეჯის მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3661",
+      "name": "ავზები – ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3661",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-37",
+      "name": "ანტიკვარიატის მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=37",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3966",
+      "name": "ბალიშების, საბნების, ლეიბების განახლება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3966",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3744",
+      "name": "ბალიშების, საბნების, ლეიბების კერვა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3744",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-76",
+      "name": "ბილიარდის მაგიდები და აქსესუარები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=76",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3900",
+      "name": "ინტერიერის არომატიზატორები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3900",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-566",
+      "name": "ინტერიერის დეკორატიული აქსესუარები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=566",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-166",
+      "name": "კერამიკის სახელოსნოები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=166",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-202",
+      "name": "ლოგინის თეთრეულის, საბნების, ბალიშების მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=202",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3477",
+      "name": "მატრასების დამზადება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3477",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3923",
+      "name": "მატრასების მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3923",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3476",
+      "name": "მეორადი ავეჯის მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3476",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3801",
+      "name": "მინის ავეჯი – დამზადება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3801",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-138",
+      "name": "მინის მხატვრული ვიტრაჟები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=138",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3615",
+      "name": "რბილი ავეჯის დამზადება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3615",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3533",
+      "name": "რკინის ავეჯი - დამზადება, რეალიზაცია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3533",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3749",
+      "name": "საბავშვო სათამაშო ატრაქციონები – ვაჭრობა, მონტაჟი",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3749",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3021",
+      "name": "საბაღე ავეჯი და აქსესუარები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3021",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3784",
+      "name": "სათამაშოები - იმპორტი, დისტრიბუცია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3784",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-650",
+      "name": "სათამაშოების მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=650",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3501",
+      "name": "სათამაშოების წარმოება",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3501",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-329",
+      "name": "სამეურნეო საქონელი - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=329",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-351",
+      "name": "საოფისე ავეჯი",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=351",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3612",
+      "name": "საოჯახო ნივთების მაღაზია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3612",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-361",
+      "name": "სარკეები - დამზადება, რეალიზაცია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=361",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3559",
+      "name": "სასაჩუქრე კალათები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3559",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3496",
+      "name": "სასტუმროების აღჭურვილობა, აქსესუარები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3496",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3782",
+      "name": "საჩუქრები და სუვენირები - დამზადება, რეალიზაცია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3782",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-388",
+      "name": "საჩუქრების, სუვენირების მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=388",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-396",
+      "name": "სეიფები – ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=396",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3526",
+      "name": "სტელაჟები, თაროები - დამზადება, რეალიზაცია",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3526",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-492",
+      "name": "სურათის ჩარჩოები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=492",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-278",
+      "name": "ფარდა–ჟალუზები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=278",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-457",
+      "name": "ფარდების მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=457",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3480",
+      "name": "ყვავილების მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3480",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-486",
+      "name": "შერეული საქონელი - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=486",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3773",
+      "name": "ჭურჭელი – იმპორტი, ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3773",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-510",
+      "name": "ჭურჭლის მაღაზიები",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=510",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-511",
+      "name": "ხალიჩები - ვაჭრობა",
+      "industry": "office-supply",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=511",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-567",
+      "name": "ავტოგასამართი სადგურების დანადგარების იმპორტი, მონტაჟი",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=567",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-11",
+      "name": "ავტომობილები - დაცვითი სიგნალიზაცია",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=11",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-10",
+      "name": "ავტომობილები მეორადი და ახალი - იმპორტი, ვაჭრობა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=10",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-29",
+      "name": "ავტომობილები სატვირთო და სპეციალური - ვაჭრობა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=29",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-85",
+      "name": "ავტომობილების გაზგასამართი სადგურები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=85",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3140",
+      "name": "ავტომობილების გაზის სისტემების რეალიზაცია, მონტაჟი",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3140",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-24",
+      "name": "ავტომობილების გაქირავება",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=24",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-25",
+      "name": "ავტომობილების დიაგნოსტიკური ცენტრები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=25",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3917",
+      "name": "ავტომობილების დიტეილინგი",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3917",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-12",
+      "name": "ავტომობილების ზეთები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=12",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3833",
+      "name": "ავტომობილების ინსპექტირება (ტექდათვალიერება)",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3833",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2481",
+      "name": "ავტომობილების საღებავები, ლაქები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2481",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3581",
+      "name": "ავტომობილების ქიმწმენდა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3581",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3962",
+      "name": "ავტომობილის მოვლის საშუალებები, ავტოქიმია",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3962",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-13",
+      "name": "ავტონაწილები და აქსესუარები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=13",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3513",
+      "name": "ავტონაწილები სატვირთო ავტომობილებისთვის – ვაჭრობა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3513",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-16",
+      "name": "ავტოსადგომები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=16",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-20",
+      "name": "ავტოსამრეცხაო დანადგარები, მოწყობილობები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=20",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-18",
+      "name": "ავტოსამრეცხაოები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=18",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-19",
+      "name": "ავტოსერვისი",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=19",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3669",
+      "name": "ავტოსერვისის დანადგარები, მოწყობილობები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3669",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-21",
+      "name": "ავტოსკოლები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=21",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-32",
+      "name": "აკუმულატორები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=32",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-69",
+      "name": "ბენზინგასამართი სადგურები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=69",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3931",
+      "name": "ელექტრომობილების დამტენები – რეალიზაცია, მონტაჟი",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3931",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3772",
+      "name": "ელექტრომობილების დამტენი სადგურები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3772",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3860",
+      "name": "კვადროციკლები – ვაჭრობა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3860",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3743",
+      "name": "მეორადი საბურავები – ვაჭრობა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3743",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3881",
+      "name": "მოტოსკოლები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3881",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-233",
+      "name": "მოტოციკლები, სკუტერები - ვაჭრობა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=233",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3872",
+      "name": "მოტოციკლების, სკუტერების ნაწილები და აქსესუარები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3872",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3949",
+      "name": "მოტოციკლების, სკუტერების შეკეთება",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3949",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3929",
+      "name": "პარკინგის სისტემები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3929",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-15",
+      "name": "საბურავები – ვაჭრობა",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=15",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2200",
+      "name": "ჯიპიეს ნავიგატორები და GPS მონიტორინგის სისტემები",
+      "industry": "auto",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2200",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3576",
+      "name": "ბეწვეულის მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3576",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-565",
+      "name": "ბიჟუტერია და აქსესუარები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=565",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-145",
+      "name": "თეთრეულის (ქალის და მამაკაცის) მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=145",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-239",
+      "name": "თექის ნაწარმი - დამზადება, რეალიზაცია",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=239",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3863",
+      "name": "მატყლის წარმოება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3863",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-298",
+      "name": "მაჯის საათები – ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=298",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-219",
+      "name": "მეორადი ტანსაცმელი, ფეხსაცმელი - მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=219",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3502",
+      "name": "მოდის სახლები, ქართველი დიზაინერების მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3502",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-235",
+      "name": "მსუბუქი მრეწველობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=235",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-61",
+      "name": "საბავშვო პროდუქცია - ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=61",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3770",
+      "name": "საბავშვო საკარნავალო და საზეიმო კოსტიუმების კერვა, გაქირავება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3770",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-651",
+      "name": "საბავშვო ტანსაცმელი და ფეხსაცმელი",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=651",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-319",
+      "name": "საიუველირო მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=319",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3678",
+      "name": "საიუველირო ნაკეთობების დამზადება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3678",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-332",
+      "name": "სამკერვალო ფაბრიკები და ატელიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=332",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-381",
+      "name": "საქორწინო კაბები და აქსესუარები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=381",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3677",
+      "name": "საქსოვი და საკერავი მასალები – ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3677",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3769",
+      "name": "საცეკვაო ტანსაცმლის, ფეხსაცმლის, აქსესუარების მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3769",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3910",
+      "name": "სექს შოპები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3910",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-414",
+      "name": "სპორტული ტანსაცმელი, ფეხსაცმელი, აქსესუარები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=414",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-426",
+      "name": "ტანსაცმლის მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=426",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3571",
+      "name": "ტიხრული მინანქრის ნაკეთობები - დამზადება, რეალიზაცია",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3571",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3954",
+      "name": "ტყავის ნედლეულის და მასალების მაღაზია",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3954",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3808",
+      "name": "ტყავის წარმოება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3808",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-409",
+      "name": "უნიფორმების, სპეცტანსაცმლის კერვა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=409",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-463",
+      "name": "ფეხსაცმელი წარმოება, კერვა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=463",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3564",
+      "name": "ფეხსაცმლის მასალები – ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3564",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-462",
+      "name": "ფეხსაცმლის მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=462",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3639",
+      "name": "ქართული ეროვნული ტანსაცმლის კერვა, გაქირავება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3639",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-481",
+      "name": "ქსოვილები და აქსესუარები - ვაჭრობა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=481",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-491",
+      "name": "ჩანთების მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=491",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3838",
+      "name": "დომენების რეგისტრაცია",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3838",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-130",
+      "name": "ვებ-გვერდების დამზადება",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=130",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2980",
+      "name": "ვებ-ჰოსტინგი",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2980",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-154",
+      "name": "ინტერნეტ პროვაიდერები",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=154",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3942",
+      "name": "ინფორმაციის აღდგენა დისკებიდან, მეხსიერების ბარათებიდან",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3942",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3605",
+      "name": "ინფორმაციული უსაფრთხოება – სისტემების დანერგვა, კონსულტაციები",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3605",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3644",
+      "name": "კავშირგაბმულობის ნაგებობების პროექტირება, მშენებლობა",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3644",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-183",
+      "name": "კომპიუტერული ქსელური მოწყობილობები, სერვერები – რეალიზაცია, მონტაჟი",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=183",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3503",
+      "name": "მობილური აპლიკაციების დამზადება",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3503",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-470",
+      "name": "მობილური კავშირგაბმულობის ოპერატორები",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=470",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-271",
+      "name": "პროგრამული უზრუნველყოფის შექმნა",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=271",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3641",
+      "name": "რაციები, რადიოსადგურები, აქსესუარები",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3641",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-318",
+      "name": "საინფორმაციო ტექნოლოგიები – IT აუთსორსინგი",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=318",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3642",
+      "name": "საკომუნიკაციო კაბელები, სამონტაჟო აქსესუარები",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3642",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3640",
+      "name": "საოფისე სატელეფონო სისტემები – რეალიზაცია, მონტაჟი",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3640",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-160",
+      "name": "სატელეკომუნიკაციო მომსახურება",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=160",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-373",
+      "name": "სატელეფონო კომპანიები",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=373",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-377",
+      "name": "საქალაქთაშორისო და საერთაშორისო სატელეფონო კავშირების საოპერატორო კომპანიები",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=377",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2581",
+      "name": "ქოლ-ცენტრები - მომსახურება",
+      "industry": "technology",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2581",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-375",
+      "name": "აბანოები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=375",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3507",
+      "name": "ბავშვთა მოვლის საშუალებები - იმპორტი, დისტრიბუცია",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3507",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3953",
+      "name": "ბარბერშოპი",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3953",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-123",
+      "name": "ეპილაცია",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=123",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3746",
+      "name": "ეპილაციის აპარატები - ვაჭრობა",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3746",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3561",
+      "name": "ესთეტიკური მედიცინის ცენტრები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3561",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3651",
+      "name": "თმის მოვლის საშუალებები – იმპორტი, რეალიზაცია",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3651",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3905",
+      "name": "კოსმეტიკური პროდუქცია – იმპორტი, რეალიზაცია",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3905",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3569",
+      "name": "კოსმეტიკური პროდუქციის წარმოება",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3569",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3180",
+      "name": "კოსმეტოლოგიური აპარატურა და მასალები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3180",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-188",
+      "name": "კოსმეტოლოგიური მომსახურება",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=188",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3903",
+      "name": "პარიკები, შინიონები – ვაჭრობა",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3903",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3473",
+      "name": "პარფიუმერია და კოსმეტიკა - მაღაზიები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3473",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-252",
+      "name": "პარფიუმერია – იმპორტი, ვაჭრობა",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=252",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3913",
+      "name": "პირსინგის სალონები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3913",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3570",
+      "name": "სარეცხი და საწმენდი საშუალებები - იმპორტი, რეალიზაცია",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3570",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-386",
+      "name": "სარეცხი და საწმენდი საშუალებები - მაღაზიები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=386",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3705",
+      "name": "საუნები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3705",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3596",
+      "name": "სილამაზის სალონების ინვენტარი, აპარატურა, მასალები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3596",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-405",
+      "name": "სოლარიუმები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=405",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3671",
+      "name": "სოლარიუმის აპარატები – ვაჭრობა",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3671",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2340",
+      "name": "სპა ცენტრები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2340",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3618",
+      "name": "ტატუ სალონები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3618",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3907",
+      "name": "ფრჩხილების მოვლის სალონები",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3907",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3774",
+      "name": "ქაღალდის ჰიგიენური ნაწარმი - იმპორტი, რეალიზაცია",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3774",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-522",
+      "name": "ჰიგიენური პროდუქცია",
+      "industry": "beauty",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=522",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2",
+      "name": "ადვოკატები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3629",
+      "name": "ავტოლიზინგი",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3629",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3447",
+      "name": "ავტოლომბარდები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3447",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-38",
+      "name": "არბიტრაჟები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=38",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-66",
+      "name": "ბანკები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=66",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-67",
+      "name": "ბანკომატები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=67",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2660",
+      "name": "დაგროვებითი და ფასდაკლების ბარათები, ვებ–გვერდები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2660",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-129",
+      "name": "ვალუტის გადამცვლელი პუნქტები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=129",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3563",
+      "name": "იპოთეკური სესხები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3563",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3834",
+      "name": "კრიპტოვალუტის ყიდვა, გაყიდვა, გაცვლა (ვირტუალური აქტივის მომსახურების პროვაიდერები)",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3834",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-2260",
+      "name": "მიკროსაფინანსო ორგანიზაციები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=2260",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3748",
+      "name": "მცირე ბიზნეს სესხები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3748",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-244",
+      "name": "ნოტარიუსები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=244",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3912",
+      "name": "პერსონალურ მონაცემთა დაცვის ოფიცრის მომსახურება",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3912",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3633",
+      "name": "პრობლემური აქტივების მართვა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3633",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3777",
+      "name": "სააღსრულებო ბიუროები და კერძო აღმასრულებლები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3777",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-312",
+      "name": "სავაჭრო-სამრეწველო პალატები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=312",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-204",
+      "name": "საიუველირო ლომბარდები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=204",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3453",
+      "name": "საკონფერენციო დარბაზები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3453",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-390",
+      "name": "საწარმოების (ორგანიზაციების) რეგისტრაცია",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=390",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-300",
+      "name": "სესხები - სამომხმარებლო",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=300",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3626",
+      "name": "სწრაფი ონლაინ სესხები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3626",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-425",
+      "name": "სწრაფი ფულადი გზავნილები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=425",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3886",
+      "name": "ტექნიკის ლომბარდები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3886",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3451",
+      "name": "უბაჟო ვაჭრობა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3451",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-460",
+      "name": "ფასიანი ქაღალდები - ოპერაციები",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=460",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3682",
+      "name": "ფორექსზე ვაჭრობა",
+      "industry": "business-services",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3682",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-1",
+      "name": "აბიტურიენტთა და მოსწავლეთა მოსამზადებელი ცენტრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=1",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-54",
+      "name": "ბაგა-ბაღები - სპეციალიზებული",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=54",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-72",
+      "name": "ბიბლიოთეკები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=72",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-79",
+      "name": "ბუღალტერიის შემსწავლელი კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=79",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-93",
+      "name": "განათლება - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=93",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-106",
+      "name": "დასაქმება, კადრების შერჩევა - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=106",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-401",
+      "name": "კერძო სკოლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=401",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-167",
+      "name": "კვალიფიკაციის ამაღლება და ტრენინგები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=167",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-180",
+      "name": "კომპიუტერული პროგრამების, პროგრამირების შემსწავლელი კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=180",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3662",
+      "name": "კოსმეტოლოგიის შემსწავლელი კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3662",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3706",
+      "name": "კულინარიის კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3706",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3660",
+      "name": "მასაჟის შემსწავლელი კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3660",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-523",
+      "name": "მეტეოროლოგია",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=523",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-245",
+      "name": "ობსერვატორიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=245",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3760",
+      "name": "პროფესიული კერძო კოლეჯები, სასწავლებლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3760",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-191",
+      "name": "პროფესიული კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=191",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-274",
+      "name": "პროფესიული სახელმწიფო კოლეჯები, სასწავლებლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=274",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-55",
+      "name": "საბავშვო ბაღები და ბაგა-ბაღები - კერძო",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=55",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3446",
+      "name": "საბავშვო ბაღები და ბაგა-ბაღები - მუნიციპალური",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3446",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3522",
+      "name": "საბავშვო თეატრალური და კინო სტუდიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3522",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3520",
+      "name": "საბავშვო მუსიკალური სტუდიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3520",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3598",
+      "name": "საბავშვო სასწავლო ცენტრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3598",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3521",
+      "name": "საბავშვო ქორეოგრაფიული სტუდიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3521",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-218",
+      "name": "სამედიცინო კვლევითი ორგანიზაციები, ცენტრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=218",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-217",
+      "name": "სამედიცინო კოლეჯები, სასწავლებლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=217",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-328",
+      "name": "სამედიცინო უმაღლესი სასწავლებლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=328",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-223",
+      "name": "სამეცნიერო საზოგადოებები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=223",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-330",
+      "name": "სამეცნიერო-კვლევითი ინსტიტუტები, ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=330",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3518",
+      "name": "სამეჯლისო, თანამედროვე და ნაციონალური ცეკვების სტუდიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3518",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-338",
+      "name": "სამუსიკო სკოლები, სტუდიები, სასწავლებლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=338",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-343",
+      "name": "სამხატვრო სასწავლო სტუდიები, სკოლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=343",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-347",
+      "name": "სამხედრო სასწავლებლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=347",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3635",
+      "name": "სასკოლო ოლიმპიადების ორგანიზება",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3635",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-370",
+      "name": "სასწავლო ცენტრები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=370",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-402",
+      "name": "საჯარო სკოლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=402",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3659",
+      "name": "სილამაზის სახელობო სასწავლო კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3659",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-403",
+      "name": "სკოლები-სპეციალიზებული",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=403",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-415",
+      "name": "სპორტული სკოლები, სექციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=415",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-423",
+      "name": "სწავლა საზღვარგარეთ",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=423",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-448",
+      "name": "უმაღლესი სასწავლებლები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=448",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-452",
+      "name": "უცხოური ენების შემსწავლელი კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=452",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3632",
+      "name": "ფოტოგრაფიის შემსწავლელი კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3632",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3517",
+      "name": "ქართული ცეკვების სტუდიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3517",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-504",
+      "name": "წიგნის მაღაზიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=504",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3471",
+      "name": "ხელოვნების სკოლები და სტუდიები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3471",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3638",
+      "name": "ხელსაქმის კურსები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3638",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-9",
+      "name": "ავტო და მოტოკლუბები, ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=9",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-45",
+      "name": "ასოციაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=45",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-53",
+      "name": "ახალგაზრდული და სტუდენტური ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=53",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-56",
+      "name": "ბავშვთა და მოზარდთა ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=56",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-94",
+      "name": "გარემოს დაცვა – ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=94",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-114",
+      "name": "ეკლესიები და ტაძრები - მართლმადიდებლური",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=114",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-133",
+      "name": "ვეტერანები - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=133",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-275",
+      "name": "პროფკავშირები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=275",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-288",
+      "name": "რელიგიური ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=288",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-309",
+      "name": "საეკლესიო ნივთები და ლიტერატურა",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=309",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-310",
+      "name": "საერთაშორისო ორგანიზაციები და წარმომადგენლობები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=310",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-314",
+      "name": "საზოგადოებრივი და არასამთავრობო ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=314",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-478",
+      "name": "საქველმოქმედო ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=478",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-3866",
+      "name": "სოციალური საწარმოები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=3866",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-410",
+      "name": "სპორტული ფედერაციები, საზოგადოებრივი ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=410",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-451",
+      "name": "უსინათლოთა ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=451",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-471",
+      "name": "ფონდები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=471",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-147",
+      "name": "შეზღუდული შესაძლებლობების მქონე პირები - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=147",
+      "max_pages": 100,
+      "enabled": true
+    },
+    {
+      "id": "yell-500",
+      "name": "ცხოველთა დაცვა - ორგანიზაციები",
+      "industry": "other",
+      "url": "https://www.yell.ge/companies.php?lan=geo&rub=500",
+      "max_pages": 100,
+      "enabled": true
     }
   ],
   "reviewed_at": "2026-10-22"

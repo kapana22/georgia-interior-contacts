@@ -68,6 +68,8 @@ def restore():
     (ROOT/'.leads-state/companies-restored').touch()
 
 def report():
+    from georgia_contacts.catalogue_collector import ready, status
+    catalogues=read(TREE/'catalogues.json',{})
     dev=read('.leads-state/developers-saxlebi.json',{})
     yell=read('.leads-state/companies.json',{})
     stamp=time.time()
@@ -84,7 +86,8 @@ def report():
     return {**old,'updated_at':datetime.now(timezone.utc).isoformat(),'automatic':True,
         'remaining_profiles':len(pending),'developer_profiles_collected':len(dev.get('records',{}))-len(pending),
         'remaining_listing_pages':len(dev.get('queue',[]))+sum(len(c.get('queue',[])) for c in yell.get('cursors',{}).values()),
-        'work_ready':bool(dev_work or yell_work),'run_id':os.environ.get('GITHUB_RUN_ID',''),
+        'work_ready':bool(dev_work or yell_work or ready(catalogues)),'run_id':os.environ.get('GITHUB_RUN_ID',''),
+        'business_catalogues':status(catalogues),
         'remaining_buffered_records':len(yell.get('pending',[])),
         'source_statuses':{key:{'pages':c.get('pages',0),'remaining_pages':len(c.get('queue',[])),
             'status':'capped' if c.get('capped') else 'retry_pending' if c.get('queue') and c.get('last_error') else 'active' if c.get('queue') else 'error' if c.get('last_error') or c.get('failed_pages') else 'exhausted',
@@ -106,6 +109,12 @@ def collect():
     retry_categories=[key.strip() for key in os.environ.get('RESTART_CATEGORIES','').split(',') if key.strip()]
     prepare(yell,config,restart_categories=retry_categories)
     write('.leads-state/companies.json',yell)
+    from georgia_contacts.catalogue_collector import prepare as prepare_catalogues, enqueue_websites
+    catalogues=read(TREE/'catalogues.json',{})
+    catalogue_config=read('config/business-catalogues.json',{'sources':[]})
+    prepare_catalogues(catalogues,catalogue_config)
+    enqueue_websites(catalogues,read(TREE/'data.json',{'records':[]})['records'])
+    write(TREE/'catalogues.json',catalogues)
     catalog_refresh_due=os.environ.get('REFRESH_CATALOG')=='true' or stamp-previous.get('catalog_refresh_at',0)>86400
     if not report()['work_ready'] and not catalog_refresh_due and not retry_categories:
         print('No work due; waiting for retry or next catalogue refresh');return
@@ -129,6 +138,8 @@ def collect():
     write(TREE/'report.json',previous)
     run(sys.executable,'scripts/collect_developers.py','--max-minutes','8','--profiles',os.environ.get('PROFILE_BATCH','150'))
     run(sys.executable,'-m','georgia_leads.cli','--sources','config/companies-sources.json','--state','.leads-state/companies.json','--output','output/companies-growth','--limit','1000','--max-minutes','2','--directory-only')
+    if catalogue_config['sources']:
+        run(sys.executable,'-m','georgia_contacts.catalogue_collector','--state',str(TREE/'catalogues.json'),'--data',str(TREE/'data.json'),'--max-minutes','4')
 
 def save():
     if not (ROOT/'.leads-state/companies-restored').exists():raise RuntimeError('Restore first')
@@ -139,11 +150,18 @@ def save():
     write('output/companies-growth/snapshot.json',{'records':yell['records']})
     run('node','scripts/merge_companies.mjs','output/companies-growth/developers-saxlebi.json','catalog',str(TREE/'data.json'))
     run('node','scripts/merge_companies.mjs','output/companies-growth/snapshot.json','general',str(TREE/'data.json'))
+    catalogues=read(TREE/'catalogues.json',{})
+    if catalogues.get('outbox'):
+        write('output/companies-growth/catalogues.json',{'records':list(catalogues['outbox'].values())})
+        run('node','scripts/merge_companies.mjs','output/companies-growth/catalogues.json','general',str(TREE/'data.json'))
+        catalogues['outbox']={}
+        write(TREE/'catalogues.json',catalogues)
     for source,target in STATES.items():shutil.copyfile(target,TREE/source)
     shutil.copyfile('output/companies-growth/developers-saxlebi.json.deferred.json',TREE/'deferred.json')
     run('node','scripts/reconcile_companies.mjs',str(TREE/'data.json'))
     current=report();current['records_total']=len(read(TREE/'data.json')['records'])
     paths=['data.json','developers.json','yell.json','report.json','deferred.json']
+    if (TREE/'catalogues.json').exists():paths.append('catalogues.json')
     if read(TREE/'campaign.json'):paths.append('campaign.json')
     baseline=read(TREE/'growth-baseline.json')
     if baseline:

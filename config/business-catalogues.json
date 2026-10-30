@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "geostat",
+      "name": "საქსტატი — აქტიური შპს-ების ბიზნესრეგისტრი",
+      "seed": "https://br-api.geostat.ge/api/documents?lang=ge&legalForm=1&isActive=true&page=1&limit=500&sortBy=identificationNumber&sortDir=asc",
+      "policy": "https://www.geostat.ge/ka/page/monacemta-gamoyenebis-pirobebi",
+      "refresh_days": 30
+    },
+    {
+      "id": "08",
+      "name": "08.ge — ბიზნესკატალოგი",
+      "seed": "https://08.ge/",
+      "policy": "https://08.ge/docs/terms-conditions",
+      "refresh_days": 30
+    },
+    {
+      "id": "1020",
+      "name": "1020.ge — ბიზნესკატალოგი",
+      "seed": "https://www.1020.ge/",
+      "policy": "https://www.1020.ge/privacy",
+      "refresh_days": 30
+    },
+    {
+      "id": "city24",
+      "name": "City24.ge — ყველა ბიზნესმიმართულება",
+      "seed": "https://www.city24.ge/ge/georgia/catalogue/",
+      "policy": "https://www.city24.ge/en/about-us/",
+      "refresh_days": 30
+    }
+  ]
+}

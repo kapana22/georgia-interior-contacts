@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 
 FILES = ('data.json', 'developers.json', 'yell.json', 'report.json', 'deferred.json',
-         'campaign.json', 'growth-baseline.json', 'b2b-target.json', 'b2b-target.csv')
+         'campaign.json', 'growth-baseline.json', 'b2b-target.json', 'b2b-target.csv', 'catalogues.json')
 
 
 def encoded(value):

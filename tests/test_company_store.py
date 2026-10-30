@@ -25,6 +25,17 @@ def test_checkpoint_roundtrip_preserves_every_byte_and_checks_integrity(tmp_path
     assert not (tmp_path/'invalid').exists()
 
 
+def test_optional_catalogue_progress_survives_checkpoint_without_breaking_old_checkpoints(tmp_path):
+    source = tmp_path/'source'
+    checkpoint_tree(source)
+    state = {'sources': {'geostat': {'queue': [{'url': 'next', 'kind': 'listing'}]}},
+             'outbox': {'geostat:123456789': {'name': 'შპს სატესტო'}}, 'website_queue': [{'id': 'a'}]}
+    (source/'catalogues.json').write_text(json.dumps(state, ensure_ascii=False))
+    archive, checksum = pack(source)
+    unpack({'archive': archive, 'sha256': checksum}, tmp_path/'restored')
+    assert json.loads((tmp_path/'restored/catalogues.json').read_text()) == state
+
+
 @pytest.mark.parametrize('newline', ['\r\n', '\n', '\r'])
 def test_checkpoint_preserves_csv_bom_line_endings_and_quoted_newlines(tmp_path, newline):
     source = tmp_path/'source'

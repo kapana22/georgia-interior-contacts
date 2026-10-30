@@ -79,6 +79,16 @@ test('growth joins matching name and contact, retains legal data, repeat imports
   assert.equal(integrate(first.records,incoming).added,0);
   assert.equal(integrate(base,[{...incoming[0],name:'სხვა კომპანია'}]).added,1);
 });
+test('registry tax conflicts on a shared business name and contact stay separate and reviewable',()=>{
+  const base=[{id:'excel:1',name:'შპს კომპანია',tax_id:'001',phone:'+995555123456'}];
+  const incoming={id:'geostat:002',name:'კომპანია',tax_id:'002',phone:'555123456'};
+  const result=integrate(base,[incoming]);
+  assert.equal(result.added,1);assert.equal(result.updated,0);
+  assert.deepEqual(result.records.map(r=>r.tax_id),['001','002']);
+  assert.ok(result.records[1].quality_notes.includes('001'));
+  assert.equal(integrate(result.records,[incoming]).added,0);
+  assert.throws(()=>integrate(base,[{...incoming,id:'excel:1'}]),/Conflicting tax IDs/);
+});
 test('social links and original scraper metadata survive imports and exports',()=>{
  const original={id:'social:1',name:'A',website:'facebook.com/example',facts:[{kind:'instagram',value:'https://instagram.com/example',source_url:'https://example.org'}],checks:[{outcome:'listed'}]};
  const [r]=normalizeImport([original]);assert.equal(r.instagram,'https://instagram.com/example');assert.deepEqual(r.source_records[0].checks,original.checks);

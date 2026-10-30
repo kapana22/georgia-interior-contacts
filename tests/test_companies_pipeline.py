@@ -129,6 +129,33 @@ def test_new_categories_start_without_waiting_for_daily_refresh(tmp_path, monkey
     assert pipeline.read('.leads-state/companies.json')['cursors']['beauty']['queue']
 
 
+def test_new_catalogues_start_immediately_and_report_their_durable_progress(tmp_path, monkeypatch):
+    setup_state(tmp_path, monkeypatch, {'catalog_refresh_at':199999})
+    pipeline.write('config/business-catalogues.json', {'sources': [
+        {'id': '08', 'seed': 'https://08.ge/', 'refresh_days': 30}]})
+    calls=[]
+    monkeypatch.setattr(pipeline, 'run', lambda *args, **kwargs: calls.append(args))
+    pipeline.collect()
+    report=pipeline.report()
+    assert report['work_ready']
+    assert report['business_catalogues']['sources']['08']['remaining_pages'] == 1
+    assert any('georgia_contacts.catalogue_collector' in call for call in calls)
+
+
+def test_failed_catalogue_merge_retains_buffered_rows_for_retry(tmp_path, monkeypatch):
+    import pytest
+    setup_state(tmp_path, monkeypatch, {})
+    rows={'geostat:123456789': {'id': 'geostat:123456789', 'name': 'შპს სატესტო'}}
+    pipeline.write(tmp_path/'tree/catalogues.json', {'outbox':rows})
+    def fail_new_merge(*args, **kwargs):
+        if 'output/companies-growth/catalogues.json' in args:
+            raise RuntimeError('merge failed')
+    monkeypatch.setattr(pipeline, 'run', fail_new_merge)
+    with pytest.raises(RuntimeError, match='merge failed'):
+        pipeline.save()
+    assert pipeline.read(tmp_path/'tree/catalogues.json')['outbox'] == rows
+
+
 def test_targeted_category_retry_does_not_restart_other_catalogues(tmp_path, monkeypatch):
     setup_state(tmp_path, monkeypatch, {'catalog_refresh_at': 199999})
     import georgia_leads.cli as leads
