@@ -94,7 +94,7 @@ def status(state):
     return {'sources': {key: {'pages': c.get('pages', 0), 'companies_seen': len(c.get('record_ids', [])),
                 'remaining_pages': len(c.get('queue', [])), 'last_error': c.get('last_error'),
                 'retry_after': c.get('retry_after', 0), 'failed_pages': len(c.get('failures', {})),
-                'status': 'waiting' if c.get('retry_after', 0) > time.time() else 'active' if c.get('queue') else 'exhausted',
+                'status': 'waiting' if c.get('retry_after', 0) > time.time() else 'active' if c.get('queue') else 'partial' if c.get('failures') else 'exhausted',
                 **c.get('metadata', {})} for key, c in state.get('sources', {}).items()},
             'websites_checked': len(state.get('website_done', {})),
             'websites_pending': len(state.get('website_queue', [])),
@@ -131,7 +131,11 @@ def collect(state, config, checkpoint, *, max_minutes=4, client=None):
                     task['attempts'] = task.get('attempts', 0) + 1
                     cursor['last_error'] = {'url': task['url'], 'reason': exc.reason, 'at': timestamp}
                     cursor['retry_after'] = time.time() + (86400 if exc.status == 'blocked' else 3600)
-                    if task['attempts'] >= 3 and exc.status != 'blocked':
+                    # This API exposes the next page only after a successful response.
+                    # Dropping its failed page would discard the rest of the registry.
+                    if key == 'geostat' and task['attempts'] >= 3:
+                        cursor['retry_after'] = max(cursor['retry_after'], time.time() + 6 * 3600)
+                    elif task['attempts'] >= 3 and exc.status != 'blocked':
                         cursor['failures'][task['url']] = cursor['last_error']
                         cursor['queue'].pop(index)
                     checkpoint(state)

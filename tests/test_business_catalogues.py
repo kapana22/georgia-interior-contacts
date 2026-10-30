@@ -146,6 +146,19 @@ def test_registry_budget_is_five_pages_and_leaves_other_sources_a_turn():
     assert parse_qs(urlsplit(pending).query)['page'] == ['6']
 
 
+def test_repeated_registry_failures_do_not_discard_all_following_pages():
+    config = {'sources': [CONFIG['sources'][0]]}
+    state = prepare({}, config)
+    for _ in range(3):
+        state['sources']['geostat']['retry_after'] = 0
+        client = FakeClient({GEOSTAT: FetchError('unreachable', 'http_503')})
+        collect(state, config, lambda s: None, client=client)
+    cursor = state['sources']['geostat']
+    assert cursor['queue'][0]['url'] == GEOSTAT
+    assert cursor['queue'][0]['attempts'] == 3
+    assert cursor['pages'] == 0 and not cursor['failures']
+
+
 def test_website_enrichment_uses_existing_identity_and_published_contact_page():
     state = prepare({}, {'sources': []})
     rows = [{'id': 'a', 'name': 'A', 'website': 'https://business.ge'},
