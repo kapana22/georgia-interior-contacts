@@ -91,3 +91,5 @@ main>p.muted{margin:6px 0}
 .card-notes{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;padding-top:10px;border-top:1px solid #edf1f7}
 @media(max-width:1024px){.card-grid{grid-template-columns:1fr}}
 @media(max-width:680px){main{padding:16px}.card-header-meta{justify-content:flex-start;width:100%}.card-legal-sub{margin-left:0}}
+
+#load-progress{display:block;width:100%;height:7px;accent-color:#244a80;margin:8px 0 16px}#load-progress[hidden]{display:none}.loading{opacity:.5;cursor:wait}

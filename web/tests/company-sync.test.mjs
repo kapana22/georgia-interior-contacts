@@ -5,7 +5,7 @@ import {loadCompanyParts} from '../companies/sync.js';
 import {companyParts} from '../company-parts.mjs';
 import {createDatabaseLoader} from '../companies/sync.js';
 
-test('Supabase uses a publishable key, shows 50 first, pages by ID and caches the revision',async()=>{
+test('Supabase uses a publishable key, shows 50 first, pages concurrently and caches the revision',async()=>{
  const records=Array.from({length:1051},(_,i)=>({id:String(i).padStart(5,'0'),name:'Company'}));
  let downloads=0;const progress=[];
  const load=createDatabaseLoader({url:'https://example.supabase.co',key:'publishable'},async(url,opts)=>{
@@ -13,13 +13,13 @@ test('Supabase uses a publishable key, shows 50 first, pages by ID and caches th
   const parsed=new URL(url);let value;
   if(parsed.pathname.endsWith('/directory_meta'))value=[{status:'ready',revision:'one',total:records.length}];
   else{
-   downloads++;const after=parsed.searchParams.get('id')?.slice(3);
-   const rows=after?records.filter(r=>r.id>after):records;
+   downloads++;const offset=Number(parsed.searchParams.get('offset')||0);
+   const rows=records.slice(offset);
    value=rows.slice(0,Number(parsed.searchParams.get('limit'))).map(record=>({id:record.id,record}));
   }
   return {ok:true,json:async()=>value};
  });
- const result=await load((data)=>progress.push(data.records.length));
+ const result=await load((data)=>progress.push(data.loaded));
  assert.deepEqual(progress,[50,1050,1051]);assert.deepEqual(result.records,records);
  await load();assert.equal(downloads,3);
 });
@@ -37,7 +37,7 @@ test('Supabase does not publish partial or duplicate directory results',async()=
  const load=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},async(url)=>({ok:true,json:async()=>
   url.includes('/directory_meta?')?[{status:'ready',revision:'one',total:2}]:[{id:'a',record:{id:'a'}}]
  }));
- await assert.rejects(load(),/ფორმატი/);
+ await assert.rejects(load(),/არასრულად|ფორმატი/);
 });
 
 test('progressive loading shows 50 records before requesting the rest, retaining all fields',async()=>{
@@ -84,4 +84,46 @@ test('live loader uses immutable commits and downloads only changed snapshots',a
  });
  assert.equal((await load()).records[0].id,sha);await load();assert.equal(downloads,1);
  sha='b'.repeat(40);assert.equal((await load()).records[0].id,sha);assert.equal(downloads,2);
+});
+
+
+test('compressed full snapshot verifies checksum, retains evidence and reuses persistent cache',async()=>{
+ const {gzipSync}=await import('node:zlib');const {createHash}=await import('node:crypto');
+ const data={version:1,records:[{id:'a',name:'ქართული კომპანია',evidence:[{value:'verified'}]}]};
+ const bytes=gzipSync(JSON.stringify(data)),sha256=createHash('sha256').update(bytes).digest('hex');
+ const meta={status:'ready',revision:'snapshot-revision',total:1,snapshot:{path:`snapshots/${sha256}.json.gz`,sha256,bytes:bytes.length,total:1}};
+ let downloads=0,saved,cached=0;
+ const cache={read:async()=>saved,write:async value=>{saved=value;}};
+ const fetcher=async url=>{if(url.includes('directory_meta'))return Response.json([meta]);downloads++;assert.ok(url.includes('/object/public/company-directory/'));return new Response(bytes);};
+ const first=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},fetcher,{cache});
+ assert.deepEqual((await first()).records,data.records);assert.equal(downloads,1);
+ const second=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},fetcher,{cache});
+ assert.deepEqual((await second(null,()=>{cached++;})).records,data.records);
+ assert.equal(cached,1);assert.equal(downloads,1);
+ saved.bytes=new Uint8Array(bytes.length);
+ const third=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},fetcher,{cache});
+ await third();assert.equal(downloads,2);
+});
+
+test('corrupt compressed downloads cannot be cached or displayed as a completed snapshot',async()=>{
+ const {gzipSync}=await import('node:zlib');const {createHash}=await import('node:crypto');
+ const bytes=gzipSync(JSON.stringify({version:1,records:[{id:'a'}]})),sha256=createHash('sha256').update(bytes).digest('hex');
+ const meta={status:'ready',revision:'r',total:1,snapshot:{path:`snapshots/${sha256}.json.gz`,sha256,bytes:bytes.length,total:1}};
+ let saved=false;
+ const load=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},async url=>url.includes('directory_meta')?Response.json([meta]):new Response(new Uint8Array(bytes.length)),{cache:{write:async()=>{saved=true;}}});
+ await assert.rejects(load(),/დაზიანებულია/);assert.equal(saved,false);
+});
+
+test('parallel REST fallback remains ordered and never exceeds four concurrent pages',async()=>{
+ const records=Array.from({length:5055},(_,i)=>({id:String(i).padStart(5,'0')}));
+ let running=0,maximum=0;
+ const load=createDatabaseLoader({url:'https://example.supabase.co',key:'public'},async url=>{
+  const params=new URL(url).searchParams;
+  if(url.includes('directory_meta'))return Response.json([{status:'ready',revision:'r',total:records.length}]);
+  running++;maximum=Math.max(maximum,running);
+  const offset=Number(params.get('offset')||0);
+  await new Promise(resolve=>setTimeout(resolve,offset===50?20:1));running--;
+  return Response.json(records.slice(offset,offset+Number(params.get('limit'))).map(record=>({id:record.id,record})));
+ });
+ assert.deepEqual((await load()).records,records);assert.equal(maximum,4);
 });

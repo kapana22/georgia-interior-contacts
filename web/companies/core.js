@@ -1,8 +1,9 @@
+import {activityCategories,activityCategory} from './activities.js';
 import {safeCell,safeURL} from '../leads/core.js';
-export const categories = {development:'უძრავი ქონების დეველოპმენტი',construction:'მშენებლობა',architecture:'არქიტექტურა',interior:'ინტერიერის დიზაინი',technology:'ტექნოლოგიები',beauty:'სილამაზე',auto:'ავტობიზნესი',food:'კვების ობიექტები',logistics:"საერთაშორისო საავტომობილო გადაზიდვები",forwarding:"ტვირთების ექსპედირება",warehousing:"საბაჟო საწყობები და სატვირთო ტერმინალები",'medical-supply':"სამედიცინო აპარატურა და მასალები",'building-supply':"სამშენებლო მასალების მომწოდებლები",packaging:"შესაფუთი მასალების საბითუმო ვაჭრობა",metalwork:"ლითონკონსტრუქციების წარმოება და მონტაჟი",healthcare:"კლინიკები და სამედიცინო ცენტრები",laboratories:"სამედიცინო ლაბორატორიები","industry":"წარმოება და სამრეწველო მომარაგება","energy":"ენერგეტიკა და ელექტროტექნიკა","marketing":"რეკლამა, ბეჭდვა და მედია","office-supply":"საოფისე და სავაჭრო მომარაგება","food-production":"საკვებისა და სასმელების წარმოება","business-services":"ბიზნესმომსახურება","agriculture":"აგრობიზნესი",other:'სხვა',unknown:'მიმართულება დაუზუსტებელია'};
-export function categoryIds(record){return [...new Set([classify(record).category,...(record.industries||[]).filter(c=>categories[c])])];}
-export const fields = ['source_id','name','legal_status','legal_status_full','tax_id','country','city','address','phone','fax','email','website','role','registered_at','contact_people','active_tender','facebook','instagram','linkedin','youtube','tiktok','social_links','phone_unverified','quality_notes'];
-export const labels = ['ID','სრული სახელი','იურ. სტატუსი','სრული იურ. სტატუსი','ID კოდი','ქვეყანა','ქალაქი','მისამართი','ტელეფონი','ფაქსი','ელ-ფოსტა','ვებგვერდი','როლი','რეგისტრაცია','საკონტ. პირები','აქტიური ტენდერი','Facebook','Instagram','LinkedIn','YouTube','TikTok','სხვა სოციალური ბმულები','გადასამოწმებელი ნომერი','მონაცემების შენიშვნა'];
+export const categories = {development:'უძრავი ქონების დეველოპმენტი',construction:'მშენებლობა',architecture:'არქიტექტურა',interior:'ინტერიერის დიზაინი',technology:'ტექნოლოგიები',beauty:'სილამაზე',auto:'ავტობიზნესი',food:'კვების ობიექტები',logistics:"საერთაშორისო საავტომობილო გადაზიდვები",forwarding:"ტვირთების ექსპედირება",warehousing:"საბაჟო საწყობები და სატვირთო ტერმინალები",'medical-supply':"სამედიცინო აპარატურა და მასალები",'building-supply':"სამშენებლო მასალების მომწოდებლები",packaging:"შესაფუთი მასალების საბითუმო ვაჭრობა",metalwork:"ლითონკონსტრუქციების წარმოება და მონტაჟი",healthcare:"კლინიკები და სამედიცინო ცენტრები",laboratories:"სამედიცინო ლაბორატორიები","industry":"წარმოება და სამრეწველო მომარაგება","energy":"ენერგეტიკა და ელექტროტექნიკა","marketing":"რეკლამა, ბეჭდვა და მედია","office-supply":"საოფისე და სავაჭრო მომარაგება","food-production":"საკვებისა და სასმელების წარმოება","business-services":"ბიზნესმომსახურება","agriculture":"აგრობიზნესი",...activityCategories,other:'სხვა',unknown:'მიმართულება დაუზუსტებელია'};
+export function categoryIds(record){const ids=[...new Set([classify(record).category,...(record.industries||[]).filter(c=>categories[c])])];return ids.length>1?ids.filter(c=>c!=='unknown'):ids;}
+export const fields = ['source_id','name','legal_status','legal_status_full','tax_id','country','city','address','phone','fax','email','website','role','registered_at','contact_people','active_tender','facebook','instagram','linkedin','youtube','tiktok','social_links','phone_unverified','quality_notes','activity_code','activity_name'];
+export const labels = ['ID','სრული სახელი','იურ. სტატუსი','სრული იურ. სტატუსი','ID კოდი','ქვეყანა','ქალაქი','მისამართი','ტელეფონი','ფაქსი','ელ-ფოსტა','ვებგვერდი','როლი','რეგისტრაცია','საკონტ. პირები','აქტიური ტენდერი','Facebook','Instagram','LinkedIn','YouTube','TikTok','სხვა სოციალური ბმულები','გადასამოწმებელი ნომერი','მონაცემების შენიშვნა','საქმიანობის კოდი (NACE)','საქმიანობა რეესტრში'];
 export function publicLinks(record){
   const kinds=['website','facebook','instagram','linkedin','youtube','tiktok','social_links'];
   const inputs=kinds.flatMap(kind=>String(record[kind]||'').split(/[;\n]/).map(value=>({kind,value:value.trim()})));
@@ -75,7 +76,11 @@ export function cityKey(value) {
   return String(value??'').split(';')[0].trim();
 }
 export function classify(record) {
+  const activity=activityCategory(record);
+  if(activity&&!(record.category&&record.category!=='unknown'&&(record.classification_override||record.classification_status==='confirmed'&&record.category_evidence)))return activity;
   if (record.category && categories[record.category]) return {category:record.category,status:record.category === 'unknown' ? 'unknown' : record.classification_status === 'confirmed' ? 'confirmed' : 'candidate',reason:record.category_evidence || 'დამატებული მიმართულება'};
+  const industry=(record.industries||[]).find(c=>categories[c]&&c!=='unknown');
+  if(industry)return {category:industry,status:'candidate',reason:'წყაროში მითითებული მიმართულება'};
   const name = norm(record.name);
   const rules = [
     ['technology', /software|სოფტვეარ|სოფტვერ|პროგრამულ|ვებ დეველოპ|web develop/],
@@ -132,9 +137,11 @@ export function normalizeImport(data, source='JSON იმპორტი') {
     for(const [field,kind] of [['phone_unverified','phone_unverified'],['phone','phone'],['email','email'],['website','website'],['city','city'],['address','address'],...['facebook','instagram','linkedin','youtube','tiktok','social_links'].map(k=>[k,k])]) {
       if (!out[field] && Array.isArray(r.facts)) out[field]=[...new Set(r.facts.filter(f=>f.kind===kind&&typeof f.value==='string').map(f=>f.value))].join('; ');
     }
+    for(const key of ['activity_source_url','registry_verified_at','registered_name'])if(typeof r[key]==='string')out[key]=r[key];
     out.source=String(r.source||source);
     if(!r.id && !out.source_id && !out.tax_id.trim()) throw new Error(`ჩანაწერი ${i+1}: საჭიროა სტაბილური id, source_id ან tax_id.`);
     out.id=String(r.id||(out.source_id?`source:${out.source}:${out.source_id}`:`tax:${out.tax_id.trim()}`));
+    if(r.classification_override===true)out.classification_override=true;
     if(Number.isInteger(r.source_row)) out.source_row=r.source_row;
     if(Array.isArray(r.history)) out.history=r.history;
     if(Array.isArray(r.audiences)) out.audiences=r.audiences.filter(a=>typeof a==='string');
