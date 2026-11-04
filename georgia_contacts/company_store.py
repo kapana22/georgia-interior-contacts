@@ -272,6 +272,18 @@ class CompanyStore:
             raise RuntimeError('Supabase checkpoint missing')
         return rows[0]['revision']
 
+    def upload_batch(self, rows):
+        try:
+            self.request('POST', 'companies', rows)
+        except RuntimeError as error:
+            # A timed-out PostgREST transaction has not partially committed.
+            # Smaller upserts reduce lock/IO pressure on the small DB instance.
+            if '57014' not in str(error) or len(rows) <= 100:
+                raise
+            middle = len(rows)//2
+            self.upload_batch(rows[:middle])
+            self.upload_batch(rows[middle:])
+
     def save(self, tree):
         tree = Path(tree)
         data = json.loads((tree/'data.json').read_text())
@@ -299,12 +311,17 @@ class CompanyStore:
         # Distinct IDs make these bounded upserts independent and retry-safe.
         batches = [changed[start:start+1000] for start in range(0, len(changed), 1000)]
         with ThreadPoolExecutor(max_workers=3) as pool:
-            pending = {pool.submit(self.request, 'POST', 'companies', batch): len(batch) for batch in batches}
+            pending = {pool.submit(self.upload_batch, batch): len(batch) for batch in batches}
             done = 0
-            for future in as_completed(pending):
-                future.result()
-                done += pending[future]
-                print(f'Supabase records uploaded: {done}/{len(changed)}', flush=True)
+            try:
+                for future in as_completed(pending):
+                    future.result()
+                    done += pending[future]
+                    print(f'Supabase records uploaded: {done}/{len(changed)}', flush=True)
+            except Exception:
+                for future in pending:
+                    future.cancel()
+                raise
         # Preserve merged/retired rows privately; never permanently delete them.
         retired = [r['id'] for r in existing.values() if r['active'] and r['id'] not in ids]
         for start in range(0, len(retired), 100):

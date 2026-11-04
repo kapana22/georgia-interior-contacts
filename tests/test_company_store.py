@@ -196,3 +196,20 @@ def test_public_snapshot_keeps_all_current_fields_and_excludes_only_private_hist
     assert hashlib.sha256(uploads[0]).hexdigest() == manifest['sha256']
     assert manifest['bytes'] == len(uploads[0])
     assert json.loads(gzip.decompress(uploads[0]))['records'] == [public_record(row)]
+
+
+def test_statement_timeouts_split_upserts_without_skipping_rows():
+    store = FakeStore()
+    calls, committed = [], []
+    def request(method, path, rows):
+        calls.append(len(rows))
+        if len(rows) > 150:
+            raise RuntimeError('Supabase: HTTP 500 57014 canceling statement due to statement timeout')
+        committed.extend(row['id'] for row in rows)
+    store.request = request
+    store.upload_batch([{'id': str(i)} for i in range(1000)])
+    assert committed == [str(i) for i in range(1000)]
+    assert calls[0] == 1000 and calls[-1] == 125
+    store.request = lambda *args: (_ for _ in ()).throw(RuntimeError('credentials invalid'))
+    with pytest.raises(RuntimeError, match='credentials invalid'):
+        store.upload_batch([{'id': str(i)} for i in range(1000)])
