@@ -309,8 +309,8 @@ class CompanyStore:
             if old.get('content_hash') != digest or not old.get('active'):
                 changed.append(dict(id=row['id'], record=record, content_hash=digest, active=True))
         # Distinct IDs make these bounded upserts independent and retry-safe.
-        batches = [changed[start:start+1000] for start in range(0, len(changed), 1000)]
-        with ThreadPoolExecutor(max_workers=3) as pool:
+        batches = [changed[start:start+200] for start in range(0, len(changed), 200)]
+        with ThreadPoolExecutor(max_workers=2) as pool:
             pending = {pool.submit(self.upload_batch, batch): len(batch) for batch in batches}
             done = 0
             try:
