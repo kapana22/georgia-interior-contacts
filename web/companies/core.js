@@ -66,8 +66,10 @@ export function parseContactPeople(value){
   });
 }
 const norm = value => String(value ?? '').normalize('NFKC').toLocaleLowerCase('ka').trim();
+const tbilisiDistricts=new Set(['გლდანის რაიონი','დიდუბის რაიონი','ვაკის რაიონი','ისნის რაიონი','კრწანისის რაიონი','მთაწმინდის რაიონი','ნაძალადევის რაიონი','საბურთალოს რაიონი','სამგორის რაიონი','ჩუღურეთის რაიონი','გლდანი-ნაძალადევის რაიონი','ვაკე-საბურთალოს რაიონი','დიდუბე-ჩუღურეთის რაიონი','ისანი-სამგორის რაიონი','ძველი თბილისის რაიონი'].map(norm));
 export function cityKey(value) {
   const text=norm(value).split(';')[0].replace(/^[\s!.,\d]+/u,'').replace(/^საქართველო[\s,./-]*/u,'').replace(/^(?:ქალაქი|ქალაქ|ქლაქი|ქ(?=[\s,./-]|თბილისი))[\s,./-]*/u,'');
+  if(tbilisiDistricts.has(text))return 'თბილისი';
   if(/^t'?bilisi/u.test(text))return 'თბილისი';
   if(/^batumi/u.test(text))return 'ბათუმი';
   if(/^kutaisi/u.test(text))return 'ქუთაისი';

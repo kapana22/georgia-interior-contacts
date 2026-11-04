@@ -51,3 +51,11 @@ test('phone and numeric tender filters tolerate display formatting and imported 
  assert.equal(evaluateFilters(rows,{query:'599123456',tender:['no']}).records.length,1);
  assert.equal(evaluateFilters(rows,{query:'599 12-34-56',tender:['no']}).records.length,1);
 });
+
+test('Tbilisi districts share the city facet without changing the source address',()=>{
+ const rows=[{id:'a',name:'Alpha',city:'საბურთალოს რაიონი',address:'Original address'},
+ {id:'b',name:'Beta',city:'ძველი თბილისის რაიონი'}, {id:'c',name:'Gamma',city:'ბათუმი'}];
+ const result=evaluateFilters(rows,{city:['თბილისი']});
+ assert.deepEqual(result.records.map(r=>r.id),['a','b']);assert.equal(result.counts.city['თბილისი'],2);
+ assert.equal(rows[0].city,'საბურთალოს რაიონი');assert.equal(rows[0].address,'Original address');
+});
