@@ -8,5 +8,10 @@
     "dev": "node web/server.mjs",
     "test": "node --test web/tests/*.test.mjs"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "stream-json": "3.8.0"
+  }
 }

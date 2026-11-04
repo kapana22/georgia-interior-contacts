@@ -1,6 +1,6 @@
-import fs from 'node:fs/promises';
 import {pathToFileURL} from 'node:url';
 import {integrate} from './merge_companies.mjs';
+import {readCompanySnapshot,writeCompanySnapshot} from './company_snapshot.mjs';
 
 const nameKey=value=>String(value||'').normalize('NFKC').toLocaleLowerCase('ka')
   .replace(/^[\s.,"„“”]+|[\s.,"„“”]+$/gu,'')
@@ -34,8 +34,8 @@ export function reconcile(records){
 
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
   const file=process.argv[2];if(!file)throw new Error('Snapshot path required');
-  const data=JSON.parse(await fs.readFile(file,'utf8')),result=reconcile(data.records);
+  const data=await readCompanySnapshot(file),result=reconcile(data.records);
   data.records=result.records;data.quality={merged_this_run:result.merged,conflicting_records:result.conflicting_records};
-  await fs.writeFile(file+'.tmp',JSON.stringify(data));await fs.rename(file+'.tmp',file);
+  await writeCompanySnapshot(file,data);
   console.log(JSON.stringify({merged:result.merged,conflicting_records:result.conflicting_records,total:data.records.length}));
 }

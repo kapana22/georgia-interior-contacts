@@ -3,6 +3,7 @@
 import fs from 'node:fs/promises';
 import {pathToFileURL} from 'node:url';
 import {normalizeImport,mergeRecords,categories} from '../web/companies/core.js';
+import {readCompanySnapshot,writeCompanySnapshot} from './company_snapshot.mjs';
 
 const normalizedName=s=>String(s||'').normalize('NFKC').toLocaleLowerCase('ka').replace(/^(შპს|სს|llc)\s+/u,'').replace(/[\s"„“”.,-]/gu,'');
 function contacts(r){return ['email','website','phone'].flatMap(k=>String(r[k]||'').split(/[;,\n]/).map(v=>k==='phone'?v.replace(/\D/g,'').replace(/^995/,''):v.trim().toLowerCase().replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'')).filter(v=>v.length>=5).map(v=>k+':'+v));}
@@ -37,10 +38,10 @@ async function main(){
   if(!file)throw new Error('Usage: node scripts/merge_companies.mjs snapshot.json [interior|general|catalog] [destination]');
   const payload=JSON.parse(await fs.readFile(file,'utf8')),rows=Array.isArray(payload)?payload:payload.records;
   const sourceRows=rows.map(r=>{const industries=(r.categories||[]).filter(c=>categories[c]);if(mode==='interior')industries.push('interior');return {...r,source:r.source||'public-business-directory',category:industries.includes('development')?'development':industries[0],industries,audiences:mode==='interior'?['interior']:[],classification_status:'candidate'};});
-  const incoming=normalizeImport(sourceRows),data=JSON.parse(await fs.readFile(destination,'utf8'));
+  const incoming=normalizeImport(sourceRows),data=await readCompanySnapshot(destination);
   const result=integrate(data.records,incoming,{deferNameOnly:mode==='catalog'});data.records=result.records;data.updated_at=new Date().toISOString();
-  await fs.writeFile(destination+'.tmp',JSON.stringify(data));await fs.rename(destination+'.tmp',destination);
-  if(mode==='catalog')await fs.writeFile(file+'.deferred.json',JSON.stringify({records:result.deferred}));
+  await writeCompanySnapshot(destination,data);
+  if(mode==='catalog')await writeCompanySnapshot(file+'.deferred.json',{records:result.deferred});
   console.log(JSON.stringify({input:incoming.length,added:result.added,updated:result.updated,deferred:result.deferred.length,total:result.records.length}));
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)await main();
