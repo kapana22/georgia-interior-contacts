@@ -17,6 +17,7 @@ def test_checkpoint_roundtrip_preserves_every_byte_and_checks_integrity(tmp_path
     source = tmp_path/'source'
     checkpoint_tree(source)
     archive, checksum = pack(source)
+    assert checksum == hashlib.sha256(encoded({p.name:p.read_bytes().decode('utf-8') for p in source.iterdir()})).hexdigest()
     unpack({'archive': archive, 'sha256': checksum}, tmp_path/'restored')
     for path in source.iterdir():
         assert (tmp_path/'restored'/path.name).read_bytes() == path.read_bytes()
@@ -61,6 +62,18 @@ class FakeStore(CompanyStore):
         self.existing = existing
         self.calls = []
         self.fail_upload = fail_upload
+
+    def stage_archive(self, archive, checksum):
+        return archive
+
+    def prune_archives(self):
+        pass
+
+    def stage_directory(self, data):
+        return {'path': 'snapshot', 'total': len(data['records'])}
+
+    def prune_directory(self, manifest):
+        pass
 
     def all_rows(self, *args, **kwargs):
         return self.existing
@@ -117,3 +130,69 @@ def test_cache_is_used_only_for_the_exact_durable_revision(tmp_path, monkeypatch
     cached['revision']='stale';cache.write_text(json.dumps(cached));calls.clear()
     store.restore(tmp_path/'remote-restore')
     assert calls==['revision','*']
+
+
+def test_private_storage_roundtrip_and_reference_validation(tmp_path):
+    from georgia_contacts.company_store import ARCHIVE_BUCKET, ARCHIVE_PREFIX
+    import base64
+    import requests
+    checkpoint_tree(tmp_path)
+    archive, checksum = pack(tmp_path)
+    store = CompanyStore('https://example.supabase.co', 'secret')
+    objects = {}
+    calls = []
+    def storage(method, path, **kwargs):
+        calls.append((method, path, kwargs))
+        response = requests.Response()
+        response.status_code = 200
+        if path == 'bucket/'+ARCHIVE_BUCKET:
+            response._content = b'{"public":false}'
+        elif method == 'POST':
+            objects[path.removeprefix('object/')] = kwargs['data']
+        else:
+            response._content = objects[path.removeprefix('object/authenticated/')]
+        return response
+    store.storage = storage
+    reference = store.stage_archive(archive, checksum)
+    assert reference == ARCHIVE_PREFIX+'archives/'+checksum+'.gz'
+    checkpoint = store.hydrate_checkpoint(dict(archive=reference, sha256=checksum))
+    assert base64.b64decode(checkpoint['archive']) == base64.b64decode(archive)
+    assert calls[1][2]['headers']['x-upsert'] == 'false'
+    with pytest.raises(ValueError, match='reference'):
+        store.hydrate_checkpoint(dict(archive='storage:v1:evil/../../secret', sha256=checksum))
+    objects[reference.removeprefix('storage:v1:')] = __import__('gzip').compress(b'corrupted')
+    with pytest.raises(ValueError, match='checksum'):
+        store.hydrate_checkpoint(dict(archive=reference, sha256=checksum))
+
+
+def test_archive_failure_does_not_start_publication(tmp_path):
+    checkpoint_tree(tmp_path)
+    store = FakeStore()
+    def fail(*args):
+        raise RuntimeError('Storage unavailable')
+    store.stage_archive = fail
+    with pytest.raises(RuntimeError):
+        store.save(tmp_path)
+    assert store.calls == []
+
+
+def test_public_snapshot_keeps_all_current_fields_and_excludes_only_private_history(tmp_path):
+    import gzip
+    import requests
+    row = checkpoint_tree(tmp_path)
+    data = json.loads((tmp_path/'data.json').read_text())
+    store = CompanyStore('https://example.supabase.co', 'secret')
+    uploads = []
+    def storage(method, path, **kwargs):
+        response = requests.Response()
+        response.status_code = 200
+        response._content = b'{"public":true}'
+        if method == 'POST':
+            uploads.append(kwargs['data'])
+        return response
+    store.storage = storage
+    manifest = store.stage_directory(data)
+    assert len(uploads) == 1
+    assert hashlib.sha256(uploads[0]).hexdigest() == manifest['sha256']
+    assert manifest['bytes'] == len(uploads[0])
+    assert json.loads(gzip.decompress(uploads[0]))['records'] == [public_record(row)]

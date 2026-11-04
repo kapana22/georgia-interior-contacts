@@ -51,7 +51,9 @@ def read(path, default=None):
 
 def write(path, data):
     path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)
-    tmp=path.with_suffix(path.suffix+'.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False));tmp.replace(path)
+    tmp=path.with_suffix(path.suffix+'.tmp')
+    with tmp.open('w',encoding='utf-8') as output:json.dump(data,output,ensure_ascii=False)
+    tmp.replace(path)
 
 def restore():
     if TREE.exists():raise RuntimeError('Worktree already exists')
@@ -139,7 +141,7 @@ def collect():
     run(sys.executable,'scripts/collect_developers.py','--max-minutes','8','--profiles',os.environ.get('PROFILE_BATCH','150'))
     run(sys.executable,'-m','georgia_leads.cli','--sources','config/companies-sources.json','--state','.leads-state/companies.json','--output','output/companies-growth','--limit','1000','--max-minutes','2','--directory-only')
     if catalogue_config['sources']:
-        run(sys.executable,'-m','georgia_contacts.catalogue_collector','--state',str(TREE/'catalogues.json'),'--data',str(TREE/'data.json'),'--max-minutes','4')
+        run(sys.executable,'-m','georgia_contacts.catalogue_collector','--state',str(TREE/'catalogues.json'),'--data',str(TREE/'data.json'),'--max-minutes','4','--activities-cache',str(TREE/'activities.json'))
 
 def save():
     if not (ROOT/'.leads-state/companies-restored').exists():raise RuntimeError('Restore first')
@@ -159,9 +161,18 @@ def save():
     for source,target in STATES.items():shutil.copyfile(target,TREE/source)
     shutil.copyfile('output/companies-growth/developers-saxlebi.json.deferred.json',TREE/'deferred.json')
     run('node','scripts/reconcile_companies.mjs',str(TREE/'data.json'))
+    activities=read(TREE/'activities.json')
+    if activities:
+        from georgia_contacts.business_activities import apply_activities
+        data=read(TREE/'data.json')
+        changed=apply_activities(data['records'],activities)
+        if changed:write(TREE/'data.json',data)
+        print('Registry activity fields updated:',changed)
+        del data
     current=report();current['records_total']=len(read(TREE/'data.json')['records'])
     paths=['data.json','developers.json','yell.json','report.json','deferred.json']
     if (TREE/'catalogues.json').exists():paths.append('catalogues.json')
+    if activities:paths.append('activities.json')
     if read(TREE/'campaign.json'):paths.append('campaign.json')
     baseline=read(TREE/'growth-baseline.json')
     if baseline:

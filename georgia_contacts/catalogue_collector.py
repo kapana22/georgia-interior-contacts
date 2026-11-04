@@ -200,12 +200,22 @@ def main():
     p.add_argument('--state', required=True)
     p.add_argument('--data', required=True)
     p.add_argument('--max-minutes', type=float, default=4)
+    p.add_argument('--activities-cache')
     args = p.parse_args()
     state, config = read(args.state, {}), read(args.config)
     prepare(state, config)
     enqueue_websites(state, read(args.data, {'records': []})['records'])
     write(args.state, state)
-    collect(state, config, lambda value: write(args.state, value), max_minutes=args.max_minutes)
+    client = Client(time.monotonic() + args.max_minutes * 60, cooldowns=state['cooldowns'])
+    if args.activities_cache and state.get('activities_retry_after', 0) <= time.time():
+        from .business_activities import ensure_activities
+        try:
+            ensure_activities(client, args.activities_cache)
+            state.pop('activities_error', None)
+        except (FetchError, Deadline) as exc:
+            state['activities_error'] = getattr(exc, 'reason', 'deadline')
+            state['activities_retry_after'] = time.time() + 86400
+    collect(state, config, lambda value: write(args.state, value), max_minutes=args.max_minutes, client=client)
     print(json.dumps(status(state), ensure_ascii=False))
 
 

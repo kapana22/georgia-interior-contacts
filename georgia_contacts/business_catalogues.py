@@ -84,6 +84,9 @@ def geostat_page(payload, url, timestamp):
                   'city': str(row.get('City_name2') or row.get('City_name') or '').strip(),
                   'address': str(row.get('Address2') or row.get('Address') or '').strip(),
                   'registered_at': str(row.get('Init_Reg_date') or '')[:10],
+                  'activity_code': str(row.get('Activity_2_Code') or '').strip(),
+                  'activity_name': str(row.get('Activity_2_Name') or '').strip(),
+                  'activity_source_url': source_url, 'registry_verified_at': timestamp,
                   'quality_notes': 'საქსტატი: აქტიური შპს; საკონტაქტო არხის მუშაობა დასადასტურებელია.'}
         facts.extend(fact(k, v, source_url, timestamp) for k, v in fields.items() if v and k != 'quality_notes')
         records.append(record('geostat', tax, name, facts, source_url, timestamp, **fields))
